@@ -247,8 +247,8 @@ git push
 
 ## ✅ 完成后打勾
 
-- [ ] 网站已部署
-- [ ] Google Search Console 已验证
+- [✅ ] 网站已部署
+- [✅ ] Google Search Console 已验证
 - [ ] 发布了第一条外链
 - [ ] 设置了追踪表格
 - [ ] 了解了每日/每周任务
