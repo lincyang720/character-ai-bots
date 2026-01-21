@@ -1,0 +1,8 @@
+paypal
+
+API密钥：Ac4r7jQL_ppV62TcIHdDn2nnOscFtx1DQJkmD_bhRLNatB01AJlg8ugRobWYFZRFyvWlL7T6oK1krSdN
+密钥：EBFN23sItQdyQS9gNQSP3xHR_bpRe5dSgzAt0I7monGNsMXAsqasjUxnMnmC4qUSZb0-AtMagDpVlhbQ
+
+沙箱环境凭证
+用户名：sb-9sto948934112@business.example.com
+密码：1,qYN$Mb

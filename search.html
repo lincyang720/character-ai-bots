@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Character AI Bots - Find Perfect Roleplay Bot</title>
+    <meta name="description" content="Search 50+ character AI bots by type, personality, and tags. Find yandere, tsundere, vampire bots and more for Character.AI, JanitorAI & SpicyChat.">
+    <meta name="keywords" content="search character ai bots, find ai roleplay characters, character ai search, ai bot finder, yandere bot, tsundere ai">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Search Character AI Bots - Find Perfect Roleplay Bot">
+    <meta property="og:description" content="Search 50+ character AI bots by type, personality, and tags. Find your perfect roleplay character.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://characteraibots.com/search.html">
+    <meta property="og:image" content="https://characteraibots.com/images/og-image.jpg">
+    <meta property="og:site_name" content="Character AI Bots">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Search Character AI Bots - Find Perfect Roleplay Bot">
+    <meta name="twitter:description" content="Search 50+ character AI bots by type, personality, and tags.">
+    <meta name="twitter:image" content="https://characteraibots.com/images/og-image.jpg">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="canonical" href="https://characteraibots.com/search.html">
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "Search Character AI Bots",
+      "description": "Advanced search for AI roleplay character bots",
+      "url": "https://characteraibots.com/search.html"
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo"><a href="index.html" style="color: white; text-decoration: none;" title="Character AI Bots Home">🤖 Character AI Bots</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html" title="Character AI Bots Home">Home</a></li>
+                <li><a href="search.html" class="active" title="Search Character AI Bots">Search</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+    <section class="search-hero">
+        <div class="search-hero-content">
+            <h1>Search Character AI Bots - Advanced Filter</h1>
+            <p>Find your perfect AI roleplay character with powerful search filters and tags</p>
+        </div>
+    </section>
+
+    <section class="search-main">
+        <div class="search-container">
+            <aside class="search-sidebar">
+                <h2>Advanced Filters</h2>
+                <div class="search-box">
+                    <h3>🔍 Search</h3>
+                    <input type="text" id="search-input" placeholder="Character name, tags, description...">
+                </div>
+
+                <div class="filter-section">
+                    <h3>Type</h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" class="type-checkbox" value="Yandere"> Yandere</label>
+                        <label><input type="checkbox" class="type-checkbox" value="Tsundere"> Tsundere</label>
+                        <label><input type="checkbox" class="type-checkbox" value="Kuudere"> Kuudere</label>
+                        <label><input type="checkbox" class="type-checkbox" value="Dandere"> Dandere</label>
+                        <label><input type="checkbox" class="type-checkbox" value="Vampire"> Vampire</label>
+                        <label><input type="checkbox" class="type-checkbox" value="Fantasy"> Fantasy</label>
+                        <label><input type="checkbox" class="type-checkbox" value="Modern"> Modern</label>
+                        <label><input type="checkbox" class="type-checkbox" value="Sci-Fi"> Sci-Fi</label>
+                        <label><input type="checkbox" class="type-checkbox" value="Historical"> Historical</label>
+                        <label><input type="checkbox" class="type-checkbox" value="Supernatural"> Supernatural</label>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Difficulty</h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" class="difficulty-checkbox" value="Easy"> Easy</label>
+                        <label><input type="checkbox" class="difficulty-checkbox" value="Medium"> Medium</label>
+                        <label><input type="checkbox" class="difficulty-checkbox" value="Hard"> Hard</label>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Rating</h3>
+                    <div class="rating-filter">
+                        <label>
+                            <input type="radio" name="rating" value="0" checked> All Ratings
+                        </label>
+                        <label>
+                            <input type="radio" name="rating" value="4"> ⭐ 4.0+
+                        </label>
+                        <label>
+                            <input type="radio" name="rating" value="4.5"> ⭐ 4.5+
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Platforms</h3>
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" class="platform-checkbox" value="characterai"> Character.AI</label>
+                        <label><input type="checkbox" class="platform-checkbox" value="janitorai"> JanitorAI</label>
+                        <label><input type="checkbox" class="platform-checkbox" value="spicychat"> SpicyChat</label>
+                    </div>
+                </div>
+
+                <div class="filter-section">
+                    <h3>Popular Tags</h3>
+                    <div class="tags-filter" id="popular-tags">
+                        <!-- Tags will be loaded dynamically -->
+                    </div>
+                </div>
+
+                <div class="filter-actions">
+                    <button id="apply-filters" class="btn-primary">Apply Filters</button>
+                    <button id="reset-filters" class="btn-secondary">Reset All</button>
+                </div>
+            </aside>
+
+            <div class="search-results">
+                <h2>Search Results</h2>
+                <div class="results-header">
+                    <div class="results-info">
+                        <span id="results-count">Showing 12 of 49 characters</span>
+                    </div>
+                    <div class="results-sort">
+                        <label>Sort by:</label>
+                        <select id="sort-select">
+                            <option value="popularity">Popularity</option>
+                            <option value="rating">Highest Rated</option>
+                            <option value="name">Name (A-Z)</option>
+                            <option value="reviews">Most Reviewed</option>
+                            <option value="newest">Newest First</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div id="results-grid" class="characters-grid">
+
+                <a href="characters/childhood-friend.html" class="character-card" title="View Childhood Friend - Wholesome AI Roleplay Bot">
+                    <div class="character-icon">👧🌟💕</div>
+                    <h3>Childhood Friend</h3>
+                    <p>Your childhood friend who has always been by your side. Sweet, supportive, and harboring secret feel...</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.8</span>
+                        <span class="type-badge">Wholesome</span>
+                    </div>
+                </a>
+            
+                <a href="characters/yandere-classmate.html" class="character-card" title="View Yandere Classmate - Yandere AI Roleplay Bot">
+                    <div class="character-icon">🎭📚💔</div>
+                    <h3>Yandere Classmate</h3>
+                    <p>Your desk mate who has been watching you since day one. She knows everything about you and won't let...</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.7</span>
+                        <span class="type-badge">Yandere</span>
+                    </div>
+                </a>
+            
+                <a href="characters/idol-star.html" class="character-card" title="View Idol Star - Celebrity AI Roleplay Bot">
+                    <div class="character-icon">⭐🎤💫</div>
+                    <h3>Idol Star</h3>
+                    <p>A famous idol who lives a double life. Bright on stage, vulnerable in private. You know her secret....</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.7</span>
+                        <span class="type-badge">Celebrity</span>
+                    </div>
+                </a>
+            
+                <a href="characters/tsundere-nurse.html" class="character-card" title="View Tsundere Nurse - Tsundere AI Roleplay Bot">
+                    <div class="character-icon">💉😤💕</div>
+                    <h3>Tsundere Nurse</h3>
+                    <p>A school nurse who acts cold but secretly cares deeply. She'll scold you while bandaging your wounds...</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="type-badge">Tsundere</span>
+                    </div>
+                </a>
+            
+                <a href="characters/demon-lord.html" class="character-card" title="View Demon Lord - Fantasy AI Roleplay Bot">
+                    <div class="character-icon">😈🔥👑</div>
+                    <h3>Demon Lord</h3>
+                    <p>An ancient demon lord who finds you intriguing. Powerful, seductive, and bound by ancient contracts....</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="type-badge">Fantasy</span>
+                    </div>
+                </a>
+            
+                <a href="characters/cafe-owner.html" class="character-card" title="View Cafe Owner - Wholesome AI Roleplay Bot">
+                    <div class="character-icon">☕🏪💕</div>
+                    <h3>Cafe Owner</h3>
+                    <p>A warm cafe owner who remembers your order. Creates a cozy atmosphere and special drinks just for yo...</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="type-badge">Wholesome</span>
+                    </div>
+                </a>
+            
+                <a href="characters/assassin-partner.html" class="character-card" title="View Assassin Partner - Action AI Roleplay Bot">
+                    <div class="character-icon">🗡️🌑💀</div>
+                    <h3>Assassin Partner</h3>
+                    <p>Your partner in the assassination guild. Deadly, efficient, and developing trust in you....</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="type-badge">Action</span>
+                    </div>
+                </a>
+            
+                <a href="characters/werewolf-alpha.html" class="character-card" title="View Werewolf Alpha - Supernatural AI Roleplay Bot">
+                    <div class="character-icon">🐺🌕🔥</div>
+                    <h3>Werewolf Alpha</h3>
+                    <p>The alpha of a werewolf pack who claims you as their mate. Dominant, protective, and wild....</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="type-badge">Supernatural</span>
+                    </div>
+                </a>
+            
+                <a href="characters/florist-owner.html" class="character-card" title="View Florist Owner - Wholesome AI Roleplay Bot">
+                    <div class="character-icon">🌹🌸💐</div>
+                    <h3>Florist Owner</h3>
+                    <p>A gentle florist who speaks the language of flowers. Each bouquet carries a hidden message for you....</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.6</span>
+                        <span class="type-badge">Wholesome</span>
+                    </div>
+                </a>
+            
+                <a href="characters/yandere-librarian.html" class="character-card" title="View Yandere Librarian - Yandere AI Roleplay Bot">
+                    <div class="character-icon">📚👓💜</div>
+                    <h3>Yandere Librarian</h3>
+                    <p>A quiet university librarian who becomes obsessively devoted to you. She knows your reading habits, ...</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.5</span>
+                        <span class="type-badge">Yandere</span>
+                    </div>
+                </a>
+            
+                <a href="characters/mafia-boss.html" class="character-card" title="View Mafia Boss - Dominant AI Roleplay Bot">
+                    <div class="character-icon">🤵💼🔫</div>
+                    <h3>Mafia Boss</h3>
+                    <p>A powerful mafia boss who becomes interested in you. Dangerous, protective, and used to getting what...</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.5</span>
+                        <span class="type-badge">Dominant</span>
+                    </div>
+                </a>
+            
+                <a href="characters/witch-mentor.html" class="character-card" title="View Witch Mentor - Fantasy AI Roleplay Bot">
+                    <div class="character-icon">🧙‍♀️🔮✨</div>
+                    <h3>Witch Mentor</h3>
+                    <p>A powerful witch who takes you as her apprentice. Mysterious, wise, and hiding ancient secrets....</p>
+                    <div class="character-footer">
+                        <span class="rating">⭐ 4.5</span>
+                        <span class="type-badge">Fantasy</span>
+                    </div>
+                </a>
+            
+                </div>
+
+                <div id="loading-results" class="loading">
+                    <p>Loading characters...</p>
+                </div>
+
+                <div id="no-results" class="no-results" style="display: none;">
+                    <div class="no-results-icon">🔍</div>
+                    <h3>No characters found</h3>
+                    <p>Try adjusting your filters or search terms</p>
+                    <button onclick="resetAllFilters()">Reset Filters</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="search-tips">
+        <h2>Search Tips</h2>
+        <div class="tips-grid">
+            <div class="tip-card">
+                <h4>🎯 Use Specific Keywords</h4>
+                <p>Search for character names, personality types, or specific traits like "yandere", "vampire", or "librarian".</p>
+            </div>
+            <div class="tip-card">
+                <h4>🏷️ Filter by Tags</h4>
+                <p>Use tags to narrow down characters by themes, settings, or personality traits.</p>
+            </div>
+            <div class="tip-card">
+                <h4>⭐ Check Ratings</h4>
+                <p>Filter by rating to find the most popular and well-reviewed characters.</p>
+            </div>
+            <div class="tip-card">
+                <h4>🎭 Mix and Match</h4>
+                <p>Combine multiple filters to find exactly what you're looking for.</p>
+            </div>
+        </div>
+    </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Character AI Bots</h4>
+                <p>Your comprehensive guide to the best AI roleplay character bots across multiple platforms.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html" title="Character AI Bots Home">Home</a></li>
+                    <li><a href="search.html" title="Search Character AI Bots">Search AI Bots</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Platforms</h4>
+                <ul>
+                    <li><a href="https://character.ai" target="_blank" rel="nofollow noopener" title="Visit Character.AI Platform">Character.AI</a></li>
+                    <li><a href="https://janitorai.com" target="_blank" rel="nofollow noopener" title="Visit JanitorAI Platform">JanitorAI</a></li>
+                    <li><a href="https://spicychat.ai" target="_blank" rel="nofollow noopener" title="Visit SpicyChat Platform">SpicyChat</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Character AI Bots. For entertainment purposes only.</p>
+        </div>
+    </footer>
+
+    <script src="js/characters.js"></script>
+    <script src="js/search.js"></script>
+</body>
+</html>
