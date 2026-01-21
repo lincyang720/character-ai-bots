@@ -1,262 +1,145 @@
-# Yandere Librarian Bot - Character AI Website
+# Character AI Bots
 
-一个完整的 SEO 优化的角色展示网站，针对关键词 "yandere librarian" 进行优化。
+A comprehensive, SEO-optimized directory of 50+ character AI bots for roleplay on Character.AI, JanitorAI, and SpicyChat platforms.
 
-## 📋 项目概述
+🌐 **Live Site**: [characteraibots.com](https://characteraibots.com)
 
-**目标关键词**: `yandere librarian`
-- **预估搜索量**: 1K-5K/月
-- **SEO 难度**: 极低 (< 15)
-- **预计见效时间**: 1-2周
+## Features
 
-## 🎯 网站特点
+- 📚 **50+ Character Profiles** - Diverse AI roleplay characters including yandere, tsundere, vampire, fantasy, and more
+- 🔍 **Advanced Search** - Filter by type, difficulty, rating, platform, and tags
+- ⚡ **Server-Side Rendering** - Pre-rendered content for optimal SEO performance
+- 📱 **Responsive Design** - Mobile-friendly interface
+- 🎯 **SEO Optimized** - Complete meta tags, Schema.org structured data, Open Graph, and Twitter Cards
+- ♿ **Accessible** - All links include descriptive title attributes
 
-### SEO 优化
-- ✅ 完整的 meta 标签（title, description, keywords）
-- ✅ Open Graph 社交媒体标签
-- ✅ 结构化数据（Schema.org）
-- ✅ 语义化 HTML5 结构
-- ✅ 移动端响应式设计
-- ✅ 快速加载优化
-- ✅ 内链结构优化
-
-### 功能特性
-- 📚 角色详细介绍和背景故事
-- 💬 互动式聊天演示
-- 🎭 多个对话示例
-- 📱 完全响应式设计
-- 🔗 相关角色推荐
-- ❓ SEO 友好的 FAQ 部分
-
-## 📁 文件结构
+## Project Structure
 
 ```
-yandere-librarian-bot/
-├── index.html          # 主页面（完整 SEO 优化）
-├── style.css           # 样式文件
-├── script.js           # 交互脚本
-├── README.md           # 项目说明
-├── sitemap.xml         # 网站地图（待创建）
-└── robots.txt          # 搜索引擎爬虫规则（待创建）
+character-ai-bots/
+├── index.html              # Homepage with character directory
+├── search.html             # Advanced search page
+├── characters/             # 49 individual character pages
+├── data/
+│   └── characters.json     # Character data source
+├── js/
+│   ├── characters.js       # Character data loading
+│   ├── filters.js          # Homepage filtering
+│   ├── search.js           # Search functionality
+│   └── rating.js           # Rating widget
+├── build-index.js          # Build script for homepage
+├── build-search.js         # Build script for search page
+├── generate-pages.js       # Generate character detail pages
+└── style.css               # Global styles
 ```
 
-## 🚀 部署步骤
+## Build Scripts
 
-### 方案 1: GitHub Pages（免费 + 推荐）
-
-1. **创建 GitHub 仓库**
-   ```bash
-   git init
-   git add .
-   git commit -m "Initial commit: Yandere Librarian Bot"
-   git branch -M main
-   git remote add origin https://github.com/your-username/yandere-librarian.git
-   git push -u origin main
-   ```
-
-2. **启用 GitHub Pages**
-   - 进入仓库 Settings
-   - 找到 Pages 部分
-   - Source 选择 "main" 分支
-   - 点击 Save
-   - 等待 1-2 分钟，网站将在 `https://your-username.github.io/yandere-librarian` 上线
-
-3. **自定义域名（可选）**
-   - 在 Pages 设置中添加自定义域名
-   - 在域名提供商处添加 CNAME 记录
-
-### 方案 2: Netlify（免费）
-
-1. 访问 [netlify.com](https://netlify.com)
-2. 拖拽整个文件夹到 Netlify
-3. 自动部署，获得免费域名
-4. 可绑定自定义域名
-
-### 方案 3: Vercel（免费）
-
-1. 安装 Vercel CLI: `npm i -g vercel`
-2. 在项目目录运行: `vercel`
-3. 按提示完成部署
-
-### 方案 4: 传统虚拟主机
-
-1. 通过 FTP 上传所有文件到服务器
-2. 确保 index.html 在根目录
-3. 访问你的域名查看网站
-
-## 🔧 本地预览
-
-### 方法 1: 使用 Python（最简单）
+### Generate All Pages
 ```bash
-# Python 3
-cd yandere-librarian-bot
+# Generate homepage with all character cards
+node build-index.js
+
+# Generate search page with top 12 characters
+node build-search.js
+
+# Generate all 49 character detail pages
+node generate-pages.js
+```
+
+### Development Server
+```bash
+# Start local HTTP server
 python3 -m http.server 8000
 
-# 访问 http://localhost:8000
+# Visit http://localhost:8000
 ```
 
-### 方法 2: 使用 Node.js
-```bash
-npx http-server
-```
+## Deployment
 
-### 方法 3: 使用 VS Code
-- 安装 "Live Server" 扩展
-- 右键 index.html
-- 选择 "Open with Live Server"
+### Vercel (Recommended)
+1. Push code to GitHub
+2. Import repository in Vercel
+3. Deploy automatically
+4. Configure custom domain: characteraibots.com
 
-## 📊 SEO 优化清单
+### Manual Deployment
+Upload all files to your web server. No build process required - all pages are pre-generated.
 
-### ✅ 已完成
-- [x] 关键词优化的 title（Yandere Librarian Bot - Character AI Chat | Free Anime Roleplay）
-- [x] 160 字符以内的 meta description
-- [x] 关键词密度优化（2-3%）
-- [x] H1-H3 标题层级结构
-- [x] 图片 alt 属性
-- [x] 内部链接结构
-- [x] 移动端友好设计
-- [x] 快速加载（无外部依赖）
-- [x] 结构化数据标记
-- [x] Open Graph 标签
+## SEO Features
 
-### 📝 待完成（上线后）
-- [ ] 提交到 Google Search Console
-- [ ] 提交 sitemap.xml
-- [ ] 创建 Google Analytics
-- [ ] 生成并提交 robots.txt
-- [ ] 获取 5-7 条外链
-- [ ] 监控关键词排名
+- ✅ Optimized meta titles (40-60 characters)
+- ✅ Descriptive meta descriptions
+- ✅ Schema.org structured data (WebSite, ItemList, CreativeWork)
+- ✅ Open Graph tags for social sharing
+- ✅ Twitter Card metadata
+- ✅ Canonical URLs
+- ✅ Semantic HTML5 structure
+- ✅ FAQ section for featured snippets
+- ✅ Title attributes on all links
+- ✅ Server-side rendered content
 
-## 🔗 外链建设计划
+## Character Data Format
 
-### 目标: 5-7 条高质量外链
+Each character in `data/characters.json` includes:
 
-**第1周**（3条）:
-1. Reddit: r/CharacterAI 社区发帖
-2. Quora: 回答相关问题
-3. Twitter/X: 发布角色介绍
-
-**第2周**（2-4条）:
-1. Medium: 写角色使用指南
-2. Discord: 分享到相关服务器
-3. GitHub: 标记相关 topics
-4. Product Hunt（可选）
-
-详细话术见 `PROMOTION.md`
-
-## 📈 预期效果
-
-### 时间线
-- **1周**: Google 收录网站
-- **1-2周**: 关键词出现在 50-100 名
-- **2-3周**: 进入前 30 名
-- **1个月**: 目标前 10 名
-
-### 流量预测
-- **第1个月**: 50-100 访问
-- **第2个月**: 200-500 访问
-- **第3个月**: 500-1000 访问
-- **稳定后**: 1000-2000 访问/月
-
-## 🛠 优化建议
-
-### 内容更新
-1. 每周添加 1-2 个新的对话示例
-2. 更新角色故事细节
-3. 添加用户评论区（可用 Disqus）
-4. 创建博客文章（"如何使用 yandere librarian bot"）
-
-### 技术优化
-1. 添加 Google Analytics 追踪
-2. 优化图片（使用 WebP 格式）
-3. 添加 Service Worker（PWA）
-4. 实现真实的 AI 对话（可选，需后端）
-
-### 外链持续建设
-1. 每月新增 2-3 条外链
-2. 在相关论坛保持活跃
-3. 回应评论和反馈
-
-## 📞 监控工具
-
-### 必备（免费）
-- **Google Search Console**: 监控排名和索引
-- **Google Analytics**: 追踪流量
-- **PageSpeed Insights**: 检查加载速度
-
-### 可选（付费）
-- **Ahrefs** ($99/月): 监控外链和排名
-- **SEMrush** ($139.95/月): 关键词研究
-- **SerpWatcher** ($49/月): 专注排名追踪
-
-### 免费替代
-- 手动 Google 搜索（隐身模式）
-- Ubersuggest（免费版）
-- Google Trends
-
-## 🎨 自定义修改
-
-### 更改颜色主题
-在 `style.css` 中修改 `:root` 变量:
-```css
-:root {
-    --primary-color: #4a148c;    /* 主色调 */
-    --secondary-color: #7b1fa2;  /* 次要色 */
-    --accent-color: #ce93d8;     /* 强调色 */
+```json
+{
+  "id": "character-slug",
+  "name": "Character Name",
+  "displayName": "Display Name",
+  "type": "Character Type",
+  "category": "Category",
+  "difficulty": "Easy|Medium|Hard",
+  "popularity": 5.0,
+  "rating": 4.8,
+  "reviews": 1234,
+  "image": "🎭",
+  "description": "Character description...",
+  "personality": ["trait1", "trait2"],
+  "scenarios": ["scenario1", "scenario2"],
+  "tags": ["tag1", "tag2"],
+  "platforms": {
+    "characterai": "https://...",
+    "janitorai": "https://...",
+    "spicychat": "https://..."
+  }
 }
 ```
 
-### 添加新的对话回复
-在 `script.js` 中的 `responses` 对象添加:
-```javascript
-"新的触发词": [
-    "回复1",
-    "回复2"
-]
-```
+## Adding New Characters
 
-### 更改角色信息
-直接编辑 `index.html` 中的角色介绍部分
+1. Add character data to `data/characters.json`
+2. Run build scripts:
+   ```bash
+   node build-index.js
+   node build-search.js
+   node generate-pages.js
+   ```
+3. Commit and deploy
 
-## 🐛 常见问题
+## Technology Stack
 
-### 网站无法访问
-- 检查文件是否正确上传
-- 确认 index.html 在根目录
-- 等待 DNS 传播（最多 48 小时）
+- **Frontend**: Vanilla JavaScript, HTML5, CSS3
+- **Build**: Node.js scripts for static site generation
+- **Deployment**: Vercel / Static hosting
+- **SEO**: Schema.org, Open Graph, Twitter Cards
 
-### Google 未收录
-- 提交 sitemap.xml 到 Search Console
-- 确保 robots.txt 没有禁止爬取
-- 获得至少 2-3 条外链
+## Performance
 
-### 排名不上升
-- 检查关键词密度（2-3%）
-- 增加外链数量和质量
-- 更新网站内容
-- 确保移动端体验良好
+- ⚡ Static HTML pages (no runtime rendering)
+- 🎯 Pre-rendered character cards
+- 📦 Minimal JavaScript dependencies
+- 🚀 Fast page loads
 
-## 📝 更新日志
+## License
 
-### v1.0.0 (2026-01-19)
-- ✅ 初始版本发布
-- ✅ 完整 SEO 优化
-- ✅ 互动式聊天演示
-- ✅ 响应式设计
-- ✅ FAQ 部分
+For entertainment purposes only. Character AI platforms (Character.AI, JanitorAI, SpicyChat) are property of their respective owners.
 
-## 📄 许可证
+## Contributing
 
-MIT License - 可自由修改和商用
-
-## 🤝 贡献
-
-欢迎提交 Issues 和 Pull Requests！
-
-## 📧 联系方式
-
-如有问题，请通过 GitHub Issues 联系。
+This is a curated directory. To suggest characters or improvements, please open an issue.
 
 ---
 
-**祝你的网站快速排名 Google 首页！** 🚀
+Built with ❤️ for the AI roleplay community
