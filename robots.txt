@@ -1,11 +1,11 @@
-# robots.txt for Yandere Librarian Bot
+# robots.txt for Character AI Bots
 # Allow all search engines to crawl the site
 
 User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://lincyang720.github.io/yandere-librarian/sitemap.xml
+Sitemap: https://characteraibots.com/sitemap.xml
 
-# Optional: Crawl-delay (uncomment if needed)
+# Crawl-delay (optional)
 # Crawl-delay: 10
