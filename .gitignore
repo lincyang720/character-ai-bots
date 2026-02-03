@@ -1,1 +1,14 @@
 /.idea/
+
+# Next.js
+/.next/
+/out/
+/node_modules/
+next-env.d.ts
+
+# Dependencies
+package-lock.json
+
+# Build
+/dist/
+/build/
