@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og'
 import fs from 'fs'
 import path from 'path'
 
-export const runtime = 'edge'
+export const runtime = 'nodejs'
 
 export const alt = 'Character AI Bot'
 export const size = {
