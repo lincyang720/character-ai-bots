@@ -34,6 +34,7 @@ export default async function CharacterPage({ params }: { params: { id: string }
         <title>{character.name} - {character.type} AI Roleplay Bot</title>
         <meta name="description" content={`${character.description.substring(0, 140)} Free ${character.type.toLowerCase()} AI character bot for roleplay on Character.AI, JanitorAI & SpicyChat.`} />
         <meta name="keywords" content={`${character.tags.join(', ')}, ${character.type.toLowerCase()} ai bot, ${character.name.toLowerCase()}, character ai bots, ai roleplay`} />
+        <link rel="canonical" href={`https://characteraibots.com/characters/${params.id}`} />
       </head>
 
       <header>
