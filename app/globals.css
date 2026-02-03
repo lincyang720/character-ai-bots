@@ -1351,30 +1351,6 @@ footer {
     top: 100px;
 }
 
-.search-box {
-    margin-bottom: 2rem;
-}
-
-.search-box h3 {
-    margin-bottom: 1rem;
-    color: #333;
-}
-
-.search-box input {
-    width: 100%;
-    padding: 0.75rem;
-    border: 2px solid #e0e0e0;
-    border-radius: 8px;
-    font-size: 1rem;
-}
-
-.filters-row {
-    display: flex;
-    gap: 2rem;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .filter-section {
     margin-bottom: 2rem;
     padding-bottom: 2rem;
@@ -1615,8 +1591,29 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     flex-wrap: wrap;
+    align-items: center;
+}
+
+.search-box {
+    flex: 1;
+    min-width: 250px;
+}
+
+.search-box input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.filters-row {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .filter-group {
