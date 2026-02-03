@@ -10,21 +10,12 @@ export const metadata: Metadata = {
     description: 'Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!',
     type: 'website',
     url: 'https://characteraibots.com/',
-    images: [
-      {
-        url: 'https://characteraibots.com/images/og-image.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Character AI Bots',
-      },
-    ],
     siteName: 'Character AI Bots',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Character AI Bots - 50+ Free Roleplay Characters',
     description: 'Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!',
-    images: ['https://characteraibots.com/images/og-image.jpg'],
   },
 }
 
