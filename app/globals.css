@@ -1616,6 +1616,13 @@ footer {
     align-items: center;
 }
 
+.section-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+}
+
 .filter-group {
     display: flex;
     align-items: center;

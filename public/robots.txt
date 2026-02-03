@@ -1,0 +1,10 @@
+# robots.txt for characteraibots.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://www.characteraibots.com/sitemap.xml
+
+# Crawl-delay (optional, helps prevent server overload)
+Crawl-delay: 1

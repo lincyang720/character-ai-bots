@@ -56,6 +56,7 @@ export default async function Home() {
         </section>
 
         <section className="filters">
+          <h2 className="section-title">Browse by Category</h2>
           <div className="filter-container">
             <div className="filter-group">
               <label>Type:</label>

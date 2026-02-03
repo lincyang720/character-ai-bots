@@ -51,6 +51,7 @@ export default function SearchClient({ characters }: SearchClientProps) {
   return (
     <>
       <section className="search-filters">
+        <h2 className="section-title">Filter & Search</h2>
         <div className="filter-container">
           <div className="search-box">
             <input

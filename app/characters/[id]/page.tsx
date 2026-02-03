@@ -78,7 +78,7 @@ export default async function CharacterPage({ params }: { params: { id: string }
           </div>
 
           <div className="character-tags">
-            <h3>Tags</h3>
+            <h2>Tags</h2>
             <div className="tags-list">
               {character.tags.map((tag: string) => (
                 <span key={tag} className="tag">{tag}</span>
@@ -87,7 +87,7 @@ export default async function CharacterPage({ params }: { params: { id: string }
           </div>
 
           <div className="character-platforms">
-            <h3>Available On</h3>
+            <h2>Available On</h2>
             <div className="platforms-list">
               {Object.entries(character.platforms).map(([name, url]) => (
                 <a
@@ -106,7 +106,7 @@ export default async function CharacterPage({ params }: { params: { id: string }
 
           {relatedCharacters.length > 0 && (
             <div className="related-characters">
-              <h3>Related Characters</h3>
+              <h2>Related Characters</h2>
               <div className="characters-grid">
                 {relatedCharacters.map((char: any) => (
                   <Link
