@@ -15,7 +15,7 @@ export default async function Home() {
         <title>Character AI Bots - 50+ Free Roleplay Characters</title>
         <meta name="description" content="Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more on Character.AI, JanitorAI & SpicyChat." />
         <meta name="keywords" content="character ai bots, ai roleplay characters, free ai chat bots, character.ai, janitorai, spicychat, yandere ai, tsundere bot" />
-        <link rel="canonical" href="https://characteraibots.com/" />
+        <link rel="canonical" href="https://www.characteraibots.com/" />
         <meta name="google-site-verification" content="OPQH_dX0XnvAd0ODbk5cDms96DTDRcgDkwoFUZw_eHw" />
 
         {/* Google Analytics */}

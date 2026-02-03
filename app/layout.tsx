@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     title: 'Character AI Bots - 50+ Free Roleplay Characters',
     description: 'Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!',
     type: 'website',
-    url: 'https://characteraibots.com/',
+    url: 'https://www.characteraibots.com/',
     siteName: 'Character AI Bots',
   },
   twitter: {
