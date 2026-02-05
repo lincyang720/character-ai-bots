@@ -23,7 +23,43 @@ export default async function sitemap() {
       changeFrequency: 'daily',
       priority: 0.8,
     },
+    {
+      url: `${baseUrl}/guide`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
+    {
+      url: `${baseUrl}/blog`,
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
+    },
   ]
+
+  // Category pages
+  const categories = ['yandere', 'tsundere', 'kuudere', 'dandere', 'vampire', 'fantasy', 'modern', 'sci-fi', 'mystery', 'adventure']
+  const categoryPages = categories.map((category) => ({
+    url: `${baseUrl}/category/${category}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly',
+    priority: 0.7,
+  }))
+
+  // Blog post pages
+  const blogSlugs = [
+    'getting-started-with-character-ai',
+    'yandere-characters-explained',
+    'janitorai-vs-characterai',
+    'best-roleplay-tips',
+    'spicychat-guide'
+  ]
+  const blogPages = blogSlugs.map((slug) => ({
+    url: `${baseUrl}/blog/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly',
+    priority: 0.6,
+  }))
 
   // Character pages
   const characterPages = charactersData.map((char: any) => ({
@@ -33,5 +69,5 @@ export default async function sitemap() {
     priority: 0.7,
   }))
 
-  return [...staticPages, ...characterPages]
+  return [...staticPages, ...categoryPages, ...blogPages, ...characterPages]
 }

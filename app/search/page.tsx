@@ -24,6 +24,8 @@ export default async function SearchPage() {
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/search" className="active">Search</Link></li>
+            <li><Link href="/guide">Guide</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
           </ul>
         </nav>
       </header>
@@ -48,6 +50,8 @@ export default async function SearchPage() {
             <ul>
               <li><Link href="/">Home</Link></li>
               <li><Link href="/search">Search</Link></li>
+              <li><Link href="/guide">Guide</Link></li>
+              <li><Link href="/blog">Blog</Link></li>
             </ul>
           </div>
         </div>

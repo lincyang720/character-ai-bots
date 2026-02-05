@@ -36,6 +36,8 @@ export default async function Home() {
           <ul className="nav-links">
             <li><Link href="/" className="active">Home</Link></li>
             <li><Link href="/search">Search</Link></li>
+            <li><Link href="/guide">Guide</Link></li>
+            <li><Link href="/blog">Blog</Link></li>
           </ul>
         </nav>
       </header>
@@ -109,6 +111,8 @@ export default async function Home() {
             <ul>
               <li><Link href="/">Home</Link></li>
               <li><Link href="/search">Search</Link></li>
+              <li><Link href="/guide">Guide</Link></li>
+              <li><Link href="/blog">Blog</Link></li>
             </ul>
           </div>
           <div className="footer-section">
