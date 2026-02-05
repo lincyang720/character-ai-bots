@@ -1,5 +1,8 @@
 import Link from 'next/link'
 
+// 强制使用 SSR
+export const dynamic = 'force-dynamic'
+
 export default function GuidePage() {
   return (
     <>

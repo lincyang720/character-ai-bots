@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
+// 强制使用 SSR
+export const dynamic = 'force-dynamic'
+
 interface BlogPost {
   slug: string
   title: string

@@ -3,6 +3,9 @@ import path from 'path';
 import Link from 'next/link';
 import SearchClient from './SearchClient';
 
+// 强制使用 SSR
+export const dynamic = 'force-dynamic'
+
 // 这个函数在服务器端每次请求时运行（SSR）
 export default async function SearchPage() {
   // 从 JSON 文件读取角色数据

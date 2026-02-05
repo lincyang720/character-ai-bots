@@ -3,6 +3,9 @@ import path from 'path'
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 
+// 强制使用 SSR
+export const dynamic = 'force-dynamic'
+
 // 定义支持的分类
 const VALID_CATEGORIES = [
   'yandere',

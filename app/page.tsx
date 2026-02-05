@@ -2,6 +2,9 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 
+// 强制使用 SSR，不使用静态生成
+export const dynamic = 'force-dynamic'
+
 // 这个函数在服务器端每次请求时运行（SSR）
 export default async function Home() {
   // 从 JSON 文件读取角色数据
