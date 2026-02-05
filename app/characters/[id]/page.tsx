@@ -31,6 +31,7 @@ export default async function CharacterPage({ params }: { params: { id: string }
   return (
     <>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9200275562093244" />
         <title>{character.name} - {character.type} AI Roleplay Bot</title>
         <meta name="description" content={`${character.description.substring(0, 140)} Free ${character.type.toLowerCase()} AI character bot for roleplay on Character.AI, JanitorAI & SpicyChat.`} />
         <meta name="keywords" content={`${character.tags.join(', ')}, ${character.type.toLowerCase()} ai bot, ${character.name.toLowerCase()}, character ai bots, ai roleplay`} />

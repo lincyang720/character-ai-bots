@@ -89,6 +89,7 @@ export default async function CategoryPage({ params }: { params: { slug: string 
   return (
     <>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9200275562093244" />
         <title>{categoryInfo.title} - Character AI Bots Directory</title>
         <meta name="description" content={categoryInfo.description} />
         <meta name="keywords" content={`${category} ai, ${category} character ai, ${category} bot, ${category} roleplay, ai ${category}`} />

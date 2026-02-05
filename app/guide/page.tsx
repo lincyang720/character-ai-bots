@@ -4,6 +4,7 @@ export default function GuidePage() {
   return (
     <>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9200275562093244" />
         <title>How to Use Character AI Bots - Complete Guide</title>
         <meta name="description" content="Learn how to use Character.AI, JanitorAI, and SpicyChat for AI roleplay. Complete guide for beginners with tips and best practices." />
         <meta name="keywords" content="character ai guide, how to use character ai, janitorai tutorial, spicychat guide, ai roleplay tips" />

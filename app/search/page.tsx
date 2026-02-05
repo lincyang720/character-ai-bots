@@ -13,6 +13,7 @@ export default async function SearchPage() {
   return (
     <>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9200275562093244" />
         <title>Search Character AI Bots - Find Perfect Roleplay Bot</title>
         <meta name="description" content="Search 50+ character AI bots by type, personality, and tags. Find yandere, tsundere, vampire bots and more for Character.AI, JanitorAI & SpicyChat." />
         <link rel="canonical" href="https://www.characteraibots.com/search" />

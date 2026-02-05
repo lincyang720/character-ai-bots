@@ -334,6 +334,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
   return (
     <>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9200275562093244" />
         <title>{post.title} | Character AI Bots Blog</title>
         <meta name="description" content={post.excerpt} />
         <link rel="canonical" href={`https://www.characteraibots.com/blog/${post.slug}`} />

@@ -56,6 +56,7 @@ export default function BlogPage() {
   return (
     <>
       <head>
+        <meta name="google-adsense-account" content="ca-pub-9200275562093244" />
         <title>AI Character Roleplay Blog - Tips, Guides & News</title>
         <meta name="description" content="Read our blog for tips, guides, and news about AI character roleplay. Learn about Character.AI, JanitorAI, SpicyChat and more." />
         <meta name="keywords" content="character ai blog, ai roleplay tips, janitorai guide, character ai tutorial, spicychat guide" />
