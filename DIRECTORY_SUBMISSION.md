@@ -29,12 +29,18 @@
 - **状态：** [ ] 待提交
 
 ### 4. AI Tool Hunt
-- **网址：** https://www.aitoolhunt.com/
+- **网址：** ~~https://www.aitoolhunt.com/~~ ❌ 域名已失效
 - **优先级：** ⭐⭐⭐⭐
 - **类别：** AI Character
+- **状态：** [X] 不可用
+
+### 5. AI Tools Directory
+- **网址：** https://aitoolsdirectory.com/
+- **优先级：** ⭐⭐⭐⭐
+- **提交链接：** https://aitoolsdirectory.com/submit
 - **状态：** [ ] 待提交
 
-### 5. TopAI.tools
+### 6. TopAI.tools
 - **网址：** https://topai.tools/
 - **优先级：** ⭐⭐⭐⭐
 - **提交链接：** https://topai.tools/submit
@@ -48,6 +54,18 @@
 ### 7. Toolify AI
 - **网址：** https://www.toolify.ai/
 - **优先级：** ⭐⭐⭐
+- **状态：** [ ] 待提交
+
+### 8. AI Depot
+- **网址：** https://aidepot.co/
+- **优先级：** ⭐⭐⭐
+- **提交链接：** https://aidepot.co/submit
+- **状态：** [ ] 待提交
+
+### 9. Easy With AI
+- **网址：** https://easywithai.com/
+- **优先级：** ⭐⭐⭐
+- **提交链接：** https://easywithai.com/submit-tool/
 - **状态：** [ ] 待提交
 
 ## 通用产品目录
