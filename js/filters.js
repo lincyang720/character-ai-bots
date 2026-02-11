@@ -1,6 +1,17 @@
 // Filter and sort functionality for homepage
 let allCharacters = [];
 let filteredCharacters = [];
+let currentMoodFilter = null;
+
+// Mood to character type mapping
+const moodMapping = {
+    romantic: ['Yandere', 'Tsundere', 'Kuudere', 'Dandere'],
+    adventure: ['Vampire', 'Fantasy', 'Demon', 'Dragon', 'Knight', 'Pirate', 'Werewolf'],
+    comfort: ['Dandere', 'Modern', 'Cafe', 'Nurse', 'Yoga', 'Florist'],
+    mystery: ['Detective', 'Ghost', 'Fortune', 'Witch', 'Assassin'],
+    scifi: ['Sci-Fi', 'Android', 'Space', 'Time', 'Hacker'],
+    casual: ['Modern', 'Bookstore', 'Cafe', 'Barista', 'Chef', 'Photographer']
+};
 
 // Load characters data
 async function initFilters() {
@@ -22,6 +33,19 @@ function applyFilters() {
     const quickSearch = document.getElementById('quick-search');
 
     let filtered = [...allCharacters];
+
+    // Mood filter (takes priority)
+    if (currentMoodFilter) {
+        const moodKeywords = moodMapping[currentMoodFilter];
+        filtered = filtered.filter(char => {
+            // Check if character type or name matches any mood keywords
+            return moodKeywords.some(keyword =>
+                char.type.includes(keyword) ||
+                char.name.toLowerCase().includes(keyword.toLowerCase()) ||
+                char.category?.includes(keyword)
+            );
+        });
+    }
 
     // Type filter
     if (typeFilter && typeFilter.value) {
@@ -66,6 +90,29 @@ function applyFilters() {
     displayCharacters(filtered);
 }
 
+// Apply mood filter
+function applyMoodFilter(mood) {
+    currentMoodFilter = mood;
+
+    // Scroll to characters section
+    const charactersSection = document.querySelector('.characters-section');
+    if (charactersSection) {
+        charactersSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Update active mood card
+    document.querySelectorAll('.mood-card').forEach(card => {
+        card.classList.remove('active');
+    });
+    const activeCard = document.querySelector(`[data-mood="${mood}"]`);
+    if (activeCard) {
+        activeCard.classList.add('active');
+    }
+
+    applyFilters();
+}
+
+
 // Reset filters
 function resetFilters() {
     const typeFilter = document.getElementById('type-filter');
@@ -77,6 +124,12 @@ function resetFilters() {
     if (difficultyFilter) difficultyFilter.value = '';
     if (sortFilter) sortFilter.value = 'popularity';
     if (quickSearch) quickSearch.value = '';
+
+    // Reset mood filter
+    currentMoodFilter = null;
+    document.querySelectorAll('.mood-card').forEach(card => {
+        card.classList.remove('active');
+    });
 
     applyFilters();
 }
@@ -97,6 +150,14 @@ document.addEventListener('DOMContentLoaded', () => {
     if (quickSearch) {
         quickSearch.addEventListener('input', debounce(applyFilters, 300));
     }
+
+    // Mood card click listeners
+    document.querySelectorAll('.mood-card').forEach(card => {
+        card.addEventListener('click', () => {
+            const mood = card.getAttribute('data-mood');
+            applyMoodFilter(mood);
+        });
+    });
 });
 
 // Debounce function for search input
