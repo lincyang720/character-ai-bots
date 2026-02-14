@@ -5,7 +5,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://characteraibots.com/sitemap.xml
+Sitemap: https://www.characteraibots.com/sitemap.xml
 
 # Crawl-delay (optional)
 # Crawl-delay: 10

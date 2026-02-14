@@ -3,6 +3,17 @@
   "trailingSlash": false,
   "redirects": [
     {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "characteraibots.com"
+        }
+      ],
+      "destination": "https://www.characteraibots.com/:path*",
+      "permanent": true
+    },
+    {
       "source": "/characters/:id.html",
       "destination": "/characters/:id",
       "permanent": true

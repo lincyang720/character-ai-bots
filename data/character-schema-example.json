@@ -1,0 +1,23 @@
+// 更新后的 characters.json 数据结构示例
+// 每个角色添加以下字段：
+
+{
+  "id": "yandere-librarian",
+  "name": "Yandere Librarian",
+  // ... 现有字段 ...
+
+  // 新增trending相关字段
+  "trending": {
+    "rank": 1,                    // 本周排名
+    "weeklyChats": 2847,          // 本周聊天次数（模拟数据）
+    "weeklyGrowth": 342,          // 本周增长百分比
+    "lastUpdated": "2026-02-11"   // 最后更新日期
+  },
+
+  // 新增历史数据（用于计算趋势）
+  "stats": {
+    "totalChats": 15234,          // 总聊天次数
+    "lastWeekChats": 2505,        // 上周聊天次数
+    "monthlyViews": 8932          // 月浏览量
+  }
+}
