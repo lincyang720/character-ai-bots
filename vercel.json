@@ -14,6 +14,11 @@
       "permanent": true
     },
     {
+      "source": "/index.html",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/characters/:id.html",
       "destination": "/characters/:id",
       "permanent": true
