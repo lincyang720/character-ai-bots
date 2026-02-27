@@ -1,8 +1,6 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
-
-// 强制使用 SSR
-export const dynamic = 'force-dynamic'
+import type { Metadata } from 'next'
 
 interface BlogPost {
   slug: string
@@ -327,6 +325,26 @@ const blogPosts: Record<string, BlogPost> = {
   }
 }
 
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const post = blogPosts[params.slug]
+  if (!post) return {}
+  return {
+    title: post.title,
+    description: post.excerpt,
+    keywords: `${post.category}, character ai, ai roleplay, ${post.slug.replace(/-/g, ' ')}`,
+    alternates: {
+      canonical: `https://www.characteraibots.com/blog/${post.slug}`,
+    },
+    openGraph: {
+      title: `${post.title} | Character AI Bots`,
+      description: post.excerpt,
+      type: 'article',
+      url: `https://www.characteraibots.com/blog/${post.slug}`,
+      publishedTime: post.date,
+    },
+  }
+}
+
 export default function BlogPostPage({ params }: { params: { slug: string } }) {
   const post = blogPosts[params.slug]
 
@@ -334,14 +352,27 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     notFound()
   }
 
+  const articleJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: post.title,
+    description: post.excerpt,
+    datePublished: post.date,
+    url: `https://www.characteraibots.com/blog/${post.slug}`,
+    publisher: {
+      '@type': 'Organization',
+      name: 'Character AI Bots',
+      url: 'https://www.characteraibots.com',
+    },
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `https://www.characteraibots.com/blog/${post.slug}`,
+    },
+  }
+
   return (
     <>
-      <head>
-        <meta name="google-adsense-account" content="ca-pub-9200275562093244" />
-        <title>{post.title} | Character AI Bots Blog</title>
-        <meta name="description" content={post.excerpt} />
-        <link rel="canonical" href={`https://www.characteraibots.com/blog/${post.slug}`} />
-      </head>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(articleJsonLd) }} />
 
       <header>
         <nav>

@@ -1,38 +1,70 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
+import type { Metadata } from 'next';
 
-// 强制使用 SSR，不使用静态生成
-export const dynamic = 'force-dynamic'
+export const metadata: Metadata = {
+  title: {
+    absolute: 'Character AI Bots - 50+ Free Roleplay Characters',
+  },
+  description: 'Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more on Character.AI, JanitorAI & SpicyChat.',
+  keywords: 'character ai bots, ai roleplay characters, free ai chat bots, character.ai, janitorai, spicychat, yandere ai, tsundere bot',
+  alternates: {
+    canonical: 'https://www.characteraibots.com/',
+  },
+  openGraph: {
+    title: 'Character AI Bots - 50+ Free Roleplay Characters',
+    description: 'Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!',
+    type: 'website',
+    url: 'https://www.characteraibots.com/',
+  },
+};
 
-// 这个函数在服务器端每次请求时运行（SSR）
-export default async function Home() {
-  // 从 JSON 文件读取角色数据
-  const charactersData = JSON.parse(
+function getCharacters() {
+  return JSON.parse(
     fs.readFileSync(path.join(process.cwd(), 'data', 'characters.json'), 'utf8')
   );
+}
+
+export default function Home() {
+  const charactersData = getCharacters();
+
+  const jsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'Character AI Bots',
+    url: 'https://www.characteraibots.com/',
+    description: 'Discover 50+ character AI bots for free roleplay chat.',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://www.characteraibots.com/search?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
+  const itemListJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'ItemList',
+    name: 'Popular Character AI Bots',
+    numberOfItems: charactersData.length,
+    itemListElement: charactersData.slice(0, 20).map((char: any, index: number) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: char.name,
+      url: `https://www.characteraibots.com/characters/${char.id}`,
+    })),
+  };
 
   return (
     <>
-      <head>
-        <meta name="google-adsense-account" content="ca-pub-9200275562093244" />
-        <title>Character AI Bots - 50+ Free Roleplay Characters</title>
-        <meta name="description" content="Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more on Character.AI, JanitorAI & SpicyChat." />
-        <meta name="keywords" content="character ai bots, ai roleplay characters, free ai chat bots, character.ai, janitorai, spicychat, yandere ai, tsundere bot" />
-        <link rel="canonical" href="https://www.characteraibots.com/" />
-        <meta name="google-site-verification" content="OPQH_dX0XnvAd0ODbk5cDms96DTDRcgDkwoFUZw_eHw" />
-
-        {/* Google Analytics */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JQKX49JMM"></script>
-        <script dangerouslySetInnerHTML={{
-          __html: `
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-1JQKX49JMM');
-          `
-        }} />
-      </head>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListJsonLd) }}
+      />
 
       <header>
         <nav>
@@ -102,6 +134,32 @@ export default async function Home() {
             ))}
           </div>
         </section>
+
+        <section className="seo-content" style={{ maxWidth: '800px', margin: '2rem auto', padding: '0 1rem' }}>
+          <h2>What Are Character AI Bots?</h2>
+          <p>
+            Character AI bots are AI-powered virtual characters you can chat and roleplay with.
+            Platforms like <strong>Character.AI</strong>, <strong>JanitorAI</strong>, and <strong>SpicyChat</strong> host
+            thousands of unique characters — from obsessive <Link href="/category/yandere">yandere</Link> personalities
+            to cool and collected <Link href="/category/kuudere">kuudere</Link> types.
+          </p>
+          <p>
+            Whether you&apos;re into <Link href="/category/fantasy">fantasy adventures</Link>,
+            <Link href="/category/vampire"> vampire romance</Link>,
+            or <Link href="/category/sci-fi"> sci-fi exploration</Link>,
+            our directory helps you find the perfect AI companion for immersive roleplay conversations.
+          </p>
+          <h3>Why Use Our Directory?</h3>
+          <p>
+            We curate and rate the best AI roleplay characters across multiple platforms, so you don&apos;t have to
+            search through thousands of bots yourself. Each character page includes personality details, recommended
+            scenarios, platform availability, and user ratings to help you choose the right bot for your roleplay style.
+          </p>
+          <p>
+            New to AI roleplay? Check out our <Link href="/guide">complete beginner&apos;s guide</Link> or browse
+            our <Link href="/blog">blog</Link> for tips and platform comparisons.
+          </p>
+        </section>
       </main>
 
       <footer>
@@ -122,9 +180,11 @@ export default async function Home() {
           <div className="footer-section">
             <h3>Categories</h3>
             <ul>
-              <li><Link href="/search?type=Yandere">Yandere Bots</Link></li>
-              <li><Link href="/search?type=Tsundere">Tsundere Bots</Link></li>
-              <li><Link href="/search?type=Vampire">Vampire Bots</Link></li>
+              <li><Link href="/category/yandere">Yandere Bots</Link></li>
+              <li><Link href="/category/tsundere">Tsundere Bots</Link></li>
+              <li><Link href="/category/vampire">Vampire Bots</Link></li>
+              <li><Link href="/category/fantasy">Fantasy Bots</Link></li>
+              <li><Link href="/category/sci-fi">Sci-Fi Bots</Link></li>
             </ul>
           </div>
         </div>

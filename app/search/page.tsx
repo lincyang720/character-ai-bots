@@ -2,25 +2,44 @@ import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
 import SearchClient from './SearchClient';
+import type { Metadata } from 'next';
 
-// 强制使用 SSR
-export const dynamic = 'force-dynamic'
+export const metadata: Metadata = {
+  title: 'Search Character AI Bots - Find Perfect Roleplay Bot',
+  description: 'Search 50+ character AI bots by type, personality, and tags. Find yandere, tsundere, vampire bots and more for Character.AI, JanitorAI & SpicyChat.',
+  keywords: 'search character ai, find ai bots, character ai search, roleplay bot finder, ai character directory',
+  alternates: {
+    canonical: 'https://www.characteraibots.com/search',
+  },
+  openGraph: {
+    title: 'Search Character AI Bots | Character AI Bots',
+    description: 'Search 50+ character AI bots by type, personality, and tags.',
+    type: 'website',
+    url: 'https://www.characteraibots.com/search',
+  },
+}
 
-// 这个函数在服务器端每次请求时运行（SSR）
 export default async function SearchPage() {
-  // 从 JSON 文件读取角色数据
   const charactersData = JSON.parse(
     fs.readFileSync(path.join(process.cwd(), 'data', 'characters.json'), 'utf8')
   );
 
+  const searchJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Search Character AI Bots',
+    description: 'Search 50+ character AI bots by type, personality, and tags.',
+    url: 'https://www.characteraibots.com/search',
+    potentialAction: {
+      '@type': 'SearchAction',
+      target: 'https://www.characteraibots.com/search?q={search_term_string}',
+      'query-input': 'required name=search_term_string',
+    },
+  };
+
   return (
     <>
-      <head>
-        <meta name="google-adsense-account" content="ca-pub-9200275562093244" />
-        <title>Search Character AI Bots - Find Perfect Roleplay Bot</title>
-        <meta name="description" content="Search 50+ character AI bots by type, personality, and tags. Find yandere, tsundere, vampire bots and more for Character.AI, JanitorAI & SpicyChat." />
-        <link rel="canonical" href="https://www.characteraibots.com/search" />
-      </head>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(searchJsonLd) }} />
 
       <header>
         <nav>

@@ -48,18 +48,18 @@ const indexHTML = `<!DOCTYPE html>
     <meta property="og:title" content="Character AI Bots - 50+ Free Roleplay Characters">
     <meta property="og:description" content="Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://characteraibots.com/">
-    <meta property="og:image" content="https://characteraibots.com/images/og-image.jpg">
+    <meta property="og:url" content="https://www.characteraibots.com/">
+    <meta property="og:image" content="https://www.characteraibots.com/images/og-image.jpg">
     <meta property="og:site_name" content="Character AI Bots">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Character AI Bots - 50+ Free Roleplay Characters">
     <meta name="twitter:description" content="Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!">
-    <meta name="twitter:image" content="https://characteraibots.com/images/og-image.jpg">
+    <meta name="twitter:image" content="https://www.characteraibots.com/images/og-image.jpg">
 
     <link rel="stylesheet" href="style.css">
-    <link rel="canonical" href="https://characteraibots.com/">
+    <link rel="canonical" href="https://www.characteraibots.com/">
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -67,11 +67,11 @@ const indexHTML = `<!DOCTYPE html>
       "@context": "https://schema.org",
       "@type": "WebSite",
       "name": "Character AI Bots",
-      "url": "https://characteraibots.com/",
+      "url": "https://www.characteraibots.com/",
       "description": "Discover 50+ free character AI bots for roleplay on Character.AI, JanitorAI, and SpicyChat",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://characteraibots.com/search.html?q={search_term_string}",
+        "target": "https://www.characteraibots.com/search?q={search_term_string}",
         "query-input": "required name=search_term_string"
       }
     }
@@ -90,7 +90,7 @@ const indexHTML = `<!DOCTYPE html>
           "@type": "CreativeWork",
           "name": char.name,
           "description": char.description,
-          "url": `https://characteraibots.com/characters/${char.id}.html`
+          "url": `https://www.characteraibots.com/characters/${char.id}`
         }
       })))}
     }
