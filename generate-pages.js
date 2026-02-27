@@ -189,17 +189,33 @@ function generateCharacterPage(character) {
                 <span class="stars">${'⭐'.repeat(Math.round(character.rating))}</span>
                 <span class="rating-text">${character.rating}/5.0 (${character.reviews} reviews)</span>
             </div>
+            <div class="hero-cta">
+                <p class="hero-cta-text">Start chatting with ${character.name} now — free on any platform:</p>
+                <div class="hero-cta-buttons">
+                    ${Object.entries(character.platforms).map(([platform, url]) => `<a href="${url}" target="_blank" rel="nofollow" class="hero-cta-btn" title="Chat with ${character.name} on ${platform === 'characterai' ? 'Character.AI' : platform === 'janitorai' ? 'JanitorAI' : 'SpicyChat'}">${platform === 'characterai' ? '💬 Character.AI' : platform === 'janitorai' ? '🎭 JanitorAI' : '🌶️ SpicyChat'}</a>`).join('\n                    ')}
+                </div>
+            </div>
         </div>
     </section>
+
+    <nav class="page-nav" aria-label="Page sections">
+        <a href="#about">About</a>
+        ${backstory ? '<a href="#backstory">Backstory</a>' : ''}
+        ${convExamples.length > 0 ? '<a href="#conversations">Conversations</a>' : ''}
+        ${tips.length > 0 ? '<a href="#tips">Tips</a>' : ''}
+        <a href="#platforms">Platforms</a>
+        <a href="#faq">FAQ</a>
+        ${relatedCharacters.length > 0 ? '<a href="#similar">Similar Characters</a>' : ''}
+    </nav>
 
     <section class="character-detail-main">
         <div class="detail-container">
             <div class="detail-content">
-                <h2>About ${character.name}</h2>
+                <h2 id="about">About ${character.name}</h2>
                 <p class="description">${character.description}</p>
 
                 ${backstory ? `
-                <h3>Character Backstory</h3>
+                <h3 id="backstory">Character Backstory</h3>
                 <div class="backstory-section">
                     <p>${escapeHtml(backstory)}</p>
                 </div>
@@ -216,7 +232,7 @@ function generateCharacterPage(character) {
                 </ul>
 
                 ${convExamples.length > 0 ? `
-                <h3>Sample Conversations</h3>
+                <h3 id="conversations">Sample Conversations</h3>
                 <p class="section-intro">Here's what chatting with ${character.name} looks like in action:</p>
                 <div class="conversation-examples">
                     ${convHtml}
@@ -224,7 +240,7 @@ function generateCharacterPage(character) {
                 ` : ''}
 
                 ${tips.length > 0 ? `
-                <h3>Roleplay Tips for ${character.name}</h3>
+                <h3 id="tips">Roleplay Tips for ${character.name}</h3>
                 <p class="section-intro">Get the most out of your conversations with these proven strategies:</p>
                 <div class="tips-section">
                     ${tipsHtml}
@@ -232,7 +248,7 @@ function generateCharacterPage(character) {
                 ` : ''}
 
                 ${Object.keys(platformGuide).length > 0 ? `
-                <h3>Platform Comparison</h3>
+                <h3 id="platforms">Platform Comparison</h3>
                 <p class="section-intro">Choose the best platform for your ${character.name} experience:</p>
                 <div class="platform-guide">
                     ${platformGuideHtml}
@@ -244,7 +260,7 @@ function generateCharacterPage(character) {
                     ${character.tags.map(tag => `<span class="tag">#${tag}</span>`).join('')}
                 </div>
 
-                <h3>Where to Chat</h3>
+                <h3 id="where-to-chat">Where to Chat</h3>
                 <div class="platform-buttons">
                     ${Object.entries(character.platforms).map(([platform, url]) => `
                         <a href="${url}" target="_blank" rel="nofollow" class="platform-btn" title="Chat with ${character.name} on ${platform === 'characterai' ? 'Character.AI' : platform === 'janitorai' ? 'JanitorAI' : 'SpicyChat'}">
@@ -259,7 +275,7 @@ function generateCharacterPage(character) {
                     <p>Start your conversation on any of the platforms above - completely free! ${character.name} is waiting to meet you.</p>
                 </div>
 
-                <div class="faq-section">
+                <div class="faq-section" id="faq">
                     <h3>Frequently Asked Questions</h3>
                     ${faqSectionHtml}
                 </div>
@@ -306,8 +322,9 @@ function generateCharacterPage(character) {
     </section>
 
     ${relatedCharacters.length > 0 ? `
-    <section class="related-characters">
+    <section class="related-characters" id="similar">
         <h2>Similar Characters You Might Like</h2>
+        <p class="section-intro related-intro">Enjoyed ${character.name}? These characters share similar vibes — try them next!</p>
         <div class="characters-grid">
             ${relatedCharacters.map(char => `
                 <a href="${char.id}.html" class="character-card" title="View ${char.name} - ${char.type} AI Roleplay Bot">
