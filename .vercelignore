@@ -7,9 +7,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-# Build scripts (不需要部署)
-build-*.js
-generate-pages.js
+# Build scripts (needed by npm run build on Vercel)
+# build-*.js
+# generate-pages.js
 update-trending.js
 daily-update.sh
 
