@@ -2,307 +2,409 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.characteraibots.com/</loc>
-    <lastmod>2026-01-22</lastmod>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/search</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/search.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/yandere-librarian</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/type/action-adventure</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/type/creative</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/type/fantasy</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/type/romance</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/type/sci-fi</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/type/tsundere</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/type/vampire</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/type/yandere</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/ai-roleplay-tips-better-conversations</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/ai-romance-roleplay-bots</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/best-ai-chatbot-for-roleplay</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/best-yandere-ai-bots-2026</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/character-ai-vs-janitorai-vs-spicychat</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/how-to-roleplay-with-ai-characters</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/nsfw-ai-chat-bots-guide</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/top-fantasy-ai-roleplay-bots</loc>
+    <lastmod>2026-02-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/characters/yandere-librarian.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/vampire-teacher</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/vampire-teacher.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/tsundere-nurse</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/tsundere-nurse.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/yandere-classmate</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/yandere-classmate.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/kuudere-maid</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/kuudere-maid.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/dandere-artist</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/dandere-artist.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/mafia-boss</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/mafia-boss.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/demon-lord</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/demon-lord.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/android-companion</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/android-companion.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/childhood-friend</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/childhood-friend.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/knight-captain</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/knight-captain.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/witch-mentor</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/witch-mentor.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/pirate-captain</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/pirate-captain.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/idol-star</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/idol-star.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/detective-partner</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/detective-partner.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/cafe-owner</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/cafe-owner.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/dragon-guardian</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/dragon-guardian.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/ghost-roommate</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/ghost-roommate.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/rival-athlete</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/rival-athlete.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/bookstore-clerk</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/bookstore-clerk.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/space-commander</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/space-commander.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/assassin-partner</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/assassin-partner.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/royal-guard</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/royal-guard.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/mad-scientist</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/mad-scientist.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/shrine-maiden</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/shrine-maiden.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/werewolf-alpha</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/werewolf-alpha.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/time-traveler</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/time-traveler.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/fallen-angel</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/fallen-angel.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/game-developer</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/game-developer.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/museum-curator</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/museum-curator.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/street-racer</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/street-racer.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/florist-owner</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/florist-owner.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/bartender-confidant</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/bartender-confidant.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/photographer-artist</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/photographer-artist.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/chef-mentor</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/chef-mentor.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/yoga-instructor</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/yoga-instructor.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/hacker-genius</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/hacker-genius.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/fortune-teller</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/fortune-teller.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/lifeguard-hero</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/lifeguard-hero.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/orchestra-conductor</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/orchestra-conductor.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/archaeologist-explorer</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/archaeologist-explorer.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/fashion-designer</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/fashion-designer.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/mountain-hermit</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/mountain-hermit.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/circus-performer</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/circus-performer.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/marine-biologist</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/marine-biologist.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/radio-host</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/radio-host.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/parkour-expert</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/parkour-expert.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/tea-master</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/tea-master.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/storm-chaser</loc>
-    <lastmod>2026-01-22</lastmod>
+    <loc>https://www.characteraibots.com/characters/storm-chaser.html</loc>
+    <lastmod>2026-02-28</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
