@@ -1,0 +1,152 @@
+{
+  "title": "Which AI Roleplay Character Matches You?",
+  "description": "Take this fun personality quiz to discover which AI roleplay character is your perfect match. Answer 8 quick questions and find your ideal AI chat companion!",
+  "keywords": "ai character personality quiz, which ai bot should i talk to, character ai quiz, ai roleplay personality test, find my ai character match",
+  "questions": [
+    {
+      "id": 1,
+      "question": "It's Friday night. What sounds most appealing?",
+      "options": [
+        { "text": "Curling up with a mystery novel 📚", "traits": ["intellectual", "mysterious"] },
+        { "text": "Going to a party and being the center of attention 🎉", "traits": ["charismatic", "adventurous"] },
+        { "text": "A quiet dinner with someone special 🕯️", "traits": ["romantic", "wholesome"] },
+        { "text": "Exploring an abandoned building at midnight 🌙", "traits": ["dark", "adventurous"] }
+      ]
+    },
+    {
+      "id": 2,
+      "question": "Someone you like is in trouble. What do you do?",
+      "options": [
+        { "text": "Drop everything and rush to help, no questions asked ⚔️", "traits": ["heroic", "passionate"] },
+        { "text": "Analyze the situation first, then act strategically 🧠", "traits": ["intellectual", "mysterious"] },
+        { "text": "Quietly help from the shadows — they don't need to know 🌑", "traits": ["dark", "mysterious"] },
+        { "text": "Rally your friends to help together 🤝", "traits": ["wholesome", "charismatic"] }
+      ]
+    },
+    {
+      "id": 3,
+      "question": "Pick a superpower:",
+      "options": [
+        { "text": "Mind reading — know what everyone's thinking 🔮", "traits": ["mysterious", "intellectual"] },
+        { "text": "Time travel — fix mistakes and explore history ⏳", "traits": ["adventurous", "intellectual"] },
+        { "text": "Shapeshifting — become anyone or anything 🎭", "traits": ["charismatic", "dark"] },
+        { "text": "Healing — take away others' pain ✨", "traits": ["wholesome", "romantic"] }
+      ]
+    },
+    {
+      "id": 4,
+      "question": "Your ideal partner is:",
+      "options": [
+        { "text": "Mysterious and intense — keeps you guessing 🖤", "traits": ["dark", "passionate"] },
+        { "text": "Sweet and supportive — always there for you 💕", "traits": ["wholesome", "romantic"] },
+        { "text": "Witty and challenging — never a dull moment 🔥", "traits": ["charismatic", "adventurous"] },
+        { "text": "Brilliant and deep — endless conversations 📖", "traits": ["intellectual", "mysterious"] }
+      ]
+    },
+    {
+      "id": 5,
+      "question": "Pick a setting for your story:",
+      "options": [
+        { "text": "A gothic castle with hidden passages 🏰", "traits": ["dark", "mysterious"] },
+        { "text": "A cozy café on a rainy afternoon ☕", "traits": ["wholesome", "romantic"] },
+        { "text": "A spaceship exploring unknown galaxies 🚀", "traits": ["adventurous", "intellectual"] },
+        { "text": "A glamorous masquerade ball 🎭", "traits": ["charismatic", "passionate"] }
+      ]
+    },
+    {
+      "id": 6,
+      "question": "What draws you into a story?",
+      "options": [
+        { "text": "Forbidden love and emotional tension 💔", "traits": ["passionate", "romantic"] },
+        { "text": "Plot twists and mind games 🧩", "traits": ["intellectual", "mysterious"] },
+        { "text": "Epic battles and high stakes ⚔️", "traits": ["heroic", "adventurous"] },
+        { "text": "Character growth and heartfelt moments 🌱", "traits": ["wholesome", "charismatic"] }
+      ]
+    },
+    {
+      "id": 7,
+      "question": "Your friends would describe you as:",
+      "options": [
+        { "text": "The loyal one who'd do anything for them 🛡️", "traits": ["heroic", "wholesome"] },
+        { "text": "The mysterious one with hidden depths 🌊", "traits": ["mysterious", "dark"] },
+        { "text": "The fun one who makes everything exciting ✨", "traits": ["charismatic", "adventurous"] },
+        { "text": "The romantic one who believes in true love 💝", "traits": ["romantic", "passionate"] }
+      ]
+    },
+    {
+      "id": 8,
+      "question": "Pick a color that speaks to you:",
+      "options": [
+        { "text": "Deep crimson red 🔴", "traits": ["passionate", "dark"] },
+        { "text": "Soft lavender purple 💜", "traits": ["romantic", "wholesome"] },
+        { "text": "Midnight blue 🔵", "traits": ["mysterious", "intellectual"] },
+        { "text": "Bright gold ✨", "traits": ["charismatic", "heroic"] }
+      ]
+    }
+  ],
+  "results": {
+    "dark": {
+      "title": "The Dark Romantic",
+      "emoji": "🖤🌙",
+      "description": "You're drawn to intensity, mystery, and the thrill of the forbidden. You love characters with depth, secrets, and a dangerous edge.",
+      "characterIds": ["vampire-teacher", "demon-lord", "assassin-partner", "werewolf-alpha", "fallen-angel"],
+      "tip": "Try starting with a Vampire Teacher or Demon Lord — their dark charisma will keep you hooked."
+    },
+    "romantic": {
+      "title": "The Hopeless Romantic",
+      "emoji": "💕🌸",
+      "description": "You believe in deep connections, tender moments, and love that conquers all. You want characters who make your heart flutter.",
+      "characterIds": ["childhood-friend", "cafe-owner", "florist-owner", "bookstore-clerk", "dandere-artist"],
+      "tip": "Start with Childhood Friend or Café Owner — their warmth and sweetness will melt your heart."
+    },
+    "adventurous": {
+      "title": "The Thrill Seeker",
+      "emoji": "⚔️🗺️",
+      "description": "You crave excitement, exploration, and epic adventures. You want characters who take you on wild rides to unknown worlds.",
+      "characterIds": ["pirate-captain", "space-commander", "street-racer", "archaeologist-explorer", "storm-chaser"],
+      "tip": "Jump in with Pirate Captain or Space Commander — adventure awaits!"
+    },
+    "intellectual": {
+      "title": "The Deep Thinker",
+      "emoji": "🧠📚",
+      "description": "You value intelligence, wit, and meaningful conversations. You want characters who challenge your mind and keep you thinking.",
+      "characterIds": ["yandere-librarian", "mad-scientist", "detective-partner", "android-companion", "witch-mentor"],
+      "tip": "Try Yandere Librarian or Detective Partner — they'll match your intellectual energy."
+    },
+    "charismatic": {
+      "title": "The Social Butterfly",
+      "emoji": "✨🎭",
+      "description": "You're drawn to charm, confidence, and magnetic personalities. You want characters who light up every scene they're in.",
+      "characterIds": ["idol-star", "mafia-boss", "bartender-confidant", "radio-host", "circus-performer"],
+      "tip": "Start with Idol Star or Mafia Boss — their charisma is irresistible."
+    },
+    "wholesome": {
+      "title": "The Gentle Soul",
+      "emoji": "🌿💛",
+      "description": "You appreciate kindness, warmth, and genuine connections. You want characters who feel like coming home.",
+      "characterIds": ["chef-mentor", "yoga-instructor", "tea-master", "mountain-hermit", "shrine-maiden"],
+      "tip": "Try Chef Mentor or Tea Master — their calming presence is exactly what you need."
+    },
+    "passionate": {
+      "title": "The Intense Lover",
+      "emoji": "🔥❤️",
+      "description": "You want fire, chemistry, and emotional depth. You're drawn to characters with strong feelings and dramatic storylines.",
+      "characterIds": ["yandere-classmate", "tsundere-nurse", "kuudere-maid", "knight-captain", "royal-guard"],
+      "tip": "Dive in with Yandere Classmate or Tsundere Nurse — the emotional rollercoaster is worth it."
+    },
+    "heroic": {
+      "title": "The Noble Hero",
+      "emoji": "🛡️⭐",
+      "description": "You admire courage, honor, and selflessness. You want characters who stand for something and inspire you to be better.",
+      "characterIds": ["knight-captain", "dragon-guardian", "lifeguard-hero", "rival-athlete", "parkour-expert"],
+      "tip": "Start with Knight Captain or Dragon Guardian — their noble spirit will inspire you."
+    },
+    "mysterious": {
+      "title": "The Enigma Seeker",
+      "emoji": "🔮🌑",
+      "description": "You love unraveling secrets, hidden layers, and the unknown. You want characters who keep you guessing and always have more to reveal.",
+      "characterIds": ["fortune-teller", "ghost-roommate", "time-traveler", "museum-curator", "game-developer"],
+      "tip": "Try Fortune Teller or Ghost Roommate — there's always another layer to discover."
+    }
+  }
+}

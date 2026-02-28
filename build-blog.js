@@ -89,6 +89,7 @@ posts.forEach(post => {
                 <li><a href="/">Home</a></li>
                 <li><a href="/search">Search</a></li>
                 <li><a href="/blog">Blog</a></li>
+                <li><a href="/quiz">Quiz</a></li>
             </ul>
         </nav>
     </header>
@@ -140,6 +141,7 @@ posts.forEach(post => {
                     <li><a href="/">Home</a></li>
                     <li><a href="/search">Search</a></li>
                     <li><a href="/blog">Blog</a></li>
+                <li><a href="/quiz">Quiz</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -209,6 +211,7 @@ const indexHtml = `<!DOCTYPE html>
                 <li><a href="/">Home</a></li>
                 <li><a href="/search">Search</a></li>
                 <li><a href="/blog" class="active">Blog</a></li>
+                <li><a href="/quiz">Quiz</a></li>
             </ul>
         </nav>
     </header>
@@ -253,6 +256,7 @@ const indexHtml = `<!DOCTYPE html>
                     <li><a href="/">Home</a></li>
                     <li><a href="/search">Search</a></li>
                     <li><a href="/blog">Blog</a></li>
+                <li><a href="/quiz">Quiz</a></li>
                 </ul>
             </div>
             <div class="footer-section">

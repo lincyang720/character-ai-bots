@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "node build-index.js && node generate-pages.js && node build-types.js && node build-blog.js && node build-sitemap.js",
+    "build": "node build-index.js && node generate-pages.js && node build-types.js && node build-blog.js && node build-quiz.js && node build-sitemap.js",
     "update": "node update-trending.js && npm run build"
   }
 }

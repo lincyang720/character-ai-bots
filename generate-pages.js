@@ -170,6 +170,7 @@ function generateCharacterPage(character) {
                 <li><a href="../index.html" title="Character AI Bots Home">Home</a></li>
                 <li><a href="../search.html" title="Search Character AI Bots">Search</a></li>
                 <li><a href="../blog/" title="AI Roleplay Blog">Blog</a></li>
+                <li><a href="../quiz.html" title="AI Character Quiz">Quiz</a></li>
             </ul>
         </nav>
     </header>
@@ -355,6 +356,8 @@ function generateCharacterPage(character) {
                 <ul>
                     <li><a href="../index.html" title="Character AI Bots Home">Home</a></li>
                     <li><a href="../search.html" title="Search Character AI Bots">Search AI Bots</a></li>
+                    <li><a href="../blog/" title="AI Roleplay Blog">Blog</a></li>
+                    <li><a href="../quiz.html" title="AI Character Quiz">Quiz</a></li>
                 </ul>
             </div>
         </div>

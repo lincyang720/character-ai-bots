@@ -148,6 +148,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
                 <li><a href="../index.html" title="Home">Home</a></li>
                 <li><a href="../search.html" title="Search">Search</a></li>
                 <li><a href="../blog/" title="Blog">Blog</a></li>
+                <li><a href="../quiz.html" title="Quiz">Quiz</a></li>
             </ul>
         </nav>
     </header>
@@ -215,6 +216,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
                     <li><a href="../search.html">Search</a></li>
                     <li><a href="../blog/">Blog</a></li>
                 </ul>
+                    <li><a href="../quiz.html">Quiz</a></li>
             </div>
             <div class="footer-section">
                 <h4>Character Types</h4>

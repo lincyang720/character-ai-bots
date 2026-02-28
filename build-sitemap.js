@@ -38,6 +38,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>${baseUrl}/quiz</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 ${typePages.map(f => `  <url>
     <loc>${baseUrl}/type/${f.replace('.html', '')}</loc>
     <lastmod>${today}</lastmod>
@@ -59,8 +65,9 @@ ${charactersData.map(char => `  <url>
 </urlset>`;
 
 fs.writeFileSync(path.join(__dirname, 'sitemap.xml'), sitemap);
-const totalUrls = 2 + typePages.length + blogPages.length + charactersData.length;
+const totalUrls = 3 + typePages.length + blogPages.length + charactersData.length;
 console.log(`✅ Generated sitemap.xml with ${totalUrls} URLs`);
+console.log(`   - 1 quiz page`);
 console.log(`   - ${typePages.length} type pages`);
 console.log(`   - ${blogPages.length} blog pages`);
 console.log(`   - ${charactersData.length} character pages`);
