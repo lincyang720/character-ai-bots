@@ -103,6 +103,7 @@ const indexHTML = `<!DOCTYPE html>
             <ul class="nav-links">
                 <li><a href="index.html" class="active" title="Character AI Bots Home">Home</a></li>
                 <li><a href="search.html" title="Search Character AI Bots">Search</a></li>
+                <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
             </ul>
         </nav>
     </header>
@@ -250,6 +251,20 @@ const indexHTML = `<!DOCTYPE html>
         </div>
     </section>
 
+    <section class="type-browse" style="max-width: 1200px; margin: 3rem auto; padding: 0 2rem;">
+        <h2>Browse by Character Type</h2>
+        <div class="type-links">
+            <a href="type/yandere.html" class="type-link-card" title="Yandere AI Bots">🔪 Yandere Bots</a>
+            <a href="type/tsundere.html" class="type-link-card" title="Tsundere AI Bots">😤 Tsundere Bots</a>
+            <a href="type/vampire.html" class="type-link-card" title="Vampire & Supernatural AI Bots">🧛 Vampire &amp; Supernatural</a>
+            <a href="type/fantasy.html" class="type-link-card" title="Fantasy AI Bots">⚔️ Fantasy Bots</a>
+            <a href="type/romance.html" class="type-link-card" title="Romance AI Bots">💕 Romance Bots</a>
+            <a href="type/sci-fi.html" class="type-link-card" title="Sci-Fi AI Bots">🚀 Sci-Fi Bots</a>
+            <a href="type/action-adventure.html" class="type-link-card" title="Action & Adventure AI Bots">🏴‍☠️ Action &amp; Adventure</a>
+            <a href="type/creative.html" class="type-link-card" title="Creative & Intellectual AI Bots">🎨 Creative &amp; Intellectual</a>
+        </div>
+    </section>
+
     </main>
 
     <footer>
@@ -263,6 +278,17 @@ const indexHTML = `<!DOCTYPE html>
                 <ul>
                     <li><a href="index.html" title="Character AI Bots Home">Home</a></li>
                     <li><a href="search.html" title="Search Character AI Bots">Search AI Bots</a></li>
+                    <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Character Types</h4>
+                <ul>
+                    <li><a href="type/yandere.html">Yandere Bots</a></li>
+                    <li><a href="type/fantasy.html">Fantasy Bots</a></li>
+                    <li><a href="type/romance.html">Romance Bots</a></li>
+                    <li><a href="type/vampire.html">Vampire Bots</a></li>
+                    <li><a href="type/sci-fi.html">Sci-Fi Bots</a></li>
                 </ul>
             </div>
             <div class="footer-section">

@@ -169,6 +169,7 @@ function generateCharacterPage(character) {
             <ul class="nav-links">
                 <li><a href="../index.html" title="Character AI Bots Home">Home</a></li>
                 <li><a href="../search.html" title="Search Character AI Bots">Search</a></li>
+                <li><a href="../blog/" title="AI Roleplay Blog">Blog</a></li>
             </ul>
         </nav>
     </header>
