@@ -52,7 +52,7 @@ posts.forEach(post => {
     <meta property="og:url" content="https://www.characteraibots.com/blog/${post.slug}">
     <meta property="article:published_time" content="${post.date}T00:00:00Z">
 
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="canonical" href="https://www.characteraibots.com/blog/${post.slug}">
 
     <script type="application/ld+json">
@@ -84,11 +84,11 @@ posts.forEach(post => {
 <body>
     <header>
         <nav>
-            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="Character AI Bots Home">🤖 Character AI Bots</a></div>
+            <div class="logo"><a href="/" style="color: white; text-decoration: none;" title="Character AI Bots Home">🤖 Character AI Bots</a></div>
             <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../search.html">Search</a></li>
-                <li><a href="./">Blog</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/search">Search</a></li>
+                <li><a href="/blog">Blog</a></li>
             </ul>
         </nav>
     </header>
@@ -97,7 +97,7 @@ posts.forEach(post => {
     <article class="blog-post">
         <div class="blog-hero">
             <nav class="breadcrumb" aria-label="Breadcrumb">
-                <a href="../index.html">Home</a> &rsaquo; <a href="./">Blog</a> &rsaquo; <span>${escapeHtml(post.title)}</span>
+                <a href="/">Home</a> &rsaquo; <a href="/blog">Blog</a> &rsaquo; <span>${escapeHtml(post.title)}</span>
             </nav>
             <div class="blog-hero-emoji">${post.heroEmoji}</div>
             <h1>${escapeHtml(post.title)}</h1>
@@ -117,7 +117,7 @@ posts.forEach(post => {
         <h2>More from the Blog</h2>
         <div class="blog-grid">
             ${otherPosts.map(p => `
-            <a href="${p.slug}.html" class="blog-card">
+            <a href="/blog/${p.slug}" class="blog-card">
                 <div class="blog-card-emoji">${p.heroEmoji}</div>
                 <span class="blog-card-category">${p.category}</span>
                 <h3>${escapeHtml(p.title)}</h3>
@@ -137,19 +137,19 @@ posts.forEach(post => {
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../search.html">Search</a></li>
-                    <li><a href="./">Blog</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/search">Search</a></li>
+                    <li><a href="/blog">Blog</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Character Types</h4>
                 <ul>
-                    <li><a href="../type/yandere.html">Yandere Bots</a></li>
-                    <li><a href="../type/fantasy.html">Fantasy Bots</a></li>
-                    <li><a href="../type/romance.html">Romance Bots</a></li>
-                    <li><a href="../type/vampire.html">Vampire Bots</a></li>
-                    <li><a href="../type/sci-fi.html">Sci-Fi Bots</a></li>
+                    <li><a href="/type/yandere">Yandere Bots</a></li>
+                    <li><a href="/type/fantasy">Fantasy Bots</a></li>
+                    <li><a href="/type/romance">Romance Bots</a></li>
+                    <li><a href="/type/vampire">Vampire Bots</a></li>
+                    <li><a href="/type/sci-fi">Sci-Fi Bots</a></li>
                 </ul>
             </div>
         </div>
@@ -187,7 +187,7 @@ const indexHtml = `<!DOCTYPE html>
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.characteraibots.com/blog/">
 
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/style.css">
     <link rel="canonical" href="https://www.characteraibots.com/blog/">
 
     <script type="application/ld+json">
@@ -204,11 +204,11 @@ const indexHtml = `<!DOCTYPE html>
 <body>
     <header>
         <nav>
-            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="Character AI Bots Home">🤖 Character AI Bots</a></div>
+            <div class="logo"><a href="/" style="color: white; text-decoration: none;" title="Character AI Bots Home">🤖 Character AI Bots</a></div>
             <ul class="nav-links">
-                <li><a href="../index.html">Home</a></li>
-                <li><a href="../search.html">Search</a></li>
-                <li><a href="./" class="active">Blog</a></li>
+                <li><a href="/">Home</a></li>
+                <li><a href="/search">Search</a></li>
+                <li><a href="/blog" class="active">Blog</a></li>
             </ul>
         </nav>
     </header>
@@ -222,7 +222,7 @@ const indexHtml = `<!DOCTYPE html>
     <section class="blog-index">
         <div class="blog-grid">
             ${posts.map(p => `
-            <a href="${p.slug}.html" class="blog-card">
+            <a href="/blog/${p.slug}" class="blog-card">
                 <div class="blog-card-emoji">${p.heroEmoji}</div>
                 <span class="blog-card-category">${p.category}</span>
                 <h3>${escapeHtml(p.title)}</h3>
@@ -236,7 +236,7 @@ const indexHtml = `<!DOCTYPE html>
         <div class="cta-content">
             <h2>Ready to Start Roleplaying?</h2>
             <p>Browse our collection of 50+ AI characters across Character.AI, JanitorAI, and SpicyChat.</p>
-            <a href="../index.html" class="cta-button">Browse All Characters</a>
+            <a href="/" class="cta-button">Browse All Characters</a>
         </div>
     </section>
     </main>
@@ -250,19 +250,19 @@ const indexHtml = `<!DOCTYPE html>
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../search.html">Search</a></li>
-                    <li><a href="./">Blog</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/search">Search</a></li>
+                    <li><a href="/blog">Blog</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Character Types</h4>
                 <ul>
-                    <li><a href="../type/yandere.html">Yandere Bots</a></li>
-                    <li><a href="../type/fantasy.html">Fantasy Bots</a></li>
-                    <li><a href="../type/romance.html">Romance Bots</a></li>
-                    <li><a href="../type/vampire.html">Vampire Bots</a></li>
-                    <li><a href="../type/sci-fi.html">Sci-Fi Bots</a></li>
+                    <li><a href="/type/yandere">Yandere Bots</a></li>
+                    <li><a href="/type/fantasy">Fantasy Bots</a></li>
+                    <li><a href="/type/romance">Romance Bots</a></li>
+                    <li><a href="/type/vampire">Vampire Bots</a></li>
+                    <li><a href="/type/sci-fi">Sci-Fi Bots</a></li>
                 </ul>
             </div>
         </div>
