@@ -57,7 +57,7 @@ ${blogPages.map(f => `  <url>
     <priority>${f === 'index.html' ? '0.8' : '0.7'}</priority>
   </url>`).join('\n')}
 ${charactersData.map(char => `  <url>
-    <loc>${baseUrl}/characters/${char.id}.html</loc>
+    <loc>${baseUrl}/characters/${char.id}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>

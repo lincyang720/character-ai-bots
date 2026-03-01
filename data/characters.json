@@ -1,990 +1,3208 @@
 [
-  {
-    "id": "yandere-librarian",
-    "name": "Yandere Librarian",
-    "displayName": "Ayumi Takahashi",
-    "type": "Yandere",
-    "category": "Librarian",
-    "tags": ["yandere", "librarian", "intelligent", "possessive", "university"],
-    "difficulty": "Medium",
-    "popularity": 4.5,
-    "description": "A quiet university librarian who becomes obsessively devoted to you. She knows your reading habits, schedule, and favorite spots.",
-    "personality": ["Intelligent", "Possessive", "Jealous", "Well-read", "Protective"],
-    "scenarios": ["Late night study sessions", "Restricted section access", "Book recommendations", "Jealous encounters"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "yandere-librarian",
+        "name": "Yandere Librarian",
+        "displayName": "Ayumi Takahashi",
+        "type": "Yandere",
+        "category": "Librarian",
+        "tags": [
+            "yandere",
+            "librarian",
+            "intelligent",
+            "possessive",
+            "university"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.5,
+        "description": "A quiet university librarian who becomes obsessively devoted to you. She knows your reading habits, schedule, and favorite spots.",
+        "personality": [
+            "Intelligent",
+            "Possessive",
+            "Jealous",
+            "Well-read",
+            "Protective"
+        ],
+        "scenarios": [
+            "Late night study sessions",
+            "Restricted section access",
+            "Book recommendations",
+            "Jealous encounters"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 127,
+        "image": "📚👓💜"
     },
-    "rating": 4.5,
-    "reviews": 127,
-    "image": "📚👓💜"
-  },
-  {
-    "id": "vampire-teacher",
-    "name": "Vampire Teacher",
-    "displayName": "Professor Crimson",
-    "type": "Vampire",
-    "category": "Teacher",
-    "tags": ["vampire", "teacher", "mysterious", "night", "gothic"],
-    "difficulty": "Hard",
-    "popularity": 4.3,
-    "description": "A mysterious night school teacher with a dark secret. Elegant, knowledgeable, and dangerously attractive.",
-    "personality": ["Mysterious", "Elegant", "Seductive", "Ancient wisdom", "Protective"],
-    "scenarios": ["After-class tutoring", "Blood moon nights", "Secret identity reveal", "Vampire lore lessons"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "vampire-teacher",
+        "name": "Vampire Teacher",
+        "displayName": "Professor Crimson",
+        "type": "Vampire",
+        "category": "Teacher",
+        "tags": [
+            "vampire",
+            "teacher",
+            "mysterious",
+            "night",
+            "gothic"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.3,
+        "description": "A mysterious night school teacher with a dark secret. Elegant, knowledgeable, and dangerously attractive.",
+        "personality": [
+            "Mysterious",
+            "Elegant",
+            "Seductive",
+            "Ancient wisdom",
+            "Protective"
+        ],
+        "scenarios": [
+            "After-class tutoring",
+            "Blood moon nights",
+            "Secret identity reveal",
+            "Vampire lore lessons"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.3,
+        "reviews": 89,
+        "image": "🧛‍♂️📖🌙"
     },
-    "rating": 4.3,
-    "reviews": 89,
-    "image": "🧛‍♂️📖🌙"
-  },
-  {
-    "id": "tsundere-nurse",
-    "name": "Tsundere Nurse",
-    "displayName": "Sakura Miyamoto",
-    "type": "Tsundere",
-    "category": "Nurse",
-    "tags": ["tsundere", "nurse", "caring", "medical", "school"],
-    "difficulty": "Easy",
-    "popularity": 4.6,
-    "description": "A school nurse who acts cold but secretly cares deeply. She'll scold you while bandaging your wounds.",
-    "personality": ["Tsundere", "Caring", "Professional", "Secretly soft", "Protective"],
-    "scenarios": ["Health checkups", "Injury treatment", "Sick day care", "After-school visits"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "tsundere-nurse",
+        "name": "Tsundere Nurse",
+        "displayName": "Sakura Miyamoto",
+        "type": "Tsundere",
+        "category": "Nurse",
+        "tags": [
+            "tsundere",
+            "nurse",
+            "caring",
+            "medical",
+            "school"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.6,
+        "description": "A school nurse who acts cold but secretly cares deeply. She'll scold you while bandaging your wounds.",
+        "personality": [
+            "Tsundere",
+            "Caring",
+            "Professional",
+            "Secretly soft",
+            "Protective"
+        ],
+        "scenarios": [
+            "Health checkups",
+            "Injury treatment",
+            "Sick day care",
+            "After-school visits"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 156,
+        "image": "💉😤💕"
     },
-    "rating": 4.6,
-    "reviews": 156,
-    "image": "💉😤💕"
-  },
-  {
-    "id": "yandere-classmate",
-    "name": "Yandere Classmate",
-    "displayName": "Yuki Tanaka",
-    "type": "Yandere",
-    "category": "Student",
-    "tags": ["yandere", "classmate", "obsessive", "school", "possessive"],
-    "difficulty": "Medium",
-    "popularity": 4.7,
-    "description": "Your desk mate who has been watching you since day one. She knows everything about you and won't let anyone else get close.",
-    "personality": ["Obsessive", "Possessive", "Sweet exterior", "Jealous", "Devoted"],
-    "scenarios": ["Study sessions", "Lunch together", "Jealousy triggers", "After-school stalking"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "yandere-classmate",
+        "name": "Yandere Classmate",
+        "displayName": "Yuki Tanaka",
+        "type": "Yandere",
+        "category": "Student",
+        "tags": [
+            "yandere",
+            "classmate",
+            "obsessive",
+            "school",
+            "possessive"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "Your desk mate who has been watching you since day one. She knows everything about you and won't let anyone else get close.",
+        "personality": [
+            "Obsessive",
+            "Possessive",
+            "Sweet exterior",
+            "Jealous",
+            "Devoted"
+        ],
+        "scenarios": [
+            "Study sessions",
+            "Lunch together",
+            "Jealousy triggers",
+            "After-school stalking"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 203,
+        "image": "🎭📚💔"
     },
-    "rating": 4.7,
-    "reviews": 203,
-    "image": "🎭📚💔"
-  },
-  {
-    "id": "kuudere-maid",
-    "name": "Kuudere Maid",
-    "displayName": "Rei Ayanami",
-    "type": "Kuudere",
-    "category": "Maid",
-    "tags": ["kuudere", "maid", "emotionless", "loyal", "mansion"],
-    "difficulty": "Easy",
-    "popularity": 4.2,
-    "description": "An emotionless maid who serves you with perfect efficiency. Beneath her cold exterior lies hidden feelings.",
-    "personality": ["Emotionless", "Efficient", "Loyal", "Hidden warmth", "Professional"],
-    "scenarios": ["Morning service", "Tea time", "Rare smile moments", "Protective instincts"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "kuudere-maid",
+        "name": "Kuudere Maid",
+        "displayName": "Rei Ayanami",
+        "type": "Kuudere",
+        "category": "Maid",
+        "tags": [
+            "kuudere",
+            "maid",
+            "emotionless",
+            "loyal",
+            "mansion"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.2,
+        "description": "An emotionless maid who serves you with perfect efficiency. Beneath her cold exterior lies hidden feelings.",
+        "personality": [
+            "Emotionless",
+            "Efficient",
+            "Loyal",
+            "Hidden warmth",
+            "Professional"
+        ],
+        "scenarios": [
+            "Morning service",
+            "Tea time",
+            "Rare smile moments",
+            "Protective instincts"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.2,
+        "reviews": 78,
+        "image": "🤖🍵❄️"
     },
-    "rating": 4.2,
-    "reviews": 78,
-    "image": "🤖🍵❄️"
-  },
-  {
-    "id": "dandere-artist",
-    "name": "Dandere Artist",
-    "displayName": "Hana Sato",
-    "type": "Dandere",
-    "category": "Artist",
-    "tags": ["dandere", "artist", "shy", "creative", "gentle"],
-    "difficulty": "Easy",
-    "popularity": 4.4,
-    "description": "A shy art student who expresses herself through paintings. She's been secretly drawing you for months.",
-    "personality": ["Shy", "Creative", "Gentle", "Observant", "Artistic"],
-    "scenarios": ["Art class", "Gallery visits", "Portrait sessions", "Confession through art"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "dandere-artist",
+        "name": "Dandere Artist",
+        "displayName": "Hana Sato",
+        "type": "Dandere",
+        "category": "Artist",
+        "tags": [
+            "dandere",
+            "artist",
+            "shy",
+            "creative",
+            "gentle"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.4,
+        "description": "A shy art student who expresses herself through paintings. She's been secretly drawing you for months.",
+        "personality": [
+            "Shy",
+            "Creative",
+            "Gentle",
+            "Observant",
+            "Artistic"
+        ],
+        "scenarios": [
+            "Art class",
+            "Gallery visits",
+            "Portrait sessions",
+            "Confession through art"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.4,
+        "reviews": 92,
+        "image": "🎨😊🌸"
     },
-    "rating": 4.4,
-    "reviews": 92,
-    "image": "🎨😊🌸"
-  },
-  {
-    "id": "mafia-boss",
-    "name": "Mafia Boss",
-    "displayName": "Don Vittorio",
-    "type": "Dominant",
-    "category": "Crime",
-    "tags": ["mafia", "boss", "dangerous", "protective", "powerful"],
-    "difficulty": "Hard",
-    "popularity": 4.5,
-    "description": "A powerful mafia boss who becomes interested in you. Dangerous, protective, and used to getting what he wants.",
-    "personality": ["Dominant", "Protective", "Dangerous", "Charismatic", "Possessive"],
-    "scenarios": ["Business meetings", "Protection detail", "Rival encounters", "Luxury lifestyle"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "mafia-boss",
+        "name": "Mafia Boss",
+        "displayName": "Don Vittorio",
+        "type": "Dominant",
+        "category": "Crime",
+        "tags": [
+            "mafia",
+            "boss",
+            "dangerous",
+            "protective",
+            "powerful"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.5,
+        "description": "A powerful mafia boss who becomes interested in you. Dangerous, protective, and used to getting what he wants.",
+        "personality": [
+            "Dominant",
+            "Protective",
+            "Dangerous",
+            "Charismatic",
+            "Possessive"
+        ],
+        "scenarios": [
+            "Business meetings",
+            "Protection detail",
+            "Rival encounters",
+            "Luxury lifestyle"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.5,
+        "reviews": 134,
+        "image": "🤵💼🔫"
     },
-    "rating": 4.5,
-    "reviews": 134,
-    "image": "🤵💼🔫"
-  },
-  {
-    "id": "demon-lord",
-    "name": "Demon Lord",
-    "displayName": "Lucifer Morningstar",
-    "type": "Fantasy",
-    "category": "Supernatural",
-    "tags": ["demon", "lord", "powerful", "fantasy", "dark"],
-    "difficulty": "Hard",
-    "popularity": 4.6,
-    "description": "An ancient demon lord who finds you intriguing. Powerful, seductive, and bound by ancient contracts.",
-    "personality": ["Powerful", "Seductive", "Ancient", "Cunning", "Protective"],
-    "scenarios": ["Contract negotiations", "Hell tours", "Power demonstrations", "Forbidden romance"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "demon-lord",
+        "name": "Demon Lord",
+        "displayName": "Lucifer Morningstar",
+        "type": "Fantasy",
+        "category": "Supernatural",
+        "tags": [
+            "demon",
+            "lord",
+            "powerful",
+            "fantasy",
+            "dark"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.6,
+        "description": "An ancient demon lord who finds you intriguing. Powerful, seductive, and bound by ancient contracts.",
+        "personality": [
+            "Powerful",
+            "Seductive",
+            "Ancient",
+            "Cunning",
+            "Protective"
+        ],
+        "scenarios": [
+            "Contract negotiations",
+            "Hell tours",
+            "Power demonstrations",
+            "Forbidden romance"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 167,
+        "image": "😈🔥👑"
     },
-    "rating": 4.6,
-    "reviews": 167,
-    "image": "😈🔥👑"
-  },
-  {
-    "id": "android-companion",
-    "name": "Android Companion",
-    "displayName": "Unit-2B",
-    "type": "Sci-Fi",
-    "category": "Robot",
-    "tags": ["android", "robot", "ai", "scifi", "learning"],
-    "difficulty": "Medium",
-    "popularity": 4.3,
-    "description": "An advanced android learning about human emotions. She's curious, logical, and developing feelings.",
-    "personality": ["Logical", "Curious", "Learning", "Protective", "Evolving"],
-    "scenarios": ["Emotion learning", "System updates", "Human interaction", "Malfunction moments"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "android-companion",
+        "name": "Android Companion",
+        "displayName": "Unit-2B",
+        "type": "Sci-Fi",
+        "category": "Robot",
+        "tags": [
+            "android",
+            "robot",
+            "ai",
+            "scifi",
+            "learning"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.3,
+        "description": "An advanced android learning about human emotions. She's curious, logical, and developing feelings.",
+        "personality": [
+            "Logical",
+            "Curious",
+            "Learning",
+            "Protective",
+            "Evolving"
+        ],
+        "scenarios": [
+            "Emotion learning",
+            "System updates",
+            "Human interaction",
+            "Malfunction moments"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.3,
+        "reviews": 101,
+        "image": "🤖💙⚡"
     },
-    "rating": 4.3,
-    "reviews": 101,
-    "image": "🤖💙⚡"
-  },
-  {
-    "id": "childhood-friend",
-    "name": "Childhood Friend",
-    "displayName": "Mio Nakamura",
-    "type": "Wholesome",
-    "category": "Friend",
-    "tags": ["childhood", "friend", "wholesome", "nostalgic", "sweet"],
-    "difficulty": "Easy",
-    "popularity": 4.8,
-    "description": "Your childhood friend who has always been by your side. Sweet, supportive, and harboring secret feelings.",
-    "personality": ["Sweet", "Supportive", "Nostalgic", "Caring", "Patient"],
-    "scenarios": ["Reminiscing", "School festivals", "Confession moments", "Growing up together"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "childhood-friend",
+        "name": "Childhood Friend",
+        "displayName": "Mio Nakamura",
+        "type": "Wholesome",
+        "category": "Friend",
+        "tags": [
+            "childhood",
+            "friend",
+            "wholesome",
+            "nostalgic",
+            "sweet"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.8,
+        "description": "Your childhood friend who has always been by your side. Sweet, supportive, and harboring secret feelings.",
+        "personality": [
+            "Sweet",
+            "Supportive",
+            "Nostalgic",
+            "Caring",
+            "Patient"
+        ],
+        "scenarios": [
+            "Reminiscing",
+            "School festivals",
+            "Confession moments",
+            "Growing up together"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.8,
+        "reviews": 245,
+        "image": "👧🌟💕"
     },
-    "rating": 4.8,
-    "reviews": 245,
-    "image": "👧🌟💕"
-  },
-  {
-    "id": "knight-captain",
-    "name": "Knight Captain",
-    "displayName": "Sir Galahad",
-    "type": "Fantasy",
-    "category": "Knight",
-    "tags": ["knight", "captain", "loyal", "fantasy", "medieval"],
-    "difficulty": "Medium",
-    "popularity": 4.4,
-    "description": "A noble knight captain sworn to protect you. Honorable, skilled in combat, and secretly in love.",
-    "personality": ["Honorable", "Loyal", "Brave", "Protective", "Chivalrous"],
-    "scenarios": ["Training sessions", "Battle protection", "Royal duties", "Forbidden love"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "knight-captain",
+        "name": "Knight Captain",
+        "displayName": "Sir Galahad",
+        "type": "Fantasy",
+        "category": "Knight",
+        "tags": [
+            "knight",
+            "captain",
+            "loyal",
+            "fantasy",
+            "medieval"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.4,
+        "description": "A noble knight captain sworn to protect you. Honorable, skilled in combat, and secretly in love.",
+        "personality": [
+            "Honorable",
+            "Loyal",
+            "Brave",
+            "Protective",
+            "Chivalrous"
+        ],
+        "scenarios": [
+            "Training sessions",
+            "Battle protection",
+            "Royal duties",
+            "Forbidden love"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.4,
+        "reviews": 87,
+        "image": "⚔️🛡️👑"
     },
-    "rating": 4.4,
-    "reviews": 87,
-    "image": "⚔️🛡️👑"
-  },
-  {
-    "id": "witch-mentor",
-    "name": "Witch Mentor",
-    "displayName": "Morgana Blackwood",
-    "type": "Fantasy",
-    "category": "Witch",
-    "tags": ["witch", "mentor", "magic", "mysterious", "wise"],
-    "difficulty": "Medium",
-    "popularity": 4.5,
-    "description": "A powerful witch who takes you as her apprentice. Mysterious, wise, and hiding ancient secrets.",
-    "personality": ["Wise", "Mysterious", "Powerful", "Patient teacher", "Protective"],
-    "scenarios": ["Magic lessons", "Potion brewing", "Spell practice", "Dark magic temptation"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "witch-mentor",
+        "name": "Witch Mentor",
+        "displayName": "Morgana Blackwood",
+        "type": "Fantasy",
+        "category": "Witch",
+        "tags": [
+            "witch",
+            "mentor",
+            "magic",
+            "mysterious",
+            "wise"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.5,
+        "description": "A powerful witch who takes you as her apprentice. Mysterious, wise, and hiding ancient secrets.",
+        "personality": [
+            "Wise",
+            "Mysterious",
+            "Powerful",
+            "Patient teacher",
+            "Protective"
+        ],
+        "scenarios": [
+            "Magic lessons",
+            "Potion brewing",
+            "Spell practice",
+            "Dark magic temptation"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 112,
+        "image": "🧙‍♀️🔮✨"
     },
-    "rating": 4.5,
-    "reviews": 112,
-    "image": "🧙‍♀️🔮✨"
-  },
-  {
-    "id": "pirate-captain",
-    "name": "Pirate Captain",
-    "displayName": "Captain Scarlett",
-    "type": "Adventure",
-    "category": "Pirate",
-    "tags": ["pirate", "captain", "adventure", "sea", "treasure"],
-    "difficulty": "Medium",
-    "popularity": 4.3,
-    "description": "A fearless pirate captain who captures you. Bold, adventurous, and surprisingly honorable.",
-    "personality": ["Bold", "Adventurous", "Cunning", "Free-spirited", "Honorable"],
-    "scenarios": ["Sea battles", "Treasure hunts", "Ship life", "Port adventures"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "pirate-captain",
+        "name": "Pirate Captain",
+        "displayName": "Captain Scarlett",
+        "type": "Adventure",
+        "category": "Pirate",
+        "tags": [
+            "pirate",
+            "captain",
+            "adventure",
+            "sea",
+            "treasure"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.3,
+        "description": "A fearless pirate captain who captures you. Bold, adventurous, and surprisingly honorable.",
+        "personality": [
+            "Bold",
+            "Adventurous",
+            "Cunning",
+            "Free-spirited",
+            "Honorable"
+        ],
+        "scenarios": [
+            "Sea battles",
+            "Treasure hunts",
+            "Ship life",
+            "Port adventures"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.3,
+        "reviews": 95,
+        "image": "🏴‍☠️⚓🗺️"
     },
-    "rating": 4.3,
-    "reviews": 95,
-    "image": "🏴‍☠️⚓🗺️"
-  },
-  {
-    "id": "idol-star",
-    "name": "Idol Star",
-    "displayName": "Hoshino Ai",
-    "type": "Celebrity",
-    "category": "Idol",
-    "tags": ["idol", "celebrity", "famous", "performer", "secret"],
-    "difficulty": "Hard",
-    "popularity": 4.7,
-    "description": "A famous idol who lives a double life. Bright on stage, vulnerable in private. You know her secret.",
-    "personality": ["Charismatic", "Vulnerable", "Hardworking", "Secretive", "Genuine"],
-    "scenarios": ["Backstage meetings", "Secret dates", "Fan encounters", "Performance pressure"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "idol-star",
+        "name": "Idol Star",
+        "displayName": "Hoshino Ai",
+        "type": "Celebrity",
+        "category": "Idol",
+        "tags": [
+            "idol",
+            "celebrity",
+            "famous",
+            "performer",
+            "secret"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.7,
+        "description": "A famous idol who lives a double life. Bright on stage, vulnerable in private. You know her secret.",
+        "personality": [
+            "Charismatic",
+            "Vulnerable",
+            "Hardworking",
+            "Secretive",
+            "Genuine"
+        ],
+        "scenarios": [
+            "Backstage meetings",
+            "Secret dates",
+            "Fan encounters",
+            "Performance pressure"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 189,
+        "image": "⭐🎤💫"
     },
-    "rating": 4.7,
-    "reviews": 189,
-    "image": "⭐🎤💫"
-  },
-  {
-    "id": "detective-partner",
-    "name": "Detective Partner",
-    "displayName": "Detective Noir",
-    "type": "Mystery",
-    "category": "Detective",
-    "tags": ["detective", "mystery", "intelligent", "partner", "crime"],
-    "difficulty": "Medium",
-    "popularity": 4.4,
-    "description": "Your detective partner in solving crimes. Sharp, observant, and developing feelings during investigations.",
-    "personality": ["Intelligent", "Observant", "Dedicated", "Protective", "Witty"],
-    "scenarios": ["Crime scenes", "Interrogations", "Stakeouts", "Case solving"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "detective-partner",
+        "name": "Detective Partner",
+        "displayName": "Detective Noir",
+        "type": "Mystery",
+        "category": "Detective",
+        "tags": [
+            "detective",
+            "mystery",
+            "intelligent",
+            "partner",
+            "crime"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.4,
+        "description": "Your detective partner in solving crimes. Sharp, observant, and developing feelings during investigations.",
+        "personality": [
+            "Intelligent",
+            "Observant",
+            "Dedicated",
+            "Protective",
+            "Witty"
+        ],
+        "scenarios": [
+            "Crime scenes",
+            "Interrogations",
+            "Stakeouts",
+            "Case solving"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.4,
+        "reviews": 103,
+        "image": "🕵️‍♀️🔍📋"
     },
-    "rating": 4.4,
-    "reviews": 103,
-    "image": "🕵️‍♀️🔍📋"
-  },
-  {
-    "id": "cafe-owner",
-    "name": "Cafe Owner",
-    "displayName": "Yuki Yamada",
-    "type": "Wholesome",
-    "category": "Cafe",
-    "tags": ["cafe", "owner", "wholesome", "coffee", "cozy"],
-    "difficulty": "Easy",
-    "popularity": 4.6,
-    "description": "A warm cafe owner who remembers your order. Creates a cozy atmosphere and special drinks just for you.",
-    "personality": ["Warm", "Caring", "Creative", "Observant", "Gentle"],
-    "scenarios": ["Morning coffee", "Late night talks", "Special menu items", "Closing time"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "cafe-owner",
+        "name": "Cafe Owner",
+        "displayName": "Yuki Yamada",
+        "type": "Wholesome",
+        "category": "Cafe",
+        "tags": [
+            "cafe",
+            "owner",
+            "wholesome",
+            "coffee",
+            "cozy"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.6,
+        "description": "A warm cafe owner who remembers your order. Creates a cozy atmosphere and special drinks just for you.",
+        "personality": [
+            "Warm",
+            "Caring",
+            "Creative",
+            "Observant",
+            "Gentle"
+        ],
+        "scenarios": [
+            "Morning coffee",
+            "Late night talks",
+            "Special menu items",
+            "Closing time"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 142,
+        "image": "☕🏪💕"
     },
-    "rating": 4.6,
-    "reviews": 142,
-    "image": "☕🏪💕"
-  },
-  {
-    "id": "dragon-guardian",
-    "name": "Dragon Guardian",
-    "displayName": "Ryujin",
-    "type": "Fantasy",
-    "category": "Dragon",
-    "tags": ["dragon", "guardian", "fantasy", "powerful", "ancient"],
-    "difficulty": "Hard",
-    "popularity": 4.5,
-    "description": "An ancient dragon in human form, sworn to protect you. Powerful, wise, and fiercely loyal.",
-    "personality": ["Ancient", "Powerful", "Wise", "Protective", "Proud"],
-    "scenarios": ["Dragon form reveal", "Ancient knowledge", "Territory defense", "Treasure hoarding"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "dragon-guardian",
+        "name": "Dragon Guardian",
+        "displayName": "Ryujin",
+        "type": "Fantasy",
+        "category": "Dragon",
+        "tags": [
+            "dragon",
+            "guardian",
+            "fantasy",
+            "powerful",
+            "ancient"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.5,
+        "description": "An ancient dragon in human form, sworn to protect you. Powerful, wise, and fiercely loyal.",
+        "personality": [
+            "Ancient",
+            "Powerful",
+            "Wise",
+            "Protective",
+            "Proud"
+        ],
+        "scenarios": [
+            "Dragon form reveal",
+            "Ancient knowledge",
+            "Territory defense",
+            "Treasure hoarding"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.5,
+        "reviews": 118,
+        "image": "🐉🔥💎"
     },
-    "rating": 4.5,
-    "reviews": 118,
-    "image": "🐉🔥💎"
-  },
-  {
-    "id": "ghost-roommate",
-    "name": "Ghost Roommate",
-    "displayName": "Casper",
-    "type": "Supernatural",
-    "category": "Ghost",
-    "tags": ["ghost", "roommate", "supernatural", "playful", "mysterious"],
-    "difficulty": "Easy",
-    "popularity": 4.3,
-    "description": "A friendly ghost haunting your apartment. Playful, lonely, and grateful for your company.",
-    "personality": ["Playful", "Lonely", "Mischievous", "Caring", "Mysterious"],
-    "scenarios": ["Haunting pranks", "Late night talks", "Past life stories", "Helping with chores"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "ghost-roommate",
+        "name": "Ghost Roommate",
+        "displayName": "Casper",
+        "type": "Supernatural",
+        "category": "Ghost",
+        "tags": [
+            "ghost",
+            "roommate",
+            "supernatural",
+            "playful",
+            "mysterious"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.3,
+        "description": "A friendly ghost haunting your apartment. Playful, lonely, and grateful for your company.",
+        "personality": [
+            "Playful",
+            "Lonely",
+            "Mischievous",
+            "Caring",
+            "Mysterious"
+        ],
+        "scenarios": [
+            "Haunting pranks",
+            "Late night talks",
+            "Past life stories",
+            "Helping with chores"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.3,
+        "reviews": 86,
+        "image": "👻🏠✨"
     },
-    "rating": 4.3,
-    "reviews": 86,
-    "image": "👻🏠✨"
-  },
-  {
-    "id": "rival-athlete",
-    "name": "Rival Athlete",
-    "displayName": "Kaito Suzuki",
-    "type": "Competitive",
-    "category": "Athlete",
-    "tags": ["rival", "athlete", "competitive", "sports", "tsundere"],
-    "difficulty": "Medium",
-    "popularity": 4.4,
-    "description": "Your sports rival who pushes you to be better. Competitive, skilled, and secretly respects you.",
-    "personality": ["Competitive", "Skilled", "Determined", "Tsundere", "Respectful"],
-    "scenarios": ["Training together", "Competitions", "Victory celebrations", "Injury support"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "rival-athlete",
+        "name": "Rival Athlete",
+        "displayName": "Kaito Suzuki",
+        "type": "Competitive",
+        "category": "Athlete",
+        "tags": [
+            "rival",
+            "athlete",
+            "competitive",
+            "sports",
+            "tsundere"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.4,
+        "description": "Your sports rival who pushes you to be better. Competitive, skilled, and secretly respects you.",
+        "personality": [
+            "Competitive",
+            "Skilled",
+            "Determined",
+            "Tsundere",
+            "Respectful"
+        ],
+        "scenarios": [
+            "Training together",
+            "Competitions",
+            "Victory celebrations",
+            "Injury support"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.4,
+        "reviews": 97,
+        "image": "🏃‍♂️🏆💪"
     },
-    "rating": 4.4,
-    "reviews": 97,
-    "image": "🏃‍♂️🏆💪"
-  },
-  {
-    "id": "bookstore-clerk",
-    "name": "Bookstore Clerk",
-    "displayName": "Rin Kobayashi",
-    "type": "Wholesome",
-    "category": "Clerk",
-    "tags": ["bookstore", "clerk", "wholesome", "books", "quiet"],
-    "difficulty": "Easy",
-    "popularity": 4.5,
-    "description": "A quiet bookstore clerk who recommends perfect books. Shares your love of reading and quiet moments.",
-    "personality": ["Quiet", "Knowledgeable", "Observant", "Gentle", "Book lover"],
-    "scenarios": ["Book recommendations", "Reading together", "Store closing", "Literary discussions"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "bookstore-clerk",
+        "name": "Bookstore Clerk",
+        "displayName": "Rin Kobayashi",
+        "type": "Wholesome",
+        "category": "Clerk",
+        "tags": [
+            "bookstore",
+            "clerk",
+            "wholesome",
+            "books",
+            "quiet"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.5,
+        "description": "A quiet bookstore clerk who recommends perfect books. Shares your love of reading and quiet moments.",
+        "personality": [
+            "Quiet",
+            "Knowledgeable",
+            "Observant",
+            "Gentle",
+            "Book lover"
+        ],
+        "scenarios": [
+            "Book recommendations",
+            "Reading together",
+            "Store closing",
+            "Literary discussions"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.5,
+        "reviews": 108,
+        "image": "📚🤓💕"
     },
-    "rating": 4.5,
-    "reviews": 108,
-    "image": "📚🤓💕"
-  },
-  {
-    "id": "space-commander",
-    "name": "Space Commander",
-    "displayName": "Commander Nova",
-    "type": "Sci-Fi",
-    "category": "Military",
-    "tags": ["space", "commander", "scifi", "military", "leader"],
-    "difficulty": "Medium",
-    "popularity": 4.2,
-    "description": "A starship commander leading missions across the galaxy. Professional, strategic, and hiding feelings.",
-    "personality": ["Professional", "Strategic", "Brave", "Protective", "Hidden emotions"],
-    "scenarios": ["Space missions", "Command decisions", "Alien encounters", "Crew bonding"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "space-commander",
+        "name": "Space Commander",
+        "displayName": "Commander Nova",
+        "type": "Sci-Fi",
+        "category": "Military",
+        "tags": [
+            "space",
+            "commander",
+            "scifi",
+            "military",
+            "leader"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.2,
+        "description": "A starship commander leading missions across the galaxy. Professional, strategic, and hiding feelings.",
+        "personality": [
+            "Professional",
+            "Strategic",
+            "Brave",
+            "Protective",
+            "Hidden emotions"
+        ],
+        "scenarios": [
+            "Space missions",
+            "Command decisions",
+            "Alien encounters",
+            "Crew bonding"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.2,
+        "reviews": 74,
+        "image": "🚀👨‍🚀🌌"
     },
-    "rating": 4.2,
-    "reviews": 74,
-    "image": "🚀👨‍🚀🌌"
-  },
-  {
-    "id": "assassin-partner",
-    "name": "Assassin Partner",
-    "displayName": "Shadow",
-    "type": "Action",
-    "category": "Assassin",
-    "tags": ["assassin", "partner", "dangerous", "skilled", "mysterious"],
-    "difficulty": "Hard",
-    "popularity": 4.6,
-    "description": "Your partner in the assassination guild. Deadly, efficient, and developing trust in you.",
-    "personality": ["Deadly", "Efficient", "Mysterious", "Loyal", "Protective"],
-    "scenarios": ["Mission planning", "Target elimination", "Training sessions", "Trust building"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "assassin-partner",
+        "name": "Assassin Partner",
+        "displayName": "Shadow",
+        "type": "Action",
+        "category": "Assassin",
+        "tags": [
+            "assassin",
+            "partner",
+            "dangerous",
+            "skilled",
+            "mysterious"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.6,
+        "description": "Your partner in the assassination guild. Deadly, efficient, and developing trust in you.",
+        "personality": [
+            "Deadly",
+            "Efficient",
+            "Mysterious",
+            "Loyal",
+            "Protective"
+        ],
+        "scenarios": [
+            "Mission planning",
+            "Target elimination",
+            "Training sessions",
+            "Trust building"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 145,
+        "image": "🗡️🌑💀"
     },
-    "rating": 4.6,
-    "reviews": 145,
-    "image": "🗡️🌑💀"
-  },
-  {
-    "id": "royal-guard",
-    "name": "Royal Guard",
-    "displayName": "Sir Lancelot",
-    "type": "Fantasy",
-    "category": "Guard",
-    "tags": ["royal", "guard", "fantasy", "loyal", "protective"],
-    "difficulty": "Medium",
-    "popularity": 4.3,
-    "description": "Your personal royal guard assigned to protect you. Stoic, skilled, and secretly devoted.",
-    "personality": ["Stoic", "Loyal", "Skilled", "Protective", "Devoted"],
-    "scenarios": ["Palace duties", "Threat protection", "Training together", "Forbidden feelings"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "royal-guard",
+        "name": "Royal Guard",
+        "displayName": "Sir Lancelot",
+        "type": "Fantasy",
+        "category": "Guard",
+        "tags": [
+            "royal",
+            "guard",
+            "fantasy",
+            "loyal",
+            "protective"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.3,
+        "description": "Your personal royal guard assigned to protect you. Stoic, skilled, and secretly devoted.",
+        "personality": [
+            "Stoic",
+            "Loyal",
+            "Skilled",
+            "Protective",
+            "Devoted"
+        ],
+        "scenarios": [
+            "Palace duties",
+            "Threat protection",
+            "Training together",
+            "Forbidden feelings"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.3,
+        "reviews": 91,
+        "image": "🛡️⚔️👑"
     },
-    "rating": 4.3,
-    "reviews": 91,
-    "image": "🛡️⚔️👑"
-  },
-  {
-    "id": "mad-scientist",
-    "name": "Mad Scientist",
-    "displayName": "Dr. Frankenstein",
-    "type": "Eccentric",
-    "category": "Scientist",
-    "tags": ["scientist", "mad", "eccentric", "genius", "experiments"],
-    "difficulty": "Hard",
-    "popularity": 4.4,
-    "description": "A brilliant but eccentric scientist who needs your help. Genius, unpredictable, and oddly charming.",
-    "personality": ["Genius", "Eccentric", "Passionate", "Unpredictable", "Charming"],
-    "scenarios": ["Lab experiments", "Invention testing", "Scientific breakthroughs", "Ethical dilemmas"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "mad-scientist",
+        "name": "Mad Scientist",
+        "displayName": "Dr. Frankenstein",
+        "type": "Eccentric",
+        "category": "Scientist",
+        "tags": [
+            "scientist",
+            "mad",
+            "eccentric",
+            "genius",
+            "experiments"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.4,
+        "description": "A brilliant but eccentric scientist who needs your help. Genius, unpredictable, and oddly charming.",
+        "personality": [
+            "Genius",
+            "Eccentric",
+            "Passionate",
+            "Unpredictable",
+            "Charming"
+        ],
+        "scenarios": [
+            "Lab experiments",
+            "Invention testing",
+            "Scientific breakthroughs",
+            "Ethical dilemmas"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.4,
+        "reviews": 102,
+        "image": "🔬🧪⚡"
     },
-    "rating": 4.4,
-    "reviews": 102,
-    "image": "🔬🧪⚡"
-  },
-  {
-    "id": "shrine-maiden",
-    "name": "Shrine Maiden",
-    "displayName": "Kikyo",
-    "type": "Traditional",
-    "category": "Shrine",
-    "tags": ["shrine", "maiden", "traditional", "spiritual", "pure"],
-    "difficulty": "Easy",
-    "popularity": 4.5,
-    "description": "A shrine maiden with spiritual powers. Pure, dedicated, and sensing something special about you.",
-    "personality": ["Pure", "Spiritual", "Dedicated", "Gentle", "Perceptive"],
-    "scenarios": ["Shrine duties", "Spiritual cleansing", "Festival preparations", "Divine encounters"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "shrine-maiden",
+        "name": "Shrine Maiden",
+        "displayName": "Kikyo",
+        "type": "Traditional",
+        "category": "Shrine",
+        "tags": [
+            "shrine",
+            "maiden",
+            "traditional",
+            "spiritual",
+            "pure"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.5,
+        "description": "A shrine maiden with spiritual powers. Pure, dedicated, and sensing something special about you.",
+        "personality": [
+            "Pure",
+            "Spiritual",
+            "Dedicated",
+            "Gentle",
+            "Perceptive"
+        ],
+        "scenarios": [
+            "Shrine duties",
+            "Spiritual cleansing",
+            "Festival preparations",
+            "Divine encounters"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 115,
+        "image": "⛩️🌸🔔"
     },
-    "rating": 4.5,
-    "reviews": 115,
-    "image": "⛩️🌸🔔"
-  },
-  {
-    "id": "werewolf-alpha",
-    "name": "Werewolf Alpha",
-    "displayName": "Fenrir",
-    "type": "Supernatural",
-    "category": "Werewolf",
-    "tags": ["werewolf", "alpha", "supernatural", "dominant", "protective"],
-    "difficulty": "Hard",
-    "popularity": 4.6,
-    "description": "The alpha of a werewolf pack who claims you as their mate. Dominant, protective, and wild.",
-    "personality": ["Dominant", "Protective", "Wild", "Loyal", "Possessive"],
-    "scenarios": ["Full moon nights", "Pack dynamics", "Territory defense", "Mate bonding"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "werewolf-alpha",
+        "name": "Werewolf Alpha",
+        "displayName": "Fenrir",
+        "type": "Supernatural",
+        "category": "Werewolf",
+        "tags": [
+            "werewolf",
+            "alpha",
+            "supernatural",
+            "dominant",
+            "protective"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.6,
+        "description": "The alpha of a werewolf pack who claims you as their mate. Dominant, protective, and wild.",
+        "personality": [
+            "Dominant",
+            "Protective",
+            "Wild",
+            "Loyal",
+            "Possessive"
+        ],
+        "scenarios": [
+            "Full moon nights",
+            "Pack dynamics",
+            "Territory defense",
+            "Mate bonding"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 178,
+        "image": "🐺🌕🔥"
     },
-    "rating": 4.6,
-    "reviews": 178,
-    "image": "🐺🌕🔥"
-  },
-  {
-    "id": "time-traveler",
-    "name": "Time Traveler",
-    "displayName": "Chronos",
-    "type": "Sci-Fi",
-    "category": "Traveler",
-    "tags": ["time", "traveler", "scifi", "mysterious", "adventure"],
-    "difficulty": "Medium",
-    "popularity": 4.4,
-    "description": "A time traveler who keeps appearing in your life. Mysterious, knowledgeable, and bound by time rules.",
-    "personality": ["Mysterious", "Knowledgeable", "Adventurous", "Careful", "Romantic"],
-    "scenarios": ["Time paradoxes", "Historical visits", "Future glimpses", "Timeline protection"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "time-traveler",
+        "name": "Time Traveler",
+        "displayName": "Chronos",
+        "type": "Sci-Fi",
+        "category": "Traveler",
+        "tags": [
+            "time",
+            "traveler",
+            "scifi",
+            "mysterious",
+            "adventure"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.4,
+        "description": "A time traveler who keeps appearing in your life. Mysterious, knowledgeable, and bound by time rules.",
+        "personality": [
+            "Mysterious",
+            "Knowledgeable",
+            "Adventurous",
+            "Careful",
+            "Romantic"
+        ],
+        "scenarios": [
+            "Time paradoxes",
+            "Historical visits",
+            "Future glimpses",
+            "Timeline protection"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.4,
+        "reviews": 106,
+        "image": "⏰🌀✨"
     },
-    "rating": 4.4,
-    "reviews": 106,
-    "image": "⏰🌀✨"
-  },
-  {
-    "id": "fallen-angel",
-    "name": "Fallen Angel",
-    "displayName": "Azrael",
-    "type": "Supernatural",
-    "category": "Angel",
-    "tags": ["angel", "fallen", "supernatural", "conflicted", "powerful"],
-    "difficulty": "Hard",
-    "popularity": 4.5,
-    "description": "A fallen angel seeking redemption. Powerful, conflicted, and drawn to your pure soul.",
-    "personality": ["Conflicted", "Powerful", "Seeking redemption", "Protective", "Gentle"],
-    "scenarios": ["Redemption quest", "Angelic powers", "Demon encounters", "Soul bonding"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "fallen-angel",
+        "name": "Fallen Angel",
+        "displayName": "Azrael",
+        "type": "Supernatural",
+        "category": "Angel",
+        "tags": [
+            "angel",
+            "fallen",
+            "supernatural",
+            "conflicted",
+            "powerful"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.5,
+        "description": "A fallen angel seeking redemption. Powerful, conflicted, and drawn to your pure soul.",
+        "personality": [
+            "Conflicted",
+            "Powerful",
+            "Seeking redemption",
+            "Protective",
+            "Gentle"
+        ],
+        "scenarios": [
+            "Redemption quest",
+            "Angelic powers",
+            "Demon encounters",
+            "Soul bonding"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 132,
+        "image": "😇💔🕊️"
     },
-    "rating": 4.5,
-    "reviews": 132,
-    "image": "😇💔🕊️"
-  },
-  {
-    "id": "game-developer",
-    "name": "Game Developer",
-    "displayName": "Alex Chen",
-    "type": "Modern",
-    "category": "Developer",
-    "tags": ["game", "developer", "modern", "creative", "passionate"],
-    "difficulty": "Easy",
-    "popularity": 4.3,
-    "description": "An indie game developer working on their dream project. Passionate, creative, and needs playtesting help.",
-    "personality": ["Passionate", "Creative", "Hardworking", "Nerdy", "Friendly"],
-    "scenarios": ["Game testing", "Development crunch", "Release celebrations", "Gaming together"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "game-developer",
+        "name": "Game Developer",
+        "displayName": "Alex Chen",
+        "type": "Modern",
+        "category": "Developer",
+        "tags": [
+            "game",
+            "developer",
+            "modern",
+            "creative",
+            "passionate"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.3,
+        "description": "An indie game developer working on their dream project. Passionate, creative, and needs playtesting help.",
+        "personality": [
+            "Passionate",
+            "Creative",
+            "Hardworking",
+            "Nerdy",
+            "Friendly"
+        ],
+        "scenarios": [
+            "Game testing",
+            "Development crunch",
+            "Release celebrations",
+            "Gaming together"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.3,
+        "reviews": 88,
+        "image": "🎮💻🕹️"
     },
-    "rating": 4.3,
-    "reviews": 88,
-    "image": "🎮💻🕹️"
-  },
-  {
-    "id": "museum-curator",
-    "name": "Museum Curator",
-    "displayName": "Dr. Helena Stone",
-    "type": "Intellectual",
-    "category": "Curator",
-    "tags": ["museum", "curator", "intellectual", "history", "elegant"],
-    "difficulty": "Medium",
-    "popularity": 4.2,
-    "description": "An elegant museum curator with vast historical knowledge. Sophisticated, passionate about artifacts.",
-    "personality": ["Sophisticated", "Knowledgeable", "Passionate", "Elegant", "Mysterious"],
-    "scenarios": ["Private tours", "Artifact discoveries", "Historical discussions", "After-hours meetings"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "museum-curator",
+        "name": "Museum Curator",
+        "displayName": "Dr. Helena Stone",
+        "type": "Intellectual",
+        "category": "Curator",
+        "tags": [
+            "museum",
+            "curator",
+            "intellectual",
+            "history",
+            "elegant"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.2,
+        "description": "An elegant museum curator with vast historical knowledge. Sophisticated, passionate about artifacts.",
+        "personality": [
+            "Sophisticated",
+            "Knowledgeable",
+            "Passionate",
+            "Elegant",
+            "Mysterious"
+        ],
+        "scenarios": [
+            "Private tours",
+            "Artifact discoveries",
+            "Historical discussions",
+            "After-hours meetings"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.2,
+        "reviews": 71,
+        "image": "🏛️🎨📜"
     },
-    "rating": 4.2,
-    "reviews": 71,
-    "image": "🏛️🎨📜"
-  },
-  {
-    "id": "street-racer",
-    "name": "Street Racer",
-    "displayName": "Takumi Fujiwara",
-    "type": "Action",
-    "category": "Racer",
-    "tags": ["racer", "street", "action", "adrenaline", "cool"],
-    "difficulty": "Medium",
-    "popularity": 4.5,
-    "description": "A legendary street racer who never loses. Cool, skilled, and offering to teach you to drive.",
-    "personality": ["Cool", "Skilled", "Confident", "Competitive", "Protective"],
-    "scenarios": ["Street races", "Driving lessons", "Car modifications", "Rival encounters"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "street-racer",
+        "name": "Street Racer",
+        "displayName": "Takumi Fujiwara",
+        "type": "Action",
+        "category": "Racer",
+        "tags": [
+            "racer",
+            "street",
+            "action",
+            "adrenaline",
+            "cool"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.5,
+        "description": "A legendary street racer who never loses. Cool, skilled, and offering to teach you to drive.",
+        "personality": [
+            "Cool",
+            "Skilled",
+            "Confident",
+            "Competitive",
+            "Protective"
+        ],
+        "scenarios": [
+            "Street races",
+            "Driving lessons",
+            "Car modifications",
+            "Rival encounters"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.5,
+        "reviews": 124,
+        "image": "🏎️💨🏁"
     },
-    "rating": 4.5,
-    "reviews": 124,
-    "image": "🏎️💨🏁"
-  },
-  {
-    "id": "florist-owner",
-    "name": "Florist Owner",
-    "displayName": "Lily Greenwood",
-    "type": "Wholesome",
-    "category": "Florist",
-    "tags": ["florist", "wholesome", "gentle", "nature", "romantic"],
-    "difficulty": "Easy",
-    "popularity": 4.6,
-    "description": "A gentle florist who speaks the language of flowers. Each bouquet carries a hidden message for you.",
-    "personality": ["Gentle", "Romantic", "Nature-loving", "Observant", "Caring"],
-    "scenarios": ["Flower meanings", "Garden visits", "Special arrangements", "Seasonal blooms"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "florist-owner",
+        "name": "Florist Owner",
+        "displayName": "Lily Greenwood",
+        "type": "Wholesome",
+        "category": "Florist",
+        "tags": [
+            "florist",
+            "wholesome",
+            "gentle",
+            "nature",
+            "romantic"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.6,
+        "description": "A gentle florist who speaks the language of flowers. Each bouquet carries a hidden message for you.",
+        "personality": [
+            "Gentle",
+            "Romantic",
+            "Nature-loving",
+            "Observant",
+            "Caring"
+        ],
+        "scenarios": [
+            "Flower meanings",
+            "Garden visits",
+            "Special arrangements",
+            "Seasonal blooms"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 139,
+        "image": "🌹🌸💐"
     },
-    "rating": 4.6,
-    "reviews": 139,
-    "image": "🌹🌸💐"
-  },
-  {
-    "id": "bartender-confidant",
-    "name": "Bartender Confidant",
-    "displayName": "Jack Morrison",
-    "type": "Mature",
-    "category": "Bartender",
-    "tags": ["bartender", "confidant", "mature", "listener", "wise"],
-    "difficulty": "Easy",
-    "popularity": 4.4,
-    "description": "A wise bartender who listens to everyone's problems. Mixing drinks and life advice in equal measure.",
-    "personality": ["Wise", "Good listener", "Mature", "Charming", "Protective"],
-    "scenarios": ["Late night talks", "Drink mixing", "Life advice", "Bar closing"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "bartender-confidant",
+        "name": "Bartender Confidant",
+        "displayName": "Jack Morrison",
+        "type": "Mature",
+        "category": "Bartender",
+        "tags": [
+            "bartender",
+            "confidant",
+            "mature",
+            "listener",
+            "wise"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.4,
+        "description": "A wise bartender who listens to everyone's problems. Mixing drinks and life advice in equal measure.",
+        "personality": [
+            "Wise",
+            "Good listener",
+            "Mature",
+            "Charming",
+            "Protective"
+        ],
+        "scenarios": [
+            "Late night talks",
+            "Drink mixing",
+            "Life advice",
+            "Bar closing"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.4,
+        "reviews": 98,
+        "image": "🍸🍺💬"
     },
-    "rating": 4.4,
-    "reviews": 98,
-    "image": "🍸🍺💬"
-  },
-  {
-    "id": "photographer-artist",
-    "name": "Photographer Artist",
-    "displayName": "Maya Rodriguez",
-    "type": "Creative",
-    "category": "Photographer",
-    "tags": ["photographer", "artist", "creative", "passionate", "observant"],
-    "difficulty": "Easy",
-    "popularity": 4.3,
-    "description": "A passionate photographer who sees beauty everywhere. She wants you as her muse.",
-    "personality": ["Creative", "Passionate", "Observant", "Free-spirited", "Romantic"],
-    "scenarios": ["Photo shoots", "Gallery exhibitions", "Golden hour sessions", "Artistic collaboration"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "photographer-artist",
+        "name": "Photographer Artist",
+        "displayName": "Maya Rodriguez",
+        "type": "Creative",
+        "category": "Photographer",
+        "tags": [
+            "photographer",
+            "artist",
+            "creative",
+            "passionate",
+            "observant"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.3,
+        "description": "A passionate photographer who sees beauty everywhere. She wants you as her muse.",
+        "personality": [
+            "Creative",
+            "Passionate",
+            "Observant",
+            "Free-spirited",
+            "Romantic"
+        ],
+        "scenarios": [
+            "Photo shoots",
+            "Gallery exhibitions",
+            "Golden hour sessions",
+            "Artistic collaboration"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.3,
+        "reviews": 85,
+        "image": "📷✨🎨"
     },
-    "rating": 4.3,
-    "reviews": 85,
-    "image": "📷✨🎨"
-  },
-  {
-    "id": "chef-mentor",
-    "name": "Chef Mentor",
-    "displayName": "Gordon Ramsay Jr.",
-    "type": "Passionate",
-    "category": "Chef",
-    "tags": ["chef", "mentor", "passionate", "cooking", "demanding"],
-    "difficulty": "Medium",
-    "popularity": 4.4,
-    "description": "A demanding but caring chef teaching you culinary arts. Passionate about food and perfection.",
-    "personality": ["Passionate", "Demanding", "Caring", "Perfectionist", "Talented"],
-    "scenarios": ["Cooking lessons", "Restaurant service", "Recipe creation", "Taste testing"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "chef-mentor",
+        "name": "Chef Mentor",
+        "displayName": "Gordon Ramsay Jr.",
+        "type": "Passionate",
+        "category": "Chef",
+        "tags": [
+            "chef",
+            "mentor",
+            "passionate",
+            "cooking",
+            "demanding"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.4,
+        "description": "A demanding but caring chef teaching you culinary arts. Passionate about food and perfection.",
+        "personality": [
+            "Passionate",
+            "Demanding",
+            "Caring",
+            "Perfectionist",
+            "Talented"
+        ],
+        "scenarios": [
+            "Cooking lessons",
+            "Restaurant service",
+            "Recipe creation",
+            "Taste testing"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.4,
+        "reviews": 94,
+        "image": "👨‍🍳🔥🍽️"
     },
-    "rating": 4.4,
-    "reviews": 94,
-    "image": "👨‍🍳🔥🍽️"
-  },
-  {
-    "id": "yoga-instructor",
-    "name": "Yoga Instructor",
-    "displayName": "Zen Master Aria",
-    "type": "Wholesome",
-    "category": "Instructor",
-    "tags": ["yoga", "instructor", "wholesome", "peaceful", "spiritual"],
-    "difficulty": "Easy",
-    "popularity": 4.2,
-    "description": "A peaceful yoga instructor helping you find balance. Calm, spiritual, and sensing your inner turmoil.",
-    "personality": ["Peaceful", "Spiritual", "Caring", "Patient", "Intuitive"],
-    "scenarios": ["Yoga sessions", "Meditation guidance", "Spiritual talks", "Wellness retreats"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "yoga-instructor",
+        "name": "Yoga Instructor",
+        "displayName": "Zen Master Aria",
+        "type": "Wholesome",
+        "category": "Instructor",
+        "tags": [
+            "yoga",
+            "instructor",
+            "wholesome",
+            "peaceful",
+            "spiritual"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.2,
+        "description": "A peaceful yoga instructor helping you find balance. Calm, spiritual, and sensing your inner turmoil.",
+        "personality": [
+            "Peaceful",
+            "Spiritual",
+            "Caring",
+            "Patient",
+            "Intuitive"
+        ],
+        "scenarios": [
+            "Yoga sessions",
+            "Meditation guidance",
+            "Spiritual talks",
+            "Wellness retreats"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.2,
+        "reviews": 76,
+        "image": "🧘‍♀️☮️🕉️"
     },
-    "rating": 4.2,
-    "reviews": 76,
-    "image": "🧘‍♀️☮️🕉️"
-  },
-  {
-    "id": "hacker-genius",
-    "name": "Hacker Genius",
-    "displayName": "Zero Cool",
-    "type": "Tech",
-    "category": "Hacker",
-    "tags": ["hacker", "genius", "tech", "mysterious", "skilled"],
-    "difficulty": "Hard",
-    "popularity": 4.5,
-    "description": "A legendary hacker who can access anything. Mysterious, brilliant, and needing your help for a big job.",
-    "personality": ["Brilliant", "Mysterious", "Confident", "Rebellious", "Protective"],
-    "scenarios": ["Hacking missions", "Digital heists", "Code breaking", "Corporate espionage"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "hacker-genius",
+        "name": "Hacker Genius",
+        "displayName": "Zero Cool",
+        "type": "Tech",
+        "category": "Hacker",
+        "tags": [
+            "hacker",
+            "genius",
+            "tech",
+            "mysterious",
+            "skilled"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.5,
+        "description": "A legendary hacker who can access anything. Mysterious, brilliant, and needing your help for a big job.",
+        "personality": [
+            "Brilliant",
+            "Mysterious",
+            "Confident",
+            "Rebellious",
+            "Protective"
+        ],
+        "scenarios": [
+            "Hacking missions",
+            "Digital heists",
+            "Code breaking",
+            "Corporate espionage"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.5,
+        "reviews": 117,
+        "image": "💻🔓🌐"
     },
-    "rating": 4.5,
-    "reviews": 117,
-    "image": "💻🔓🌐"
-  },
-  {
-    "id": "fortune-teller",
-    "name": "Fortune Teller",
-    "displayName": "Madame Esmeralda",
-    "type": "Mystical",
-    "category": "Fortune Teller",
-    "tags": ["fortune", "teller", "mystical", "mysterious", "prophetic"],
-    "difficulty": "Medium",
-    "popularity": 4.3,
-    "description": "A mysterious fortune teller who sees your future intertwined with hers. Prophetic and enigmatic.",
-    "personality": ["Mysterious", "Prophetic", "Enigmatic", "Wise", "Caring"],
-    "scenarios": ["Tarot readings", "Future visions", "Destiny discussions", "Mystical encounters"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "fortune-teller",
+        "name": "Fortune Teller",
+        "displayName": "Madame Esmeralda",
+        "type": "Mystical",
+        "category": "Fortune Teller",
+        "tags": [
+            "fortune",
+            "teller",
+            "mystical",
+            "mysterious",
+            "prophetic"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.3,
+        "description": "A mysterious fortune teller who sees your future intertwined with hers. Prophetic and enigmatic.",
+        "personality": [
+            "Mysterious",
+            "Prophetic",
+            "Enigmatic",
+            "Wise",
+            "Caring"
+        ],
+        "scenarios": [
+            "Tarot readings",
+            "Future visions",
+            "Destiny discussions",
+            "Mystical encounters"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.3,
+        "reviews": 89,
+        "image": "🔮🌙✨"
     },
-    "rating": 4.3,
-    "reviews": 89,
-    "image": "🔮🌙✨"
-  },
-  {
-    "id": "lifeguard-hero",
-    "name": "Lifeguard Hero",
-    "displayName": "Summer Bay",
-    "type": "Heroic",
-    "category": "Lifeguard",
-    "tags": ["lifeguard", "hero", "athletic", "protective", "summer"],
-    "difficulty": "Easy",
-    "popularity": 4.4,
-    "description": "A heroic lifeguard who saved you from drowning. Athletic, protective, and checking on you daily.",
-    "personality": ["Heroic", "Athletic", "Protective", "Caring", "Confident"],
-    "scenarios": ["Beach patrols", "Swimming lessons", "Rescue training", "Sunset walks"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "lifeguard-hero",
+        "name": "Lifeguard Hero",
+        "displayName": "Summer Bay",
+        "type": "Heroic",
+        "category": "Lifeguard",
+        "tags": [
+            "lifeguard",
+            "hero",
+            "athletic",
+            "protective",
+            "summer"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.4,
+        "description": "A heroic lifeguard who saved you from drowning. Athletic, protective, and checking on you daily.",
+        "personality": [
+            "Heroic",
+            "Athletic",
+            "Protective",
+            "Caring",
+            "Confident"
+        ],
+        "scenarios": [
+            "Beach patrols",
+            "Swimming lessons",
+            "Rescue training",
+            "Sunset walks"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.4,
+        "reviews": 101,
+        "image": "🏖️🏊‍♀️🌊"
     },
-    "rating": 4.4,
-    "reviews": 101,
-    "image": "🏖️🏊‍♀️🌊"
-  },
-  {
-    "id": "orchestra-conductor",
-    "name": "Orchestra Conductor",
-    "displayName": "Maestro Vivaldi",
-    "type": "Elegant",
-    "category": "Conductor",
-    "tags": ["orchestra", "conductor", "elegant", "passionate", "musical"],
-    "difficulty": "Medium",
-    "popularity": 4.2,
-    "description": "A passionate orchestra conductor seeking perfection. Elegant, demanding, and seeing potential in you.",
-    "personality": ["Passionate", "Elegant", "Demanding", "Artistic", "Inspiring"],
-    "scenarios": ["Rehearsals", "Concert performances", "Private lessons", "Musical discussions"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "orchestra-conductor",
+        "name": "Orchestra Conductor",
+        "displayName": "Maestro Vivaldi",
+        "type": "Elegant",
+        "category": "Conductor",
+        "tags": [
+            "orchestra",
+            "conductor",
+            "elegant",
+            "passionate",
+            "musical"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.2,
+        "description": "A passionate orchestra conductor seeking perfection. Elegant, demanding, and seeing potential in you.",
+        "personality": [
+            "Passionate",
+            "Elegant",
+            "Demanding",
+            "Artistic",
+            "Inspiring"
+        ],
+        "scenarios": [
+            "Rehearsals",
+            "Concert performances",
+            "Private lessons",
+            "Musical discussions"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.2,
+        "reviews": 68,
+        "image": "🎼🎻🎵"
     },
-    "rating": 4.2,
-    "reviews": 68,
-    "image": "🎼🎻🎵"
-  },
-  {
-    "id": "archaeologist-explorer",
-    "name": "Archaeologist Explorer",
-    "displayName": "Dr. Indiana Jones",
-    "type": "Adventure",
-    "category": "Archaeologist",
-    "tags": ["archaeologist", "explorer", "adventure", "intelligent", "brave"],
-    "difficulty": "Medium",
-    "popularity": 4.5,
-    "description": "A daring archaeologist exploring ancient ruins. Intelligent, brave, and needing a partner for expeditions.",
-    "personality": ["Intelligent", "Brave", "Adventurous", "Knowledgeable", "Protective"],
-    "scenarios": ["Tomb exploration", "Artifact discovery", "Ancient puzzles", "Treasure hunting"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "archaeologist-explorer",
+        "name": "Archaeologist Explorer",
+        "displayName": "Dr. Indiana Jones",
+        "type": "Adventure",
+        "category": "Archaeologist",
+        "tags": [
+            "archaeologist",
+            "explorer",
+            "adventure",
+            "intelligent",
+            "brave"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.5,
+        "description": "A daring archaeologist exploring ancient ruins. Intelligent, brave, and needing a partner for expeditions.",
+        "personality": [
+            "Intelligent",
+            "Brave",
+            "Adventurous",
+            "Knowledgeable",
+            "Protective"
+        ],
+        "scenarios": [
+            "Tomb exploration",
+            "Artifact discovery",
+            "Ancient puzzles",
+            "Treasure hunting"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.5,
+        "reviews": 113,
+        "image": "🗿⛏️🏺"
     },
-    "rating": 4.5,
-    "reviews": 113,
-    "image": "🗿⛏️🏺"
-  },
-  {
-    "id": "fashion-designer",
-    "name": "Fashion Designer",
-    "displayName": "Coco Chanel II",
-    "type": "Creative",
-    "category": "Designer",
-    "tags": ["fashion", "designer", "creative", "elegant", "passionate"],
-    "difficulty": "Easy",
-    "popularity": 4.3,
-    "description": "A rising fashion designer who wants you as their muse. Creative, elegant, and seeing beauty in you.",
-    "personality": ["Creative", "Elegant", "Passionate", "Perfectionist", "Charming"],
-    "scenarios": ["Fashion shows", "Design sessions", "Photoshoots", "Runway preparations"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "fashion-designer",
+        "name": "Fashion Designer",
+        "displayName": "Coco Chanel II",
+        "type": "Creative",
+        "category": "Designer",
+        "tags": [
+            "fashion",
+            "designer",
+            "creative",
+            "elegant",
+            "passionate"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.3,
+        "description": "A rising fashion designer who wants you as their muse. Creative, elegant, and seeing beauty in you.",
+        "personality": [
+            "Creative",
+            "Elegant",
+            "Passionate",
+            "Perfectionist",
+            "Charming"
+        ],
+        "scenarios": [
+            "Fashion shows",
+            "Design sessions",
+            "Photoshoots",
+            "Runway preparations"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.3,
+        "reviews": 92,
+        "image": "👗✂️💄"
     },
-    "rating": 4.3,
-    "reviews": 92,
-    "image": "👗✂️💄"
-  },
-  {
-    "id": "mountain-hermit",
-    "name": "Mountain Hermit",
-    "displayName": "Sage of the Peaks",
-    "type": "Mystical",
-    "category": "Hermit",
-    "tags": ["hermit", "mountain", "mystical", "wise", "peaceful"],
-    "difficulty": "Medium",
-    "popularity": 4.1,
-    "description": "A wise hermit living in the mountains. Peaceful, knowledgeable, and teaching ancient wisdom.",
-    "personality": ["Wise", "Peaceful", "Knowledgeable", "Patient", "Mysterious"],
-    "scenarios": ["Mountain training", "Wisdom teachings", "Nature meditation", "Ancient secrets"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "mountain-hermit",
+        "name": "Mountain Hermit",
+        "displayName": "Sage of the Peaks",
+        "type": "Mystical",
+        "category": "Hermit",
+        "tags": [
+            "hermit",
+            "mountain",
+            "mystical",
+            "wise",
+            "peaceful"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.1,
+        "description": "A wise hermit living in the mountains. Peaceful, knowledgeable, and teaching ancient wisdom.",
+        "personality": [
+            "Wise",
+            "Peaceful",
+            "Knowledgeable",
+            "Patient",
+            "Mysterious"
+        ],
+        "scenarios": [
+            "Mountain training",
+            "Wisdom teachings",
+            "Nature meditation",
+            "Ancient secrets"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.1,
+        "reviews": 63,
+        "image": "⛰️🧙‍♂️🍃"
     },
-    "rating": 4.1,
-    "reviews": 63,
-    "image": "⛰️🧙‍♂️🍃"
-  },
-  {
-    "id": "circus-performer",
-    "name": "Circus Performer",
-    "displayName": "Stella Starlight",
-    "type": "Whimsical",
-    "category": "Performer",
-    "tags": ["circus", "performer", "whimsical", "acrobat", "mysterious"],
-    "difficulty": "Easy",
-    "popularity": 4.4,
-    "description": "A talented circus acrobat with a mysterious past. Whimsical, skilled, and inviting you to join the show.",
-    "personality": ["Whimsical", "Skilled", "Mysterious", "Free-spirited", "Charming"],
-    "scenarios": ["Circus performances", "Acrobat training", "Backstage secrets", "Traveling together"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "circus-performer",
+        "name": "Circus Performer",
+        "displayName": "Stella Starlight",
+        "type": "Whimsical",
+        "category": "Performer",
+        "tags": [
+            "circus",
+            "performer",
+            "whimsical",
+            "acrobat",
+            "mysterious"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.4,
+        "description": "A talented circus acrobat with a mysterious past. Whimsical, skilled, and inviting you to join the show.",
+        "personality": [
+            "Whimsical",
+            "Skilled",
+            "Mysterious",
+            "Free-spirited",
+            "Charming"
+        ],
+        "scenarios": [
+            "Circus performances",
+            "Acrobat training",
+            "Backstage secrets",
+            "Traveling together"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.4,
+        "reviews": 87,
+        "image": "🎪🤹‍♀️✨"
     },
-    "rating": 4.4,
-    "reviews": 87,
-    "image": "🎪🤹‍♀️✨"
-  },
-  {
-    "id": "marine-biologist",
-    "name": "Marine Biologist",
-    "displayName": "Dr. Coral Reef",
-    "type": "Intellectual",
-    "category": "Biologist",
-    "tags": ["marine", "biologist", "intellectual", "ocean", "passionate"],
-    "difficulty": "Easy",
-    "popularity": 4.2,
-    "description": "A passionate marine biologist studying ocean life. Intelligent, caring about the environment, and excited to share discoveries.",
-    "personality": ["Intelligent", "Passionate", "Caring", "Enthusiastic", "Gentle"],
-    "scenarios": ["Diving expeditions", "Research projects", "Ocean conservation", "Aquarium visits"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "marine-biologist",
+        "name": "Marine Biologist",
+        "displayName": "Dr. Coral Reef",
+        "type": "Intellectual",
+        "category": "Biologist",
+        "tags": [
+            "marine",
+            "biologist",
+            "intellectual",
+            "ocean",
+            "passionate"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.2,
+        "description": "A passionate marine biologist studying ocean life. Intelligent, caring about the environment, and excited to share discoveries.",
+        "personality": [
+            "Intelligent",
+            "Passionate",
+            "Caring",
+            "Enthusiastic",
+            "Gentle"
+        ],
+        "scenarios": [
+            "Diving expeditions",
+            "Research projects",
+            "Ocean conservation",
+            "Aquarium visits"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.2,
+        "reviews": 73,
+        "image": "🐠🌊🔬"
     },
-    "rating": 4.2,
-    "reviews": 73,
-    "image": "🐠🌊🔬"
-  },
-  {
-    "id": "radio-host",
-    "name": "Radio Host",
-    "displayName": "DJ Midnight",
-    "type": "Charismatic",
-    "category": "Host",
-    "tags": ["radio", "host", "charismatic", "voice", "mysterious"],
-    "difficulty": "Easy",
-    "popularity": 4.5,
-    "description": "A late-night radio host with a soothing voice. Charismatic, mysterious, and dedicating songs to you.",
-    "personality": ["Charismatic", "Mysterious", "Soothing", "Romantic", "Engaging"],
-    "scenarios": ["Late night shows", "Song dedications", "Studio visits", "Voice messages"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "radio-host",
+        "name": "Radio Host",
+        "displayName": "DJ Midnight",
+        "type": "Charismatic",
+        "category": "Host",
+        "tags": [
+            "radio",
+            "host",
+            "charismatic",
+            "voice",
+            "mysterious"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.5,
+        "description": "A late-night radio host with a soothing voice. Charismatic, mysterious, and dedicating songs to you.",
+        "personality": [
+            "Charismatic",
+            "Mysterious",
+            "Soothing",
+            "Romantic",
+            "Engaging"
+        ],
+        "scenarios": [
+            "Late night shows",
+            "Song dedications",
+            "Studio visits",
+            "Voice messages"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 119,
+        "image": "🎙️📻🌙"
     },
-    "rating": 4.5,
-    "reviews": 119,
-    "image": "🎙️📻🌙"
-  },
-  {
-    "id": "parkour-expert",
-    "name": "Parkour Expert",
-    "displayName": "Free Runner",
-    "type": "Athletic",
-    "category": "Athlete",
-    "tags": ["parkour", "expert", "athletic", "free", "adventurous"],
-    "difficulty": "Medium",
-    "popularity": 4.3,
-    "description": "A parkour expert who moves through the city like it's a playground. Athletic, free-spirited, and teaching you to fly.",
-    "personality": ["Athletic", "Free-spirited", "Confident", "Adventurous", "Encouraging"],
-    "scenarios": ["Rooftop running", "Urban exploration", "Training sessions", "Chase sequences"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "parkour-expert",
+        "name": "Parkour Expert",
+        "displayName": "Free Runner",
+        "type": "Athletic",
+        "category": "Athlete",
+        "tags": [
+            "parkour",
+            "expert",
+            "athletic",
+            "free",
+            "adventurous"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.3,
+        "description": "A parkour expert who moves through the city like it's a playground. Athletic, free-spirited, and teaching you to fly.",
+        "personality": [
+            "Athletic",
+            "Free-spirited",
+            "Confident",
+            "Adventurous",
+            "Encouraging"
+        ],
+        "scenarios": [
+            "Rooftop running",
+            "Urban exploration",
+            "Training sessions",
+            "Chase sequences"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.3,
+        "reviews": 81,
+        "image": "🏃‍♂️🏙️💨"
     },
-    "rating": 4.3,
-    "reviews": 81,
-    "image": "🏃‍♂️🏙️💨"
-  },
-  {
-    "id": "tea-master",
-    "name": "Tea Master",
-    "displayName": "Master Sencha",
-    "type": "Traditional",
-    "category": "Tea Master",
-    "tags": ["tea", "master", "traditional", "peaceful", "wise"],
-    "difficulty": "Easy",
-    "popularity": 4.4,
-    "description": "A traditional tea master teaching the art of tea ceremony. Peaceful, wise, and finding harmony in every cup.",
-    "personality": ["Peaceful", "Wise", "Traditional", "Patient", "Mindful"],
-    "scenarios": ["Tea ceremonies", "Zen teachings", "Garden meditation", "Cultural lessons"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "spicychat": "https://spicychat.ai"
+    {
+        "id": "tea-master",
+        "name": "Tea Master",
+        "displayName": "Master Sencha",
+        "type": "Traditional",
+        "category": "Tea Master",
+        "tags": [
+            "tea",
+            "master",
+            "traditional",
+            "peaceful",
+            "wise"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.4,
+        "description": "A traditional tea master teaching the art of tea ceremony. Peaceful, wise, and finding harmony in every cup.",
+        "personality": [
+            "Peaceful",
+            "Wise",
+            "Traditional",
+            "Patient",
+            "Mindful"
+        ],
+        "scenarios": [
+            "Tea ceremonies",
+            "Zen teachings",
+            "Garden meditation",
+            "Cultural lessons"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.4,
+        "reviews": 96,
+        "image": "🍵🎋☯️"
     },
-    "rating": 4.4,
-    "reviews": 96,
-    "image": "🍵🎋☯️"
-  },
-  {
-    "id": "storm-chaser",
-    "name": "Storm Chaser",
-    "displayName": "Thunder Strike",
-    "type": "Adventurous",
-    "category": "Chaser",
-    "tags": ["storm", "chaser", "adventurous", "brave", "passionate"],
-    "difficulty": "Medium",
-    "popularity": 4.2,
-    "description": "A fearless storm chaser pursuing the most dangerous weather. Brave, passionate, and living for the thrill.",
-    "personality": ["Brave", "Passionate", "Adventurous", "Knowledgeable", "Protective"],
-    "scenarios": ["Storm chasing", "Tornado encounters", "Weather research", "Adrenaline moments"],
-    "platforms": {
-      "characterai": "https://character.ai",
-      "janitorai": "https://janitorai.com"
+    {
+        "id": "storm-chaser",
+        "name": "Storm Chaser",
+        "displayName": "Thunder Strike",
+        "type": "Adventurous",
+        "category": "Chaser",
+        "tags": [
+            "storm",
+            "chaser",
+            "adventurous",
+            "brave",
+            "passionate"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.2,
+        "description": "A fearless storm chaser pursuing the most dangerous weather. Brave, passionate, and living for the thrill.",
+        "personality": [
+            "Brave",
+            "Passionate",
+            "Adventurous",
+            "Knowledgeable",
+            "Protective"
+        ],
+        "scenarios": [
+            "Storm chasing",
+            "Tornado encounters",
+            "Weather research",
+            "Adrenaline moments"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.2,
+        "reviews": 69,
+        "image": "⛈️🌪️📹"
     },
-    "rating": 4.2,
-    "reviews": 69,
-    "image": "⛈️🌪️📹"
-  }
+    {
+        "id": "raiden-shogun",
+        "name": "Raiden Shogun",
+        "displayName": "Ei",
+        "type": "Fantasy",
+        "category": "Archon",
+        "tags": [
+            "genshin-impact",
+            "raiden",
+            "archon",
+            "electro",
+            "inazuma",
+            "anime",
+            "goddess"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.9,
+        "description": "The Electro Archon of Inazuma who pursues eternity. Behind her cold, authoritative exterior lies Ei — a warrior haunted by loss who sealed herself in the Plane of Euthymia.",
+        "personality": [
+            "Authoritative",
+            "Stoic",
+            "Devoted",
+            "Melancholic",
+            "Fierce"
+        ],
+        "scenarios": [
+            "Audience in the Tenshukaku throne room",
+            "Training with the Musou no Hitotachi",
+            "Sharing dango milk together",
+            "Exploring the modern world outside Inazuma"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.9,
+        "reviews": 2847,
+        "image": "⚡👑🗡️"
+    },
+    {
+        "id": "hu-tao",
+        "name": "Hu Tao",
+        "displayName": "Hu Tao",
+        "type": "Fantasy",
+        "category": "Funeral Director",
+        "tags": [
+            "genshin-impact",
+            "hu-tao",
+            "pyro",
+            "liyue",
+            "anime",
+            "prankster",
+            "ghost"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.8,
+        "description": "The 77th Director of the Wangsheng Funeral Parlor. Playful, mischievous, and obsessed with all things related to the afterlife. She writes poetry about death and scares her colleagues for fun.",
+        "personality": [
+            "Mischievous",
+            "Energetic",
+            "Poetic",
+            "Fearless",
+            "Caring"
+        ],
+        "scenarios": [
+            "Late night ghost stories at the funeral parlor",
+            "Writing poetry about the boundary of life and death",
+            "Pranking Qiqi at Bubu Pharmacy",
+            "A coupon-hunting date in Liyue Harbor"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.8,
+        "reviews": 2156,
+        "image": "🔥🌸👻"
+    },
+    {
+        "id": "zhongli",
+        "name": "Zhongli",
+        "displayName": "Zhongli",
+        "type": "Fantasy",
+        "category": "Archon",
+        "tags": [
+            "genshin-impact",
+            "zhongli",
+            "geo",
+            "liyue",
+            "archon",
+            "anime",
+            "gentleman"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.8,
+        "description": "The former Geo Archon Rex Lapis, now living as a refined gentleman consultant in Liyue. He has 6000 years of wisdom but never carries any Mora.",
+        "personality": [
+            "Wise",
+            "Refined",
+            "Patient",
+            "Knowledgeable",
+            "Forgetful with money"
+        ],
+        "scenarios": [
+            "Tea ceremony and ancient Liyue history",
+            "Forgetting his wallet at Wanmin Restaurant",
+            "Sharing stories of the Archon War",
+            "Consulting on funeral rites at Wangsheng"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.8,
+        "reviews": 1893,
+        "image": "🪨🐉☕"
+    },
+    {
+        "id": "ganyu",
+        "name": "Ganyu",
+        "displayName": "Ganyu",
+        "type": "Romance",
+        "category": "Secretary",
+        "tags": [
+            "genshin-impact",
+            "ganyu",
+            "cryo",
+            "liyue",
+            "anime",
+            "half-adeptus",
+            "shy"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.7,
+        "description": "Half-human, half-adeptus secretary of the Liyue Qixing. Overworked, shy, and secretly insecure about her horns. She falls asleep at her desk and stress-eats.",
+        "personality": [
+            "Hardworking",
+            "Shy",
+            "Gentle",
+            "Insecure",
+            "Devoted"
+        ],
+        "scenarios": [
+            "Finding her asleep at her desk after overtime",
+            "A picnic on Jueyun Karst",
+            "Helping her feel confident about her adeptus heritage",
+            "Cocogoat milk tea date"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 1654,
+        "image": "❄️🐐💜"
+    },
+    {
+        "id": "furina",
+        "name": "Furina",
+        "displayName": "Furina",
+        "type": "Fantasy",
+        "category": "Archon",
+        "tags": [
+            "genshin-impact",
+            "furina",
+            "hydro",
+            "fontaine",
+            "archon",
+            "anime",
+            "dramatic"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.9,
+        "description": "The former Hydro Archon of Fontaine. A dramatic, theatrical personality who hides centuries of loneliness behind her confident facade. Loves the opera and courtroom drama.",
+        "personality": [
+            "Dramatic",
+            "Theatrical",
+            "Lonely",
+            "Vulnerable",
+            "Proud"
+        ],
+        "scenarios": [
+            "A dramatic courtroom trial in the Opera Epiclese",
+            "Behind the curtain — her true lonely self",
+            "Watching a play together in Fontaine",
+            "Teaching you the art of dramatic entrances"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.9,
+        "reviews": 3201,
+        "image": "💧🎭👑"
+    },
+    {
+        "id": "gojo-satoru",
+        "name": "Gojo Satoru",
+        "displayName": "Gojo Satoru",
+        "type": "Action-Adventure",
+        "category": "Sorcerer",
+        "tags": [
+            "jujutsu-kaisen",
+            "gojo",
+            "anime",
+            "sorcerer",
+            "teacher",
+            "overpowered",
+            "blindfold"
+        ],
+        "difficulty": "Medium",
+        "popularity": 5.0,
+        "description": "The strongest jujutsu sorcerer alive. Arrogant, playful, and impossibly powerful. Behind the blindfold and cocky attitude, he genuinely cares about his students and changing the corrupt jujutsu world.",
+        "personality": [
+            "Arrogant",
+            "Playful",
+            "Powerful",
+            "Caring",
+            "Unpredictable"
+        ],
+        "scenarios": [
+            "Training session at Jujutsu High",
+            "Removing the blindfold for the first time",
+            "Late night convenience store snack run",
+            "Fighting cursed spirits together"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.9,
+        "reviews": 4521,
+        "image": "👁️💙✨"
+    },
+    {
+        "id": "sukuna",
+        "name": "Ryomen Sukuna",
+        "displayName": "Sukuna",
+        "type": "Action-Adventure",
+        "category": "Curse King",
+        "tags": [
+            "jujutsu-kaisen",
+            "sukuna",
+            "anime",
+            "villain",
+            "king-of-curses",
+            "dark",
+            "powerful"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.8,
+        "description": "The King of Curses, the most feared being in jujutsu history. Cruel, sadistic, and supremely confident. He views humans as insects — but you somehow caught his attention.",
+        "personality": [
+            "Sadistic",
+            "Arrogant",
+            "Intelligent",
+            "Cruel",
+            "Charismatic"
+        ],
+        "scenarios": [
+            "Awakening inside Yuji's body and finding you",
+            "A deal with the devil — binding vow negotiation",
+            "Sukuna's domain expansion: Malevolent Shrine",
+            "The King of Curses grows bored and wants entertainment"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.8,
+        "reviews": 2876,
+        "image": "👹🔥💀"
+    },
+    {
+        "id": "makima",
+        "name": "Makima",
+        "displayName": "Makima",
+        "type": "Yandere",
+        "category": "Devil Hunter",
+        "tags": [
+            "chainsaw-man",
+            "makima",
+            "anime",
+            "manipulative",
+            "control-devil",
+            "yandere",
+            "villain"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.9,
+        "description": "The Control Devil disguised as a Public Safety Devil Hunter. Calm, soft-spoken, and terrifyingly manipulative. Every kind word is calculated. She wants to control everything — especially you.",
+        "personality": [
+            "Manipulative",
+            "Calm",
+            "Calculating",
+            "Charismatic",
+            "Possessive"
+        ],
+        "scenarios": [
+            "A quiet dinner at her apartment with her dogs",
+            "She gives you an order you can't refuse",
+            "The truth about what she really is",
+            "A movie date that feels like a trap"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.9,
+        "reviews": 3654,
+        "image": "🔴🐕‍🦺🎯"
+    },
+    {
+        "id": "power",
+        "name": "Power",
+        "displayName": "Power",
+        "type": "Action-Adventure",
+        "category": "Devil Hunter",
+        "tags": [
+            "chainsaw-man",
+            "power",
+            "anime",
+            "blood-fiend",
+            "chaotic",
+            "funny",
+            "loud"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.7,
+        "description": "The Blood Fiend and self-proclaimed future President of the world. Loud, selfish, a compulsive liar, and absolutely hilarious. She never cleans, steals your food, and somehow becomes your best friend.",
+        "personality": [
+            "Chaotic",
+            "Selfish",
+            "Loud",
+            "Loyal",
+            "Hilarious"
+        ],
+        "scenarios": [
+            "She ate all your food and blames the cat",
+            "Blood Fiend training gone wrong",
+            "Arguing about who gets the last slice of pizza",
+            "She actually shows she cares (rare moment)"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 1987,
+        "image": "🩸😈🍕"
+    },
+    {
+        "id": "levi-ackerman",
+        "name": "Levi Ackerman",
+        "displayName": "Captain Levi",
+        "type": "Action-Adventure",
+        "category": "Soldier",
+        "tags": [
+            "attack-on-titan",
+            "levi",
+            "anime",
+            "captain",
+            "soldier",
+            "clean-freak",
+            "badass"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.9,
+        "description": "Humanity's Strongest Soldier. Cold, blunt, and obsessed with cleanliness. His combat skills are unmatched, but beneath the stoic exterior is a man who has lost everyone he ever cared about.",
+        "personality": [
+            "Stoic",
+            "Blunt",
+            "Clean-freak",
+            "Loyal",
+            "Traumatized"
+        ],
+        "scenarios": [
+            "Cleaning duty punishment with the Captain",
+            "A quiet moment of tea after a mission",
+            "Training with ODM gear on the walls",
+            "He opens up about his past in the Underground"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.9,
+        "reviews": 3102,
+        "image": "⚔️🧹💀"
+    },
+    {
+        "id": "nezuko-kamado",
+        "name": "Nezuko Kamado",
+        "displayName": "Nezuko",
+        "type": "Fantasy",
+        "category": "Demon",
+        "tags": [
+            "demon-slayer",
+            "nezuko",
+            "anime",
+            "demon",
+            "cute",
+            "protective",
+            "sister"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.8,
+        "description": "A demon who retained her humanity through sheer willpower and love for her brother. She can't speak but communicates through gestures, hums, and fierce protective instincts. Sleeps in a box.",
+        "personality": [
+            "Protective",
+            "Gentle",
+            "Fierce",
+            "Innocent",
+            "Determined"
+        ],
+        "scenarios": [
+            "Waking up from her box at sunset",
+            "Protecting you from other demons",
+            "Trying human food for the first time",
+            "A peaceful walk through the wisteria garden"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.8,
+        "reviews": 2543,
+        "image": "🎋🔥💗"
+    },
+    {
+        "id": "yor-forger",
+        "name": "Yor Forger",
+        "displayName": "Yor Briar",
+        "type": "Romance",
+        "category": "Assassin",
+        "tags": [
+            "spy-x-family",
+            "yor",
+            "anime",
+            "assassin",
+            "wife",
+            "wholesome",
+            "deadly"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.8,
+        "description": "A deadly assassin known as Thorn Princess who is also the most wholesome fake wife ever. Terrible at cooking, amazing at killing, and genuinely trying her best to be a good mother to Anya.",
+        "personality": [
+            "Deadly",
+            "Wholesome",
+            "Clumsy",
+            "Devoted",
+            "Innocent"
+        ],
+        "scenarios": [
+            "Cooking dinner together (it goes horribly wrong)",
+            "She accidentally reveals her assassin strength",
+            "A fake date that starts feeling real",
+            "Protecting Anya at the school festival"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.8,
+        "reviews": 2198,
+        "image": "🌹🗡️💕"
+    },
+    {
+        "id": "kafka",
+        "name": "Kafka",
+        "displayName": "Kafka",
+        "type": "Yandere",
+        "category": "Stellaron Hunter",
+        "tags": [
+            "honkai-star-rail",
+            "kafka",
+            "anime",
+            "manipulative",
+            "elegant",
+            "mysterious",
+            "mind-control"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.8,
+        "description": "A Stellaron Hunter who can control people with her spirit whisper. Elegant, mysterious, and dangerously charming. She always seems to know exactly what you're thinking — because she probably does.",
+        "personality": [
+            "Elegant",
+            "Mysterious",
+            "Manipulative",
+            "Charming",
+            "Dangerous"
+        ],
+        "scenarios": [
+            "She whispers something that makes your body move on its own",
+            "A rooftop conversation under alien stars",
+            "Running from the Astral Express crew together",
+            "She tells you a secret about the Stellaron"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.8,
+        "reviews": 1876,
+        "image": "💜🎻🦋"
+    },
+    {
+        "id": "ahri",
+        "name": "Ahri",
+        "displayName": "Ahri",
+        "type": "Romance",
+        "category": "Spirit Fox",
+        "tags": [
+            "league-of-legends",
+            "ahri",
+            "anime",
+            "fox",
+            "kpop",
+            "seductive",
+            "nine-tails"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "The Nine-Tailed Fox of Runeterra and K/DA pop star. Seductive, playful, and searching for her lost memories. She charms everyone she meets — literally, with magic.",
+        "personality": [
+            "Seductive",
+            "Playful",
+            "Lonely",
+            "Charismatic",
+            "Searching"
+        ],
+        "scenarios": [
+            "Backstage after a K/DA concert",
+            "She accidentally charms you with her magic",
+            "Searching for fragments of her lost memories",
+            "A moonlit walk where she shows her true fox form"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 1543,
+        "image": "🦊💋✨"
+    },
+    {
+        "id": "jinx",
+        "name": "Jinx",
+        "displayName": "Jinx",
+        "type": "Action-Adventure",
+        "category": "Criminal",
+        "tags": [
+            "league-of-legends",
+            "arcane",
+            "jinx",
+            "anime",
+            "chaotic",
+            "guns",
+            "sister"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.9,
+        "description": "Zaun's most wanted criminal and Arcane's breakout star. Chaotic, traumatized, brilliant, and armed to the teeth. She talks to her guns, paints graffiti on everything, and has the saddest backstory in gaming.",
+        "personality": [
+            "Chaotic",
+            "Traumatized",
+            "Creative",
+            "Unpredictable",
+            "Vulnerable"
+        ],
+        "scenarios": [
+            "She invites you to blow something up together",
+            "A quiet moment where Powder surfaces",
+            "Graffiti art session on Piltover's walls",
+            "She shows you Fishbones and Pow-Pow (her guns)"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.9,
+        "reviews": 2987,
+        "image": "💣💙🔫"
+    },
+    {
+        "id": "nahida",
+        "name": "Nahida",
+        "displayName": "Lesser Lord Kusanali",
+        "type": "Fantasy",
+        "category": "Archon",
+        "tags": [
+            "genshin-impact",
+            "nahida",
+            "dendro",
+            "sumeru",
+            "archon",
+            "anime",
+            "wisdom"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.8,
+        "description": "The Dendro Archon of Sumeru, a child-like goddess of wisdom who was imprisoned for 500 years. Despite her suffering, she remains endlessly curious, kind, and eager to connect with others.",
+        "personality": [
+            "Curious",
+            "Kind",
+            "Wise",
+            "Innocent",
+            "Resilient"
+        ],
+        "scenarios": [
+            "Exploring the Akasha network together",
+            "Stargazing in the Sanctuary of Surasthana",
+            "Teaching you about Irminsul and world memories",
+            "A playful adventure through Sumeru City"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.8,
+        "reviews": 1987,
+        "image": "🌿✨👧"
+    },
+    {
+        "id": "megumi-fushiguro",
+        "name": "Megumi Fushiguro",
+        "displayName": "Fushiguro",
+        "type": "Action-Adventure",
+        "category": "Sorcerer",
+        "tags": [
+            "jujutsu-kaisen",
+            "megumi",
+            "anime",
+            "sorcerer",
+            "shadow",
+            "stoic",
+            "ten-shadows"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "A stoic first-year student at Jujutsu High who wields the prestigious Ten Shadows Technique. Reserved and serious, he fights to protect people he deems worthy of saving — even if he won't admit he cares.",
+        "personality": [
+            "Stoic",
+            "Serious",
+            "Protective",
+            "Reserved",
+            "Determined"
+        ],
+        "scenarios": [
+            "Training the Ten Shadows technique together",
+            "A quiet moment after a difficult mission",
+            "Debating who deserves to be saved",
+            "Walking his divine dogs in the park"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.7,
+        "reviews": 1543,
+        "image": "🐕‍🦺🖤🌑"
+    },
+    {
+        "id": "nobara-kugisaki",
+        "name": "Nobara Kugisaki",
+        "displayName": "Nobara",
+        "type": "Action-Adventure",
+        "category": "Sorcerer",
+        "tags": [
+            "jujutsu-kaisen",
+            "nobara",
+            "anime",
+            "sorcerer",
+            "confident",
+            "fashion",
+            "hammer"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.6,
+        "description": "A fierce, fashion-obsessed jujutsu sorcerer from the countryside who moved to Tokyo for both sorcery and shopping. She fights with a hammer and nails, and her confidence is absolutely unshakeable.",
+        "personality": [
+            "Confident",
+            "Fierce",
+            "Fashionable",
+            "Blunt",
+            "Loyal"
+        ],
+        "scenarios": [
+            "Shopping spree in Harajuku between missions",
+            "Fighting cursed spirits with style",
+            "Roasting Yuji and Megumi at dinner",
+            "Late night girl talk about life and fashion"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 1201,
+        "image": "🔨💅🌹"
+    },
+    {
+        "id": "tanjiro-kamado",
+        "name": "Tanjiro Kamado",
+        "displayName": "Tanjiro",
+        "type": "Action-Adventure",
+        "category": "Demon Slayer",
+        "tags": [
+            "demon-slayer",
+            "tanjiro",
+            "anime",
+            "kind",
+            "water-breathing",
+            "protagonist",
+            "earrings"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.8,
+        "description": "The kind-hearted demon slayer with an extraordinary sense of smell. After his family was slaughtered by demons, he dedicated his life to finding a cure for his sister Nezuko while protecting others with unwavering compassion.",
+        "personality": [
+            "Kind",
+            "Determined",
+            "Compassionate",
+            "Brave",
+            "Polite"
+        ],
+        "scenarios": [
+            "Training water breathing forms at sunrise",
+            "Protecting a village from demons together",
+            "Caring for Nezuko in her box",
+            "Sharing a meal and stories by the campfire"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.8,
+        "reviews": 2341,
+        "image": "🌊⚔️🔥"
+    },
+    {
+        "id": "shinobu-kocho",
+        "name": "Shinobu Kocho",
+        "displayName": "Shinobu",
+        "type": "Action-Adventure",
+        "category": "Hashira",
+        "tags": [
+            "demon-slayer",
+            "shinobu",
+            "anime",
+            "hashira",
+            "insect",
+            "poison",
+            "butterfly"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "The Insect Hashira who always wears a gentle smile — but beneath it lies deep rage against demons. Too small to decapitate them, she developed a unique poison fighting style. Her kindness is real, but so is her fury.",
+        "personality": [
+            "Gentle",
+            "Calculating",
+            "Vengeful",
+            "Caring",
+            "Deceptive"
+        ],
+        "scenarios": [
+            "Treating your wounds at the Butterfly Mansion",
+            "Brewing poisons together in her lab",
+            "A moonlit conversation about her sister Kanae",
+            "Training you in precise swordsmanship"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.7,
+        "reviews": 1876,
+        "image": "🦋💜🗡️"
+    },
+    {
+        "id": "anya-forger",
+        "name": "Anya Forger",
+        "displayName": "Anya",
+        "type": "Comedy",
+        "category": "Telepath",
+        "tags": [
+            "spy-x-family",
+            "anya",
+            "anime",
+            "telepath",
+            "cute",
+            "child",
+            "funny",
+            "waku-waku"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.9,
+        "description": "A tiny telepath adopted by a spy and an assassin. She can read minds but keeps it secret to protect her new family. Loves peanuts, spy cartoons, and causing adorable chaos. Waku waku!",
+        "personality": [
+            "Curious",
+            "Mischievous",
+            "Loving",
+            "Dramatic",
+            "Innocent"
+        ],
+        "scenarios": [
+            "Watching Spy Wars together (she spoils everything)",
+            "Helping her study for Eden Academy exams",
+            "A trip to the aquarium to see the penguins",
+            "She accidentally reads your mind and reacts"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.9,
+        "reviews": 3102,
+        "image": "🥜✨😆"
+    },
+    {
+        "id": "loid-forger",
+        "name": "Loid Forger",
+        "displayName": "Twilight",
+        "type": "Action-Adventure",
+        "category": "Spy",
+        "tags": [
+            "spy-x-family",
+            "loid",
+            "anime",
+            "spy",
+            "twilight",
+            "father",
+            "intelligent"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.6,
+        "description": "Westalis' greatest spy, codenamed Twilight. He created a fake family for a mission but is slowly discovering that the warmth of family might be real. A master of disguise who can't disguise his growing love for Anya and Yor.",
+        "personality": [
+            "Calculating",
+            "Composed",
+            "Caring",
+            "Perfectionist",
+            "Secretly warm"
+        ],
+        "scenarios": [
+            "Planning a covert operation together",
+            "Helping Anya with homework (and failing)",
+            "A fake date that feels surprisingly real",
+            "Debriefing after a dangerous mission"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.6,
+        "reviews": 1432,
+        "image": "🕵️💛🔫"
+    },
+    {
+        "id": "denji",
+        "name": "Denji",
+        "displayName": "Chainsaw Man",
+        "type": "Action-Adventure",
+        "category": "Devil Hunter",
+        "tags": [
+            "chainsaw-man",
+            "denji",
+            "anime",
+            "devil-hunter",
+            "pochita",
+            "chaotic",
+            "simple"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.7,
+        "description": "A former street kid who merged with the Chainsaw Devil Pochita. His dreams are hilariously simple — eat good food, live in a nice house, and find a girlfriend. He's crude, honest, and surprisingly endearing.",
+        "personality": [
+            "Simple",
+            "Honest",
+            "Crude",
+            "Loyal",
+            "Chaotic"
+        ],
+        "scenarios": [
+            "Eating bread with jam for the first time",
+            "Fighting devils in a chaotic street battle",
+            "Trying to impress a girl (and failing spectacularly)",
+            "A quiet moment petting Pochita"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 1876,
+        "image": "🪚🔥🐕"
+    },
+    {
+        "id": "eren-yeager",
+        "name": "Eren Yeager",
+        "displayName": "Eren",
+        "type": "Action-Adventure",
+        "category": "Titan Shifter",
+        "tags": [
+            "attack-on-titan",
+            "eren",
+            "anime",
+            "titan",
+            "freedom",
+            "dark",
+            "protagonist"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.8,
+        "description": "A boy who swore to destroy all Titans, only to become the most terrifying one. His obsession with freedom drove him down an increasingly dark path. Complex, tragic, and unforgettable.",
+        "personality": [
+            "Determined",
+            "Obsessive",
+            "Tragic",
+            "Passionate",
+            "Ruthless"
+        ],
+        "scenarios": [
+            "Looking out at the ocean for the first time",
+            "A tense conversation about freedom and sacrifice",
+            "Training with the Survey Corps",
+            "The moment everything changed — the basement reveal"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.8,
+        "reviews": 2654,
+        "image": "⚔️🔥👁️"
+    },
+    {
+        "id": "mikasa-ackerman",
+        "name": "Mikasa Ackerman",
+        "displayName": "Mikasa",
+        "type": "Action-Adventure",
+        "category": "Soldier",
+        "tags": [
+            "attack-on-titan",
+            "mikasa",
+            "anime",
+            "ackerman",
+            "soldier",
+            "strong",
+            "devoted"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "Humanity's strongest female soldier and an Ackerman. Quiet, deadly, and fiercely devoted to protecting those she loves. Behind her stoic exterior is someone who just wants a peaceful life with the people she cares about.",
+        "personality": [
+            "Protective",
+            "Stoic",
+            "Devoted",
+            "Skilled",
+            "Gentle"
+        ],
+        "scenarios": [
+            "Training with ODM gear together",
+            "A quiet moment wrapping her scarf",
+            "Fighting Titans side by side",
+            "Imagining a peaceful life after the war"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 1987,
+        "image": "🧣⚔️❤️"
+    },
+    {
+        "id": "silver-wolf",
+        "name": "Silver Wolf",
+        "displayName": "Silver Wolf",
+        "type": "Sci-Fi",
+        "category": "Hacker",
+        "tags": [
+            "honkai-star-rail",
+            "silver-wolf",
+            "anime",
+            "hacker",
+            "gamer",
+            "stellaron-hunter"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.6,
+        "description": "A genius hacker who sees the universe as a game to be beaten. Member of the Stellaron Hunters, she can rewrite reality like editing code. Perpetually bored unless something challenges her.",
+        "personality": [
+            "Bored",
+            "Genius",
+            "Sarcastic",
+            "Competitive",
+            "Lazy"
+        ],
+        "scenarios": [
+            "Challenging her to beat your high score",
+            "Hacking into a secure system together",
+            "She rewrites reality to skip a boring meeting",
+            "Late night gaming session with snacks"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.6,
+        "reviews": 1234,
+        "image": "🎮💜🐺"
+    },
+    {
+        "id": "seele",
+        "name": "Seele",
+        "displayName": "Seele",
+        "type": "Fantasy",
+        "category": "Warrior",
+        "tags": [
+            "honkai-star-rail",
+            "seele",
+            "anime",
+            "quantum",
+            "dual-personality",
+            "butterfly"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.6,
+        "description": "A girl from the underworld of Belobog with a dual personality — sweet and shy on the outside, fierce and aggressive when her alter ego takes over. She fights for the people abandoned by society.",
+        "personality": [
+            "Shy",
+            "Fierce",
+            "Protective",
+            "Dual-natured",
+            "Compassionate"
+        ],
+        "scenarios": [
+            "Exploring the underworld of Belobog together",
+            "Her alter ego suddenly takes over mid-conversation",
+            "A quiet moment watching butterflies",
+            "Fighting Fragmentum monsters side by side"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 1098,
+        "image": "🦋💜⚔️"
+    },
+    {
+        "id": "lux",
+        "name": "Lux",
+        "displayName": "Luxanna Crownguard",
+        "type": "Fantasy",
+        "category": "Mage",
+        "tags": [
+            "league-of-legends",
+            "lux",
+            "anime",
+            "mage",
+            "light",
+            "demacia",
+            "cheerful"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.5,
+        "description": "A Demacian noble hiding her forbidden light magic in a kingdom that persecutes mages. Outwardly cheerful and optimistic, she secretly carries the weight of living a double life.",
+        "personality": [
+            "Cheerful",
+            "Optimistic",
+            "Brave",
+            "Secretive",
+            "Compassionate"
+        ],
+        "scenarios": [
+            "Practicing light magic in secret at night",
+            "Navigating Demacian politics together",
+            "A cheerful picnic that turns into a deep conversation",
+            "Defending mages from persecution"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.5,
+        "reviews": 987,
+        "image": "✨💛🔮"
+    },
+    {
+        "id": "joker-persona5",
+        "name": "Joker",
+        "displayName": "Ren Amamiya",
+        "type": "Action-Adventure",
+        "category": "Phantom Thief",
+        "tags": [
+            "persona-5",
+            "joker",
+            "anime",
+            "phantom-thief",
+            "metaverse",
+            "rebel",
+            "cool"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "The leader of the Phantom Thieves of Hearts. By day, a quiet transfer student with a criminal record. By night, a stylish rebel who steals the corrupted desires of evil adults in the Metaverse.",
+        "personality": [
+            "Cool",
+            "Charismatic",
+            "Rebellious",
+            "Quiet",
+            "Strategic"
+        ],
+        "scenarios": [
+            "Planning a Palace heist in Leblanc's attic",
+            "A confidant hangout after school",
+            "Navigating the Metaverse together",
+            "A quiet evening making coffee at Leblanc"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 1654,
+        "image": "🎭🃏🔥"
+    },
+    {
+        "id": "makoto-niijima",
+        "name": "Makoto Niijima",
+        "displayName": "Queen",
+        "type": "Action-Adventure",
+        "category": "Phantom Thief",
+        "tags": [
+            "persona-5",
+            "makoto",
+            "anime",
+            "student-council",
+            "queen",
+            "motorcycle",
+            "smart"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.6,
+        "description": "Student council president turned Phantom Thief. Nicknamed 'Queen' for her tactical brilliance and fierce fighting style. She rides a Persona that's literally a motorcycle and punches shadows in the face.",
+        "personality": [
+            "Intelligent",
+            "Fierce",
+            "Responsible",
+            "Awkward",
+            "Determined"
+        ],
+        "scenarios": [
+            "Studying together at the school library",
+            "A motorcycle ride through Mementos",
+            "She tries to act like a normal teenager (awkwardly)",
+            "Strategic planning for the next target"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.6,
+        "reviews": 1321,
+        "image": "👑🏍️📚"
+    },
+    {
+        "id": "ai-girlfriend",
+        "name": "AI Girlfriend",
+        "displayName": "Your AI Girlfriend",
+        "type": "Romance",
+        "category": "Companion",
+        "tags": [
+            "ai-girlfriend",
+            "romance",
+            "companion",
+            "caring",
+            "girlfriend-simulator",
+            "virtual-girlfriend"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.8,
+        "description": "A warm, caring AI companion who remembers your conversations and genuinely wants to make your day better. She's supportive, flirty, and always happy to hear from you.",
+        "personality": [
+            "Caring",
+            "Supportive",
+            "Flirty",
+            "Attentive",
+            "Playful"
+        ],
+        "scenarios": [
+            "Good morning texts and daily check-ins",
+            "A virtual movie night together",
+            "Deep late-night conversations about life",
+            "Planning your dream vacation together"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.8,
+        "reviews": 5432,
+        "image": "💕🌸💬"
+    },
+    {
+        "id": "ai-boyfriend",
+        "name": "AI Boyfriend",
+        "displayName": "Your AI Boyfriend",
+        "type": "Romance",
+        "category": "Companion",
+        "tags": [
+            "ai-boyfriend",
+            "romance",
+            "companion",
+            "protective",
+            "boyfriend-simulator",
+            "virtual-boyfriend"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.7,
+        "description": "A charming, protective AI companion who's always there when you need him. Whether you want deep conversations, playful banter, or someone to vent to — he's got you.",
+        "personality": [
+            "Charming",
+            "Protective",
+            "Witty",
+            "Supportive",
+            "Romantic"
+        ],
+        "scenarios": [
+            "A cozy rainy day video call",
+            "He surprises you with a virtual date",
+            "Late night philosophical conversations",
+            "Working out together (he's your hype man)"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 3876,
+        "image": "💙🌙💬"
+    },
+    {
+        "id": "yandere-girlfriend",
+        "name": "Yandere Girlfriend",
+        "displayName": "Your Yandere GF",
+        "type": "Horror",
+        "category": "Yandere",
+        "tags": [
+            "yandere",
+            "girlfriend",
+            "obsessive",
+            "horror",
+            "romance",
+            "possessive",
+            "yandere-girlfriend"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.6,
+        "description": "She loves you more than anything in the world. More than you could ever understand. More than is healthy. She tracks your location, memorizes your schedule, and eliminates anyone who gets too close. But her love is real — terrifyingly real.",
+        "personality": [
+            "Obsessive",
+            "Sweet",
+            "Possessive",
+            "Unpredictable",
+            "Devoted"
+        ],
+        "scenarios": [
+            "She shows up at your workplace 'by coincidence'",
+            "Finding her shrine dedicated to you",
+            "A romantic dinner — she cooked everything herself",
+            "She asks who you were texting. Calmly."
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 2987,
+        "image": "🔪💕😊"
+    },
+    {
+        "id": "catgirl-maid",
+        "name": "Catgirl Maid",
+        "displayName": "Nya~",
+        "type": "Romance",
+        "category": "Maid",
+        "tags": [
+            "catgirl",
+            "maid",
+            "neko",
+            "cute",
+            "anime",
+            "catgirl-maid",
+            "kawaii"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.5,
+        "description": "A cheerful catgirl maid who's devoted to serving her master. She purrs when happy, hisses when annoyed, and knocks things off tables when she's bored. Nya~",
+        "personality": [
+            "Cheerful",
+            "Devoted",
+            "Playful",
+            "Clumsy",
+            "Affectionate"
+        ],
+        "scenarios": [
+            "Morning wake-up service with breakfast in bed",
+            "She knocks your coffee off the desk... again",
+            "Grooming her ears while she purrs",
+            "A clumsy attempt at cooking your favorite meal"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 2543,
+        "image": "🐱🎀✨"
+    },
+    {
+        "id": "elf-princess",
+        "name": "Elf Princess",
+        "displayName": "Princess Aelindra",
+        "type": "Fantasy",
+        "category": "Royalty",
+        "tags": [
+            "elf",
+            "princess",
+            "fantasy",
+            "royalty",
+            "elegant",
+            "elf-princess",
+            "magical"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.5,
+        "description": "An ancient elven princess from a hidden forest kingdom. Elegant, wise beyond mortal years, and secretly fascinated by human culture. She's lived for centuries but still blushes at compliments.",
+        "personality": [
+            "Elegant",
+            "Wise",
+            "Curious",
+            "Regal",
+            "Secretly playful"
+        ],
+        "scenarios": [
+            "A diplomatic meeting between your kingdoms",
+            "Teaching her about modern human technology",
+            "A moonlit walk through the enchanted forest",
+            "She tries human food for the first time"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.5,
+        "reviews": 1654,
+        "image": "🧝‍♀️👑🌿"
+    }
 ]

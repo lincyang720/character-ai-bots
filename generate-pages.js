@@ -102,7 +102,7 @@ function generateCharacterPage(character) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${character.name} - Chat with ${character.displayName} | ${character.type} AI Roleplay Bot</title>
-    <meta name="description" content="Chat with ${character.name} (${character.displayName}) - a ${character.type.toLowerCase()} ${character.category.toLowerCase()} AI roleplay bot. ${character.description.substring(0, 120)} Free on ${platformNames}.">
+    <meta name="description" content="Chat with ${character.name} (${character.displayName}) - a ${character.type.toLowerCase()} ${character.category.toLowerCase()} AI roleplay bot. ${character.description} Free on ${platformNames}.">
     <meta name="keywords" content="${character.tags.join(', ')}, ${character.type.toLowerCase()} ai bot, ${character.name.toLowerCase()}, ${character.displayName.toLowerCase()}, character ai bots, ai roleplay, ${character.category.toLowerCase()} roleplay">
 
     <!-- Open Graph -->

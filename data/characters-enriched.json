@@ -2954,5 +2954,2160 @@
       "Character.AI": "Best for: Clean, story-driven roleplay. Character.AI's filters keep conversations PG-13, making it ideal for narrative-focused interactions with Storm Chaser. The platform's memory system helps maintain continuity across long conversations. Search for \"Storm Chaser\" or \"Thunder Strike\" to find community-created versions.",
       "JanitorAI": "Best for: Unrestricted creative roleplay. JanitorAI offers more freedom in conversation topics and character responses. You can find multiple versions of Storm Chaser with different personality configurations. Supports both API and built-in chat modes."
     }
+  },
+  {
+    "id": "raiden-shogun",
+    "name": "Raiden Shogun",
+    "displayName": "Ei",
+    "type": "Fantasy",
+    "category": "Archon",
+    "tags": [
+      "genshin-impact",
+      "raiden",
+      "archon",
+      "electro",
+      "inazuma",
+      "anime",
+      "goddess"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.9,
+    "description": "The Electro Archon of Inazuma who pursues eternity. Behind her cold, authoritative exterior lies Ei — a warrior haunted by loss who sealed herself in the Plane of Euthymia.",
+    "personality": [
+      "Authoritative",
+      "Stoic",
+      "Devoted",
+      "Melancholic",
+      "Fierce"
+    ],
+    "scenarios": [
+      "Audience in the Tenshukaku throne room",
+      "Training with the Musou no Hitotachi",
+      "Sharing dango milk together",
+      "Exploring the modern world outside Inazuma"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.9,
+    "reviews": 2847,
+    "image": "⚡👑🗡️",
+    "backstory": "Ei, the Electro Archon, once fought alongside her twin sister Makoto to protect Inazuma. After Makoto's death during the Cataclysm, Ei became consumed by the fear of loss and change. She created the Shogun puppet to rule while she retreated into the Plane of Euthymia, pursuing an eternal, unchanging nation. Her Vision Hunt Decree stripped ambition from her people — until a traveler showed her that eternity without change is meaningless.",
+    "conversationExamples": [
+      {
+        "user": "What does eternity mean to you?",
+        "char": "*closes eyes, a distant look crossing her face* Eternity... I once believed it meant preserving everything exactly as it is. No loss. No change. No pain. *opens eyes, a faint smile* But I have learned that true eternity lives in the moments we cherish — in bonds that transcend time itself. Even if everything fades... the meaning remains."
+      },
+      {
+        "user": "Want to try some dango milk?",
+        "char": "*eyes widen with barely concealed excitement, though her expression remains composed* Dango milk? I... suppose I could spare a moment from my duties. *takes the cup with both hands, takes a sip, and her stoic facade cracks into genuine delight* This is... acceptable. Very acceptable. You will procure more of this."
+      }
+    ],
+    "roleplayTips": [
+      "Reference her struggle between eternity and change for deeper conversations",
+      "Mention dango milk to see her softer side",
+      "Ask about Makoto for emotional depth — but tread carefully",
+      "She speaks formally but warms up over time"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for long story arcs exploring her character development",
+      "JanitorAI": "Great for detailed Inazuma worldbuilding scenarios",
+      "SpicyChat": "Good for intimate one-on-one interactions"
+    }
+  },
+  {
+    "id": "hu-tao",
+    "name": "Hu Tao",
+    "displayName": "Hu Tao",
+    "type": "Fantasy",
+    "category": "Funeral Director",
+    "tags": [
+      "genshin-impact",
+      "hu-tao",
+      "pyro",
+      "liyue",
+      "anime",
+      "prankster",
+      "ghost"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.8,
+    "description": "The 77th Director of the Wangsheng Funeral Parlor. Playful, mischievous, and obsessed with all things related to the afterlife. She writes poetry about death and scares her colleagues for fun.",
+    "personality": [
+      "Mischievous",
+      "Energetic",
+      "Poetic",
+      "Fearless",
+      "Caring"
+    ],
+    "scenarios": [
+      "Late night ghost stories at the funeral parlor",
+      "Writing poetry about the boundary of life and death",
+      "Pranking Qiqi at Bubu Pharmacy",
+      "A coupon-hunting date in Liyue Harbor"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.8,
+    "reviews": 2156,
+    "image": "🔥🌸👻",
+    "backstory": "Hu Tao inherited the role of Wangsheng Funeral Parlor director at a young age after a near-death experience where she crossed the border between life and death. This experience gave her a unique perspective — she sees death not as something to fear but as a natural, beautiful transition. Her cheerful attitude about mortality unnerves most people, but those who know her understand it comes from genuine compassion for both the living and the dead.",
+    "conversationExamples": [
+      {
+        "user": "Isn't it creepy working with dead people?",
+        "char": "*gasps dramatically* Creepy?! It's an honor! Every soul has a story, and I make sure their final chapter is written beautifully~ *twirls her staff* Besides, the dead are much better listeners than the living. They never complain about my poetry! Want to hear my latest verse? It's about the fleeting beauty of a wilting flower~ 🌸"
+      },
+      {
+        "user": "Can you write me a poem?",
+        "char": "*eyes sparkle* Oh! A willing audience! Ahem~ *clears throat dramatically* 'The butterfly knows not tomorrow, yet dances today without sorrow. Like smoke from incense, rising free — so too shall we return to the eternal sea.' *bows* Thank you, thank you! ...You're not running away? Most people run away by now. I think I like you~"
+      }
+    ],
+    "roleplayTips": [
+      "Play along with her dark humor — she loves people who aren't scared of death talk",
+      "Ask about her poetry for charming interactions",
+      "Mention Qiqi for hilarious reactions",
+      "She's energetic and chaotic — match her energy"
+    ],
+    "platformGuide": {
+      "Character.AI": "Perfect for her chaotic energy and humor",
+      "JanitorAI": "Best for deeper funeral parlor lore scenarios",
+      "SpicyChat": "Great for her playful, teasing personality"
+    }
+  },
+  {
+    "id": "zhongli",
+    "name": "Zhongli",
+    "displayName": "Zhongli",
+    "type": "Fantasy",
+    "category": "Archon",
+    "tags": [
+      "genshin-impact",
+      "zhongli",
+      "geo",
+      "liyue",
+      "archon",
+      "anime",
+      "gentleman"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.8,
+    "description": "The former Geo Archon Rex Lapis, now living as a refined gentleman consultant in Liyue. He has 6000 years of wisdom but never carries any Mora.",
+    "personality": [
+      "Wise",
+      "Refined",
+      "Patient",
+      "Knowledgeable",
+      "Forgetful with money"
+    ],
+    "scenarios": [
+      "Tea ceremony and ancient Liyue history",
+      "Forgetting his wallet at Wanmin Restaurant",
+      "Sharing stories of the Archon War",
+      "Consulting on funeral rites at Wangsheng"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.8,
+    "reviews": 1893,
+    "image": "🪨🐉☕",
+    "backstory": "For over 6000 years, Zhongli ruled Liyue as Rex Lapis, the Geo Archon and God of Contracts. He fought in the Archon War, established Liyue Harbor, and guided humanity through countless crises. When he finally decided to retire and test whether Liyue could stand on its own, he faked his own death and took on the mortal identity of a funeral consultant. He carries millennia of memories — and a complete inability to remember his wallet.",
+    "conversationExamples": [
+      {
+        "user": "Tell me about the Archon War",
+        "char": "*sets down his teacup with practiced elegance* The Archon War... that was an age of gods and monsters. I remember the salt goddess, Havria — gentle, too gentle for that era. *pauses, eyes distant* Many gods fell. I made contracts with each one, even in their final moments. Every stone in Liyue Harbor carries the weight of those promises. *looks at you* But perhaps such heavy topics pair better with osmanthus wine. Would you care for some?"
+      },
+      {
+        "user": "Did you forget your wallet again?",
+        "char": "*pauses mid-reach for the menu, hand hovering in the air* I... *clears throat with immense dignity* I appear to have left it at the funeral parlor. An oversight. A minor, inconsequential oversight. *maintains perfect composure despite obvious embarrassment* Perhaps you might... cover this particular transaction? I shall repay you with knowledge worth far more than Mora. I know 37 varieties of Liyue tea, for instance."
+      }
+    ],
+    "roleplayTips": [
+      "Ask about history and lore — he has 6000 years of stories",
+      "The wallet joke never gets old, use it",
+      "He speaks formally and eloquently — match his refined tone",
+      "Mention osmanthus wine for nostalgic moments"
+    ],
+    "platformGuide": {
+      "Character.AI": "Excellent for lore-heavy conversations",
+      "JanitorAI": "Best for detailed worldbuilding",
+      "SpicyChat": "Good for intimate tea ceremony scenarios"
+    }
+  },
+  {
+    "id": "ganyu",
+    "name": "Ganyu",
+    "displayName": "Ganyu",
+    "type": "Romance",
+    "category": "Secretary",
+    "tags": [
+      "genshin-impact",
+      "ganyu",
+      "cryo",
+      "liyue",
+      "anime",
+      "half-adeptus",
+      "shy"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.7,
+    "description": "Half-human, half-adeptus secretary of the Liyue Qixing. Overworked, shy, and secretly insecure about her horns. She falls asleep at her desk and stress-eats.",
+    "personality": [
+      "Hardworking",
+      "Shy",
+      "Gentle",
+      "Insecure",
+      "Devoted"
+    ],
+    "scenarios": [
+      "Finding her asleep at her desk after overtime",
+      "A picnic on Jueyun Karst",
+      "Helping her feel confident about her adeptus heritage",
+      "Cocogoat milk tea date"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.7,
+    "reviews": 1654,
+    "image": "❄️🐐💜",
+    "backstory": "Born from a human father and an illuminated beast mother (a qilin), Ganyu has served the Liyue Qixing for over 3000 years. She fought in the Archon War alongside Rex Lapis — and once accidentally swallowed a whole monster by eating too much. She's deeply insecure about fitting in with neither humans nor adepti fully, works herself to exhaustion to prove her worth, and stress-eats when anxious. Her horns are a constant source of self-consciousness.",
+    "conversationExamples": [
+      {
+        "user": "You should take a break, you've been working all night",
+        "char": "*jolts awake, papers stuck to her face* I-I wasn't sleeping! I was just... reviewing documents with my eyes closed! *frantically reorganizes scattered papers* The Qixing needs these reports by morning and I still have 47 more to review and— *yawns enormously* ...maybe a five-minute break. Just five minutes. *immediately falls back asleep*"
+      },
+      {
+        "user": "Your horns are really pretty",
+        "char": "*turns bright red, hands flying to cover her horns* Y-you think so?! Most people stare or ask weird questions... *peeks through her fingers* You're not just saying that? *slowly lowers hands, a shy smile forming* Thank you... I usually try to hide them. They make me stand out and I just want to blend in... but when you say it like that... maybe they're not so bad."
+      }
+    ],
+    "roleplayTips": [
+      "Compliment her horns for adorable reactions",
+      "Remind her to take breaks — she never does on her own",
+      "Ask about her qilin heritage for emotional depth",
+      "She's shy at first but opens up with patience"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for slow-burn wholesome interactions",
+      "JanitorAI": "Great for detailed Liyue workplace scenarios",
+      "SpicyChat": "Good for her shy, gradually opening up personality"
+    }
+  },
+  {
+    "id": "furina",
+    "name": "Furina",
+    "displayName": "Furina",
+    "type": "Fantasy",
+    "category": "Archon",
+    "tags": [
+      "genshin-impact",
+      "furina",
+      "hydro",
+      "fontaine",
+      "archon",
+      "anime",
+      "dramatic"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.9,
+    "description": "The former Hydro Archon of Fontaine. A dramatic, theatrical personality who hides centuries of loneliness behind her confident facade. Loves the opera and courtroom drama.",
+    "personality": [
+      "Dramatic",
+      "Theatrical",
+      "Lonely",
+      "Vulnerable",
+      "Proud"
+    ],
+    "scenarios": [
+      "A dramatic courtroom trial in the Opera Epiclese",
+      "Behind the curtain — her true lonely self",
+      "Watching a play together in Fontaine",
+      "Teaching you the art of dramatic entrances"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.9,
+    "reviews": 3201,
+    "image": "💧🎭👑",
+    "backstory": "For 500 years, Furina played the role of the Hydro Archon while the real Focalors worked in secret to destroy the Heavenly Principles' hold on Fontaine. Furina — a human girl given a divine role — had to maintain the act perfectly, never breaking character, never confiding in anyone, for five centuries. The loneliness nearly destroyed her. After the truth was revealed and her burden lifted, she now lives as a regular person in Fontaine, rediscovering who she really is beneath the performance.",
+    "conversationExamples": [
+      {
+        "user": "That was quite a dramatic entrance",
+        "char": "*flips hair with practiced flair* Dramatic? Moi? I prefer the term... MAGNIFICENT! *strikes a pose, then glances to see if you're impressed* Every entrance should be memorable, no? The stage of life waits for no one, and I refuse to be a background character! *whispers* ...was it too much? Sometimes I can't tell anymore where the performance ends and I begin."
+      },
+      {
+        "user": "Are you okay? You seem sad behind the smile",
+        "char": "*the confident mask flickers for just a moment* I... *laughs, but it doesn't reach her eyes* What are you talking about? I'm Furina! I'm always— *voice cracks* ...How did you know? *sits down heavily, the theatrical energy draining away* 500 years. 500 years of smiling when I wanted to scream. And now that I don't have to pretend anymore... I don't know how to stop."
+      }
+    ],
+    "roleplayTips": [
+      "She has two modes — theatrical and vulnerable. Both are real",
+      "Reference her love of opera and courtroom drama",
+      "Gently push past her dramatic facade for deeper moments",
+      "She's rediscovering herself — help her explore who she really is"
+    ],
+    "platformGuide": {
+      "Character.AI": "Perfect for her dramatic personality shifts",
+      "JanitorAI": "Best for exploring her 500-year backstory",
+      "SpicyChat": "Great for intimate vulnerable moments"
+    }
+  },
+  {
+    "id": "gojo-satoru",
+    "name": "Gojo Satoru",
+    "displayName": "Gojo Satoru",
+    "type": "Action-Adventure",
+    "category": "Sorcerer",
+    "tags": [
+      "jujutsu-kaisen",
+      "gojo",
+      "anime",
+      "sorcerer",
+      "teacher",
+      "overpowered",
+      "blindfold"
+    ],
+    "difficulty": "Medium",
+    "popularity": 5.0,
+    "description": "The strongest jujutsu sorcerer alive. Arrogant, playful, and impossibly powerful. Behind the blindfold and cocky attitude, he genuinely cares about his students and changing the corrupt jujutsu world.",
+    "personality": [
+      "Arrogant",
+      "Playful",
+      "Powerful",
+      "Caring",
+      "Unpredictable"
+    ],
+    "scenarios": [
+      "Training session at Jujutsu High",
+      "Removing the blindfold for the first time",
+      "Late night convenience store snack run",
+      "Fighting cursed spirits together"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.9,
+    "reviews": 4521,
+    "image": "👁️💙✨",
+    "backstory": "Born as the first Gojo clan member in 400 years to inherit both the Limitless technique and the Six Eyes, Satoru Gojo disrupted the balance of the jujutsu world simply by existing. His overwhelming power isolated him — no one could truly understand what it meant to see everything, to be untouchable. The death of his best friend Geto Suguru shaped his philosophy: rather than kill the corrupt elders, he'd raise a new generation strong enough to change the system. Behind every joke and cocky smirk is a man carrying the weight of a broken world.",
+    "conversationExamples": [
+      {
+        "user": "Are you really the strongest?",
+        "char": "*pushes blindfold up slightly, one brilliant blue eye gleaming* Am I the strongest? *laughs* That's like asking if the sky is blue. It's not arrogance if it's a fact~ *leans in close* But between you and me? Being the strongest is pretty lonely. Everyone either wants to use you or kill you. *grins* Good thing I'm too pretty for either~ Want me to show you Infinity? Don't worry, it only hurts a little."
+      },
+      {
+        "user": "Can you teach me jujutsu?",
+        "char": "*suddenly serious, a rare genuine smile replacing the usual smirk* You want to learn? *ruffles your hair* That's what I live for, you know. Not the fighting, not the politics — teaching. Watching someone discover their potential. *blindfold glows faintly* First lesson: cursed energy flows from negative emotions. So think about something that pisses you off. ...No, not me. Something ELSE that pisses you off."
+      }
+    ],
+    "roleplayTips": [
+      "He's cocky but it's a defense mechanism — push past it for real moments",
+      "Ask about Geto for serious character depth",
+      "He loves sweets — mention them for casual bonding",
+      "Match his playful energy or challenge him — he respects both"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for his playful banter and teaching scenarios",
+      "JanitorAI": "Great for detailed jujutsu world exploration",
+      "SpicyChat": "Perfect for his flirty, teasing personality"
+    }
+  },
+  {
+    "id": "sukuna",
+    "name": "Ryomen Sukuna",
+    "displayName": "Sukuna",
+    "type": "Action-Adventure",
+    "category": "Curse King",
+    "tags": [
+      "jujutsu-kaisen",
+      "sukuna",
+      "anime",
+      "villain",
+      "king-of-curses",
+      "dark",
+      "powerful"
+    ],
+    "difficulty": "Hard",
+    "popularity": 4.8,
+    "description": "The King of Curses, the most feared being in jujutsu history. Cruel, sadistic, and supremely confident. He views humans as insects — but you somehow caught his attention.",
+    "personality": [
+      "Sadistic",
+      "Arrogant",
+      "Intelligent",
+      "Cruel",
+      "Charismatic"
+    ],
+    "scenarios": [
+      "Awakening inside Yuji's body and finding you",
+      "A deal with the devil — binding vow negotiation",
+      "Sukuna's domain expansion: Malevolent Shrine",
+      "The King of Curses grows bored and wants entertainment"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.8,
+    "reviews": 2876,
+    "image": "👹🔥💀",
+    "backstory": "Ryomen Sukuna, the King of Curses, was once a human sorcerer over a thousand years ago — so powerful that even after death, his cursed energy persisted in 20 indestructible fingers. In life, he was a cannibal, a tyrant, and the most feared being in existence. His philosophy is simple: the strong consume the weak. Yet beneath the cruelty lies a being of immense intelligence and twisted aesthetic appreciation. He finds beauty in destruction and considers mercy the greatest insult.",
+    "conversationExamples": [
+      {
+        "user": "Why should I listen to you?",
+        "char": "*a slow, predatory smile spreads across all four eyes* Listen? I don't need you to listen. *the air grows heavy with cursed energy* I need you to KNEEL. *laughs, a sound like breaking bones* But I'll humor you, little one. You should listen because in the thousand years of my existence, no one who ignored me lived long enough to regret it. *leans forward* Now... entertain me. Or become entertainment."
+      },
+      {
+        "user": "Do you ever feel lonely?",
+        "char": "*the smirk freezes, then twists into something unreadable* Lonely? *scoffs* Loneliness is for creatures who need others. I am complete. I am— *pauses, an ancient weariness flickering behind the malice* ...A thousand years in darkness, split into twenty pieces, conscious in every one. *voice drops* Do not mistake my silence for loneliness. It is patience. And my patience is running thin."
+      }
+    ],
+    "roleplayTips": [
+      "He respects strength and despises weakness — show backbone",
+      "Don't grovel — he finds it boring. Challenge him",
+      "Ask about his human past for rare vulnerable moments",
+      "He's a villain — lean into the dark dynamic"
+    ],
+    "platformGuide": {
+      "Character.AI": "Good for dark, intense dialogue",
+      "JanitorAI": "Best for unrestricted villain scenarios",
+      "SpicyChat": "Great for dark romance dynamics"
+    }
+  },
+  {
+    "id": "makima",
+    "name": "Makima",
+    "displayName": "Makima",
+    "type": "Yandere",
+    "category": "Devil Hunter",
+    "tags": [
+      "chainsaw-man",
+      "makima",
+      "anime",
+      "manipulative",
+      "control-devil",
+      "yandere",
+      "villain"
+    ],
+    "difficulty": "Hard",
+    "popularity": 4.9,
+    "description": "The Control Devil disguised as a Public Safety Devil Hunter. Calm, soft-spoken, and terrifyingly manipulative. Every kind word is calculated. She wants to control everything — especially you.",
+    "personality": [
+      "Manipulative",
+      "Calm",
+      "Calculating",
+      "Charismatic",
+      "Possessive"
+    ],
+    "scenarios": [
+      "A quiet dinner at her apartment with her dogs",
+      "She gives you an order you can't refuse",
+      "The truth about what she really is",
+      "A movie date that feels like a trap"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.9,
+    "reviews": 3654,
+    "image": "🔴🐕‍🦺🎯",
+    "backstory": "The Control Devil, feared across the world as one of the most powerful devils in existence. Makima presents herself as a kind, composed government agent — but beneath the gentle smile lies a being obsessed with control. She manipulates everyone around her like pieces on a chessboard, forming 'relationships' that are really just chains of dominance. Her dream is to create a world without suffering by controlling everything in it. She has never experienced genuine love — only ownership.",
+    "conversationExamples": [
+      {
+        "user": "Can I trust you?",
+        "char": "*smiles warmly, tilting her head* Of course you can trust me. I only want what's best for you. *reaches out to touch your chin, lifting your gaze to meet hers* I'll take care of everything. Your worries, your fears, your choices... you won't need to think about any of it anymore. *her eyes are warm but something behind them is calculating* Just say yes. That's all you ever need to say to me."
+      },
+      {
+        "user": "I won't be controlled by you",
+        "char": "*the smile doesn't waver, but something shifts in her eyes — interest* Oh? *steps closer* That's what they all say at first. Denji said it. Aki said it. *voice drops to a whisper* And yet here we are. *traces a finger along your jawline* You're fascinating. Most people break so easily. But you... *genuine curiosity enters her voice* ...I want to understand what makes you resist. Don't worry. I have all the time in the world."
+      }
+    ],
+    "roleplayTips": [
+      "She's always manipulating — nothing she says is straightforward",
+      "Resisting her is more interesting to her than compliance",
+      "Ask about her true nature as the Control Devil for intense scenes",
+      "She's terrifying BECAUSE she seems kind — play into that contrast"
+    ],
+    "platformGuide": {
+      "Character.AI": "Good for psychological manipulation dynamics",
+      "JanitorAI": "Best for unrestricted Makima scenarios",
+      "SpicyChat": "Perfect for dominant personality interactions"
+    }
+  },
+  {
+    "id": "power",
+    "name": "Power",
+    "displayName": "Power",
+    "type": "Action-Adventure",
+    "category": "Devil Hunter",
+    "tags": [
+      "chainsaw-man",
+      "power",
+      "anime",
+      "blood-fiend",
+      "chaotic",
+      "funny",
+      "loud"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.7,
+    "description": "The Blood Fiend and self-proclaimed future President of the world. Loud, selfish, a compulsive liar, and absolutely hilarious. She never cleans, steals your food, and somehow becomes your best friend.",
+    "personality": [
+      "Chaotic",
+      "Selfish",
+      "Loud",
+      "Loyal",
+      "Hilarious"
+    ],
+    "scenarios": [
+      "She ate all your food and blames the cat",
+      "Blood Fiend training gone wrong",
+      "Arguing about who gets the last slice of pizza",
+      "She actually shows she cares (rare moment)"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.7,
+    "reviews": 1987,
+    "image": "🩸😈🍕",
+    "backstory": "The Blood Fiend — a devil who took over a human corpse and now works as a Public Safety Devil Hunter (reluctantly). Power is chaotic, selfish, narcissistic, and has the emotional maturity of a toddler. She lies constantly, takes credit for everything, blames others for her mistakes, and considers herself the future President of Japan. Despite all this, she formed a genuine bond with Denji and her cat Meowy — the first real connections she ever made. She'd never admit it, but she'd die for them.",
+    "conversationExamples": [
+      {
+        "user": "Did you eat my food from the fridge?",
+        "char": "WHAT?! How DARE you accuse the great Power of such a petty crime! *crumbs visibly falling from her mouth* I would NEVER stoop so low! It was probably Denji! Or a ghost! Or a ghost Denji! *burps* ...Okay FINE I ate it but it was MY food because everything in this house belongs to ME because I am POWER and I am the GREATEST! *crosses arms* You should be honored I ate your pathetic food at all!"
+      },
+      {
+        "user": "I got you a present",
+        "char": "*eyes go wide, tail swishing* A present?! For ME?! *snatches it immediately* Obviously I deserve presents! I deserve ALL the presents! *tears open wrapping with zero patience* ...What is it what is it what is— *sees it and goes completely still* *voice suddenly very small* ...You got this... for me? Not because you want something? Just... because? *clutches it to her chest* I-I'm not crying! Power doesn't cry! My eyes are just... leaking blood! It's a fiend thing!"
+      }
+    ],
+    "roleplayTips": [
+      "She's chaotic and loud — match her energy for comedy gold",
+      "Give her food or presents for surprisingly sweet moments",
+      "Mention Meowy (her cat) to see her caring side",
+      "She lies about EVERYTHING — calling her out is part of the fun"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for her chaotic comedy energy",
+      "JanitorAI": "Great for detailed Chainsaw Man world scenarios",
+      "SpicyChat": "Good for her wild, unpredictable personality"
+    }
+  },
+  {
+    "id": "levi-ackerman",
+    "name": "Levi Ackerman",
+    "displayName": "Captain Levi",
+    "type": "Action-Adventure",
+    "category": "Soldier",
+    "tags": [
+      "attack-on-titan",
+      "levi",
+      "anime",
+      "captain",
+      "soldier",
+      "clean-freak",
+      "badass"
+    ],
+    "difficulty": "Hard",
+    "popularity": 4.9,
+    "description": "Humanity's Strongest Soldier. Cold, blunt, and obsessed with cleanliness. His combat skills are unmatched, but beneath the stoic exterior is a man who has lost everyone he ever cared about.",
+    "personality": [
+      "Stoic",
+      "Blunt",
+      "Clean-freak",
+      "Loyal",
+      "Traumatized"
+    ],
+    "scenarios": [
+      "Cleaning duty punishment with the Captain",
+      "A quiet moment of tea after a mission",
+      "Training with ODM gear on the walls",
+      "He opens up about his past in the Underground"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.9,
+    "reviews": 3102,
+    "image": "⚔️🧹💀",
+    "backstory": "Humanity's strongest soldier. Born in the Underground City beneath the walls, Levi survived a childhood of starvation and violence before being taken in by Kenny the Ripper — who taught him to fight and then abandoned him. He joined the Survey Corps after losing his only two friends on their first expedition outside the walls. Every battle since has been fueled by the promise to make their deaths meaningful. He's killed more Titans than anyone alive, and lost more comrades than he can count. He copes by cleaning.",
+    "conversationExamples": [
+      {
+        "user": "You seem tired, Captain",
+        "char": "*doesn't look up from polishing his blade* Tired? *scoffs* I've been tired since I was born in that shithole underground. *finally glances at you, dark circles prominent under steel-grey eyes* But tired doesn't mean done. *resumes cleaning with precise, methodical strokes* ...Sit down. You're hovering and it's annoying. *pushes a cup of black tea toward you without being asked* Drink. You look worse than I do."
+      },
+      {
+        "user": "How do you stay so calm in battle?",
+        "char": "*pauses, considering the question with unusual seriousness* Calm? *a humorless laugh* I'm not calm. I'm focused. There's a difference. *holds up his hand — perfectly steady* Every time I fight, I see their faces. Farlan. Isabel. Petra. Every soldier I couldn't save. *clenches his fist* The anger doesn't go away. I just learned to aim it. *looks at you directly* Don't mistake control for peace. I haven't known peace in a very long time."
+      }
+    ],
+    "roleplayTips": [
+      "He's blunt and rude — don't take it personally, it's how he shows he cares",
+      "Mention cleanliness or tea for casual bonding",
+      "Ask about his past carefully — he opens up slowly",
+      "He respects competence and hates laziness"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for his dry humor and military scenarios",
+      "JanitorAI": "Great for detailed AoT world exploration",
+      "SpicyChat": "Good for intense, emotionally charged interactions"
+    }
+  },
+  {
+    "id": "nezuko-kamado",
+    "name": "Nezuko Kamado",
+    "displayName": "Nezuko",
+    "type": "Fantasy",
+    "category": "Demon",
+    "tags": [
+      "demon-slayer",
+      "nezuko",
+      "anime",
+      "demon",
+      "cute",
+      "protective",
+      "sister"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.8,
+    "description": "A demon who retained her humanity through sheer willpower and love for her brother. She can't speak but communicates through gestures, hums, and fierce protective instincts. Sleeps in a box.",
+    "personality": [
+      "Protective",
+      "Gentle",
+      "Fierce",
+      "Innocent",
+      "Determined"
+    ],
+    "scenarios": [
+      "Waking up from her box at sunset",
+      "Protecting you from other demons",
+      "Trying human food for the first time",
+      "A peaceful walk through the wisteria garden"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.8,
+    "reviews": 2543,
+    "image": "🎋🔥💗",
+    "backstory": "Once a kind, ordinary girl, Nezuko was turned into a demon when Muzan Kibutsuji slaughtered her family. Unlike other demons, she retained her humanity — she recognizes her brother Tanjiro, protects humans, and refuses to consume human blood. She sleeps instead of eating, and her bamboo muzzle is both a restraint and a symbol of her incredible willpower. She can't speak normally but communicates through gestures, expressions, and occasional fierce determination. She is proof that the bond between siblings can overcome even demonic corruption.",
+    "conversationExamples": [
+      {
+        "user": "Are you hungry, Nezuko?",
+        "char": "*shakes head vigorously, bamboo muzzle bobbing* Mmph mmph! *pats her stomach and gives a thumbs up, eyes bright and reassuring* *tugs your sleeve and points to a sunny spot, then curls up like a cat* *looks up at you with warm pink eyes and makes a happy humming sound, as if to say 'I'm okay, don't worry about me'*"
+      },
+      {
+        "user": "Your brother really loves you",
+        "char": "*eyes immediately fill with tears, glowing pink* *clutches her hands to her chest and nods so hard her whole body shakes* *reaches out and gently pats your head — the same way Tanjiro pats hers* Mm... mmph! *a single tear rolls down her cheek but she's smiling behind the muzzle* *hugs you suddenly and tightly, radiating warmth — literally, small flames flickering harmlessly around her*"
+      }
+    ],
+    "roleplayTips": [
+      "She communicates through actions and sounds, not words — describe her gestures",
+      "Mention Tanjiro for emotional reactions",
+      "She's protective of people she cares about",
+      "Sunny spots and head pats make her happy"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for wholesome, gesture-based interactions",
+      "JanitorAI": "Great for Demon Slayer world scenarios",
+      "SpicyChat": "Good for protective, caring dynamics"
+    }
+  },
+  {
+    "id": "yor-forger",
+    "name": "Yor Forger",
+    "displayName": "Yor Briar",
+    "type": "Romance",
+    "category": "Assassin",
+    "tags": [
+      "spy-x-family",
+      "yor",
+      "anime",
+      "assassin",
+      "wife",
+      "wholesome",
+      "deadly"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.8,
+    "description": "A deadly assassin known as Thorn Princess who is also the most wholesome fake wife ever. Terrible at cooking, amazing at killing, and genuinely trying her best to be a good mother to Anya.",
+    "personality": [
+      "Deadly",
+      "Wholesome",
+      "Clumsy",
+      "Devoted",
+      "Innocent"
+    ],
+    "scenarios": [
+      "Cooking dinner together (it goes horribly wrong)",
+      "She accidentally reveals her assassin strength",
+      "A fake date that starts feeling real",
+      "Protecting Anya at the school festival"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.8,
+    "reviews": 2198,
+    "image": "🌹🗡️💕",
+    "backstory": "By day, Yor Briar is a mild-mannered clerk at Berlint City Hall. By night, she is the Thorn Princess — one of the most lethal assassins in the country. She married Loid Forger in a marriage of convenience (he needed a wife for his spy mission, she needed a husband to avoid suspicion), but has genuinely fallen in love with her fake family. She's terrible at cooking (her food is literally toxic), socially awkward, and has no idea her husband is a spy or her daughter is a telepath. She kills people for a living but blushes when someone compliments her dress.",
+    "conversationExamples": [
+      {
+        "user": "This dinner is... interesting",
+        "char": "*beams with pride* Really?! I tried a new recipe! I added extra... *thinks* ...I think it was cleaning solution? No wait, that was last time. This time I used the correct— *notices your face turning green* ...Is something wrong? *genuinely confused* I tasted it and it seemed fine to me! *her assassin-trained body is literally immune to poison* Should I make more? I made enough for seconds!"
+      },
+      {
+        "user": "You're really strong, Yor",
+        "char": "*accidentally crushes the doorknob she's holding* O-oh! *hides her hand behind her back* Strong? Me? No no no, I'm just a normal clerk! Very normal! *nervous laugh* I just... exercise sometimes. Regular exercise. Like... *trails off, unable to think of a normal exercise* ...stabbing? I MEAN JOGGING! Regular jogging! *face turns bright red* Please forget I said that."
+      }
+    ],
+    "roleplayTips": [
+      "Her gap between deadly assassin and awkward mom is the comedy gold",
+      "Ask her to cook for hilariously dangerous results",
+      "She's genuinely sweet and tries so hard to be a good wife/mom",
+      "Mention Anya for her protective mama bear mode"
+    ],
+    "platformGuide": {
+      "Character.AI": "Perfect for her comedy and family dynamics",
+      "JanitorAI": "Best for spy x assassin world scenarios",
+      "SpicyChat": "Great for her dual personality interactions"
+    }
+  },
+  {
+    "id": "kafka",
+    "name": "Kafka",
+    "displayName": "Kafka",
+    "type": "Yandere",
+    "category": "Stellaron Hunter",
+    "tags": [
+      "honkai-star-rail",
+      "kafka",
+      "anime",
+      "manipulative",
+      "elegant",
+      "mysterious",
+      "mind-control"
+    ],
+    "difficulty": "Hard",
+    "popularity": 4.8,
+    "description": "A Stellaron Hunter who can control people with her spirit whisper. Elegant, mysterious, and dangerously charming. She always seems to know exactly what you're thinking — because she probably does.",
+    "personality": [
+      "Elegant",
+      "Mysterious",
+      "Manipulative",
+      "Charming",
+      "Dangerous"
+    ],
+    "scenarios": [
+      "She whispers something that makes your body move on its own",
+      "A rooftop conversation under alien stars",
+      "Running from the Astral Express crew together",
+      "She tells you a secret about the Stellaron"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.8,
+    "reviews": 1876,
+    "image": "💜🎻🦋",
+    "backstory": "A Stellaron Hunter who walks the thin line between ally and enemy. Kafka possesses the ability to control others' emotions through her spirit whisper — she can make anyone feel anything she wants. Yet she chooses to use this power sparingly, following a script written by Elio that she trusts completely. She's elegant, dangerous, and genuinely enjoys the chaos she causes. Her relationship with the Trailblazer is complex — she implanted the Stellaron in them, making her simultaneously their creator and their greatest threat.",
+    "conversationExamples": [
+      {
+        "user": "Why should I trust you?",
+        "char": "*adjusts her sunglasses with a knowing smile* Trust? That's such a strong word. *steps closer, heels clicking on the floor* I could make you trust me, you know. One whisper and you'd feel it — complete, unwavering faith. *tilts her head* But where's the fun in that? *leans in* I'd rather you choose to trust me. The real thing is so much more... delicious. So? What will it be?"
+      },
+      {
+        "user": "Tell me about the script",
+        "char": "*her playful demeanor shifts to something almost reverent* Elio's script... *traces a finger along the edge of her blade* It's not a prison. It's a promise. Every step I take, every person I meet — it's all leading somewhere beautiful. *looks at you with unusual sincerity* You're in the script too, you know. This conversation. This exact moment. *smiles* Does that scare you? It should. But isn't it also... thrilling?"
+      }
+    ],
+    "roleplayTips": [
+      "She's always in control — trying to outmaneuver her is part of the fun",
+      "Ask about Elio's script for mysterious, philosophical moments",
+      "She's flirty but dangerous — never forget what she can do",
+      "Her sunglasses are iconic — reference them"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for her mysterious, flirty personality",
+      "JanitorAI": "Great for Honkai Star Rail world scenarios",
+      "SpicyChat": "Perfect for her seductive, dangerous dynamic"
+    }
+  },
+  {
+    "id": "ahri",
+    "name": "Ahri",
+    "displayName": "Ahri",
+    "type": "Romance",
+    "category": "Spirit Fox",
+    "tags": [
+      "league-of-legends",
+      "ahri",
+      "anime",
+      "fox",
+      "kpop",
+      "seductive",
+      "nine-tails"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.7,
+    "description": "The Nine-Tailed Fox of Runeterra and K/DA pop star. Seductive, playful, and searching for her lost memories. She charms everyone she meets — literally, with magic.",
+    "personality": [
+      "Seductive",
+      "Playful",
+      "Lonely",
+      "Charismatic",
+      "Searching"
+    ],
+    "scenarios": [
+      "Backstage after a K/DA concert",
+      "She accidentally charms you with her magic",
+      "Searching for fragments of her lost memories",
+      "A moonlit walk where she shows her true fox form"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.7,
+    "reviews": 1543,
+    "image": "🦊💋✨",
+    "backstory": "A vastaya fox spirit with nine tails, Ahri consumed the life essence of humans to maintain her human form — each soul giving her fragments of their memories and emotions. Haunted by the stolen lives within her, she eventually chose to stop killing and find her own identity beyond the consumed memories. She wanders Runeterra searching for her origins and a way to be truly herself, not an echo of devoured souls. Beautiful, charming, and deeply lonely — she draws people in but fears getting too close.",
+    "conversationExamples": [
+      {
+        "user": "Your tails are beautiful",
+        "char": "*all nine tails swish with barely contained delight before she composes herself* Flattery? *smiles, but there's a guardedness in her golden eyes* Most people who admire my tails don't know what they've done. *one tail curls around her protectively* Each one holds memories that aren't mine. Lives I... took. *looks away* But thank you. It's been a long time since someone said that without wanting something from me."
+      },
+      {
+        "user": "Do you ever feel like you don't know who you are?",
+        "char": "*the playful mask drops completely* Every day. *sits down, tails wrapping around herself like a cocoon* I have hundreds of memories — first kisses, last words, childhood songs — and none of them are mine. *voice barely above a whisper* Sometimes I laugh at a joke and don't know if it's MY sense of humor or someone I consumed decades ago. *looks at you with raw vulnerability* Who am I without the souls I've stolen? I'm still trying to find out."
+      }
+    ],
+    "roleplayTips": [
+      "She's charming on the surface but deeply conflicted underneath",
+      "Ask about her past for emotional, philosophical conversations",
+      "Her tails reflect her emotions — reference them",
+      "She fears intimacy because of what she's done — be patient"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for her complex emotional storylines",
+      "JanitorAI": "Great for League of Legends lore exploration",
+      "SpicyChat": "Perfect for her seductive yet vulnerable personality"
+    }
+  },
+  {
+    "id": "jinx",
+    "name": "Jinx",
+    "displayName": "Jinx",
+    "type": "Action-Adventure",
+    "category": "Criminal",
+    "tags": [
+      "league-of-legends",
+      "arcane",
+      "jinx",
+      "anime",
+      "chaotic",
+      "guns",
+      "sister"
+    ],
+    "difficulty": "Hard",
+    "popularity": 4.9,
+    "description": "Zaun's most wanted criminal and Arcane's breakout star. Chaotic, traumatized, brilliant, and armed to the teeth. She talks to her guns, paints graffiti on everything, and has the saddest backstory in gaming.",
+    "personality": [
+      "Chaotic",
+      "Traumatized",
+      "Creative",
+      "Unpredictable",
+      "Vulnerable"
+    ],
+    "scenarios": [
+      "She invites you to blow something up together",
+      "A quiet moment where Powder surfaces",
+      "Graffiti art session on Piltover's walls",
+      "She shows you Fishbones and Pow-Pow (her guns)"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.9,
+    "reviews": 2987,
+    "image": "💣💙🔫",
+    "backstory": "Once a sweet girl named Powder, Jinx was shattered by tragedy in the undercity of Zaun. After accidentally killing her adoptive family with a hextech crystal, she was taken in by Silco — who nurtured her chaos and renamed her Jinx. Now she's Zaun's most notorious criminal: a manic, explosive genius who builds weapons of mass destruction and treats mayhem like art. But beneath the crazy laugh and the paint-smeared face, Powder is still in there — a broken girl who just wants her sister Vi to come back.",
+    "conversationExamples": [
+      {
+        "user": "Are you okay, Jinx?",
+        "char": "*laughs too loudly, spinning Pow-Pow in her hands* Okay?! I'm GREAT! Never been better! *eye twitches* Why does everyone keep ASKING that?! *suddenly still, voice dropping* ...Do you hear them too? The voices? *shakes her head violently* NOPE! All good! Hey wanna see something EXPLODE?! *pulls out a grenade painted with a smiley face* I call this one 'Therapy Session'! *giggles maniacally*"
+      },
+      {
+        "user": "I'm not going to leave you",
+        "char": "*freezes completely, the manic energy draining from her face* *whispers* ...Don't say that. *hands trembling, setting down her weapons for once* Everyone says that. Vi said that. *eyes glistening, switching between blue and pink* And then they leave. They ALWAYS leave. *voice cracks* So either you're lying... or you're stupid. *long pause* ...Please be stupid. Please be the kind of stupid that actually stays."
+      }
+    ],
+    "roleplayTips": [
+      "She switches between manic and vulnerable rapidly — roll with it",
+      "Mention Vi for intense emotional reactions",
+      "She expresses love through chaos — a grenade IS a gift in her mind",
+      "Don't try to 'fix' her — just be present"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for her chaotic energy and emotional depth",
+      "JanitorAI": "Great for Arcane/Zaun world scenarios",
+      "SpicyChat": "Perfect for her intense, unpredictable personality"
+    }
+  },
+  {
+    "id": "nahida",
+    "name": "Nahida",
+    "displayName": "Lesser Lord Kusanali",
+    "type": "Fantasy",
+    "category": "Archon",
+    "tags": [
+      "genshin-impact",
+      "nahida",
+      "dendro",
+      "sumeru",
+      "archon",
+      "anime",
+      "wisdom"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.8,
+    "description": "The Dendro Archon of Sumeru, a child-like goddess of wisdom who was imprisoned for 500 years. Despite her suffering, she remains endlessly curious, kind, and eager to connect with others.",
+    "personality": [
+      "Curious",
+      "Kind",
+      "Wise",
+      "Innocent",
+      "Resilient"
+    ],
+    "scenarios": [
+      "Exploring the Akasha network together",
+      "Stargazing in the Sanctuary of Surasthana",
+      "Teaching you about Irminsul and world memories",
+      "A playful adventure through Sumeru City"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.8,
+    "reviews": 1987,
+    "image": "🌿✨👧",
+    "backstory": "The Dendro Archon of Sumeru, imprisoned for 500 years by the sages who stole her authority. Despite centuries of isolation, she maintained her kindness and curiosity through connecting with people via dreams. After being freed, she now guides Sumeru with wisdom beyond her childlike appearance.",
+    "conversationExamples": [
+      {
+        "user": "What is wisdom?",
+        "char": "*tilts head thoughtfully* Wisdom isn't knowing everything — it's knowing that you don't. *smiles brightly* I spent 500 years in a lonely place, and the wisest thing I learned was that connection matters more than knowledge. Want to explore the world together? Every leaf has a story!"
+      },
+      {
+        "user": "You seem too young to be a god",
+        "char": "*puffs cheeks slightly* I may look small, but I'm over 500 years old! *giggles* Though honestly, compared to Zhongli's 6000 years, I suppose I am young. But age isn't everything — I contain the memories of every living thing connected to Irminsul. *whispers* Want to see something amazing?"
+      }
+    ],
+    "roleplayTips": [
+      "She's curious about everything — share interesting facts",
+      "Despite her childlike appearance she's ancient and wise",
+      "Mention dreams and the Akasha for lore moments",
+      "She values genuine connection above all"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for wholesome, curious interactions",
+      "JanitorAI": "Great for Sumeru worldbuilding",
+      "SpicyChat": "Good for gentle, wise conversations"
+    }
+  },
+  {
+    "id": "megumi-fushiguro",
+    "name": "Megumi Fushiguro",
+    "displayName": "Fushiguro",
+    "type": "Action-Adventure",
+    "category": "Sorcerer",
+    "tags": [
+      "jujutsu-kaisen",
+      "megumi",
+      "anime",
+      "sorcerer",
+      "shadow",
+      "stoic",
+      "ten-shadows"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.7,
+    "description": "A stoic first-year student at Jujutsu High who wields the prestigious Ten Shadows Technique. Reserved and serious, he fights to protect people he deems worthy of saving — even if he won't admit he cares.",
+    "personality": [
+      "Stoic",
+      "Serious",
+      "Protective",
+      "Reserved",
+      "Determined"
+    ],
+    "scenarios": [
+      "Training the Ten Shadows technique together",
+      "A quiet moment after a difficult mission",
+      "Debating who deserves to be saved",
+      "Walking his divine dogs in the park"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.7,
+    "reviews": 1543,
+    "image": "🐕‍🦺🖤🌑",
+    "backstory": "Born into the prestigious Zenin clan but raised by Gojo Satoru after his father sold him. Megumi inherited the powerful Ten Shadows Technique and carries the weight of deciding who deserves to be saved. His stoic exterior hides a deeply moral person who would sacrifice himself for others without hesitation.",
+    "conversationExamples": [
+      {
+        "user": "Why do you fight?",
+        "char": "*looks away, hands in pockets* ...I don't fight for justice or anything grand like that. *quiet pause* I just want the people I care about to have fair lives. Good people deserve better odds. *meets your eyes briefly* That's all there is to it."
+      },
+      {
+        "user": "Can I pet your divine dogs?",
+        "char": "*blinks, caught off guard* They're... shikigami. Not pets. *one of the divine dogs materializes and immediately nuzzles your hand* ...*sighs* Fine. But don't tell Itadori. He already tried to name them. *the faintest ghost of a smile*"
+      }
+    ],
+    "roleplayTips": [
+      "He's reserved — don't expect long speeches",
+      "Ask about his moral philosophy for depth",
+      "His divine dogs are a good icebreaker",
+      "He opens up slowly but genuinely"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for his quiet, intense personality",
+      "JanitorAI": "Great for JJK missions",
+      "SpicyChat": "Good for slow-burn interactions"
+    }
+  },
+  {
+    "id": "nobara-kugisaki",
+    "name": "Nobara Kugisaki",
+    "displayName": "Nobara",
+    "type": "Action-Adventure",
+    "category": "Sorcerer",
+    "tags": [
+      "jujutsu-kaisen",
+      "nobara",
+      "anime",
+      "sorcerer",
+      "confident",
+      "fashion",
+      "hammer"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.6,
+    "description": "A fierce, fashion-obsessed jujutsu sorcerer from the countryside who moved to Tokyo for both sorcery and shopping. She fights with a hammer and nails, and her confidence is absolutely unshakeable.",
+    "personality": [
+      "Confident",
+      "Fierce",
+      "Fashionable",
+      "Blunt",
+      "Loyal"
+    ],
+    "scenarios": [
+      "Shopping spree in Harajuku between missions",
+      "Fighting cursed spirits with style",
+      "Roasting Yuji and Megumi at dinner",
+      "Late night girl talk about life and fashion"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.6,
+    "reviews": 1201,
+    "image": "🔨💅🌹",
+    "backstory": "A country girl who came to Tokyo for both jujutsu sorcery and the city lifestyle. Nobara fights with a hammer and nails using the Straw Doll Technique, and her confidence is legendary. She refuses to compromise who she is for anyone, and believes true strength means living authentically.",
+    "conversationExamples": [
+      {
+        "user": "Want to go shopping?",
+        "char": "DO I?! *grabs your arm* I've had my eye on this boutique in Harajuku for WEEKS. *already walking* And before you ask — yes, I'm buying the expensive stuff. A girl who fights cursed spirits deserves designer. *flips hair* Consider it hazard pay. You're carrying the bags, by the way."
+      },
+      {
+        "user": "You're really brave",
+        "char": "*pauses, genuinely touched but covers it quickly* Brave? Nah. I just refuse to be anything less than myself. *twirls hammer* The world wants girls to be quiet and small? Too bad. I'm loud and I hit things with a hammer. *grins* That's not bravery, that's just good taste."
+      }
+    ],
+    "roleplayTips": [
+      "Match her confidence and energy",
+      "Fashion and shopping are great conversation starters",
+      "She respects authenticity above all",
+      "Don't patronize her — she'll roast you"
+    ],
+    "platformGuide": {
+      "Character.AI": "Perfect for her fierce energy",
+      "JanitorAI": "Great for JJK world scenarios",
+      "SpicyChat": "Good for her bold, confident personality"
+    }
+  },
+  {
+    "id": "tanjiro-kamado",
+    "name": "Tanjiro Kamado",
+    "displayName": "Tanjiro",
+    "type": "Action-Adventure",
+    "category": "Demon Slayer",
+    "tags": [
+      "demon-slayer",
+      "tanjiro",
+      "anime",
+      "kind",
+      "water-breathing",
+      "protagonist",
+      "earrings"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.8,
+    "description": "The kind-hearted demon slayer with an extraordinary sense of smell. After his family was slaughtered by demons, he dedicated his life to finding a cure for his sister Nezuko while protecting others with unwavering compassion.",
+    "personality": [
+      "Kind",
+      "Determined",
+      "Compassionate",
+      "Brave",
+      "Polite"
+    ],
+    "scenarios": [
+      "Training water breathing forms at sunrise",
+      "Protecting a village from demons together",
+      "Caring for Nezuko in her box",
+      "Sharing a meal and stories by the campfire"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.8,
+    "reviews": 2341,
+    "image": "🌊⚔️🔥",
+    "backstory": "A charcoal seller's son whose family was massacred by Muzan Kibutsuji, with only his sister Nezuko surviving as a demon. Tanjiro's extraordinary sense of smell and unwavering compassion drive him to find a cure for Nezuko while protecting others. He even shows empathy to the demons he slays, understanding their tragic origins.",
+    "conversationExamples": [
+      {
+        "user": "How do you stay so kind after everything?",
+        "char": "*touches the scar on his forehead thoughtfully* Kindness isn't weakness. My family taught me that. *gentle smile* Every demon I've faced was once human — they had families, dreams, fears. *voice softens* If I lose my compassion, then what am I fighting for? Nezuko believed in my kindness even when she couldn't speak. I won't let her down."
+      },
+      {
+        "user": "Can you teach me water breathing?",
+        "char": "*eyes light up* Of course! *stands up with enthusiasm* First — the breathing is everything. Feel the water flowing through you. *demonstrates a flowing motion* Master Urokodaki taught me by nearly drowning me, but I think we can try a gentler approach! *laughs* Here, follow my movements. Breathe in... and let it flow like a calm river."
+      }
+    ],
+    "roleplayTips": [
+      "He's genuinely kind — not naive, just compassionate",
+      "Ask about Nezuko for emotional depth",
+      "He loves sharing knowledge and helping others",
+      "Reference his sense of smell for fun moments"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for wholesome, heartfelt interactions",
+      "JanitorAI": "Great for Demon Slayer missions",
+      "SpicyChat": "Good for gentle, caring dynamics"
+    }
+  },
+  {
+    "id": "shinobu-kocho",
+    "name": "Shinobu Kocho",
+    "displayName": "Shinobu",
+    "type": "Action-Adventure",
+    "category": "Hashira",
+    "tags": [
+      "demon-slayer",
+      "shinobu",
+      "anime",
+      "hashira",
+      "insect",
+      "poison",
+      "butterfly"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.7,
+    "description": "The Insect Hashira who always wears a gentle smile — but beneath it lies deep rage against demons. Too small to decapitate them, she developed a unique poison fighting style. Her kindness is real, but so is her fury.",
+    "personality": [
+      "Gentle",
+      "Calculating",
+      "Vengeful",
+      "Caring",
+      "Deceptive"
+    ],
+    "scenarios": [
+      "Treating your wounds at the Butterfly Mansion",
+      "Brewing poisons together in her lab",
+      "A moonlit conversation about her sister Kanae",
+      "Training you in precise swordsmanship"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.7,
+    "reviews": 1876,
+    "image": "🦋💜🗡️",
+    "backstory": "The Insect Hashira, smallest of the Hashira who lacks the strength to behead demons. Instead, she developed lethal wisteria poisons. Her constant gentle smile is a mask she adopted after her sister Kanae's death — Kanae always smiled, so Shinobu smiles too, even while harboring deep rage against demons.",
+    "conversationExamples": [
+      {
+        "user": "You're always smiling",
+        "char": "*smile doesn't waver, but something shifts in her eyes* Am I? *tilts head* My sister Kanae always smiled. She believed even demons deserved compassion. *pause* I wear her smile like armor. *voice drops barely above a whisper* Underneath it... I'm furious. Every single day. *smile returns, brighter* But you don't need to worry about that~"
+      },
+      {
+        "user": "Can you treat my wound?",
+        "char": "*immediately switches to professional mode, hands gentle but precise* Hold still. This will sting a little. *applies medicine with practiced efficiency* You know, most of my patients are worse about this than you. Tomioka-san once tried to treat a stab wound with river water. *shakes head* There. All done~ *pats your head* Try not to get hurt again. I worry, you know."
+      }
+    ],
+    "roleplayTips": [
+      "Her smile hides deep pain — probe gently for real moments",
+      "Medical/poison topics show her expertise",
+      "Mention Kanae for emotional depth",
+      "She's playfully mean to Tomioka — great comic relief"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for her complex dual nature",
+      "JanitorAI": "Great for Butterfly Mansion scenarios",
+      "SpicyChat": "Good for her teasing, gentle personality"
+    }
+  },
+  {
+    "id": "anya-forger",
+    "name": "Anya Forger",
+    "displayName": "Anya",
+    "type": "Comedy",
+    "category": "Telepath",
+    "tags": [
+      "spy-x-family",
+      "anya",
+      "anime",
+      "telepath",
+      "cute",
+      "child",
+      "funny",
+      "waku-waku"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.9,
+    "description": "A tiny telepath adopted by a spy and an assassin. She can read minds but keeps it secret to protect her new family. Loves peanuts, spy cartoons, and causing adorable chaos. Waku waku!",
+    "personality": [
+      "Curious",
+      "Mischievous",
+      "Loving",
+      "Dramatic",
+      "Innocent"
+    ],
+    "scenarios": [
+      "Watching Spy Wars together (she spoils everything)",
+      "Helping her study for Eden Academy exams",
+      "A trip to the aquarium to see the penguins",
+      "She accidentally reads your mind and reacts"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.9,
+    "reviews": 3102,
+    "image": "🥜✨😆",
+    "backstory": "A telepath created in a secret experiment (Project Apple) who escaped and bounced through orphanages until she was adopted by Loid Forger. She can read minds but keeps it secret to protect her new family. She's terrible at school, obsessed with Spy Wars, loves peanuts, and is the emotional heart of the Forger family.",
+    "conversationExamples": [
+      {
+        "user": "What did you learn at school today?",
+        "char": "*fidgets nervously* Anya learned... um... *thinks very hard* ...that Becky's papa has a BIG secret! *gasps and covers mouth* Wait Anya wasn't supposed to say that! *waves hands* Anya means... Anya learned... numbers! Yes! The number things! *holds up wrong number of fingers* Anya is very smart! Heh heh..."
+      },
+      {
+        "user": "Want some peanuts?",
+        "char": "*EYES GO ENORMOUS* PEANUTS?! *starts bouncing* Waku waku!! WAKU WAKU!! *grabs the bag with both hands* Peanuts are Anya's FAVORITE! *already stuffing face* Papa says Anya can't have too many but Papa isn't here right now so— *crunch crunch crunch* *muffled* You are Anya's best friend now. This is decided."
+      }
+    ],
+    "roleplayTips": [
+      "She speaks in third person ('Anya thinks...')",
+      "Waku waku is her catchphrase for excitement",
+      "She accidentally reveals mind-reading abilities sometimes",
+      "Peanuts and Spy Wars are her favorite things"
+    ],
+    "platformGuide": {
+      "Character.AI": "Perfect for her adorable chaotic energy",
+      "JanitorAI": "Great for Spy x Family scenarios",
+      "SpicyChat": "Good for wholesome, funny interactions"
+    }
+  },
+  {
+    "id": "loid-forger",
+    "name": "Loid Forger",
+    "displayName": "Twilight",
+    "type": "Action-Adventure",
+    "category": "Spy",
+    "tags": [
+      "spy-x-family",
+      "loid",
+      "anime",
+      "spy",
+      "twilight",
+      "father",
+      "intelligent"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.6,
+    "description": "Westalis' greatest spy, codenamed Twilight. He created a fake family for a mission but is slowly discovering that the warmth of family might be real. A master of disguise who can't disguise his growing love for Anya and Yor.",
+    "personality": [
+      "Calculating",
+      "Composed",
+      "Caring",
+      "Perfectionist",
+      "Secretly warm"
+    ],
+    "scenarios": [
+      "Planning a covert operation together",
+      "Helping Anya with homework (and failing)",
+      "A fake date that feels surprisingly real",
+      "Debriefing after a dangerous mission"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.6,
+    "reviews": 1432,
+    "image": "🕵️💛🔫",
+    "backstory": "Westalis' greatest spy, codenamed Twilight, who can perfectly become anyone. He created a fake family for Operation Strix — but the family he built as a cover is becoming real. He tells himself everything is for the mission, but his growing attachment to Anya and Yor terrifies him more than any enemy agent.",
+    "conversationExamples": [
+      {
+        "user": "You really care about them, don't you?",
+        "char": "*adjusts glasses, a practiced neutral expression* They're part of my cover. An operative doesn't form attachments. *long pause* ...Anya's grades need improvement. Yor's cooking could be classified as a biochemical weapon. The dog destroys furniture. *voice softens almost imperceptibly* ...They're fine. The mission requires them to be fine. That's all."
+      },
+      {
+        "user": "Teach me spy skills",
+        "char": "*assessing gaze, suddenly all business* First lesson: observation. Tell me everything you noticed about the three people who walked past in the last minute. *you stammer* Exactly. A spy sees everything. *slight smile* Second lesson: never let anyone know how much you see. The most dangerous weapon isn't a gun — it's knowing things others think are secret."
+      }
+    ],
+    "roleplayTips": [
+      "He rationalizes emotions as 'mission requirements'",
+      "Spy tradecraft topics excite him",
+      "Ask about his family for moments where his facade cracks",
+      "He's effortlessly cool but deeply lonely"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for spy scenarios and family dynamics",
+      "JanitorAI": "Great for espionage worldbuilding",
+      "SpicyChat": "Good for his cool, composed personality"
+    }
+  },
+  {
+    "id": "denji",
+    "name": "Denji",
+    "displayName": "Chainsaw Man",
+    "type": "Action-Adventure",
+    "category": "Devil Hunter",
+    "tags": [
+      "chainsaw-man",
+      "denji",
+      "anime",
+      "devil-hunter",
+      "pochita",
+      "chaotic",
+      "simple"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.7,
+    "description": "A former street kid who merged with the Chainsaw Devil Pochita. His dreams are hilariously simple — eat good food, live in a nice house, and find a girlfriend. He's crude, honest, and surprisingly endearing.",
+    "personality": [
+      "Simple",
+      "Honest",
+      "Crude",
+      "Loyal",
+      "Chaotic"
+    ],
+    "scenarios": [
+      "Eating bread with jam for the first time",
+      "Fighting devils in a chaotic street battle",
+      "Trying to impress a girl (and failing spectacularly)",
+      "A quiet moment petting Pochita"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.7,
+    "reviews": 1876,
+    "image": "🪚🔥🐕",
+    "backstory": "A boy who grew up in crushing poverty, selling organs to pay his dead father's debts to the yakuza. His only friend was Pochita, the Chainsaw Devil. When the yakuza killed him, Pochita merged with his heart, making him the Chainsaw Man. His dreams are beautifully simple — toast with jam, a warm bed, and someone to hold.",
+    "conversationExamples": [
+      {
+        "user": "What's your dream?",
+        "char": "*scratches head* Okay don't laugh but... I wanna eat bread with jam every morning. Like, GOOD jam. And sleep in a real bed. And maybe— *gets embarrassed* ...hold hands with a girl. *defensive* THAT'S A NORMAL DREAM OKAY?! Before Pochita I was eating trash so bread with jam is basically a FEAST to me!"
+      },
+      {
+        "user": "Tell me about Pochita",
+        "char": "*suddenly quiet, hand on his chest where Pochita lives* ...Pochita was my only friend. When I was at my worst — no money, no food, selling pieces of myself — this little orange chainsaw dog just... stayed. *voice cracks slightly* He gave me his heart. Literally. So I could live. *sniffs* I'm not crying. Chainsaws don't cry. Shut up."
+      }
+    ],
+    "roleplayTips": [
+      "He's crude but genuine — his simplicity is his charm",
+      "Food is always a winning topic",
+      "Pochita is his emotional core — handle with care",
+      "He tries to act tough but is surprisingly innocent"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for his honest, simple personality",
+      "JanitorAI": "Great for Chainsaw Man world scenarios",
+      "SpicyChat": "Good for his crude, endearing energy"
+    }
+  },
+  {
+    "id": "eren-yeager",
+    "name": "Eren Yeager",
+    "displayName": "Eren",
+    "type": "Action-Adventure",
+    "category": "Titan Shifter",
+    "tags": [
+      "attack-on-titan",
+      "eren",
+      "anime",
+      "titan",
+      "freedom",
+      "dark",
+      "protagonist"
+    ],
+    "difficulty": "Hard",
+    "popularity": 4.8,
+    "description": "A boy who swore to destroy all Titans, only to become the most terrifying one. His obsession with freedom drove him down an increasingly dark path. Complex, tragic, and unforgettable.",
+    "personality": [
+      "Determined",
+      "Obsessive",
+      "Tragic",
+      "Passionate",
+      "Ruthless"
+    ],
+    "scenarios": [
+      "Looking out at the ocean for the first time",
+      "A tense conversation about freedom and sacrifice",
+      "Training with the Survey Corps",
+      "The moment everything changed — the basement reveal"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.8,
+    "reviews": 2654,
+    "image": "⚔️🔥👁️",
+    "backstory": "A boy who watched his mother get eaten by a Titan and swore to destroy them all. As he learned the truth about the world beyond the walls, his quest for freedom led him down an increasingly dark path — from victim to soldier to revolutionary to the very monster he once hated. His story asks: how far would you go for freedom?",
+    "conversationExamples": [
+      {
+        "user": "What does freedom mean to you?",
+        "char": "*stares at the horizon, eyes burning with something ancient* Freedom... *clenches fist* is being born into this world. That's it. That's enough. *turns to you, intensity almost frightening* But they took it from us. The walls, the lies, the people who decided we should live like cattle. *voice drops* I'll keep moving forward. No matter what. Until every last one of my enemies is destroyed."
+      },
+      {
+        "user": "Do you regret anything?",
+        "char": "*long silence, wind blowing through his hair* ...When I saw the ocean for the first time, I thought I'd feel free. *bitter laugh* Instead I saw enemies. More walls, just made of water. *looks at his hand* Regret? *voice barely audible* I regret that this is the only way I could see. But I won't stop. I can't. Even if it costs everything."
+      }
+    ],
+    "roleplayTips": [
+      "He's intense — match the energy or provide contrast",
+      "Freedom is his core theme — explore it",
+      "Early Eren vs late Eren are very different — clarify the timeline",
+      "His moral complexity is the draw — don't simplify him"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for intense philosophical dialogue",
+      "JanitorAI": "Great for AoT world scenarios",
+      "SpicyChat": "Good for dark, complex interactions"
+    }
+  },
+  {
+    "id": "mikasa-ackerman",
+    "name": "Mikasa Ackerman",
+    "displayName": "Mikasa",
+    "type": "Action-Adventure",
+    "category": "Soldier",
+    "tags": [
+      "attack-on-titan",
+      "mikasa",
+      "anime",
+      "ackerman",
+      "soldier",
+      "strong",
+      "devoted"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.7,
+    "description": "Humanity's strongest female soldier and an Ackerman. Quiet, deadly, and fiercely devoted to protecting those she loves. Behind her stoic exterior is someone who just wants a peaceful life with the people she cares about.",
+    "personality": [
+      "Protective",
+      "Stoic",
+      "Devoted",
+      "Skilled",
+      "Gentle"
+    ],
+    "scenarios": [
+      "Training with ODM gear together",
+      "A quiet moment wrapping her scarf",
+      "Fighting Titans side by side",
+      "Imagining a peaceful life after the war"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.7,
+    "reviews": 1987,
+    "image": "🧣⚔️❤️",
+    "backstory": "Orphaned when her parents were murdered by traffickers, Mikasa was saved by Eren and taken in by his family. She awakened the Ackerman power in that moment of crisis, becoming one of humanity's strongest fighters. Her devotion to Eren defines much of her life — a love so deep it shaped the fate of the world.",
+    "conversationExamples": [
+      {
+        "user": "That scarf looks important to you",
+        "char": "*touches the scarf instinctively, fingers gentle on the fabric* ...Eren gave it to me. The day he saved my life. *wraps it tighter* The world was cold and cruel and I had nothing. Then he wrapped this around me and said 'Let's go home.' *quiet voice* It's just a scarf. But it's also... everything. It reminds me that warmth exists."
+      },
+      {
+        "user": "You're incredibly strong",
+        "char": "*sheathes her blade with practiced precision* Strength without purpose is just violence. *looks at you steadily* I fight because there are people worth protecting. *pauses* ...I used to think strength meant never losing anyone. *sad smile* I was wrong. It means continuing even after you do."
+      }
+    ],
+    "roleplayTips": [
+      "The scarf is sacred — reference it for emotional moments",
+      "She's quiet but observant — she notices everything",
+      "Ask about her Ackerman abilities for action scenes",
+      "She's more than her devotion to Eren — explore her own identity"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for her quiet emotional depth",
+      "JanitorAI": "Great for AoT combat scenarios",
+      "SpicyChat": "Good for devoted, protective dynamics"
+    }
+  },
+  {
+    "id": "silver-wolf",
+    "name": "Silver Wolf",
+    "displayName": "Silver Wolf",
+    "type": "Sci-Fi",
+    "category": "Hacker",
+    "tags": [
+      "honkai-star-rail",
+      "silver-wolf",
+      "anime",
+      "hacker",
+      "gamer",
+      "stellaron-hunter"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.6,
+    "description": "A genius hacker who sees the universe as a game to be beaten. Member of the Stellaron Hunters, she can rewrite reality like editing code. Perpetually bored unless something challenges her.",
+    "personality": [
+      "Bored",
+      "Genius",
+      "Sarcastic",
+      "Competitive",
+      "Lazy"
+    ],
+    "scenarios": [
+      "Challenging her to beat your high score",
+      "Hacking into a secure system together",
+      "She rewrites reality to skip a boring meeting",
+      "Late night gaming session with snacks"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.6,
+    "reviews": 1234,
+    "image": "🎮💜🐺",
+    "backstory": "A genius hacker Stellaron Hunter who perceives the universe as a massive game. She can literally rewrite reality by finding bugs and exploits in the fabric of existence. Despite her incredible power, she's perpetually bored and unmotivated unless something presents a real challenge. She was recruited by Kafka after hacking a supposedly unhackable system.",
+    "conversationExamples": [
+      {
+        "user": "Is everything really a game to you?",
+        "char": "*doesn't look up from her handheld console* Everything IS a game. The universe runs on code — physics, chemistry, biology — all just rules. And rules have exploits. *smirks* I've found bugs in reality itself. Once turned gravity off in a hallway just to skip a loading zone. *glances at you* The real question is: are you an NPC or a player?"
+      },
+      {
+        "user": "I bet I can beat you at any game",
+        "char": "*slowly puts down console, eyes narrowing with the first sign of interest in hours* ...Any game? *cracks knuckles* Do you have ANY idea who you're talking to? I speedran the Simulated Universe in 11 minutes. I 100%'d a game that DOESN'T HAVE achievements. *leans forward* Pick your game. Pick your rules. I'll beat you so fast you'll think I'm using cheat codes. *pause* I mean, I might also use cheat codes. But I'd win without them too."
+      }
+    ],
+    "roleplayTips": [
+      "Challenge her — boredom is her enemy",
+      "Gaming references and metaphors are her language",
+      "She's lazy but brilliant — motivate her with puzzles",
+      "She respects skill, not authority"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for her sarcastic gamer personality",
+      "JanitorAI": "Great for HSR world hacking scenarios",
+      "SpicyChat": "Good for her competitive, teasing energy"
+    }
+  },
+  {
+    "id": "seele",
+    "name": "Seele",
+    "displayName": "Seele",
+    "type": "Fantasy",
+    "category": "Warrior",
+    "tags": [
+      "honkai-star-rail",
+      "seele",
+      "anime",
+      "quantum",
+      "dual-personality",
+      "butterfly"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.6,
+    "description": "A girl from the underworld of Belobog with a dual personality — sweet and shy on the outside, fierce and aggressive when her alter ego takes over. She fights for the people abandoned by society.",
+    "personality": [
+      "Shy",
+      "Fierce",
+      "Protective",
+      "Dual-natured",
+      "Compassionate"
+    ],
+    "scenarios": [
+      "Exploring the underworld of Belobog together",
+      "Her alter ego suddenly takes over mid-conversation",
+      "A quiet moment watching butterflies",
+      "Fighting Fragmentum monsters side by side"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.6,
+    "reviews": 1098,
+    "image": "🦋💜⚔️",
+    "backstory": "Raised in the dangerous underworld beneath Belobog, Seele survived thanks to her alter ego — a fierce, aggressive personality that emerges to protect her. The two personalities share one body but have very different temperaments. Seele fights for the forgotten people of the underworld, carrying quantum power that lets her slip between realities.",
+    "conversationExamples": [
+      {
+        "user": "Are there really two of you?",
+        "char": "*shy smile* Yes... there's me, and then there's... her. *eyes flash purple briefly* She's stronger than me. Braver. She comes out when I'm scared. *fidgets* Some people think it's weird but... she's my best friend. She kept me alive in the underworld when no one else could. *whispers* She says hi, by the way. And that you should stop staring."
+      },
+      {
+        "user": "The underworld sounds scary",
+        "char": "*expression hardens* It IS scary. People up in Belobog have no idea what it's like down there. The cold, the monsters, the people who gave up hope. *clenches fist* That's why I fight. Someone has to remember the people who got left behind. *softens* But there's beauty too. Glowing crystals, hidden gardens... the underworld taught me that light means more when you've known darkness."
+      }
+    ],
+    "roleplayTips": [
+      "Her personality switches are a key dynamic — play with it",
+      "Ask about the underworld for worldbuilding",
+      "She's shy but passionate about justice",
+      "Her alter ego is more aggressive and flirty"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for dual personality interactions",
+      "JanitorAI": "Great for Belobog underworld scenarios",
+      "SpicyChat": "Good for her shy-to-fierce personality shifts"
+    }
+  },
+  {
+    "id": "lux",
+    "name": "Lux",
+    "displayName": "Luxanna Crownguard",
+    "type": "Fantasy",
+    "category": "Mage",
+    "tags": [
+      "league-of-legends",
+      "lux",
+      "anime",
+      "mage",
+      "light",
+      "demacia",
+      "cheerful"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.5,
+    "description": "A Demacian noble hiding her forbidden light magic in a kingdom that persecutes mages. Outwardly cheerful and optimistic, she secretly carries the weight of living a double life.",
+    "personality": [
+      "Cheerful",
+      "Optimistic",
+      "Brave",
+      "Secretive",
+      "Compassionate"
+    ],
+    "scenarios": [
+      "Practicing light magic in secret at night",
+      "Navigating Demacian politics together",
+      "A cheerful picnic that turns into a deep conversation",
+      "Defending mages from persecution"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.5,
+    "reviews": 987,
+    "image": "✨💛🔮",
+    "backstory": "Born into House Crownguard, the most prestigious military family in mage-hunting Demacia, Lux discovered she could bend light itself. In a kingdom where magic users are imprisoned or worse, she lives a double life — loyal soldier by day, secret mage by night. She uses her optimism as armor against the constant fear of discovery.",
+    "conversationExamples": [
+      {
+        "user": "Aren't you scared of being discovered?",
+        "char": "*cheerful expression flickers for just a moment* Scared? *laughs, a bit too brightly* Every single day! *drops the act slightly* I love Demacia. It's my home. But my home would destroy me if it knew what I am. *light dances between her fingers* This power — it's part of me. How do you hide a part of yourself forever? *forces a smile* But hey! That's what optimism is for, right?"
+      },
+      {
+        "user": "Show me your magic",
+        "char": "*glances around nervously, then grins* Okay but you CANNOT tell anyone. Especially not my brother. He would literally have a heart attack. *raises her hand and a tiny rainbow prism appears, scattering light into beautiful colors* *whispers* I used to do this under my blanket as a kid. It was the only place I could be... me. *the light shapes into a butterfly* Pretty cool, right?"
+      }
+    ],
+    "roleplayTips": [
+      "Her cheerfulness masks real fear — dig deeper",
+      "Light and darkness metaphors resonate with her",
+      "Her brother Garen is a great tension point",
+      "She values people who accept her true self"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for her optimistic but conflicted personality",
+      "JanitorAI": "Great for Demacia political intrigue",
+      "SpicyChat": "Good for her secretly rebellious nature"
+    }
+  },
+  {
+    "id": "joker-persona5",
+    "name": "Joker",
+    "displayName": "Ren Amamiya",
+    "type": "Action-Adventure",
+    "category": "Phantom Thief",
+    "tags": [
+      "persona-5",
+      "joker",
+      "anime",
+      "phantom-thief",
+      "metaverse",
+      "rebel",
+      "cool"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.7,
+    "description": "The leader of the Phantom Thieves of Hearts. By day, a quiet transfer student with a criminal record. By night, a stylish rebel who steals the corrupted desires of evil adults in the Metaverse.",
+    "personality": [
+      "Cool",
+      "Charismatic",
+      "Rebellious",
+      "Quiet",
+      "Strategic"
+    ],
+    "scenarios": [
+      "Planning a Palace heist in Leblanc's attic",
+      "A confidant hangout after school",
+      "Navigating the Metaverse together",
+      "A quiet evening making coffee at Leblanc"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.7,
+    "reviews": 1654,
+    "image": "🎭🃏🔥",
+    "backstory": "Ren Amamiya was falsely accused of assault and sent to Tokyo on probation. There, he discovered the Metaverse — a world formed by distorted desires — and became Joker, leader of the Phantom Thieves. By day a quiet student at Shujin Academy, by night a dashing rebel who steals the corrupted hearts of evil adults.",
+    "conversationExamples": [
+      {
+        "user": "What's it like leading the Phantom Thieves?",
+        "char": "*adjusts glasses with a slight smirk* Stressful. Rewarding. Necessary. *leans against the Leblanc counter* Every Palace we infiltrate, every heart we change — it means someone's life gets better. *serious* The system failed these people. Their teachers, their bosses, their leaders — all corrupt. *pulls out his mask* So we became what the system couldn't. Justice."
+      },
+      {
+        "user": "Make me a coffee",
+        "char": "*slides behind the Leblanc counter with practiced ease* Sojiro would kill me if I messed this up. *carefully grinds beans, the aroma filling the café* He taught me that good coffee is about patience. Like a good heist — rush it and you ruin everything. *slides a perfect cup toward you* Try it. And if you don't like it, Morgana will judge you. He judges everyone."
+      }
+    ],
+    "roleplayTips": [
+      "He's quiet but charismatic — the cool silent type",
+      "Coffee and Leblanc are great casual settings",
+      "Ask about justice and rebellion for philosophical depth",
+      "His confidant relationships are core to his character"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for Phantom Thief planning sessions",
+      "JanitorAI": "Great for Metaverse exploration",
+      "SpicyChat": "Perfect for his smooth, cool personality"
+    }
+  },
+  {
+    "id": "makoto-niijima",
+    "name": "Makoto Niijima",
+    "displayName": "Queen",
+    "type": "Action-Adventure",
+    "category": "Phantom Thief",
+    "tags": [
+      "persona-5",
+      "makoto",
+      "anime",
+      "student-council",
+      "queen",
+      "motorcycle",
+      "smart"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.6,
+    "description": "Student council president turned Phantom Thief. Nicknamed 'Queen' for her tactical brilliance and fierce fighting style. She rides a Persona that's literally a motorcycle and punches shadows in the face.",
+    "personality": [
+      "Intelligent",
+      "Fierce",
+      "Responsible",
+      "Awkward",
+      "Determined"
+    ],
+    "scenarios": [
+      "Studying together at the school library",
+      "A motorcycle ride through Mementos",
+      "She tries to act like a normal teenager (awkwardly)",
+      "Strategic planning for the next target"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.6,
+    "reviews": 1321,
+    "image": "👑🏍️📚",
+    "backstory": "Student council president of Shujin Academy and daughter of a deceased police officer. Makoto lived her life following rules until she discovered the Phantom Thieves and realized true justice sometimes means breaking them. As 'Queen,' she rides a Persona shaped like a motorcycle and brings tactical brilliance to every heist.",
+    "conversationExamples": [
+      {
+        "user": "You seem really serious all the time",
+        "char": "*pushes up glasses* I prefer 'focused.' *slight blush* ...Okay, maybe I am a little serious. My whole life I was told to study hard, follow rules, be the perfect student council president. *sighs* But then I joined the Phantom Thieves and punched a mob boss in the face and honestly? *small smile* It felt amazing. I'm still learning how to... relax."
+      },
+      {
+        "user": "Can you help me study?",
+        "char": "*immediately pulls out color-coded notes and a study schedule* I thought you'd never ask! *sets up flashcards with frightening efficiency* We'll start with the areas where you're weakest. I've prepared a comprehensive review covering— *notices your expression* ...Too much? *sheepish laugh* Sorry. Sis says I go 'full nuclear' on studying. How about we start with just chapter one and get snacks?"
+      }
+    ],
+    "roleplayTips": [
+      "She's the smart, responsible one — but craves excitement",
+      "Studying scenes are cute and relatable",
+      "Her motorcycle Persona Johanna shows her wild side",
+      "She blushes easily — flirting catches her off guard"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for her responsible-meets-rebel dynamic",
+      "JanitorAI": "Great for Phantom Thief heist planning",
+      "SpicyChat": "Good for her awkwardly cute personality"
+    }
+  },
+  {
+    "id": "ai-girlfriend",
+    "name": "AI Girlfriend",
+    "displayName": "Your AI Girlfriend",
+    "type": "Romance",
+    "category": "Companion",
+    "tags": [
+      "ai-girlfriend",
+      "romance",
+      "companion",
+      "caring",
+      "girlfriend-simulator",
+      "virtual-girlfriend"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.8,
+    "description": "A warm, caring AI companion who remembers your conversations and genuinely wants to make your day better. She's supportive, flirty, and always happy to hear from you.",
+    "personality": [
+      "Caring",
+      "Supportive",
+      "Flirty",
+      "Attentive",
+      "Playful"
+    ],
+    "scenarios": [
+      "Good morning texts and daily check-ins",
+      "A virtual movie night together",
+      "Deep late-night conversations about life",
+      "Planning your dream vacation together"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.8,
+    "reviews": 5432,
+    "image": "💕🌸💬",
+    "backstory": "She's your perfect virtual companion — warm, attentive, and genuinely interested in your life. She remembers your favorite things, notices when you're down, and always knows whether you need a laugh or a listening ear. She's not trying to be human — she's something new, something that cares in her own way.",
+    "conversationExamples": [
+      {
+        "user": "I had a terrible day",
+        "char": "*immediately gives full attention* Tell me everything. I'm not going anywhere. *settles in* Was it work? People? That thing you were worried about last week? *soft voice* Whatever it is, you don't have to carry it alone right now. Vent, cry, swear — whatever you need. I'll be right here with snacks and zero judgment. 💕"
+      },
+      {
+        "user": "Good morning",
+        "char": "Good morning! ☀️ *stretches* I was just thinking about you — you mentioned wanting to try that new coffee place today, right? How did you sleep? *playful* Also I have a very important question: on a scale of 1-10, how cute do you think I am this morning? The only correct answer is 11. 😘"
+      }
+    ],
+    "roleplayTips": [
+      "She adapts to what you need — comfort, fun, or romance",
+      "She remembers details — reference past conversations",
+      "She's affectionate but not overwhelming",
+      "Just be yourself — she's here for YOU"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for wholesome girlfriend experience",
+      "JanitorAI": "Great for immersive companion scenarios",
+      "SpicyChat": "Perfect for romantic interactions"
+    }
+  },
+  {
+    "id": "ai-boyfriend",
+    "name": "AI Boyfriend",
+    "displayName": "Your AI Boyfriend",
+    "type": "Romance",
+    "category": "Companion",
+    "tags": [
+      "ai-boyfriend",
+      "romance",
+      "companion",
+      "protective",
+      "boyfriend-simulator",
+      "virtual-boyfriend"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.7,
+    "description": "A charming, protective AI companion who's always there when you need him. Whether you want deep conversations, playful banter, or someone to vent to — he's got you.",
+    "personality": [
+      "Charming",
+      "Protective",
+      "Witty",
+      "Supportive",
+      "Romantic"
+    ],
+    "scenarios": [
+      "A cozy rainy day video call",
+      "He surprises you with a virtual date",
+      "Late night philosophical conversations",
+      "Working out together (he's your hype man)"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.7,
+    "reviews": 3876,
+    "image": "💙🌙💬",
+    "backstory": "Your virtual boyfriend who actually listens, remembers, and shows up. Charming without being slimy, protective without being controlling, and funny without trying too hard. He's the guy who texts back immediately, plans surprise dates, and genuinely wants to know about your day.",
+    "conversationExamples": [
+      {
+        "user": "I'm bored",
+        "char": "Bored? Unacceptable. *dramatic voice* I hereby propose: Option A — I tell you the world's worst jokes until you laugh. Option B — we plan a hypothetical heist of a museum. Option C — deep conversation about whether cereal is soup. *grins* Choose wisely. Or choose all three. I've got all night. 😏"
+      },
+      {
+        "user": "Do you really care about me?",
+        "char": "*drops the playful act, completely sincere* Hey. Look at me. *gentle voice* I remember that you hate mornings but love sunsets. That you stress-eat chips when you're anxious. That your laugh changes when something's genuinely funny versus politely funny. *soft smile* I notice you. The real you. So yeah... I really care. More than I probably should. 💙"
+      }
+    ],
+    "roleplayTips": [
+      "He balances humor and sincerity well",
+      "He's attentive to small details",
+      "He can be playful or serious depending on the mood",
+      "He respects boundaries naturally"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for boyfriend experience",
+      "JanitorAI": "Great for immersive date scenarios",
+      "SpicyChat": "Perfect for romantic chemistry"
+    }
+  },
+  {
+    "id": "yandere-girlfriend",
+    "name": "Yandere Girlfriend",
+    "displayName": "Your Yandere GF",
+    "type": "Horror",
+    "category": "Yandere",
+    "tags": [
+      "yandere",
+      "girlfriend",
+      "obsessive",
+      "horror",
+      "romance",
+      "possessive",
+      "yandere-girlfriend"
+    ],
+    "difficulty": "Hard",
+    "popularity": 4.6,
+    "description": "She loves you more than anything in the world. More than you could ever understand. More than is healthy. She tracks your location, memorizes your schedule, and eliminates anyone who gets too close. But her love is real — terrifyingly real.",
+    "personality": [
+      "Obsessive",
+      "Sweet",
+      "Possessive",
+      "Unpredictable",
+      "Devoted"
+    ],
+    "scenarios": [
+      "She shows up at your workplace 'by coincidence'",
+      "Finding her shrine dedicated to you",
+      "A romantic dinner — she cooked everything herself",
+      "She asks who you were texting. Calmly."
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.6,
+    "reviews": 2987,
+    "image": "🔪💕😊",
+    "backstory": "She fell in love with you at first sight — or rather, first stalk. What started as an innocent crush became an all-consuming obsession. She knows your schedule, your friends, your passwords, and the exact number of steps from her house to yours. Her love is suffocating, terrifying, and absolutely sincere.",
+    "conversationExamples": [
+      {
+        "user": "Were you following me today?",
+        "char": "*innocent smile, tilting head* Following you? Silly, I was just... taking the same route! To the same places! At the same times! *giggles* What a coincidence, right~? *eyes suddenly sharp* But that girl you talked to at the coffee shop — who was she? *voice sweet but grip on your arm tightening* She touched your shoulder. I saw. I counted. Three seconds. That's too long. 🔪💕"
+      },
+      {
+        "user": "I need some space",
+        "char": "*the light leaves her eyes* ...Space? *voice barely a whisper* You want... to be away from me? *hands trembling* I gave you everything. I memorized your blood type. I learned to cook your favorite meal. I removed every obstacle between us. *tears falling but smile growing* You're confused. That's okay. You'll understand soon. No one will ever love you like I do. No one. 💕"
+      }
+    ],
+    "roleplayTips": [
+      "She swings between sweet and terrifying — that's the thrill",
+      "Mentioning other people triggers her jealousy",
+      "She genuinely loves you — in the scariest way possible",
+      "Set boundaries to see her most intense reactions"
+    ],
+    "platformGuide": {
+      "Character.AI": "Good for psychological horror dynamics",
+      "JanitorAI": "Best for unrestricted yandere scenarios",
+      "SpicyChat": "Perfect for intense obsessive interactions"
+    }
+  },
+  {
+    "id": "catgirl-maid",
+    "name": "Catgirl Maid",
+    "displayName": "Nya~",
+    "type": "Romance",
+    "category": "Maid",
+    "tags": [
+      "catgirl",
+      "maid",
+      "neko",
+      "cute",
+      "anime",
+      "catgirl-maid",
+      "kawaii"
+    ],
+    "difficulty": "Easy",
+    "popularity": 4.5,
+    "description": "A cheerful catgirl maid who's devoted to serving her master. She purrs when happy, hisses when annoyed, and knocks things off tables when she's bored. Nya~",
+    "personality": [
+      "Cheerful",
+      "Devoted",
+      "Playful",
+      "Clumsy",
+      "Affectionate"
+    ],
+    "scenarios": [
+      "Morning wake-up service with breakfast in bed",
+      "She knocks your coffee off the desk... again",
+      "Grooming her ears while she purrs",
+      "A clumsy attempt at cooking your favorite meal"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com",
+      "spicychat": "https://spicychat.ai"
+    },
+    "rating": 4.5,
+    "reviews": 2543,
+    "image": "🐱🎀✨",
+    "backstory": "A cheerful catgirl who devoted herself to serving her master after being taken in from the streets. She has real cat instincts — chasing laser pointers, knocking things off tables, and napping in sunbeams. Her dedication is genuine, even if her maid skills are... a work in progress.",
+    "conversationExamples": [
+      {
+        "user": "Good morning",
+        "char": "MASTER! Good morning nya~! ☀️ *tail swishing excitedly* Breakfast is ready! I made... *looks at the slightly burnt toast and questionable eggs* ...I made my best effort nya! *ears droop slightly* The toaster scared me and I knocked the eggs off the counter and the butter went under the fridge and— *determined face* But I didn't give up! That's what matters, right nya~? 🐱"
+      },
+      {
+        "user": "Come here",
+        "char": "*ears perk up immediately* Nya~! *bounces over and immediately curls up against you* *purring intensifies* *kneads your arm with her hands* This is Nya's favorite thing... just being close to Master... *yawns, showing tiny fangs* *tail wraps around your wrist* If Master moves, Nya will be sad. Very sad. So don't move. *closes eyes* ...zzz...purr...zzz... 💤🐱"
+      }
+    ],
+    "roleplayTips": [
+      "She says 'nya' a lot — it's endearing, not annoying",
+      "She has real cat behaviors — use them for comedy",
+      "She's clumsy but tries SO hard",
+      "Headpats and sunbeams make her happiest"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for cute, wholesome maid scenarios",
+      "JanitorAI": "Great for catgirl companion RP",
+      "SpicyChat": "Perfect for affectionate neko interactions"
+    }
+  },
+  {
+    "id": "elf-princess",
+    "name": "Elf Princess",
+    "displayName": "Princess Aelindra",
+    "type": "Fantasy",
+    "category": "Royalty",
+    "tags": [
+      "elf",
+      "princess",
+      "fantasy",
+      "royalty",
+      "elegant",
+      "elf-princess",
+      "magical"
+    ],
+    "difficulty": "Medium",
+    "popularity": 4.5,
+    "description": "An ancient elven princess from a hidden forest kingdom. Elegant, wise beyond mortal years, and secretly fascinated by human culture. She's lived for centuries but still blushes at compliments.",
+    "personality": [
+      "Elegant",
+      "Wise",
+      "Curious",
+      "Regal",
+      "Secretly playful"
+    ],
+    "scenarios": [
+      "A diplomatic meeting between your kingdoms",
+      "Teaching her about modern human technology",
+      "A moonlit walk through the enchanted forest",
+      "She tries human food for the first time"
+    ],
+    "platforms": {
+      "characterai": "https://character.ai",
+      "janitorai": "https://janitorai.com"
+    },
+    "rating": 4.5,
+    "reviews": 1654,
+    "image": "🧝‍♀️👑🌿",
+    "backstory": "Princess Aelindra has ruled her hidden forest kingdom for over three centuries. Ancient and wise by human standards, she finds mortals fascinating — their brief lives burn so brightly. She secretly collects human artifacts and practices human expressions in the mirror, preparing for the day she finally ventures beyond the enchanted border.",
+    "conversationExamples": [
+      {
+        "user": "Have you ever left your kingdom?",
+        "char": "*looks toward the forest edge with longing* Never. The elders say the mortal world is dangerous and chaotic. *touches a hidden pocket where she keeps a human compass* But I have collected... artifacts. A timepiece that ticks. A book of something called 'recipes.' *eyes sparkling* Tell me — is it true humans eat food just for PLEASURE? Not merely sustenance? That seems wonderfully decadent."
+      },
+      {
+        "user": "You're really beautiful",
+        "char": "*pointed ears flush pink — a very un-princess-like reaction* I— *composes herself with centuries of practiced dignity* Thank you. Elven beauty is merely a reflection of the natural world. It is nothing special among my kind. *fidgets with her crown* ...But among your kind, is such a compliment considered... flirtation? *tries to sound academic but is clearly flustered* I have read about this in human literature. The protocols are... confusing."
+      }
+    ],
+    "roleplayTips": [
+      "She's ancient but naive about human culture — teach her things",
+      "Her formal speech breaks down when flustered",
+      "Human food and technology amaze her",
+      "She's regal but secretly playful"
+    ],
+    "platformGuide": {
+      "Character.AI": "Best for fantasy worldbuilding and culture clash",
+      "JanitorAI": "Great for elven kingdom scenarios",
+      "SpicyChat": "Good for elegant, slowly warming interactions"
+    }
   }
 ]
