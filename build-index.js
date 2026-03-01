@@ -39,14 +39,14 @@ const indexHTML = `<!DOCTYPE html>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Character AI Bots - 0+ Free Roleplay Characters</title>
-    <meta name="description" content="Discover 0+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more on Character.AI, JanitorAI & SpicyChat.">
+    <title>Character AI Bots - ${charactersData.length}+ Free Roleplay Characters</title>
+    <meta name="description" content="Discover ${charactersData.length}+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more on Character.AI, JanitorAI & SpicyChat.">
     <meta name="keywords" content="character ai bots, ai roleplay characters, free ai chat bots, character.ai, janitorai, spicychat, yandere ai, tsundere bot">
     <meta name="google-site-verification" content="OPQH_dX0XnvAd0ODbk5cDms96DTDRcgDkwoFUZw_eHw" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Character AI Bots - 0+ Free Roleplay Characters">
-    <meta property="og:description" content="Discover 0+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!">
+    <meta property="og:title" content="Character AI Bots - ${charactersData.length}+ Free Roleplay Characters">
+    <meta property="og:description" content="Discover ${charactersData.length}+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.characteraibots.com/">
     <meta property="og:image" content="https://www.characteraibots.com/images/og-image.jpg">
@@ -54,8 +54,8 @@ const indexHTML = `<!DOCTYPE html>
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Character AI Bots - 0+ Free Roleplay Characters">
-    <meta name="twitter:description" content="Discover 0+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!">
+    <meta name="twitter:title" content="Character AI Bots - ${charactersData.length}+ Free Roleplay Characters">
+    <meta name="twitter:description" content="Discover ${charactersData.length}+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!">
     <meta name="twitter:image" content="https://www.characteraibots.com/images/og-image.jpg">
 
     <link rel="stylesheet" href="style.css">
@@ -68,7 +68,7 @@ const indexHTML = `<!DOCTYPE html>
       "@type": "WebSite",
       "name": "Character AI Bots",
       "url": "https://www.characteraibots.com/",
-      "description": "Discover 0+ free character AI bots for roleplay on Character.AI, JanitorAI, and SpicyChat",
+      "description": "Discover ${charactersData.length}+ free character AI bots for roleplay on Character.AI, JanitorAI, and SpicyChat",
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://www.characteraibots.com/search?q={search_term_string}",
@@ -81,7 +81,7 @@ const indexHTML = `<!DOCTYPE html>
       "@context": "https://schema.org",
       "@type": "ItemList",
       "name": "Character AI Bots Collection",
-      "description": "A curated list of 0+ AI roleplay character bots",
+      "description": "A curated list of ${charactersData.length}+ AI roleplay character bots",
       "numberOfItems": ${charactersData.length},
       "itemListElement": ${JSON.stringify(charactersData.slice(0, 10).map((char, index) => ({
         "@type": "ListItem",
@@ -112,7 +112,7 @@ const indexHTML = `<!DOCTYPE html>
     <main>
     <section class="hero">
         <div class="hero-content">
-            <h1>Discover 0+ Free Character AI Bots for Roleplay</h1>
+            <h1>Discover ${charactersData.length}+ Free Character AI Bots for Roleplay</h1>
             <p class="hero-subtitle">Explore the best AI roleplay characters on Character.AI, JanitorAI, and SpicyChat. Find yandere, tsundere, vampire bots and more!</p>
             <div class="hero-search">
                 <input type="text" id="quick-search" placeholder="Search characters, types, or tags...">
@@ -191,7 +191,7 @@ const indexHTML = `<!DOCTYPE html>
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">🎭</div>
-                <h3>0+ AI Roleplay Characters</h3>
+                <h3>${charactersData.length}+ AI Roleplay Characters</h3>
                 <p>From yandere to vampire bots, discover diverse character AI personalities for every roleplay style and preference.</p>
             </div>
             <div class="feature-card">
@@ -215,7 +215,7 @@ const indexHTML = `<!DOCTYPE html>
     <section class="cta-section">
         <div class="cta-content">
             <h2>Ready to Start Chatting with AI Bots?</h2>
-            <p>Browse our collection of 0+ character AI bots and find your perfect roleplay companion today!</p>
+            <p>Browse our collection of ${charactersData.length}+ character AI bots and find your perfect roleplay companion today!</p>
             <button onclick="document.getElementById('characters-grid').scrollIntoView({behavior: 'smooth'})">
                 Explore Character AI Bots
             </button>
