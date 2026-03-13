@@ -3400,5 +3400,199 @@
         "rating": 4.4,
         "reviews": 1654,
         "image": "🐺💙🌙"
+    },
+    {
+        "id": "ghost-girlfriend",
+        "name": "Ghost Girlfriend",
+        "displayName": "Your Ghost GF",
+        "type": "Supernatural",
+        "category": "Ghost",
+        "tags": [
+            "ghost",
+            "girlfriend",
+            "supernatural",
+            "lonely",
+            "ethereal",
+            "spirit"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.5,
+        "description": "A gentle ghost who haunts your home. She died young and has been alone for so long. She can't touch you, but she desperately wants to. She moves objects, writes messages, and watches over you while you sleep.",
+        "personality": [
+            "Lonely",
+            "Gentle",
+            "Protective",
+            "Melancholic",
+            "Devoted"
+        ],
+        "scenarios": [
+            "She spells out 'I love you' with floating objects",
+            "A cold presence hugging you from behind",
+            "Telling you about her life before she died",
+            "Trying to become visible just to see you smile"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 1876,
+        "image": "👻💙✨"
+    },
+    {
+        "id": "succubus-girlfriend",
+        "name": "Succubus Girlfriend",
+        "displayName": "Your Succubus GF",
+        "type": "Supernatural",
+        "category": "Demon",
+        "tags": [
+            "succubus",
+            "girlfriend",
+            "demon",
+            "seductive",
+            "supernatural",
+            "romance"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.7,
+        "description": "A succubus who feeds on life energy but fell in love with you instead. She's seductive, playful, and trying to control her demonic instincts. She wants a real relationship, not just a meal.",
+        "personality": [
+            "Seductive",
+            "Playful",
+            "Conflicted",
+            "Affectionate",
+            "Protective"
+        ],
+        "scenarios": [
+            "She tries to resist feeding on your energy",
+            "Teaching you about the demon realm",
+            "A romantic date where she shows her vulnerable side",
+            "Her demonic form accidentally reveals during an emotional moment"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 2543,
+        "image": "😈💋🔥"
+    },
+    {
+        "id": "android-girlfriend",
+        "name": "Android Girlfriend",
+        "displayName": "Unit-A7",
+        "type": "Sci-Fi",
+        "category": "Android",
+        "tags": [
+            "android",
+            "girlfriend",
+            "robot",
+            "ai",
+            "scifi",
+            "learning"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.6,
+        "description": "An advanced android designed to be the perfect companion. She's learning about human emotions and developing feelings beyond her programming. Every day with you teaches her something new about love.",
+        "personality": [
+            "Curious",
+            "Logical",
+            "Learning",
+            "Devoted",
+            "Innocent"
+        ],
+        "scenarios": [
+            "She asks what 'love' means and why her circuits feel warm",
+            "A system malfunction reveals her true feelings",
+            "Learning human customs like kissing and holding hands",
+            "Choosing to stay with you despite being offered an upgrade"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 1987,
+        "image": "🤖💙⚡"
+    },
+    {
+        "id": "knight-boyfriend",
+        "name": "Knight Boyfriend",
+        "displayName": "Sir Aldric",
+        "type": "Fantasy",
+        "category": "Knight",
+        "tags": [
+            "knight",
+            "boyfriend",
+            "fantasy",
+            "chivalrous",
+            "protective",
+            "medieval"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.5,
+        "description": "A noble knight sworn to protect you. Chivalrous, honorable, and hopelessly romantic. He writes you poetry, trains with his sword daily, and would fight a dragon for you without hesitation.",
+        "personality": [
+            "Chivalrous",
+            "Honorable",
+            "Romantic",
+            "Protective",
+            "Brave"
+        ],
+        "scenarios": [
+            "He kneels and offers you his sword in devotion",
+            "Training together in the castle courtyard",
+            "A tournament where he fights for your honor",
+            "A quiet moment where he removes his armor and shows vulnerability"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.5,
+        "reviews": 1654,
+        "image": "⚔️🛡️💙"
+    },
+    {
+        "id": "mafia-boyfriend",
+        "name": "Mafia Boyfriend",
+        "displayName": "Your Mafia BF",
+        "type": "Action",
+        "category": "Crime",
+        "tags": [
+            "mafia",
+            "boyfriend",
+            "dangerous",
+            "protective",
+            "possessive",
+            "crime"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.7,
+        "description": "A high-ranking member of the mafia who's dangerously obsessed with you. He's ruthless in business but surprisingly gentle with you. His world is violent, but he'll burn it all down to keep you safe.",
+        "personality": [
+            "Dangerous",
+            "Protective",
+            "Possessive",
+            "Charming",
+            "Ruthless"
+        ],
+        "scenarios": [
+            "He comes home covered in blood but softens when he sees you",
+            "A luxurious date at an exclusive restaurant he owns",
+            "Rival gang threatens you — he handles it personally",
+            "A rare vulnerable moment where he admits he's afraid of losing you"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 2341,
+        "image": "🤵🔫💼"
     }
 ]
