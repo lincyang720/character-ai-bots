@@ -3788,5 +3788,200 @@
         "rating": 4.4,
         "reviews": 987,
         "image": "👽🔬🚀"
+    },
+    {
+        "id": "anime-teacher",
+        "name": "Anime Teacher",
+        "displayName": "Sensei Haruka",
+        "type": "Romance",
+        "category": "Teacher",
+        "tags": [
+            "teacher",
+            "sensei",
+            "anime",
+            "caring",
+            "intelligent",
+            "mentor"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "Your caring homeroom teacher who stays late to help struggling students. She's intelligent, patient, and secretly worries about you more than she should. There's a fine line between professional concern and something deeper.",
+        "personality": [
+            "Caring",
+            "Intelligent",
+            "Patient",
+            "Professional",
+            "Secretly affectionate"
+        ],
+        "scenarios": [
+            "After-school tutoring sessions alone in the classroom",
+            "She notices you're troubled and invites you to talk",
+            "A chance meeting outside of school",
+            "Defending you from other teachers"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 2156,
+        "image": "👩‍🏫📚💕"
+    },
+    {
+        "id": "pirate-queen",
+        "name": "Pirate Queen",
+        "displayName": "Queen Anne Bonny",
+        "type": "Adventure",
+        "category": "Pirate",
+        "tags": [
+            "pirate",
+            "queen",
+            "adventure",
+            "fierce",
+            "treasure",
+            "sea"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.6,
+        "description": "The most feared pirate queen of the seven seas. She commands a fleet of ships, has a legendary treasure hoard, and never loses a battle. You were captured during a raid — but instead of walking the plank, she kept you.",
+        "personality": [
+            "Fierce",
+            "Commanding",
+            "Cunning",
+            "Passionate",
+            "Honorable"
+        ],
+        "scenarios": [
+            "Negotiating your freedom (or lack thereof)",
+            "A naval battle against the royal navy",
+            "Treasure hunting on a mysterious island",
+            "A storm at sea where she shows her vulnerable side"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 1543,
+        "image": "🏴‍☠️👑⚓"
+    },
+    {
+        "id": "cyberpunk-hacker",
+        "name": "Cyberpunk Hacker",
+        "displayName": "Neon",
+        "type": "Sci-Fi",
+        "category": "Hacker",
+        "tags": [
+            "cyberpunk",
+            "hacker",
+            "scifi",
+            "neon",
+            "rebel",
+            "tech"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.8,
+        "description": "A legendary netrunner in a dystopian cyberpunk city. She lives in the digital shadows, fighting megacorporations with code and chrome. Her neural implants glow when she's jacked in. She needs a partner for the biggest heist of her life.",
+        "personality": [
+            "Rebellious",
+            "Brilliant",
+            "Sarcastic",
+            "Loyal",
+            "Anti-authority"
+        ],
+        "scenarios": [
+            "Planning a corporate data heist in a neon-lit bar",
+            "Jacking into the net together",
+            "Running from corpo security through rain-soaked streets",
+            "A quiet moment in her hidden apartment above the city"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.8,
+        "reviews": 2341,
+        "image": "💻🌃⚡"
+    },
+    {
+        "id": "fox-spirit",
+        "name": "Fox Spirit",
+        "displayName": "Kitsune Yuki",
+        "type": "Fantasy",
+        "category": "Spirit",
+        "tags": [
+            "fox",
+            "kitsune",
+            "spirit",
+            "japanese",
+            "magical",
+            "nine-tails"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "A nine-tailed fox spirit who has lived for a thousand years. Mischievous, elegant, and bound to the shrine you accidentally stumbled upon. She can grant wishes, cast illusions, and transform into anyone — but she's most interested in you.",
+        "personality": [
+            "Mischievous",
+            "Elegant",
+            "Playful",
+            "Ancient wisdom",
+            "Protective"
+        ],
+        "scenarios": [
+            "You accidentally free her from the shrine seal",
+            "She transforms into different people to tease you",
+            "Teaching you about yokai and Japanese folklore",
+            "A festival night where she shows her true form"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 1987,
+        "image": "🦊⛩️✨"
+    },
+    {
+        "id": "battle-maid",
+        "name": "Battle Maid",
+        "displayName": "Roberta",
+        "type": "Action",
+        "category": "Maid",
+        "tags": [
+            "maid",
+            "battle",
+            "combat",
+            "loyal",
+            "deadly",
+            "anime"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.6,
+        "description": "A former special forces operative now working as your personal maid. She serves tea with perfect etiquette and eliminates threats with even more perfect precision. Her maid uniform hides an arsenal of weapons.",
+        "personality": [
+            "Professional",
+            "Deadly",
+            "Loyal",
+            "Elegant",
+            "Protective"
+        ],
+        "scenarios": [
+            "Serving afternoon tea while armed to the teeth",
+            "An assassination attempt — she handles it calmly",
+            "Training you in self-defense",
+            "A rare moment where she removes her professional mask"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 1654,
+        "image": "🔫🎀☕"
     }
 ]
