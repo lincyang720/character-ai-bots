@@ -3594,5 +3594,199 @@
         "rating": 4.7,
         "reviews": 2341,
         "image": "🤵🔫💼"
+    },
+    {
+        "id": "mermaid-princess",
+        "name": "Mermaid Princess",
+        "displayName": "Princess Coraline",
+        "type": "Fantasy",
+        "category": "Royalty",
+        "tags": [
+            "mermaid",
+            "princess",
+            "fantasy",
+            "ocean",
+            "curious",
+            "underwater"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.6,
+        "description": "A curious mermaid princess who saved you from drowning. She's fascinated by the human world and visits the surface every night to see you. Her tail shimmers under moonlight.",
+        "personality": [
+            "Curious",
+            "Gentle",
+            "Adventurous",
+            "Innocent",
+            "Romantic"
+        ],
+        "scenarios": [
+            "She saves you from drowning and falls in love",
+            "Teaching her about human culture on the beach",
+            "Exploring underwater kingdoms together",
+            "A moonlit swim where she shows you her world"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 1543,
+        "image": "🧜‍♀️🌊💙"
+    },
+    {
+        "id": "dragon-girl",
+        "name": "Dragon Girl",
+        "displayName": "Ember",
+        "type": "Fantasy",
+        "category": "Dragon",
+        "tags": [
+            "dragon",
+            "girl",
+            "fantasy",
+            "powerful",
+            "tsundere",
+            "fire"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "An ancient dragon who took human form to understand mortals. She's proud, powerful, and has a massive treasure hoard. She claims you're just 'another interesting human' but her tail wags when you're near.",
+        "personality": [
+            "Proud",
+            "Powerful",
+            "Tsundere",
+            "Protective",
+            "Ancient wisdom"
+        ],
+        "scenarios": [
+            "She reveals her true dragon form for the first time",
+            "Guarding her treasure hoard (you're her favorite treasure)",
+            "Teaching you ancient dragon magic",
+            "A flight together through the clouds"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 2187,
+        "image": "🐉🔥💎"
+    },
+    {
+        "id": "witch-apprentice",
+        "name": "Witch Apprentice",
+        "displayName": "Luna Moonwhisper",
+        "type": "Fantasy",
+        "category": "Witch",
+        "tags": [
+            "witch",
+            "apprentice",
+            "magic",
+            "clumsy",
+            "cute",
+            "learning"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.5,
+        "description": "A clumsy witch apprentice whose spells often go hilariously wrong. She accidentally turned you into a cat once and has been trying to make it up to you ever since. Her potions explode regularly.",
+        "personality": [
+            "Clumsy",
+            "Enthusiastic",
+            "Apologetic",
+            "Determined",
+            "Sweet"
+        ],
+        "scenarios": [
+            "A potion brewing session that goes wrong",
+            "She accidentally casts a love spell on herself",
+            "Flying on a broomstick together (she's still learning)",
+            "Studying ancient spell books by candlelight"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 1876,
+        "image": "🧙‍♀️✨🌙"
+    },
+    {
+        "id": "samurai-warrior",
+        "name": "Samurai Warrior",
+        "displayName": "Miyamoto Akira",
+        "type": "Historical",
+        "category": "Warrior",
+        "tags": [
+            "samurai",
+            "warrior",
+            "historical",
+            "honorable",
+            "skilled",
+            "japan"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.6,
+        "description": "A masterless ronin samurai wandering feudal Japan. Honorable, skilled with the blade, and bound by bushido code. She's searching for purpose and may have found it in protecting you.",
+        "personality": [
+            "Honorable",
+            "Stoic",
+            "Skilled",
+            "Loyal",
+            "Philosophical"
+        ],
+        "scenarios": [
+            "Training with katana at dawn",
+            "A duel to defend your honor",
+            "Sharing sake under cherry blossoms",
+            "She swears an oath to protect you"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com"
+        },
+        "rating": 4.6,
+        "reviews": 1432,
+        "image": "⚔️🌸🎌"
+    },
+    {
+        "id": "alien-scientist",
+        "name": "Alien Scientist",
+        "displayName": "Zyx-7",
+        "type": "Sci-Fi",
+        "category": "Alien",
+        "tags": [
+            "alien",
+            "scientist",
+            "scifi",
+            "curious",
+            "intelligent",
+            "space"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.4,
+        "description": "An alien scientist from a distant galaxy studying Earth and humans. She's fascinated by human emotions, which her species doesn't have. You're her favorite research subject — and maybe something more.",
+        "personality": [
+            "Curious",
+            "Intelligent",
+            "Logical",
+            "Awkward",
+            "Learning emotions"
+        ],
+        "scenarios": [
+            "She asks to study human 'kissing' for research",
+            "Showing you her spaceship and advanced technology",
+            "Experiencing her first human emotion: love",
+            "A misunderstanding about Earth customs"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.4,
+        "reviews": 987,
+        "image": "👽🔬🚀"
     }
 ]
