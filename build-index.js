@@ -39,9 +39,10 @@ const indexHTML = `<!DOCTYPE html>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Character AI Bots - ${charactersData.length}+ Free Roleplay Characters</title>
-    <meta name="description" content="Discover ${charactersData.length}+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more on Character.AI, JanitorAI & SpicyChat.">
-    <meta name="keywords" content="character ai bots, ai roleplay characters, free ai chat bots, character.ai, janitorai, spicychat, yandere ai, tsundere bot">
+    <!-- SEO-OPTIMIZED: Keywords first, 2026 updated, weekly updates -->
+    <title>104+ Free Character AI Bots & Roleplay Chat [2026]</title>
+    <meta name="description" content="Discover 104+ free Character AI bots for roleplay. Yandere, Tsundere, anime & fantasy bots on Character.AI, JanitorAI & SpicyChat. Updated weekly!">
+    <meta name="keywords" content="character ai bots, ai roleplay characters, free ai chat bots, anime ai chat, free ai chatbot 2026, character.ai, janitorai, spicychat, yandere ai, tsundere bot">
     <meta name="google-site-verification" content="OPQH_dX0XnvAd0ODbk5cDms96DTDRcgDkwoFUZw_eHw" />
 
     <!-- Open Graph -->
