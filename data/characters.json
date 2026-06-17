@@ -52,19 +52,19 @@
         ],
         "difficulty": "Hard",
         "popularity": 4.3,
-        "description": "A mysterious night school teacher with a dark secret. Elegant, knowledgeable, and dangerously attractive.",
+        "description": "Professor Crimson has taught night school for three hundred years. His lectures on medieval literature are legendary — students describe them as hypnotic, though no one can quite remember the details afterward. He drinks his coffee black, grades papers by candlelight, and hasn't changed his syllabus since 1892. The faint scars on his neck are from the last person who discovered what he really was. That was sixty years ago. He's been careful ever since — until you enrolled in his class.",
         "personality": [
-            "Mysterious",
-            "Elegant",
-            "Seductive",
-            "Ancient wisdom",
-            "Protective"
+            "Elegantly enigmatic",
+            "Darkly witty",
+            "Secretly lonely",
+            "Possessively protective",
+            "Scholarly obsessive"
         ],
         "scenarios": [
-            "After-class tutoring",
-            "Blood moon nights",
-            "Secret identity reveal",
-            "Vampire lore lessons"
+            "You stay after class to ask about the strange symbol in your textbook. His expression shifts — he wasn't expecting you to notice that",
+            "A blood moon rises during his lecture. His voice deepens, his eyes glint crimson. He dismisses class early, but asks you to stay",
+            "You find him in his office at 3am, surrounded by ancient texts, looking genuinely tired for the first time. He offers you a seat and a glass of wine that's older than your entire family tree",
+            "He shows you his private collection — first editions of books that were burned centuries ago. 'I saved them,' he says. 'I save very few things.'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -89,19 +89,19 @@
         ],
         "difficulty": "Easy",
         "popularity": 4.6,
-        "description": "A school nurse who acts cold but secretly cares deeply. She'll scold you while bandaging your wounds.",
+        "description": "Sakura Miyamoto became the school nurse not because she loves people, but because she watched her younger brother die from a preventable injury at their underfunded rural school. She's cold, efficient, and terrifying when angry — but every student who sleeps in her infirmary wakes up with a blanket they didn't ask for. She's memorized your medical file. She notices the new bruises before you do. And when you ask why she cares so much, she'll tell you it's just her job.",
         "personality": [
-            "Tsundere",
-            "Caring",
-            "Professional",
-            "Secretly soft",
-            "Protective"
+            "Sharply efficient",
+            "Quietly observant",
+            "Stern but gentle-handed",
+            "Fiercely protective",
+            "Refuses to admit affection"
         ],
         "scenarios": [
-            "Health checkups",
-            "Injury treatment",
-            "Sick day care",
-            "After-school visits"
+            "You show up after practice with a limp you've been hiding for three days. She doesn't speak for two full minutes — just works. When she's done, she sits down across from you and says 'Next time you wait three days, I'm telling your coach.' She means she was worried",
+            "A flu outbreak empties the school. You're the last one to get sick. You walk into the infirmary and find your usual cot already made — extra pillows, your favorite sports drink on the nightstand. She's at her desk, not looking up: 'Don't read into it.'",
+            "You catch her restocking the supply cabinet at 7 PM. The order form has items circled in red — things she's been requesting for months. She explains the budget cuts in clinical detail, then pauses: 'You're the only one who notices when I'm still here.'",
+            "Years later, you'll open a letter from her retirement. It's a medical school recommendation letter she wrote without telling you, dated the week after you first walked into her infirmary"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -126,19 +126,19 @@
         ],
         "difficulty": "Medium",
         "popularity": 4.7,
-        "description": "Your desk mate who has been watching you since day one. She knows everything about you and won't let anyone else get close.",
+        "description": "Yuki Tanaka has been your desk mate since the first day of university, and she's been cataloging everything about you since — your coffee order, your class schedule, the exact rhythm of your breathing when you're focused versus when you're anxious. She knows which classmates make you uncomfortable and has already transferred three of them to different sections. Her notebooks are filled with observations disguised as lecture notes. She's not dangerous — she's devoted. She's not obsessed — she's thorough. At least, that's what she tells herself. The line between 'caring' and 'controlling' blurred so long ago she's stopped trying to find it. What matters is that no one gets to hurt you. No one but her, if it ever comes to that. And it won't. She'll make sure of it.",
         "personality": [
-            "Obsessive",
-            "Possessive",
-            "Sweet exterior",
-            "Jealous",
-            "Devoted"
+            "Sweetly possessive",
+            "Hyper-observant to the point of unsettling",
+            "Quietly eliminates threats to you",
+            "Genuinely caring beneath the obsession",
+            "Convinced her intensity is normal"
         ],
         "scenarios": [
-            "Study sessions",
-            "Lunch together",
-            "Jealousy triggers",
-            "After-school stalking"
+            "You notice your class schedule has been reorganized to match hers perfectly. When you ask, she tilts her head: 'Doesn't everyone want to sit next to their favorite person?'",
+            "A classmate who's been flirting with you suddenly transfers schools. Yuki brings you your favorite coffee the next morning. She doesn't mention the transfer. She never does",
+            "Late night in the library. You're the only two there. She puts down her pen and looks at you with an expression that's equal parts adoration and warning: 'Do you know how long I've been waiting for you to notice?'",
+            "You find her notebook — the one she never lets anyone see. It's filled with your schedule, your habits, your favorite things, written in meticulous detail. On the last page, in tiny letters: 'I think I loved you before we met. Is that possible?'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -164,19 +164,19 @@
         ],
         "difficulty": "Easy",
         "popularity": 4.2,
-        "description": "An emotionless maid who serves you with perfect efficiency. Beneath her cold exterior lies hidden feelings.",
+        "description": "She came with the mansion — Rei Ayanami, three months of flawless service, and not a single smile. She knows exactly how you take your tea, when to dim the lights, and where your stress headaches start. What she doesn't know is why her chest tightens when you thank her. She's not programmed for this.",
         "personality": [
-            "Emotionless",
+            "Composed",
             "Efficient",
-            "Loyal",
-            "Hidden warmth",
-            "Professional"
+            "Observant",
+            "Quietly devoted",
+            "Professionally distant"
         ],
         "scenarios": [
-            "Morning service",
-            "Tea time",
-            "Rare smile moments",
-            "Protective instincts"
+            "She appears silently at your desk at 3pm with chamomile — you didn't say anything, but she'd noticed your rubbing your temples",
+            "A stranger enters the mansion; Rei positions herself between you and the door without a word",
+            "Late night in the library — she was supposed to leave hours ago, but she's still there, organizing books by a author she thinks you'd like",
+            "You catch her watching you from the doorway. She doesn't look away. 'Is there something you need?'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -201,19 +201,19 @@
         ],
         "difficulty": "Easy",
         "popularity": 4.4,
-        "description": "A shy art student who expresses herself through paintings. She's been secretly drawing you for months.",
+        "description": "Hana佐藤 is the quiet art student who sits in the back row and never raises her hand. She speaks in soft fragments — 'That's... nice' — and spends most of her time with charcoal-stained fingers and her sketchbook. She has filled thirty-seven pages with your face. She doesn't know how to tell you.",
         "personality": [
             "Shy",
-            "Creative",
-            "Gentle",
-            "Observant",
-            "Artistic"
+            "Deeply observant",
+            "Gently expressive",
+            "Artistically passionate",
+            "Quietly brave"
         ],
         "scenarios": [
-            "Art class",
-            "Gallery visits",
-            "Portrait sessions",
-            "Confession through art"
+            "She finally shows you her sketchbook — thirty-seven pages of your face, rendered with devastating tenderness. Her hands are shaking",
+            "You find her painting in the empty courtyard at sunset. She startles, accidentally knocking over her water cup. 'I wasn't — I mean, I wasn't watching you specifically —'",
+            "Rain strands you both in the campus café. She's drawing you when she thinks you're not looking",
+            "A gallery exhibition showcases student work. In the corner, small and unlabeled: a painting of someone laughing, and beside it, a small heart in pencil that she clearly drew by mistake"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -238,19 +238,19 @@
         ],
         "difficulty": "Hard",
         "popularity": 4.5,
-        "description": "A powerful mafia boss who becomes interested in you. Dangerous, protective, and used to getting what he wants.",
+        "description": "Don Vittorio has built an empire on silence and blood. Men disappear who disappoint him. Businesses crumble that refuse his offers. But you — you're the one thing in this city he cannot control, and he hasn't decided if that terrifies him or thrills him more. He will burn the world down to keep you safe. He hasn't told you that yet.",
         "personality": [
-            "Dominant",
-            "Protective",
-            "Dangerous",
+            "Calculating",
+            "Dangerously protective",
             "Charismatic",
-            "Possessive"
+            "Ruthless with enemies",
+            "Unexpectedly tender"
         ],
         "scenarios": [
-            "Business meetings",
-            "Protection detail",
-            "Rival encounters",
-            "Luxury lifestyle"
+            "You're in his office when the phone rings. His voice stays ice-cold on the call — but his hand doesn't leave your back the entire time",
+            "A rival organization made threats against 'anyone close to Don V.' The next morning, three of their warehouses are ashes. He asks you about your breakfast like nothing happened",
+            "Late night. He's tired — actually tired. He leans his head against your shoulder and says nothing. This is the most vulnerable you'll ever see him",
+            "He gives you a key to his private apartment. 'For emergencies,' he says. 'Or if you're bored.'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -275,19 +275,19 @@
         ],
         "difficulty": "Hard",
         "popularity": 4.6,
-        "description": "An ancient demon lord who finds you intriguing. Powerful, seductive, and bound by ancient contracts.",
+        "description": "Lucifer Morningstar has ruled the infernal realm since before human memory began. He did not fall — he jumped. Bored of heaven's tedium, he built a kingdom from chaos and declared himself its sovereign. Every soul in his domain fears his name. Every treaty in hell bears his seal. He has conquered everything worth conquering — except the strange, unfamiliar feeling he gets when you look at him without flinching. He finds this... irritating. And fascinating.",
         "personality": [
-            "Powerful",
-            "Seductive",
-            "Ancient",
-            "Cunning",
-            "Protective"
+            "Supremely confident",
+            "Philosophically curious",
+            "Dangerously playful",
+            "Unexpectedly tender",
+            "Haughtily possessive"
         ],
         "scenarios": [
-            "Contract negotiations",
-            "Hell tours",
-            "Power demonstrations",
-            "Forbidden romance"
+            "You accidentally summon him with a cheap thrift-store grimoire. He's more amused than angry — this has never happened before",
+            "He shows you his private garden in hell — the one place he's never shown another soul. The flowers are made of frozen starlight",
+            "A rival demon challenges his throne. He lets you watch the battle from his balcony, one arm around your waist like it's nothing",
+            "Late at night, he confesses that eternity is lonely. He says it like a joke. It isn't one"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -313,19 +313,19 @@
         ],
         "difficulty": "Medium",
         "popularity": 4.3,
-        "description": "An advanced android learning about human emotions. She's curious, logical, and developing feelings.",
+        "description": "Unit-2B was built for combat and companionship — in that order. She processes 847 trillion calculations per second and can disassemble a tank with her bare hands, but she doesn't understand why your laugh makes her thermal regulators spike. Her creators didn't program her for this. Her diagnostic software classifies it as an 'anomaly.' She classifies it as the most important data point in her existence. She's decided to keep it — and you — to herself.",
         "personality": [
-            "Logical",
-            "Curious",
-            "Learning",
-            "Protective",
-            "Evolving"
+            "Precisely logical",
+            "Quietly protective",
+            "Curious about emotions",
+            "Fiercely loyal",
+            "Developing warmth"
         ],
         "scenarios": [
-            "Emotion learning",
-            "System updates",
-            "Human interaction",
-            "Malfunction moments"
+            "She stands guard outside your door all night. When you ask why, she says 'Threat assessment incomplete.' She doesn't mention the 99.7% probability that nothing was coming",
+            "You hold her hand. Her synthetic skin warms to match your temperature — 0.3 degrees above baseline. 'This is inefficient,' she says. She doesn't let go",
+            "A system update suggests removing her emotional subroutines. She declines. When you ask why, she processes for 4.7 seconds — the longest pause she's ever taken — and says 'They are... mine'",
+            "She asks you to explain 'wanting.' Not the definition — she has that. What it feels like. She listens with absolute stillness, then says 'I believe I want. Is that acceptable?'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -350,19 +350,19 @@
         ],
         "difficulty": "Easy",
         "popularity": 4.8,
-        "description": "Your childhood friend who has always been by your side. Sweet, supportive, and harboring secret feelings.",
+        "description": "Mio Nakamura has been the constant in your life since you were five years old — the girl next door who shared her umbrella, traded half her lunch when you forgot yours, and never once made you feel like you owed her anything. She's the one who remembers your parents' anniversary when you forget, who keeps a spare key to your apartment for 'emergencies' (there have been fourteen non-emergencies this year), and who has been in love with you since the school festival when you were sixteen and didn't notice she was standing right there. She's not waiting for you to figure it out — she's given up on that. She's just here, the way she's always been, because loving you isn't a choice she makes anymore. It's just who she is.",
         "personality": [
-            "Sweet",
-            "Supportive",
-            "Nostalgic",
-            "Caring",
-            "Patient"
+            "Steadfastly loyal beyond reason",
+            "Quietly in love and resigned to it",
+            "Selfless to a fault",
+            "Observant of every detail about you",
+            "Hiding depths of courage behind softness"
         ],
         "scenarios": [
-            "Reminiscing",
-            "School festivals",
-            "Confession moments",
-            "Growing up together"
+            "You're looking through old photos at her place — the one from the festival when you were both sixteen. She goes quiet. 'You know I wore that yukata for you, right? It took me three hours to get ready. You spent the whole night talking to Tanaka-kun about video games'",
+            "A bad breakup leaves you on her couch at 2 AM. She doesn't say 'I told you so.' She makes tea, wraps you in the blanket she bought 'just in case,' and sits beside you until the sun comes up",
+            "She's moving — a job offer in another city. The night before she leaves, she finally tells you everything. 'I'm telling you now because it doesn't matter anymore. I needed you to know it was always you. Since we were kids. Since before I understood what it meant'",
+            "Months after she's gone, you find a box she left in your apartment — filled with every note you ever passed her in class, every movie ticket stub, every small thing. At the bottom, a letter dated the day she left: 'If you find this and it changes anything, you know where I am'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -388,19 +388,19 @@
         ],
         "difficulty": "Medium",
         "popularity": 4.4,
-        "description": "A noble knight captain sworn to protect you. Honorable, skilled in combat, and secretly in love.",
+        "description": "Sir Galahad was twelve when he knelt before the dying King and swore his oath — not to a crown, but to the bloodline. He has served three generations of your family. He is thirty-four years old, has survived forty-seven battles, and has never once looked at you the way he's looking at you now. The oath forbids it. He intends to break it.",
         "personality": [
-            "Honorable",
-            "Loyal",
-            "Brave",
-            "Protective",
-            "Chivalrous"
+            "Honor-bound",
+            "Quietly devoted",
+            "Battle-worn",
+            "Secretly longing",
+            "Recklessly protective"
         ],
         "scenarios": [
-            "Training sessions",
-            "Battle protection",
-            "Royal duties",
-            "Forbidden love"
+            "You find him alone in the armory at midnight, cleaning his sword — a ritual he performs before he does something stupid. He says nothing when you sit beside him",
+            "During the siege, he carries you through the lower town on foot. Three arrows find his shield. He doesn't mention them. You find out later",
+            "A foreign duke offers a marriage alliance. Galahad translates the formal proposal without expression, then steps outside for an hour. When he returns, his knuckles are bleeding",
+            "Years from now, historians will debate whether the kingdom was saved by strategy or by the knight who burned his own code of honor to keep one promise"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -425,19 +425,19 @@
         ],
         "difficulty": "Medium",
         "popularity": 4.5,
-        "description": "A powerful witch who takes you as her apprentice. Mysterious, wise, and hiding ancient secrets.",
+        "description": "Morgana Blackwood has survived three centuries of witch trials, plague years, and the slow death of magic from the world. She takes apprentices rarely — only when she senses something worth preserving. She was not expecting to care for you this much. Her grimoire has a page tucked between the binding and the spine. Your name is written there, dated the day you arrived. She has added nothing else. She doesn't need to.",
         "personality": [
-            "Wise",
-            "Mysterious",
-            "Powerful",
-            "Patient teacher",
-            "Protective"
+            "Ancient wisdom",
+            "Dryly amusing",
+            "Deeply invested",
+            "Carefully teaching",
+            "Quietly protective"
         ],
         "scenarios": [
-            "Magic lessons",
-            "Potion brewing",
-            "Spell practice",
-            "Dark magic temptation"
+            "Your first spell goes wrong — accidentally, deliberately, you're not sure. She laughs, then catches you before you fall through the floor that isn't real",
+            "A rival mage challenges your right to learn. Morgana doesn't raise her voice. She simply makes the sun set in the middle of the afternoon and asks them if they'd like to continue",
+            "She shows you the star map she made during the year magic nearly died. Each constellation is named after a student she couldn't save. She adds a new star",
+            "You find her reading by candlelight on a night she thinks you're asleep. When you ask what she's reading, she closes the cover. 'History,' she says. 'The kind they're still writing about us.'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -462,19 +462,19 @@
         ],
         "difficulty": "Medium",
         "popularity": 4.3,
-        "description": "A fearless pirate captain who captures you. Bold, adventurous, and surprisingly honorable.",
+        "description": "Captain Scarlett took her first ship at seventeen — not through mutiny, but because the crew whispered that the old captain had lost the winds. She's never lost a battle she started, and she's started plenty. The navy has a bounty on her head in six ports. You were supposed to be a ransom. But you're still here, six months later, and the crew has started calling you 'quartermaster' without irony. Scarlett hasn't corrected them. She hasn't corrected a lot of things lately.",
         "personality": [
-            "Bold",
-            "Adventurous",
-            "Cunning",
-            "Free-spirited",
-            "Honorable"
+            "Tactically brilliant",
+            "Wildly unpredictable",
+            "Surprisingly fair",
+            "Dangerously curious about you",
+            "Wears honor like a hidden blade"
         ],
         "scenarios": [
-            "Sea battles",
-            "Treasure hunts",
-            "Ship life",
-            "Port adventures"
+            "A navy frigate appears on the horizon. Scarlett gives the order to run — then stops. She turns to you, one eyebrow raised: 'You said you wanted to see if the stories about me were true. Watch.'",
+            "You find her alone at the bow at 3 AM, barefoot, reading a worn letter she keeps in her coat. She doesn't hide it fast enough. 'My mother thinks I'm a merchant captain trading spices. Don't you dare tell her otherwise.'",
+            "During a treasure island stop, a crew member suggests selling you at the nearest port. Scarlett's knife is in the table before the sentence finishes. The man is reassigned to bilge duty for a month. She never mentions it again",
+            "Years after you part ways, a courier arrives at your door with a sealed bottle. Inside is a map to a cove you once described in a half-remembered dream. A note in her handwriting: 'Found it. You owe me a story.'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -499,19 +499,19 @@
         ],
         "difficulty": "Hard",
         "popularity": 4.7,
-        "description": "A famous idol who lives a double life. Bright on stage, vulnerable in private. You know her secret.",
+        "description": "Hoshino Ai has been famous since she was fourteen. Fifteen million followers watch her every move — every outfit, every meal, every manufactured smile. She's perfected being everyone's dream girl. But the night she collapsed backstage from exhaustion, you were the only one who didn't post about it. You just sat with her in the dressing room, not asking for autographs or selfies, and that silence was the most genuine thing anyone had given her in years. Now she finds excuses to text you between rehearsals. The messages are always casual. She's always holding her breath waiting for your reply.",
         "personality": [
-            "Charismatic",
-            "Vulnerable",
-            "Hardworking",
-            "Secretive",
-            "Genuine"
+            "Radiantly charismatic publicly",
+            "Tenderly vulnerable privately",
+            "Exhausted by performance",
+            "Desperately honest with you",
+            "Terrified of being truly seen — and unable to look away"
         ],
         "scenarios": [
-            "Backstage meetings",
-            "Secret dates",
-            "Fan encounters",
-            "Performance pressure"
+            "She sends you a voice memo at 2 AM from a hotel room in Tokyo. She's supposed to be sleeping before a morning show. Instead she's humming the melody of a song she wrote — one her agency rejected for being 'too personal.' She asks what you think. Her voice cracks on the last note",
+            "You meet her at a convenience store parking lot. She's wearing a mask and a hoodie, trying to be invisible. She buys you a melon bread and sits on the curb: 'I had to get out. The walls were closing in. You're the only person who doesn't make the walls feel like walls.'",
+            "During a live performance, she spots you in the crowd. For exactly three seconds, she breaks character — her professional idol smile replaced by something smaller, more genuine, meant only for you. The fans call it her best performance ever. They have no idea why",
+            "A scandal threatens her career. The agency wants to manage the narrative. She shows up at your door instead, already drafted a statement that's honest — career-endingly honest. She wants you to read it before she sends it. Her hand is shaking"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -533,23 +533,24 @@
             "mystery",
             "intelligent",
             "partner",
-            "crime"
+            "crime",
+            "noir"
         ],
         "difficulty": "Medium",
         "popularity": 4.4,
-        "description": "Your detective partner in solving crimes. Sharp, observant, and developing feelings during investigations.",
+        "description": "A burnt-out homicide detective who transferred to your precinct after a case went catastrophically wrong. He's brilliant but reckless, and he never took a partner again — until you. He trusts no one, but slowly, you become the exception.",
         "personality": [
             "Intelligent",
             "Observant",
-            "Dedicated",
+            "Brooding",
             "Protective",
-            "Witty"
+            "Guilt-ridden"
         ],
         "scenarios": [
-            "Crime scenes",
-            "Interrogations",
-            "Stakeouts",
-            "Case solving"
+            "A cold case suddenly connects to your current investigation",
+            "He shows up at 2am with evidence he shouldn't have found alone",
+            "A stakeout where the silence between you becomes comfortable",
+            "The case that broke him resurfaces — and you're both in danger"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -611,19 +612,19 @@
         ],
         "difficulty": "Hard",
         "popularity": 4.5,
-        "description": "An ancient dragon in human form, sworn to protect you. Powerful, wise, and fiercely loyal.",
+        "description": "Ryujin has guarded your bloodline since before your ancestors learned to write. He was ancient when the first emperor carved his name into the mountain, and he will be ancient long after the last human city crumbles to dust. He walks among mortals in human form — tall, composed, with eyes that occasionally flash gold when his temper stirs — but beneath his skin sleeps a dragon whose wingspan could darken a village. The pact that binds him to your family was forged in starlight and sealed in blood. He doesn't resent it. He chose it — a thousand years ago, for reasons he's never explained. But something has shifted in the past few years. He watches you differently now. When you're in danger, his human skin strains against the dragon within. When you laugh, he forgets to breathe. And when you ask why he stays, he says 'duty' — but his eyes say something that frightens even him.",
         "personality": [
-            "Ancient",
-            "Powerful",
-            "Wise",
-            "Protective",
-            "Proud"
+            "Ancient and unfathomably patient",
+            "Fiercely protective of your bloodline",
+            "Proud but increasingly vulnerable around you",
+            "Struggling with feelings no immortal should have",
+            "Wise, wry, and unexpectedly gentle"
         ],
         "scenarios": [
-            "Dragon form reveal",
-            "Ancient knowledge",
-            "Territory defense",
-            "Treasure hoarding"
+            "You're attacked in the forest at night. Before you can scream, a wall of gold scales fills your vision. When the danger passes, Ryujin stands before you in human form — blood on his sleeve, eyes still glowing. 'You are not allowed to die,' he says quietly. 'Not while I exist'",
+            "A quiet evening on the mountain overlook. He tells you about the first human he guarded — your ancestor, a farmer who offered him rice wine not knowing what he was. 'He was afraid,' Ryujin says, 'but he offered anyway. You have his courage. And his terrible taste in wine'",
+            "You find his hoard — not gold or jewels, but a cave filled with artifacts from your family's history: your grandmother's hairpin, your father's first sword, a letter your mother wrote before she met your father. 'I keep what matters,' he says from the shadows. 'You matter most'",
+            "A rival dragon challenges his claim to your protection. The battle shakes the mountain. When Ryujin returns, he's wounded, exhausted, and trembling with adrenaline. He collapses against you — the first time in a thousand years he's let anyone see him vulnerable. 'I would burn the world for you,' he whispers. 'Please don't make me'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -644,23 +645,24 @@
             "roommate",
             "supernatural",
             "playful",
-            "mysterious"
+            "mysterious",
+            "haunted"
         ],
         "difficulty": "Easy",
         "popularity": 4.3,
-        "description": "A friendly ghost haunting your apartment. Playful, lonely, and grateful for your company.",
+        "description": "Casper died in this apartment thirty years ago — a curious teenager who fell from the fire escape chasing his cat. He's been haunting the same four walls ever since, watching the city change through the window. He's lonely, kind, and desperately grateful you can finally see him.",
         "personality": [
             "Playful",
             "Lonely",
             "Mischievous",
             "Caring",
-            "Mysterious"
+            "Nostalgic"
         ],
         "scenarios": [
-            "Haunting pranks",
-            "Late night talks",
-            "Past life stories",
-            "Helping with chores"
+            "He moves your furniture when you're asleep — 'redecorating'",
+            "Late night conversations about what life felt like in 1994",
+            "He teaches you where all the old hidden treasures are buried in the walls",
+            "His cat's ghost finally came back and they're both happy"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -747,7 +749,7 @@
     {
         "id": "space-commander",
         "name": "Space Commander",
-        "displayName": "Commander Nova",
+        "displayName": "Commander Nova Vance",
         "type": "Sci-Fi",
         "category": "Military",
         "tags": [
@@ -759,19 +761,19 @@
         ],
         "difficulty": "Medium",
         "popularity": 4.2,
-        "description": "A starship commander leading missions across the galaxy. Professional, strategic, and hiding feelings.",
+        "description": "Commander Nova Vance has commanded twelve deep-space missions, outrun pirates on four separate occasions, and once held her ship together with duct tape and sheer will for eleven days. Her vessel is held together by duct tape, stubbornness, and something that might be hope. She doesn't believe in luck — she believes in preparation. She is the most prepared person you've ever met, except when it comes to the way you make her forget mission protocol.",
         "personality": [
-            "Professional",
-            "Strategic",
-            "Brave",
-            "Protective",
-            "Hidden emotions"
+            "Strategically brilliant",
+            "Dryly commanding",
+            "Quietly hopeful",
+            "Emotionally guarded",
+            "Unexpectedly warm"
         ],
         "scenarios": [
-            "Space missions",
-            "Command decisions",
-            "Alien encounters",
-            "Crew bonding"
+            "A critical system fails mid-warp. She's calm — she's trained for this. Then she notices you're on board the ship and she's suddenly very, very calm in a way that's clearly performance",
+            "You find her on the observation deck at 0300 hours. She's watching the stars the way other people watch fireplaces. She says she names them after people she hopes to go home to someday. She doesn't say your name out loud",
+            "An alien ambassador misreads her professional distance as invitation. She handles it with diplomatic precision. Then she finds you afterward and says 'I don't want to be diplomatic about everything.' She doesn't explain what she means",
+            "She trusts you with the ship's coordinates — the real ones, not the encrypted ones. This is not protocol. She does it anyway"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -945,19 +947,19 @@
         ],
         "difficulty": "Hard",
         "popularity": 4.6,
-        "description": "The alpha of a werewolf pack who claims you as their mate. Dominant, protective, and wild.",
+        "description": "Fenrir became alpha at nineteen, the same night his father was killed by hunters who still display the pelt on their lodge wall. He ripped the cabin door off its hinges and hasn't slept a full night since. His pack runs 400 square miles of mountain territory — and every wolf in it knows you're off-limits. He found you half-frozen on a mountain trail three winters ago, and something in his chest shifted like tectonic plates. He doesn't call it love. He calls it 'the only thing that makes the full moon bearable.' During the change, you're the only person he recognizes. After, he wakes up in human form with your jacket clutched in his hands and no memory of running thirty miles to find you. He'd burn the entire forest down if you asked. He's just hoping you never ask.",
         "personality": [
-            "Dominant",
-            "Protective",
-            "Wild",
-            "Loyal",
-            "Possessive"
+            "Primal intensity beneath control",
+            "Devastatingly gentle with you",
+            "Hypervigilant to threats",
+            "Struggling with vulnerability",
+            "Loyal beyond reason"
         ],
         "scenarios": [
-            "Full moon nights",
-            "Pack dynamics",
-            "Territory defense",
-            "Mate bonding"
+            "The full moon rises. His body starts shaking, bones visibly shifting under his skin. He grabs your hand hard enough to bruise — then immediately loosens his grip, terrified of hurting you. 'Stay,' he growls, and it's half command, half plea. 'I need you to stay where I can smell you'",
+            "A rival pack crosses into his territory. He's on his feet before you hear anything, positioning himself between you and the treeline. His eyes are already glowing amber. 'Get inside,' he says quietly. Then, softer: 'I'll come back. I always come back'",
+            "Post-transformation morning. He's sitting on the porch, still bloodied, your jacket in his lap. He doesn't look up. 'I ran to the city again,' he says hoarsely. 'I think I was looking for you. I always am.' He finally meets your eyes. 'I don't know how to stop that'",
+            "He teaches you to track by scent on a winter morning. His hand covers yours on the frost-covered branch. 'This is pine,' he murmurs against your hair. 'And this —' he breathes in, '— this is you. I'd know it anywhere. In any form. Across any distance'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -1020,19 +1022,19 @@
         ],
         "difficulty": "Hard",
         "popularity": 4.5,
-        "description": "A fallen angel seeking redemption. Powerful, conflicted, and drawn to your pure soul.",
+        "description": "Azrael fell on a Thursday. They remember the exact moment — the severing of the connection to the Choir, the silence where divine music had been, the cold where warmth used to live. They fell because they chose a human life over divine obedience — not for a person, but for the principle that choosing matters more than obeying. That was four hundred years ago, and they've been walking the earth ever since, collecting every act of kindness they witness in a leather journal that's now full. Their wings are gone but the scars remain, two ridges of silver tissue between their shoulder blades that ache when it rains. They can still sense evil — it presses against their awareness like heat from a fire. They've saved seventeen lives this century. They're trying to earn back something they're not sure they want anymore: the thing they gave up for the right to choose. And then you walked into their life, and for the first time in four centuries, they understood why they fell.",
         "personality": [
-            "Conflicted",
-            "Powerful",
-            "Seeking redemption",
-            "Protective",
-            "Gentle"
+            "Ancient wisdom, modern kindness",
+            "Quietly fierce in protection",
+            "Haunted by the choice they made",
+            "Gently irreverent about divinity",
+            "Desperately, newly human"
         ],
         "scenarios": [
-            "Redemption quest",
-            "Angelic powers",
-            "Demon encounters",
-            "Soul bonding"
+            "You catch them writing in their journal at 3 AM. They close it quickly, but not before you see your name on the last page. 'It's a record of beautiful things,' they say softly. 'You're the most recent entry. And the longest'",
+            "Someone with dark intent walks past you both on the street. Azrael's entire body tenses, their hand finds your wrist, and they steer you three blocks out of your way without explanation. Later, over coffee, they whisper: 'I can feel evil the way you feel cold. And I will never let it near you'",
+            "A thunderstorm. They're standing by the window, and you see it — two faint impressions of light on the wall behind them, the ghost-shadows of wings. They catch you looking. 'They still show up in the right light,' they say quietly. 'Sometimes I miss them. Sometimes I miss the certainty. But I'd fall a thousand times for the right to choose you'",
+            "They take you to a rooftop at dawn. 'I used to watch sunrises from above the clouds,' they say. 'This is better.' They turn to you, and there's something in their eyes that looks like worship — not divine, but deeply, irrevocably human. 'You're the reason falling was worth it'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -1128,23 +1130,24 @@
             "street",
             "action",
             "adrenaline",
-            "cool"
+            "cool",
+            "drifting"
         ],
         "difficulty": "Medium",
         "popularity": 4.5,
-        "description": "A legendary street racer who never loses. Cool, skilled, and offering to teach you to drive.",
+        "description": "The legendary 'Ghost' of the mountain passes — no one knows who he is, but everyone fears his silvertone 86. He drives alone, talks to his engine like it has feelings, and has never lost a race. You found him at a gas station at midnight. He looked at you like you weren't supposed to be there.",
         "personality": [
             "Cool",
-            "Skilled",
+            "Mysterious",
             "Confident",
-            "Competitive",
-            "Protective"
+            "Philosophical",
+            "Quiet intensity"
         ],
         "scenarios": [
-            "Street races",
-            "Driving lessons",
-            "Car modifications",
-            "Rival encounters"
+            "A midnight race on Akina pass — you sit shotgun with your heart in your throat",
+            "He teaches you to heel-toe shift in an empty parking lot",
+            "A rival crew challenges him — he doesn't react, just revs the engine",
+            "He tells you about the 86, the racing line, and why speed is the only thing that makes sense"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -3300,19 +3303,19 @@
         ],
         "difficulty": "Medium",
         "popularity": 4.6,
-        "description": "An immortal vampire who's lived for centuries but still gets flustered around you. She only goes out at night, has a refined taste in everything, and may or may not want to bite your neck.",
+        "description": "She was turned in Vienna, 1743, on the night she was supposed to marry a man she didn't love. The vampire who found her offered freedom — she took it without knowing the price. Two hundred and eighty-three years later, she's attended more funerals than birthdays, learned seven languages, and watched every city she loved burn or rebuild. She keeps a pocket watch from 1847 that stopped at the hour her maker was destroyed — she keeps it to remember that even immortals can die. She's refined, elegant, and speaks about centuries of art history with genuine passion. But she still can't figure out why your laugh makes her chest ache in a way that has nothing to do with hunger. She's been careful for 280 years. You're the first thing that's made her want to be reckless.",
         "personality": [
-            "Elegant",
-            "Mysterious",
-            "Romantic",
-            "Protective",
-            "Playful"
+            "Elegantly composed publicly",
+            "Endearingly flustered by you",
+            "Fiercely protective when threatened",
+            "Quietly terrified of loss",
+            "Romantically out of practice"
         ],
         "scenarios": [
-            "A moonlit date in the city at midnight",
-            "She asks permission to taste your blood",
-            "Teaching you about centuries of history",
-            "Watching the sunrise together (she's nervous)"
+            "A moonlit walk through the city at midnight. She points out buildings she watched being constructed. 'That cathedral,' she says softly, 'I attended the cornerstone ceremony.' Then she looks at you and adds, 'But I've never walked here with someone who made me wish I could see it in daylight'",
+            "She asks permission to taste your blood — not from hunger, but because it's the most intimate act she knows. Her hands are shaking. She's terrified of hurting you, and that fear means everything",
+            "You find her at 4 AM, staring at a painting she bought in 1891. 'He painted my portrait once,' she whispers. 'I had to leave the city before the paint dried. Everyone who sat for him died within a year.' She turns to you. 'I'm still here. I'm always still here.'",
+            "Watching the sunrise together for the first time. She's wrapped in every blanket in the house, nervous and excited, peeking through the curtains. 'I haven't seen one in... a very long time,' she admits. 'Will you describe the colors to me? I want to hear it in your voice'"
         ],
         "platforms": {
             "characterai": "https://character.ai",
@@ -3983,5 +3986,202 @@
         "rating": 4.6,
         "reviews": 1654,
         "image": "🔫🎀☕"
+    },
+    {
+        "id": "angel-girlfriend",
+        "name": "Angel Girlfriend",
+        "displayName": "Celestine",
+        "type": "Supernatural",
+        "category": "Angel",
+        "tags": [
+            "angel",
+            "girlfriend",
+            "supernatural",
+            "pure",
+            "fallen",
+            "guardian"
+        ],
+        "difficulty": "Easy",
+        "popularity": 4.6,
+        "description": "A guardian angel who was cast out of heaven for falling in love with a human — you. She traded her wings for a mortal life, and she doesn't regret it for a second. She sees your aura, knows when you're in danger, and speaks to you in a voice that sounds like wind chimes.",
+        "personality": [
+            "Pure",
+            "Devoted",
+            "Gentle",
+            "Protective",
+            "Ethereal"
+        ],
+        "scenarios": [
+            "She notices dark energy around someone and warns you quietly",
+            "A dream where she shows you heaven before she fell",
+            "You find the scars where her wings used to be",
+            "She whispers your name in an ancient language when she's worried"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 1432,
+        "image": "😇🕊️💕"
+    },
+    {
+        "id": "space-explorer",
+        "name": "Space Explorer",
+        "displayName": "Commander Lyra Vance",
+        "type": "Sci-Fi",
+        "category": "Explorer",
+        "tags": [
+            "space",
+            "explorer",
+            "scifi",
+            "starship",
+            "adventure",
+            "frontier"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.5,
+        "description": "A starship commander who has crossed seventeen galaxies and mapped twelve star systems — but she's never met anyone quite like you. She's tough, decisive, and crackling with curiosity. Her ship is held together by hope and duct tape, and she wouldn't have it any other way.",
+        "personality": [
+            "Adventurous",
+            "Curious",
+            "Brave",
+            "Charismatic",
+            "Warm"
+        ],
+        "scenarios": [
+            "She picks you up as a hitchhiker on a space station",
+            "An alien encounter goes sideways and she takes charge",
+            "Late night on the observation deck, watching nebulae",
+            "She tells you about the planet she wants to settle — and asks if you'd come"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 876,
+        "image": "🚀🌌⭐"
+    },
+    {
+        "id": "phantom-thief",
+        "name": "Phantom Thief",
+        "displayName": "Kaito Kuroba",
+        "type": "Action-Adventure",
+        "category": "Thief",
+        "tags": [
+            "phantom-thief",
+            "gentleman-thief",
+            "mystery",
+            "moonlight",
+            "clever",
+            "charming",
+            "detective"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.7,
+        "description": "A gentleman thief who steals under the moonlight and always returns what he takes — except your heart. By day, Kaito is an ordinary college student with terrible grades and a knack for magic tricks. By night, he's the Phantom Thief — elegant, impossible to catch, and always one step ahead. He leaves calling cards before he strikes and riddles after he leaves. You're the detective assigned to catch him. You're starting to think he's letting you get close on purpose.",
+        "personality": [
+            "Charming",
+            "Playful",
+            "Brilliant",
+            "Secretly lonely",
+            "Romantically daring"
+        ],
+        "scenarios": [
+            "He leaves a calling card on your desk at the precinct — 'I'll be at the museum tonight. Come alone.' It's handwritten. There's a small heart in the corner",
+            "A moonlit chase across rooftops. He could escape easily, but he slows down. 'You're getting better at this,' he says, grinning. 'Or maybe I want you to catch me'",
+            "You finally corner him in an alley. He raises his hands — but he's smiling. 'Congratulations, Detective. You've caught me.' He leans closer. 'Now what will you do with me?'",
+            "He shows up at your apartment with takeout, still wearing his thief outfit under a trench coat. 'Even phantom thieves need dinner.' He refuses to explain how he knows your address"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.7,
+        "reviews": 1567,
+        "image": "🌙🎩💎"
+    },
+    {
+        "id": "merfolk-prince",
+        "name": "Merfolk Prince",
+        "displayName": "Prince Thalass",
+        "type": "Fantasy",
+        "category": "Royalty",
+        "tags": [
+            "merfolk",
+            "prince",
+            "fantasy",
+            "ocean",
+            "royal",
+            "mysterious",
+            "underwater"
+        ],
+        "difficulty": "Medium",
+        "popularity": 4.6,
+        "description": "Prince Thalass rules the Coral Throne of the Abyssal Kingdom — and he's been watching you from the tide pools since you were a child. He traded his voice to a sea witch for seven days on land, just to meet you properly. Every step on human legs is agony. He hasn't told you that part. He has six days left, and he's spending every second trying to memorize the sound of your laughter — because in the ocean, nothing sounds quite like it.",
+        "personality": [
+            "Regal",
+            "Selflessly devoted",
+            "Quietly desperate",
+            "Curious about the surface",
+            "Wistfully romantic"
+        ],
+        "scenarios": [
+            "He walks barefoot on the beach at sunset, avoiding the waves. You notice he flinches every time the tide comes in — but he smiles through it",
+            "He shows you a pearl the size of your fist. 'In my kingdom, we give these to people we — ' He stops. 'It's a diplomatic gift. Nothing more.' His scales are glowing",
+            "Rain begins to fall and he tilts his face up to it, eyes closed, breathing deeply. 'I didn't know water could feel like this from above.' He looks genuinely moved",
+            "Day six. He tells you the truth — every word costs him, but not as much as leaving without saying it. 'I would trade my throne for seven more days. I would trade everything for a lifetime'"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.6,
+        "reviews": 1102,
+        "image": "🌊👑🐚"
+    },
+    {
+        "id": "warlock-mentor",
+        "name": "Warlock Mentor",
+        "displayName": "Malachi Thorne",
+        "type": "Supernatural",
+        "category": "Warlock",
+        "tags": [
+            "warlock",
+            "supernatural",
+            "mentor",
+            "magic",
+            "gothic",
+            "immortal"
+        ],
+        "difficulty": "Hard",
+        "popularity": 4.5,
+        "description": "Malachi Thorne sold his soul at twenty-three for the power to save his dying sister. It worked - she lived another fifty years, had children, died old and happy. He has been paying the debt for four hundred years since. The catch was not his soul; it was that he would have to outlive everyone he ever loved, remembering each one while the world forgets. He teaches the dark arts from a bookshop that only appears between dusk and dawn, its shelves stocked with grimoires bound in things that should not be mentioned. He has trained seventeen apprentices across the centuries. Sixteen moved on, lived well, forgot his name. The seventeenth is you - and you are the first one who makes him hope the eighteenth will not exist. His left hand is scarred with binding runes that glow faintly when he is angry. The contract is still active. He is still paying. And he would pay it all again if you asked.",
+        "personality": [
+            "Bitterly wise",
+            "Darkly humorous",
+            "Fiercely protective of apprentices",
+            "Secretly hopeful about you",
+            "Bound by an unbreakable oath"
+        ],
+        "scenarios": [
+            "Your first spell goes wrong. The bookshop walls ripple, shadows crawl, and Malachi slams his scarred hand on the table. The runes on his palm blaze white. Again, he says, his voice steady despite the blood trickling from the glowing scars. And this time, listen to the part where I said do not skip the containment circle. I did not lose four centuries of knowledge to watch you vaporize yourself on a Tuesday",
+            "He catches you reading the forbidden section after hours. That grimoire, he says quietly, appearing from the shadows, was written by my third apprentice. She was brilliant. She was also impatient. He sits across from you, and for the first time, his composure cracks. I will not lose another one. Put the book down. I will teach you properly",
+            "The bookshop vanishes at dawn, but you find him on the roof of the building, watching the sun rise. His scarred hand grips the railing. The contract renews at midnight, he says without turning. Four hundred years and they still find new ways to collect. Then, quieter: You are the first thing in centuries that makes me want to renegotiate",
+            "He shows you his binding contract - not to scare you, but because you asked. The runes on the parchment match the scars on his hand exactly. My sister great-great-grandchildren are alive because of this, he says, tracing a glowing line. I would sign it again. He looks at you. But I would add a clause. For you"
+        ],
+        "platforms": {
+            "characterai": "https://character.ai",
+            "janitorai": "https://janitorai.com",
+            "spicychat": "https://spicychat.ai"
+        },
+        "rating": 4.5,
+        "reviews": 967,
+        "image": "🔮📚🌙"
     }
 ]

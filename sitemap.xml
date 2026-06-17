@@ -145,6 +145,18 @@
     <priority>0.7</priority>
   </url>
   <url>
+    <loc>https://www.characteraibots.com/blog/complete-beginners-guide-character-ai-2026</loc>
+    <lastmod>2026-04-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/blog/anime-ai-chatbots-complete-guide-2026</loc>
+    <lastmod>2026-04-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
     <loc>https://www.characteraibots.com/characters/yandere-librarian</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -153,6 +165,12 @@
   <url>
     <loc>https://www.characteraibots.com/characters/vampire-teacher</loc>
     <lastmod>2026-03-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/characters/vampire-girlfriend</loc>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -661,12 +679,6 @@
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/vampire-girlfriend</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
     <loc>https://www.characteraibots.com/characters/demon-girlfriend</loc>
     <lastmod>2026-03-17</lastmod>
     <changefreq>monthly</changefreq>
@@ -722,7 +734,7 @@
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/witch-apprentice</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-04-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -734,38 +746,14 @@
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/alien-scientist</loc>
-    <lastmod>2026-03-17</lastmod>
+    <lastmod>2026-04-16</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/characters/anime-teacher</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.characteraibots.com/characters/pirate-queen</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.characteraibots.com/characters/cyberpunk-hacker</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.characteraibots.com/characters/fox-spirit</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://www.characteraibots.com/characters/battle-maid</loc>
-    <lastmod>2026-03-17</lastmod>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.characteraibots.com/blog/best-tsundere-ai-bots-2026</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
