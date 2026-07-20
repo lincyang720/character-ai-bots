@@ -190,6 +190,7 @@ export default function Home() {
         </div>
         <div className="footer-bottom">
           <p>&copy; 2026 Character AI Bots. All rights reserved.</p>
+          <p className="trademark-disclaimer"><strong>Disclaimer:</strong> CharacterAIBots.com is an independent directory and is not affiliated with, endorsed by, or sponsored by Character.AI or its parent company. All product names, logos, and brands are property of their respective owners.</p>
         </div>
       </footer>
     </>

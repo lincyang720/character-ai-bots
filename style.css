@@ -3137,7 +3137,75 @@ html {
 }
 
 /* Quiz Responsive */
+.last-reviewed {
+    margin-top: 0.75rem;
+    font-size: 0.9rem;
+    opacity: 0.78;
+}
+
+.trademark-disclaimer {
+    max-width: 920px;
+    margin: 0.75rem auto 0;
+    padding: 0 1rem;
+    color: rgba(255, 255, 255, 0.78);
+    font-size: 0.78rem;
+    line-height: 1.55;
+}
+
+.characters-count {
+    margin: 1rem 0 0;
+    color: #666;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.load-more-button {
+    display: block;
+    margin: 1rem auto 0;
+    padding: 0.85rem 1.5rem;
+    border: 1px solid #6c3fc5;
+    border-radius: 999px;
+    background: #fff;
+    color: #5428a7;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.load-more-button:hover,
+.load-more-button:focus-visible {
+    background: #f4efff;
+}
+
+.rating-note {
+    color: #666;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.newsletter-section {
+    padding: 2rem;
+}
+
+.newsletter-card {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: clamp(1.5rem, 4vw, 3rem);
+    border-radius: 24px;
+    color: #fff;
+    background: linear-gradient(135deg, #2d1b4e, #6c3fc5);
+    text-align: center;
+}
+
+.newsletter-card .eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .78rem; }
+.newsletter-card h2 { color: #fff; margin: .5rem 0; }
+.newsletter-form { display: flex; gap: .75rem; max-width: 560px; margin: 1.25rem auto .75rem; }
+.newsletter-form input { flex: 1; min-width: 0; padding: .9rem 1rem; border: 0; border-radius: 10px; }
+.newsletter-form button { padding: .9rem 1.25rem; border: 0; border-radius: 10px; cursor: pointer; font-weight: 700; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
 @media (max-width: 600px) {
+    .newsletter-form { flex-direction: column; }
     .quiz-hero h1 {
         font-size: 1.6rem;
     }

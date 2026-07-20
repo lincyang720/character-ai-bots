@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { SITE_NAME, DISCLAIMER } = require('./site-config');
 
 const blogDir = path.join(__dirname, 'blog');
 if (!fs.existsSync(blogDir)) fs.mkdirSync(blogDir, { recursive: true });
@@ -12,7 +13,17 @@ function escapeHtml(str) {
 
 // Load blog post content from blog-data/ directory
 const dataDir = path.join(__dirname, 'blog-data');
-const posts = JSON.parse(fs.readFileSync(path.join(dataDir, 'posts.json'), 'utf8'));
+const allPosts = JSON.parse(
+  fs.readFileSync(path.join(dataDir, 'posts.json'), 'utf8').replace(/^\uFEFF/, '')
+);
+
+// Only generate entries with a real source article. Publishing a placeholder
+// creates exactly the kind of thin page this directory is trying to avoid.
+const posts = allPosts.filter(post => {
+  const exists = fs.existsSync(path.join(dataDir, `${post.slug}.html`));
+  if (!exists) console.warn(`⚠ Skipping thin blog placeholder: ${post.slug}`);
+  return exists;
+});
 
 // Load HTML content for each post
 posts.forEach(post => {
@@ -132,7 +143,7 @@ posts.forEach(post => {
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h4>Character AI Bots</h4>
+                <h4>${SITE_NAME}</h4>
                 <p>Discover the best AI roleplay character bots across multiple platforms.</p>
             </div>
             <div class="footer-section">
@@ -156,7 +167,8 @@ posts.forEach(post => {
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Character AI Bots. For entertainment purposes only.</p>
+            <p>&copy; 2026 ${SITE_NAME}. Independent directory.</p>
+            <p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p>
         </div>
     </footer>
 </body>
@@ -247,7 +259,7 @@ const indexHtml = `<!DOCTYPE html>
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h4>Character AI Bots</h4>
+                <h4>${SITE_NAME}</h4>
                 <p>Discover the best AI roleplay character bots across multiple platforms.</p>
             </div>
             <div class="footer-section">
@@ -271,7 +283,8 @@ const indexHtml = `<!DOCTYPE html>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Character AI Bots. For entertainment purposes only.</p>
+            <p>&copy; 2026 ${SITE_NAME}. Independent directory.</p>
+            <p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p>
         </div>
     </footer>
 </body>

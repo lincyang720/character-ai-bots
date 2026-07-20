@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, NEWSLETTER_ACTION, DISCLAIMER } = require('./site-config');
 
 // 读取角色数据
 const charactersData = JSON.parse(
@@ -40,8 +41,8 @@ const indexHTML = `<!DOCTYPE html>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO-OPTIMIZED: Keywords first, 2026 updated, weekly updates -->
-    <title>104+ Free Character AI Bots & Roleplay Chat [2026]</title>
-    <meta name="description" content="Discover 104+ free Character AI bots for roleplay. Yandere, Tsundere, anime & fantasy bots on Character.AI, JanitorAI & SpicyChat. Updated weekly!">
+    <title>Best Character AI Bots for Roleplay – ${charactersData.length}+ Free Options [2026]</title>
+    <meta name="description" content="Compare ${charactersData.length}+ of the best free Character AI bots for roleplay across Character.AI, JanitorAI and SpicyChat. Filter by platform, type and rating.">
     <meta name="keywords" content="character ai bots, ai roleplay characters, free ai chat bots, anime ai chat, free ai chatbot 2026, character.ai, janitorai, spicychat, yandere ai, tsundere bot">
     <meta name="google-site-verification" content="OPQH_dX0XnvAd0ODbk5cDms96DTDRcgDkwoFUZw_eHw" />
 
@@ -51,7 +52,7 @@ const indexHTML = `<!DOCTYPE html>
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.characteraibots.com/">
     <meta property="og:image" content="https://www.characteraibots.com/images/og-image.jpg">
-    <meta property="og:site_name" content="Character AI Bots">
+    <meta property="og:site_name" content="${SITE_NAME}">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
@@ -100,7 +101,7 @@ const indexHTML = `<!DOCTYPE html>
 <body>
     <header>
         <nav>
-            <div class="logo">🤖 Character AI Bots</div>
+            <div class="logo">🧭 ${SITE_NAME}</div>
             <ul class="nav-links">
                 <li><a href="index.html" class="active" title="Character AI Bots Home">Home</a></li>
                 <li><a href="search.html" title="Search Character AI Bots">Search</a></li>
@@ -113,8 +114,9 @@ const indexHTML = `<!DOCTYPE html>
     <main>
     <section class="hero">
         <div class="hero-content">
-            <h1>Discover ${charactersData.length}+ Free Character AI Bots for Roleplay</h1>
-            <p class="hero-subtitle">Explore the best AI roleplay characters on Character.AI, JanitorAI, and SpicyChat. Find yandere, tsundere, vampire bots and more!</p>
+            <h1>${charactersData.length}+ Best Character AI Bots for Roleplay Chat</h1>
+            <p class="hero-subtitle">An independent, cross-platform directory of ${charactersData.length}+ AI roleplay characters on Character.AI, JanitorAI, and SpicyChat.</p>
+            <p class="last-reviewed">Directory reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
             <div class="hero-search">
                 <input type="text" id="quick-search" placeholder="Search characters, types, or tags...">
                 <button onclick="window.location.href='search.html'">🔍 Advanced Search</button>
@@ -145,6 +147,15 @@ const indexHTML = `<!DOCTYPE html>
                     <option value="Easy">Easy</option>
                     <option value="Medium">Medium</option>
                     <option value="Hard">Hard</option>
+                </select>
+            </div>
+            <div class="filter-group">
+                <label>Platform:</label>
+                <select id="platform-filter">
+                    <option value="">All Platforms</option>
+                    <option value="characterai">Character.AI</option>
+                    <option value="janitorai">JanitorAI</option>
+                    <option value="spicychat">SpicyChat</option>
                 </select>
             </div>
             <div class="filter-group">
@@ -183,8 +194,10 @@ const indexHTML = `<!DOCTYPE html>
     <section class="characters-section">
         <h2>Browse All Character AI Bots</h2>
         <div id="characters-grid" class="characters-grid">
-            ${generateCharacterCards(charactersData)}
+            ${generateCharacterCards([...charactersData].sort((a, b) => b.popularity - a.popularity).slice(0, 12))}
         </div>
+        <p id="characters-count" class="characters-count" aria-live="polite">Showing 12 of ${charactersData.length} characters</p>
+        <button id="load-more-characters" class="load-more-button" type="button">Load 12 more characters</button>
     </section>
 
     <section class="features">
@@ -202,14 +215,27 @@ const indexHTML = `<!DOCTYPE html>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">⭐</div>
-                <h3>Community Rated Bots</h3>
-                <p>See real user ratings and reviews to find the best character AI bots for your roleplay needs.</p>
+                <h3>Comparable Directory Signals</h3>
+                <p>Compare editorial ratings, platform availability, difficulty, tags, and scenario ideas in one consistent format.</p>
             </div>
             <div class="feature-card">
                 <div class="feature-icon">🔍</div>
                 <h3>Easy Character Discovery</h3>
                 <p>Filter AI bots by type, difficulty, and tags to quickly find your perfect roleplay character match.</p>
             </div>
+        </div>
+    </section>
+
+    <section class="newsletter-section" aria-labelledby="newsletter-title">
+        <div class="newsletter-card">
+            <p class="eyebrow">Monthly discovery digest</p>
+            <h2 id="newsletter-title">Get new character guides without relying on search</h2>
+            <p>One concise email with newly reviewed characters, themed collections, and platform changes.</p>
+            ${NEWSLETTER_ACTION ? `<form action="${NEWSLETTER_ACTION}" method="post" class="newsletter-form">
+                <label class="sr-only" for="newsletter-email">Email address</label>
+                <input id="newsletter-email" type="email" name="email" placeholder="you@example.com" autocomplete="email" required>
+                <button type="submit">Subscribe</button>
+            </form>` : '<p class="newsletter-pending">Newsletter signups are opening soon. Bookmark this page and check back after the next directory update.</p>'}
         </div>
     </section>
 
@@ -264,6 +290,14 @@ const indexHTML = `<!DOCTYPE html>
             <a href="type/sci-fi.html" class="type-link-card" title="Sci-Fi AI Bots">🚀 Sci-Fi Bots</a>
             <a href="type/action-adventure.html" class="type-link-card" title="Action & Adventure AI Bots">🏴‍☠️ Action &amp; Adventure</a>
             <a href="type/creative.html" class="type-link-card" title="Creative & Intellectual AI Bots">🎨 Creative &amp; Intellectual</a>
+            <a href="type/anime.html" class="type-link-card" title="Anime AI Characters">🌸 Anime Characters</a>
+            <a href="type/game.html" class="type-link-card" title="Video Game AI Characters">🎮 Game Characters</a>
+            <a href="type/horror.html" class="type-link-card" title="Horror AI Bots">🕯️ Horror Bots</a>
+            <a href="type/supernatural.html" class="type-link-card" title="Supernatural AI Characters">👻 Supernatural</a>
+            <a href="type/wholesome.html" class="type-link-card" title="Wholesome AI Characters">🌿 Wholesome</a>
+            <a href="type/mystery.html" class="type-link-card" title="Mystery AI Characters">🔎 Mystery</a>
+            <a href="type/companions.html" class="type-link-card" title="AI Companion Characters">💬 Companions</a>
+            <a href="type/historical.html" class="type-link-card" title="Historical AI Characters">📜 Historical</a>
         </div>
     </section>
 
@@ -272,8 +306,8 @@ const indexHTML = `<!DOCTYPE html>
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h4>Character AI Bots</h4>
-                <p>Your comprehensive guide to the best AI roleplay character bots across multiple platforms.</p>
+                <h4>${SITE_NAME}</h4>
+                <p>Independent AI character discovery across multiple roleplay platforms.</p>
             </div>
             <div class="footer-section">
                 <h4>Quick Links</h4>
@@ -304,7 +338,8 @@ const indexHTML = `<!DOCTYPE html>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Character AI Bots. For entertainment purposes only.</p>
+            <p>&copy; 2026 ${SITE_NAME}. Independent directory; not affiliated with any listed platform.</p>
+            <p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p>
         </div>
     </footer>
 

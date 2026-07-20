@@ -2,11 +2,11 @@
 
 const fs = require('fs');
 const path = require('path');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
 
-// 读取enriched角色数据，fallback到原始数据
-const dataFile = fs.existsSync(path.join(__dirname, 'data', 'characters-enriched.json'))
-  ? 'characters-enriched.json'
-  : 'characters.json';
+// characters.json is the canonical, complete data set. The legacy enriched
+// file contains fewer records and must not silently remove live pages.
+const dataFile = 'characters.json';
 
 const charactersData = JSON.parse(
   fs.readFileSync(path.join(__dirname, 'data', dataFile), 'utf8')
@@ -66,6 +66,9 @@ function generateCharacterPage(character) {
   // Backstory
   const backstory = character.backstory || '';
 
+  const editorialOverview = `${character.name} is best suited to readers looking for ${character.type.toLowerCase()} roleplay in a ${character.category.toLowerCase()} setting. Its strongest hooks are ${character.personality.slice(0, 3).join(', ').toLowerCase()}. For a quick first session, choose one of the suggested scenarios below, establish who you are in the opening message, and give the bot a clear location, goal, and tone. Because responses vary by platform and model version, treat this page as a discovery guide rather than a guarantee of any specific conversation.`;
+  const comparisonText = `Compared with the other ${character.type.toLowerCase()} characters in this directory, ${character.name} leans most heavily into ${character.personality.slice(0, 2).join(' and ').toLowerCase()}. Choose this character when you want ${character.category.toLowerCase()} themes and a ${character.difficulty.toLowerCase()}-difficulty roleplay. If that combination is not right for you, the similar-character picks below provide alternatives with overlapping tags but different personalities and scenarios.`;
+
   // Extended FAQ with more questions for richer content
   const platformNames = Object.keys(character.platforms).map(p =>
     p === 'characterai' ? 'Character.AI' : p === 'janitorai' ? 'JanitorAI' : 'SpicyChat'
@@ -106,21 +109,21 @@ function generateCharacterPage(character) {
     <meta name="keywords" content="${character.tags.join(', ')}, ${character.type.toLowerCase()} ai bot, ${character.name.toLowerCase()}, ${character.displayName.toLowerCase()}, character ai bots, ai roleplay, ${character.category.toLowerCase()} roleplay">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="${character.name} - ${character.type} AI Roleplay Bot | Character AI Bots">
+    <meta property="og:title" content="${character.name} - ${character.type} AI Roleplay Guide | ${SITE_NAME}">
     <meta property="og:description" content="Chat with ${character.displayName} - ${character.description}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.characteraibots.com/characters/${character.id}">
-    <meta property="og:image" content="https://www.characteraibots.com/images/og-image.jpg">
-    <meta property="og:site_name" content="Character AI Bots">
+    <meta property="og:url" content="${SITE_URL}/characters/${character.id}">
+    <meta property="og:image" content="${SITE_URL}/images/og-image.jpg">
+    <meta property="og:site_name" content="${SITE_NAME}">
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="${character.name} - ${character.type} AI Roleplay Bot">
     <meta name="twitter:description" content="Chat with ${character.displayName} - ${character.description}">
-    <meta name="twitter:image" content="https://www.characteraibots.com/images/og-image.jpg">
+    <meta name="twitter:image" content="${SITE_URL}/images/og-image.jpg">
 
     <link rel="stylesheet" href="../style.css">
-    <link rel="canonical" href="https://www.characteraibots.com/characters/${character.id}">
+    <link rel="canonical" href="${SITE_URL}/characters/${character.id}">
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
@@ -131,7 +134,8 @@ function generateCharacterPage(character) {
       "alternateName": "${character.displayName}",
       "description": "${escapeHtml(character.description)}",
       "genre": "${character.type}",
-      "url": "https://www.characteraibots.com/characters/${character.id}",
+      "url": "${SITE_URL}/characters/${character.id}",
+      "dateModified": "${LAST_REVIEWED}",
       "aggregateRating": {
         "@type": "AggregateRating",
         "ratingValue": "${character.rating}",
@@ -146,8 +150,8 @@ function generateCharacterPage(character) {
       "@context": "https://schema.org",
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.characteraibots.com"},
-        {"@type": "ListItem", "position": 2, "name": "${character.type} Characters", "item": "https://www.characteraibots.com/search?type=${encodeURIComponent(character.type)}"},
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "${SITE_URL}"},
+        {"@type": "ListItem", "position": 2, "name": "${character.type} Characters", "item": "${SITE_URL}/search?type=${encodeURIComponent(character.type)}"},
         {"@type": "ListItem", "position": 3, "name": "${character.name}"}
       ]
     }
@@ -165,7 +169,7 @@ function generateCharacterPage(character) {
 <body>
     <header>
         <nav>
-            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="Character AI Bots Home">🤖 Character AI Bots</a></div>
+            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="AI Character Guide Home">🧭 ${SITE_NAME}</a></div>
             <ul class="nav-links">
                 <li><a href="../index.html" title="Character AI Bots Home">Home</a></li>
                 <li><a href="../search.html" title="Search Character AI Bots">Search</a></li>
@@ -191,6 +195,7 @@ function generateCharacterPage(character) {
                 <span class="stars">${'⭐'.repeat(Math.round(character.rating))}</span>
                 <span class="rating-text">${character.rating}/5.0 (${character.reviews} reviews)</span>
             </div>
+            <p class="last-reviewed">Editorially reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
             <div class="hero-cta">
                 <p class="hero-cta-text">Start chatting with ${character.name} now — free on any platform:</p>
                 <div class="hero-cta-buttons">
@@ -215,6 +220,7 @@ function generateCharacterPage(character) {
             <div class="detail-content">
                 <h2 id="about">About ${character.name}</h2>
                 <p class="description">${character.description}</p>
+                <p>${escapeHtml(editorialOverview)}</p>
 
                 ${backstory ? `
                 <h3 id="backstory">Character Backstory</h3>
@@ -232,6 +238,9 @@ function generateCharacterPage(character) {
                 <ul class="scenarios-list">
                     ${character.scenarios.map(scenario => `<li>${scenario}</li>`).join('')}
                 </ul>
+
+                <h3>How ${character.name} Compares</h3>
+                <p>${escapeHtml(comparisonText)}</p>
 
                 ${convExamples.length > 0 ? `
                 <h3 id="conversations">Sample Conversations</h3>
@@ -307,7 +316,8 @@ function generateCharacterPage(character) {
                 </div>
 
                 <div class="sidebar-card">
-                    <h3>Rate This Character</h3>
+                    <h3>Your Private Rating</h3>
+                    <p class="rating-note">Saved on this device only. It does not change the directory score.</p>
                     <div class="rating-widget">
                         <div class="stars-input">
                             <span class="star" data-rating="1">☆</span>
@@ -348,8 +358,8 @@ function generateCharacterPage(character) {
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h4>Character AI Bots</h4>
-                <p>Discover the best AI roleplay character bots across multiple platforms.</p>
+                <h4>${SITE_NAME}</h4>
+                <p>An independent directory for discovering AI roleplay characters across multiple platforms.</p>
             </div>
             <div class="footer-section">
                 <h4>Quick Links</h4>
@@ -362,7 +372,8 @@ function generateCharacterPage(character) {
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Character AI Bots. For entertainment purposes only.</p>
+            <p>&copy; 2026 ${SITE_NAME}. Independent directory; not affiliated with any listed platform.</p>
+            <p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p>
         </div>
     </footer>
 

@@ -2,10 +2,16 @@
 
 const fs = require('fs');
 const path = require('path');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
 
 const charactersData = JSON.parse(
-  fs.readFileSync(path.join(__dirname, 'data', 'characters-enriched.json'), 'utf8')
+  fs.readFileSync(path.join(__dirname, 'data', 'characters.json'), 'utf8')
 );
+
+function matchesKeywords(character, keywords) {
+  const haystack = [character.name, character.type, character.category, ...character.tags].join(' ').toLowerCase();
+  return keywords.some(keyword => haystack.includes(keyword));
+}
 
 // Group similar types into SEO-friendly category pages
 // SEO-OPTIMIZED: Titles include target keywords, 2026 update, and unique value propositions
@@ -73,6 +79,70 @@ const typeGroups = {
     intro: 'For thoughtful, stimulating conversations, our creative and intellectual AI bots offer a unique roleplay experience. Chat with passionate artists, eccentric scientists, elegant conductors, and wise mentors. These characters inspire creativity and deep discussions.',
     keywords: 'creative ai bot, intellectual ai character, artist ai roleplay, scientist ai bot, mentor ai chat, smart ai character, free creative ai',
     filter: c => ['Creative', 'Intellectual', 'Eccentric', 'Whimsical', 'Charismatic', 'Mature', 'Celebrity', 'Mystery'].includes(c.type) || ['Artist', 'Scientist', 'Conductor', 'Curator', 'Designer', 'Photographer', 'Host', 'Performer', 'Chef', 'Instructor', 'Fortune Teller', 'Tea Master', 'Biologist', 'Hermit'].includes(c.category)
+  },
+  'anime': {
+    title: 'Best Anime AI Characters for Roleplay in 2026',
+    h1: 'Best Anime AI Characters for Roleplay',
+    description: 'Explore anime-inspired AI characters for roleplay, including heroes, rivals, supernatural personalities and characters inspired by popular series and games.',
+    intro: 'Anime AI characters work especially well for expressive, story-driven roleplay. This collection brings together recognizable archetypes, dramatic personalities, supernatural powers, school settings and action-focused scenarios. Compare each character’s difficulty, personality and supported chat platforms before starting a conversation.',
+    keywords: 'anime ai characters, anime character ai bots, anime roleplay bots, anime ai chat, best anime ai characters',
+    filter: c => matchesKeywords(c, ['anime', 'genshin', 'jujutsu', 'demon slayer', 'spy x family', 'chainsaw', 'attack on titan', 'persona', 'honkai', 'league'])
+  },
+  'game': {
+    title: 'Best Video Game AI Characters for Roleplay in 2026',
+    h1: 'Best Video Game AI Characters',
+    description: 'Find AI roleplay characters inspired by popular video games, fantasy RPGs and science-fiction adventures.',
+    intro: 'Game-inspired AI characters are a strong choice when you want familiar worlds, clear quests and established personality traits. This collection includes characters and archetypes connected with fantasy RPGs, competitive games and story-rich adventures, with scenario ideas for both newcomers and experienced roleplayers.',
+    keywords: 'video game ai characters, game character ai bots, rpg ai roleplay, gaming ai chat characters',
+    filter: c => matchesKeywords(c, ['genshin', 'persona', 'honkai', 'league', 'game'])
+  },
+  'horror': {
+    title: 'Best Horror AI Bots for Dark Roleplay in 2026',
+    h1: 'Best Horror AI Bots for Roleplay',
+    description: 'Discover horror AI characters for suspenseful roleplay, from obsessive personalities to demons, ghosts, vampires and other dark supernatural characters.',
+    intro: 'Horror roleplay depends on atmosphere, tension and clear boundaries. These characters support darker story hooks involving supernatural encounters, psychological suspense and dangerous devotion. Review the difficulty and scenario suggestions on each page, and choose a platform whose safety controls fit your preferences.',
+    keywords: 'horror ai bots, scary character ai, dark roleplay ai, supernatural horror chatbots, yandere horror ai',
+    filter: c => matchesKeywords(c, ['horror', 'yandere', 'demon', 'ghost', 'vampire', 'werewolf', 'succubus'])
+  },
+  'supernatural': {
+    title: 'Best Supernatural AI Characters for Roleplay in 2026',
+    h1: 'Best Supernatural AI Characters',
+    description: 'Chat with supernatural AI characters including ghosts, vampires, demons, angels, witches, spirits and werewolves.',
+    intro: 'Supernatural characters open the door to folklore, magic, mystery and dark fantasy. This collection covers both gentle and intense personalities, so you can compare tone, roleplay difficulty and platform availability before choosing a character for your next story.',
+    keywords: 'supernatural ai characters, ghost ai bot, vampire character ai, demon ai chat, witch ai roleplay',
+    filter: c => matchesKeywords(c, ['supernatural', 'ghost', 'vampire', 'demon', 'angel', 'witch', 'spirit', 'werewolf'])
+  },
+  'wholesome': {
+    title: 'Best Wholesome AI Characters for Comfort Chat in 2026',
+    h1: 'Best Wholesome AI Characters',
+    description: 'Find friendly, comforting AI characters for relaxed conversations, gentle roleplay and supportive slice-of-life stories.',
+    intro: 'Not every roleplay needs high stakes. Wholesome AI characters focus on friendship, encouragement, everyday settings and slow-paced storytelling. These picks are suited to users who prefer café conversations, creative hobbies, supportive companions and low-pressure scenarios.',
+    keywords: 'wholesome ai characters, comfort ai chat, friendly character ai bots, slice of life ai roleplay',
+    filter: c => matchesKeywords(c, ['wholesome', 'comfort', 'friend', 'cafe', 'florist'])
+  },
+  'mystery': {
+    title: 'Best Mystery AI Characters for Detective Roleplay in 2026',
+    h1: 'Best Mystery & Detective AI Characters',
+    description: 'Solve cases and uncover secrets with detective, hacker, phantom thief and fortune-teller AI characters.',
+    intro: 'Mystery AI roleplay works best when a character has a goal, clues and room for collaborative problem-solving. These characters support investigations, secret identities, supernatural mysteries and technology-driven plots. Start with a clear setting and let each reply advance the case.',
+    keywords: 'mystery ai characters, detective ai bot, investigation roleplay ai, mystery character ai chat',
+    filter: c => matchesKeywords(c, ['mystery', 'detective', 'hacker', 'phantom', 'fortune'])
+  },
+  'companions': {
+    title: 'Best AI Companion Characters for Roleplay in 2026',
+    h1: 'Best AI Companion Characters',
+    description: 'Compare AI companion characters designed for friendship, romance, supportive conversation and ongoing roleplay.',
+    intro: 'AI companion characters emphasize continuity, relationship-building and approachable conversation starters. This collection includes friends, partners, roommates and digital companions across several platforms. Use the character pages to compare personality, scenarios and roleplay difficulty.',
+    keywords: 'ai companion characters, ai girlfriend character, ai boyfriend bot, virtual companion roleplay, companion ai chat',
+    filter: c => matchesKeywords(c, ['companion', 'girlfriend', 'boyfriend', 'friend', 'roommate'])
+  },
+  'historical': {
+    title: 'Best Historical AI Characters for Roleplay in 2026',
+    h1: 'Best Historical & Traditional AI Characters',
+    description: 'Explore historical and traditional AI roleplay characters, including samurai, tea masters, shrine figures, pirates, knights and scholars.',
+    intro: 'Historical and traditional character roleplay benefits from a strong setting and period-appropriate goals. These characters provide starting points for court intrigue, exploration, mentorship, folklore and adventure while remaining flexible enough for alternate-history stories.',
+    keywords: 'historical ai characters, samurai ai bot, medieval character ai, traditional roleplay ai, historical chatbots',
+    filter: c => matchesKeywords(c, ['historical', 'samurai', 'tea master', 'shrine', 'pirate', 'knight', 'archaeologist'])
   }
 };
 
@@ -113,11 +183,11 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
     <meta property="og:title" content="${group.title} | Character AI Bots">
     <meta property="og:description" content="${escapeHtml(group.description)}">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://www.characteraibots.com/type/${slug}">
-    <meta property="og:image" content="https://www.characteraibots.com/images/og-image.jpg">
+    <meta property="og:url" content="${SITE_URL}/type/${slug}">
+    <meta property="og:image" content="${SITE_URL}/images/og-image.jpg">
 
     <link rel="stylesheet" href="../style.css">
-    <link rel="canonical" href="https://www.characteraibots.com/type/${slug}">
+    <link rel="canonical" href="${SITE_URL}/type/${slug}">
 
     <script type="application/ld+json">
     {
@@ -125,7 +195,8 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
       "@type": "CollectionPage",
       "name": "${escapeHtml(group.title)}",
       "description": "${escapeHtml(group.description)}",
-      "url": "https://www.characteraibots.com/type/${slug}",
+      "url": "${SITE_URL}/type/${slug}",
+      "dateModified": "${LAST_REVIEWED}",
       "numberOfItems": ${chars.length},
       "hasPart": [${chars.map(c => `{"@type":"CreativeWork","name":"${escapeHtml(c.name)}","url":"https://www.characteraibots.com/characters/${c.id}"}`).join(',')}]
     }
@@ -144,7 +215,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
 <body>
     <header>
         <nav>
-            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="Character AI Bots Home">🤖 Character AI Bots</a></div>
+            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="AI Character Guide Home">🧭 ${SITE_NAME}</a></div>
             <ul class="nav-links">
                 <li><a href="../index.html" title="Home">Home</a></li>
                 <li><a href="../search.html" title="Search">Search</a></li>
@@ -163,6 +234,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
             <h1>${group.h1}</h1>
             <p class="type-hero-desc">${group.description}</p>
             <p class="type-hero-count">${chars.length} characters available — all free</p>
+            <p class="last-reviewed">Editorially reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
         </div>
     </section>
 
@@ -207,7 +279,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h4>Character AI Bots</h4>
+                <h4>${SITE_NAME}</h4>
                 <p>Discover the best AI roleplay character bots across multiple platforms.</p>
             </div>
             <div class="footer-section">
@@ -216,8 +288,8 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
                     <li><a href="../index.html">Home</a></li>
                     <li><a href="../search.html">Search</a></li>
                     <li><a href="../blog/">Blog</a></li>
-                </ul>
                     <li><a href="../quiz.html">Quiz</a></li>
+                </ul>
             </div>
             <div class="footer-section">
                 <h4>Character Types</h4>
@@ -227,7 +299,8 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 Character AI Bots. For entertainment purposes only.</p>
+            <p>&copy; 2026 ${SITE_NAME}. Independent directory.</p>
+            <p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p>
         </div>
     </footer>
 </body>

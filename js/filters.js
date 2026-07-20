@@ -2,6 +2,8 @@
 let allCharacters = [];
 let filteredCharacters = [];
 let currentMoodFilter = null;
+const PAGE_SIZE = 12;
+let visibleLimit = PAGE_SIZE;
 
 // Mood to character type mapping
 const moodMapping = {
@@ -26,9 +28,10 @@ async function initFilters() {
 }
 
 // Apply all filters
-function applyFilters() {
+function applyFilters({ resetPage = true } = {}) {
     const typeFilter = document.getElementById('type-filter');
     const difficultyFilter = document.getElementById('difficulty-filter');
+    const platformFilter = document.getElementById('platform-filter');
     const sortFilter = document.getElementById('sort-filter');
     const quickSearch = document.getElementById('quick-search');
 
@@ -55,6 +58,10 @@ function applyFilters() {
     // Difficulty filter
     if (difficultyFilter && difficultyFilter.value) {
         filtered = filtered.filter(char => char.difficulty === difficultyFilter.value);
+    }
+
+    if (platformFilter && platformFilter.value) {
+        filtered = filtered.filter(char => Boolean(char.platforms?.[platformFilter.value]));
     }
 
     // Quick search
@@ -87,7 +94,49 @@ function applyFilters() {
     }
 
     filteredCharacters = filtered;
-    displayCharacters(filtered);
+    if (resetPage) visibleLimit = PAGE_SIZE;
+    displayCharacters();
+}
+
+function escapeHtml(value) {
+    return String(value)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#039;');
+}
+
+function displayCharacters() {
+    const grid = document.getElementById('characters-grid');
+    const count = document.getElementById('characters-count');
+    const loadMore = document.getElementById('load-more-characters');
+    if (!grid) return;
+
+    const visibleCharacters = filteredCharacters.slice(0, visibleLimit);
+    grid.innerHTML = visibleCharacters.map(char => `
+        <a href="characters/${encodeURIComponent(char.id)}.html" class="character-card" title="View ${escapeHtml(char.name)} - ${escapeHtml(char.type)} AI Roleplay Bot">
+            <div class="character-icon">${escapeHtml(char.image)}</div>
+            <h3>${escapeHtml(char.name)}</h3>
+            <p>${escapeHtml(char.description.substring(0, 100))}...</p>
+            <div class="character-footer">
+                <span class="rating">⭐ ${escapeHtml(char.rating)}</span>
+                <span class="type-badge">${escapeHtml(char.type)}</span>
+            </div>
+        </a>
+    `).join('');
+
+    if (count) count.textContent = `Showing ${visibleCharacters.length} of ${filteredCharacters.length} characters`;
+    if (loadMore) {
+        const remaining = filteredCharacters.length - visibleCharacters.length;
+        loadMore.hidden = remaining <= 0;
+        loadMore.textContent = `Load ${Math.min(PAGE_SIZE, remaining)} more character${remaining === 1 ? '' : 's'}`;
+    }
+}
+
+function loadMoreCharacters() {
+    visibleLimit += PAGE_SIZE;
+    displayCharacters();
 }
 
 // Apply mood filter
@@ -117,11 +166,13 @@ function applyMoodFilter(mood) {
 function resetFilters() {
     const typeFilter = document.getElementById('type-filter');
     const difficultyFilter = document.getElementById('difficulty-filter');
+    const platformFilter = document.getElementById('platform-filter');
     const sortFilter = document.getElementById('sort-filter');
     const quickSearch = document.getElementById('quick-search');
 
     if (typeFilter) typeFilter.value = '';
     if (difficultyFilter) difficultyFilter.value = '';
+    if (platformFilter) platformFilter.value = '';
     if (sortFilter) sortFilter.value = 'popularity';
     if (quickSearch) quickSearch.value = '';
 
@@ -141,15 +192,19 @@ document.addEventListener('DOMContentLoaded', () => {
     // Filter change listeners
     const typeFilter = document.getElementById('type-filter');
     const difficultyFilter = document.getElementById('difficulty-filter');
+    const platformFilter = document.getElementById('platform-filter');
     const sortFilter = document.getElementById('sort-filter');
     const quickSearch = document.getElementById('quick-search');
+    const loadMore = document.getElementById('load-more-characters');
 
     if (typeFilter) typeFilter.addEventListener('change', applyFilters);
     if (difficultyFilter) difficultyFilter.addEventListener('change', applyFilters);
+    if (platformFilter) platformFilter.addEventListener('change', applyFilters);
     if (sortFilter) sortFilter.addEventListener('change', applyFilters);
     if (quickSearch) {
         quickSearch.addEventListener('input', debounce(applyFilters, 300));
     }
+    if (loadMore) loadMore.addEventListener('click', loadMoreCharacters);
 
     // Mood card click listeners
     document.querySelectorAll('.mood-card').forEach(card => {

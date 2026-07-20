@@ -2,13 +2,14 @@
 
 const fs = require('fs');
 const path = require('path');
+const { SITE_URL } = require('./site-config');
 
 // 读取角色数据
 const charactersData = JSON.parse(
   fs.readFileSync(path.join(__dirname, 'data', 'characters.json'), 'utf8')
 );
 
-const baseUrl = 'https://www.characteraibots.com';
+const baseUrl = SITE_URL;
 const today = new Date().toISOString().split('T')[0];
 
 // Collect type pages
