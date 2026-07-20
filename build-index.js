@@ -191,6 +191,33 @@ const indexHTML = `<!DOCTYPE html>
         </div>
     </section>
 
+    <section class="choice-guide" aria-labelledby="choice-guide-title">
+        <div class="choice-guide-content">
+            <p class="eyebrow">Quick start</p>
+            <h2 id="choice-guide-title">How to Choose the Right Character AI Bot</h2>
+            <p>Not sure where to begin? Start with the kind of story or conversation you want, then narrow the directory by platform, personality and difficulty. Every character page includes scenario ideas, personality traits, supported platforms and similar recommendations, so you can compare options before leaving the directory.</p>
+            <div class="choice-guide-grid">
+                <article>
+                    <h3>For anime-style roleplay</h3>
+                    <p>Browse <a href="type/anime.html">Anime Characters</a> for expressive personalities, dramatic story hooks and characters inspired by popular series and games.</p>
+                </article>
+                <article>
+                    <h3>For quests and world-building</h3>
+                    <p>Try <a href="type/fantasy.html">Fantasy</a>, <a href="type/game.html">Game Characters</a> or <a href="type/action-adventure.html">Action &amp; Adventure</a> for magic, missions and collaborative storytelling.</p>
+                </article>
+                <article>
+                    <h3>For suspense and darker stories</h3>
+                    <p>Explore <a href="type/horror.html">Horror</a>, <a href="type/supernatural.html">Supernatural</a> or <a href="type/mystery.html">Mystery</a>. Check each character’s difficulty and choose a platform with controls that fit your preferences.</p>
+                </article>
+                <article>
+                    <h3>For relaxed conversation</h3>
+                    <p>Start with <a href="type/wholesome.html">Wholesome Characters</a>, <a href="type/companions.html">AI Companions</a> or <a href="type/romance.html">Romance</a> for friendship, comfort and slower relationship-focused scenarios.</p>
+                </article>
+            </div>
+            <p class="choice-guide-tip"><strong>First-time roleplayer?</strong> Choose an Easy character and begin with one of the suggested scenarios. Add a location, a goal and a short action in your opening message; this gives the bot enough context to respond consistently.</p>
+        </div>
+    </section>
+
     <section class="characters-section">
         <h2>Browse All Character AI Bots</h2>
         <div id="characters-grid" class="characters-grid">
