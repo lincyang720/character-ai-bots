@@ -28,16 +28,6 @@ function generateCharacterCards(characters) {
 const indexHTML = `<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1JQKX49JMM"></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-
-      gtag('config', 'G-1JQKX49JMM');
-    </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- SEO-OPTIMIZED: Keywords first, 2026 updated, weekly updates -->
@@ -253,6 +243,32 @@ const indexHTML = `<!DOCTYPE html>
         </div>
     </section>
 
+    <section class="use-cases" aria-labelledby="use-cases-title">
+        <div class="use-cases-content">
+            <p class="eyebrow">Ideas for your next conversation</p>
+            <h2 id="use-cases-title">What Can You Do with Character AI Bots?</h2>
+            <p>Character bots are most useful when you choose one that matches a clear activity. They are entertainment tools rather than professional advisers, but they can provide a flexible space for storytelling, brainstorming and low-pressure conversation.</p>
+            <div class="use-cases-grid">
+                <article>
+                    <h3>Interactive roleplay</h3>
+                    <p>Build an ongoing story with a defined setting, relationship and goal. Fantasy, anime and mystery characters work especially well when you open with a specific scene or conflict.</p>
+                </article>
+                <article>
+                    <h3>Creative writing practice</h3>
+                    <p>Test dialogue, explore alternate plot choices or improvise a scene from another character’s perspective. Treat generated details as creative suggestions and revise them in your own voice.</p>
+                </article>
+                <article>
+                    <h3>Language and dialogue practice</h3>
+                    <p>Use a friendly character for informal conversation practice, vocabulary prompts or fictional interview exercises. Verify important corrections with a reliable learning source.</p>
+                </article>
+                <article>
+                    <h3>Casual character chat</h3>
+                    <p>Choose a wholesome or companion character for relaxed, fictional conversation. Avoid sharing sensitive personal information and review the privacy controls of the platform you select.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
     <section class="newsletter-section" aria-labelledby="newsletter-title">
         <div class="newsletter-card">
             <p class="eyebrow">Monthly discovery digest</p>
@@ -371,6 +387,25 @@ const indexHTML = `<!DOCTYPE html>
     </footer>
 
     <script src="js/filters.js"></script>
+    <script>
+      window.addEventListener('load', function () {
+        var startAnalytics = function () {
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function () { window.dataLayer.push(arguments); };
+          window.gtag('js', new Date());
+          window.gtag('config', 'G-1JQKX49JMM');
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-1JQKX49JMM';
+          document.head.appendChild(script);
+        };
+        if ('requestIdleCallback' in window) {
+          window.requestIdleCallback(startAnalytics, { timeout: 3000 });
+        } else {
+          window.setTimeout(startAnalytics, 1500);
+        }
+      }, { once: true });
+    </script>
 </body>
 </html>`;
 
