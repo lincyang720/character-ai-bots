@@ -30,15 +30,14 @@ const indexHTML = `<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- SEO-OPTIMIZED: Keywords first, 2026 updated, weekly updates -->
-    <title>Best Character AI Bots for Roleplay – ${charactersData.length}+ Free Options [2026]</title>
-    <meta name="description" content="Compare ${charactersData.length}+ of the best free Character AI bots for roleplay across Character.AI, JanitorAI and SpicyChat. Filter by platform, type and rating.">
-    <meta name="keywords" content="character ai bots, ai roleplay characters, free ai chat bots, anime ai chat, free ai chatbot 2026, character.ai, janitorai, spicychat, yandere ai, tsundere bot">
+    <title>AI Character Directory – ${charactersData.length}+ Free AI Chatbots &amp; Roleplay Characters</title>
+    <meta name="description" content="Free AI character directory with ${charactersData.length}+ chatbots from Character.AI, JanitorAI &amp; SpicyChat. Filter by platform, type and rating. Find your perfect AI roleplay character.">
+    <meta name="keywords" content="ai character directory, ai roleplay characters, character ai bots, free ai chatbots, anime ai characters, character.ai, janitorai, spicychat">
     <meta name="google-site-verification" content="OPQH_dX0XnvAd0ODbk5cDms96DTDRcgDkwoFUZw_eHw" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="Character AI Bots - ${charactersData.length}+ Free Roleplay Characters">
-    <meta property="og:description" content="Discover ${charactersData.length}+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!">
+    <meta property="og:title" content="AI Character Directory – ${charactersData.length}+ Free AI Chatbots">
+    <meta property="og:description" content="Explore ${charactersData.length}+ AI roleplay characters across Character.AI, JanitorAI and SpicyChat. Filter by platform, type and rating.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.characteraibots.com/">
     <meta property="og:image" content="https://www.characteraibots.com/images/og-image.jpg">
@@ -46,8 +45,8 @@ const indexHTML = `<!DOCTYPE html>
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Character AI Bots - ${charactersData.length}+ Free Roleplay Characters">
-    <meta name="twitter:description" content="Discover ${charactersData.length}+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!">
+    <meta name="twitter:title" content="AI Character Directory – ${charactersData.length}+ Free AI Chatbots">
+    <meta name="twitter:description" content="Explore ${charactersData.length}+ AI roleplay characters across Character.AI, JanitorAI and SpicyChat.">
     <meta name="twitter:image" content="https://www.characteraibots.com/images/og-image.jpg">
 
     <link rel="stylesheet" href="style.css">
@@ -58,9 +57,9 @@ const indexHTML = `<!DOCTYPE html>
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "Character AI Bots",
+      "name": "AI Character Guide",
       "url": "https://www.characteraibots.com/",
-      "description": "Discover ${charactersData.length}+ free character AI bots for roleplay on Character.AI, JanitorAI, and SpicyChat",
+      "description": "A free AI character directory with ${charactersData.length}+ roleplay chatbots across Character.AI, JanitorAI, and SpicyChat",
       "potentialAction": {
         "@type": "SearchAction",
         "target": "https://www.characteraibots.com/search?q={search_term_string}",
@@ -72,7 +71,7 @@ const indexHTML = `<!DOCTYPE html>
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      "name": "Character AI Bots Collection",
+      "name": "AI Character Directory",
       "description": "A curated list of ${charactersData.length}+ AI roleplay character bots",
       "numberOfItems": ${charactersData.length},
       "itemListElement": ${JSON.stringify(charactersData.slice(0, 10).map((char, index) => ({
@@ -93,7 +92,7 @@ const indexHTML = `<!DOCTYPE html>
         <nav>
             <div class="logo">🧭 ${SITE_NAME}</div>
             <ul class="nav-links">
-                <li><a href="index.html" class="active" title="Character AI Bots Home">Home</a></li>
+                <li><a href="index.html" class="active" title="AI Character Directory Home">Home</a></li>
                 <li><a href="search.html" title="Search Character AI Bots">Search</a></li>
                 <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
                 <li><a href="quiz.html" title="AI Character Quiz">Quiz</a></li>
@@ -104,7 +103,7 @@ const indexHTML = `<!DOCTYPE html>
     <main>
     <section class="hero">
         <div class="hero-content">
-            <h1>${charactersData.length}+ Best Character AI Bots for Roleplay Chat</h1>
+            <h1>AI Character Directory: ${charactersData.length}+ Free AI Chatbots &amp; Roleplay Characters</h1>
             <p class="hero-subtitle">An independent, cross-platform directory of ${charactersData.length}+ AI roleplay characters on Character.AI, JanitorAI, and SpicyChat.</p>
             <p class="last-reviewed">Directory reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
             <div class="hero-search">
@@ -209,7 +208,7 @@ const indexHTML = `<!DOCTYPE html>
     </section>
 
     <section class="characters-section">
-        <h2>Browse All Character AI Bots</h2>
+        <h2>Browse All AI Roleplay Characters</h2>
         <div id="characters-grid" class="characters-grid">
             ${generateCharacterCards([...charactersData].sort((a, b) => b.popularity - a.popularity).slice(0, 12))}
         </div>

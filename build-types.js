@@ -17,8 +17,8 @@ function matchesKeywords(character, keywords) {
 // SEO-OPTIMIZED: Titles include target keywords, 2026 update, and unique value propositions
 const typeGroups = {
   'yandere': {
-    title: 'Best Yandere AI Bots 2026 - Free Obsessive & Possessive Roleplay Characters',
-    h1: 'Best Yandere AI Bots for Roleplay',
+    title: 'Yandere AI Characters – Best Yandere Chatbots',
+    h1: 'Yandere AI Characters for Intense Roleplay',
     description: 'Chat with free Yandere AI bots - obsessive, possessive & dangerously loyal. Meet Makima, Kafka & 20+ Yandere characters. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'Yandere characters are among the most popular AI roleplay archetypes. These obsessively devoted characters will stop at nothing to keep you close. Whether you love the thrill of a possessive librarian or a jealous classmate, our yandere AI bots deliver intense, emotionally charged conversations that keep you coming back.',
     keywords: 'yandere ai bot, yandere character ai, yandere roleplay, obsessive ai character, possessive ai bot, yandere chat bot, free yandere ai',
@@ -41,16 +41,16 @@ const typeGroups = {
     filter: c => ['Vampire', 'Supernatural', 'Dominant'].includes(c.type) || ['Werewolf', 'Angel', 'Ghost'].includes(c.category)
   },
   'fantasy': {
-    title: 'Best Fantasy AI Bots 2026 - Free Elves, Dragons & Magic Characters',
-    h1: 'Best Fantasy AI Bots for Roleplay',
+    title: 'Fantasy AI Characters – Free Fantasy Roleplay Bots',
+    h1: 'Fantasy AI Characters for Free Roleplay',
     description: 'Embark on magical adventures with free Fantasy AI bots. Elves, dragons, wizards & more. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'Step into magical worlds with our fantasy AI roleplay bots. From noble knights and powerful witches to ancient dragons and royal guards, these characters bring epic fantasy storytelling to life. Each character has deep lore, unique abilities, and immersive scenarios that transport you to another world.',
     keywords: 'fantasy ai bot, fantasy roleplay ai, knight ai character, witch ai bot, dragon ai roleplay, fantasy chat bot, medieval ai roleplay, free fantasy ai',
     filter: c => ['Fantasy', 'Mystical', 'Traditional'].includes(c.type) || ['Knight', 'Witch', 'Dragon', 'Shrine', 'Guard', 'Pirate'].includes(c.category)
   },
   'romance': {
-    title: 'Best Romance AI Bots 2026 - Free Dating & Love Roleplay',
-    h1: 'Best Romance AI Bots for Roleplay Chat',
+    title: 'Romance AI Characters – AI Roleplay & Dating Chat',
+    h1: 'Romance AI Characters for Roleplay & Dating Chat',
     description: 'Find your perfect AI companion with free Romance bots. Sweet, caring & lovable characters. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'Looking for sweet, heartwarming AI conversations? Our romance AI bots range from childhood friends who\'ve secretly loved you for years to charming café owners and gentle florists. These characters specialize in building emotional connections, slow-burn romance, and feel-good storylines.',
     keywords: 'romance ai bot, ai boyfriend, ai girlfriend, wholesome ai roleplay, love ai character, romance chat bot, dating ai, free romance ai',
@@ -81,8 +81,8 @@ const typeGroups = {
     filter: c => ['Creative', 'Intellectual', 'Eccentric', 'Whimsical', 'Charismatic', 'Mature', 'Celebrity', 'Mystery'].includes(c.type) || ['Artist', 'Scientist', 'Conductor', 'Curator', 'Designer', 'Photographer', 'Host', 'Performer', 'Chef', 'Instructor', 'Fortune Teller', 'Tea Master', 'Biologist', 'Hermit'].includes(c.category)
   },
   'anime': {
-    title: 'Best Anime AI Characters for Roleplay in 2026',
-    h1: 'Best Anime AI Characters for Roleplay',
+    title: 'Anime AI Characters – Best Anime Chatbots Directory',
+    h1: 'Anime AI Characters & Roleplay Chatbots',
     description: 'Explore anime-inspired AI characters for roleplay, including heroes, rivals, supernatural personalities and characters inspired by popular series and games.',
     intro: 'Anime AI characters work especially well for expressive, story-driven roleplay. This collection brings together recognizable archetypes, dramatic personalities, supernatural powers, school settings and action-focused scenarios. Compare each character’s difficulty, personality and supported chat platforms before starting a conversation.',
     keywords: 'anime ai characters, anime character ai bots, anime roleplay bots, anime ai chat, best anime ai characters',
@@ -156,6 +156,23 @@ if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 Object.entries(typeGroups).forEach(([slug, group]) => {
   const chars = charactersData.filter(group.filter);
   if (chars.length === 0) return;
+  const popularChars = [...chars].sort((a, b) => (b.popularity || 0) - (a.popularity || 0)).slice(0, 3);
+  const categoryLabel = group.h1.replace(/^Best /, '').replace(/ for .+$/, '');
+  const expandedIntro = `${group.intro} Use the filters and profile details to compare personality, difficulty, rating and supported platform instead of choosing from a thumbnail alone. A strong match should fit the tone you want, provide a clear scenario and offer enough personality detail to sustain a longer conversation. Start with an Easy-rated option if you are new to AI roleplay, or choose a more demanding character when you want conflict, mystery or a slower relationship arc. Every listing links to a detailed profile with conversation ideas and similar recommendations. Because availability and platform behavior can change, review the destination platform's current rules before chatting. This directory is independent and does not host the conversations itself; it helps you compare characters across Character.AI, JanitorAI and SpicyChat.`;
+  const faqs = [
+    {
+      question: `What are ${categoryLabel.toLowerCase()}?`,
+      answer: `${categoryLabel} are AI-driven personalities designed for interactive conversation and story-based roleplay. The characters in this collection are organized by theme, personality and common scenarios.`
+    },
+    {
+      question: `How do I choose a ${categoryLabel.toLowerCase()}?`,
+      answer: `Compare the character's personality, difficulty, rating, scenario ideas and supported platforms. Beginners should start with a clear premise and an Easy-rated character before trying more complex storylines.`
+    },
+    {
+      question: `Are these ${categoryLabel.toLowerCase()} free?`,
+      answer: `The directory is free to browse. Linked platforms may apply their own account requirements, message limits or paid features, so verify the current terms on the platform before starting.`
+    }
+  ];
 
   // Also find related type pages for cross-linking
   const otherTypes = Object.entries(typeGroups)
@@ -176,7 +193,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${group.title} - Free AI Roleplay Characters | Character AI Bots</title>
+    <title>${group.title}</title>
     <meta name="description" content="${escapeHtml(group.description)}">
     <meta name="keywords" content="${group.keywords}">
 
@@ -200,6 +217,17 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
       "numberOfItems": ${chars.length},
       "hasPart": [${chars.map(c => `{"@type":"CreativeWork","name":"${escapeHtml(c.name)}","url":"https://www.characteraibots.com/characters/${c.id}"}`).join(',')}]
     }
+    </script>
+    <script type="application/ld+json">
+    ${JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: faqs.map(faq => ({
+        '@type': 'Question',
+        name: faq.question,
+        acceptedAnswer: { '@type': 'Answer', text: faq.answer }
+      }))
+    })}
     </script>
     <script type="application/ld+json">
     {
@@ -240,12 +268,19 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
 
     <section class="type-intro">
         <div class="type-intro-content">
-            <p>${group.intro}</p>
+            <p>${expandedIntro}</p>
+        </div>
+    </section>
+
+    <section class="type-browse" aria-labelledby="popular-${slug}">
+        <h2 id="popular-${slug}">Popular ${categoryLabel}</h2>
+        <div class="type-links">
+            ${popularChars.map(char => `<a href="../characters/${char.id}.html" class="type-link-card"><strong>${escapeHtml(char.name)}</strong><span>⭐ ${char.rating} · ${escapeHtml(char.type)}</span></a>`).join('\n            ')}
         </div>
     </section>
 
     <section class="characters-section">
-        <h2>All ${group.title} (${chars.length})</h2>
+        <h2>Browse ${group.h1} (${chars.length})</h2>
         <div class="characters-grid">
             ${chars.map(char => `
             <a href="../characters/${char.id}.html" class="character-card" title="Chat with ${escapeHtml(char.name)} - ${char.type} AI Bot">
@@ -267,9 +302,16 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
         </div>
     </section>
 
+    <section class="type-intro" aria-labelledby="faq-${slug}">
+        <div class="type-intro-content">
+            <h2 id="faq-${slug}">${categoryLabel} FAQ</h2>
+            ${faqs.map(faq => `<h3>${escapeHtml(faq.question)}</h3><p>${escapeHtml(faq.answer)}</p>`).join('\n            ')}
+        </div>
+    </section>
+
     <section class="cta-section">
         <div class="cta-content">
-            <h2>Start Chatting with ${group.title} Now</h2>
+            <h2>Explore ${group.h1}</h2>
             <p>All characters are free on Character.AI, JanitorAI, and SpicyChat. Pick a character above and start your adventure!</p>
             <a href="../index.html" class="cta-button">Browse All Characters</a>
         </div>

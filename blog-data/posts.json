@@ -218,5 +218,45 @@
         "readTime":  "9 min read",
         "category":  "Best Of",
         "heroEmoji":  "❄️💕"
+    },
+    {
+        "slug": "how-to-find-best-ai-characters-roleplay",
+        "title": "How to Find the Best AI Characters for Roleplay",
+        "description": "Learn how to compare AI roleplay characters by personality, scenario, difficulty, platform and conversation style before you start chatting.",
+        "keywords": "best ai characters for roleplay, find ai characters, ai roleplay characters, character directory",
+        "date": "2026-07-21",
+        "readTime": "8 min read",
+        "category": "Guide",
+        "heroEmoji": "🧭"
+    },
+    {
+        "slug": "most-popular-ai-chatbot-characters-2026",
+        "title": "Top 10 Most Popular AI Chatbot Characters in 2026",
+        "description": "Explore ten popular AI chatbot character styles for anime, fantasy, romance, adventure and companion roleplay across leading platforms.",
+        "keywords": "most popular ai chatbots 2026, popular ai characters, best chatbot characters, ai roleplay characters",
+        "date": "2026-07-21",
+        "readTime": "10 min read",
+        "category": "Best Of",
+        "heroEmoji": "🔥"
+    },
+    {
+        "slug": "what-makes-a-good-ai-character",
+        "title": "What Makes a Good AI Character? A Complete Guide",
+        "description": "Understand the personality, backstory, scenario, boundaries and conversation design that make an AI character engaging and consistent.",
+        "keywords": "what makes a good ai character, ai character design, character personality, ai roleplay guide",
+        "date": "2026-07-21",
+        "readTime": "9 min read",
+        "category": "Guide",
+        "heroEmoji": "🎭"
+    },
+    {
+        "slug": "how-ai-characters-work",
+        "title": "How AI Characters Work: The Technology Behind AI Chatbots",
+        "description": "A plain-language explanation of language models, character prompts, context windows, memory and safety controls in AI character chat.",
+        "keywords": "how ai characters work, ai chatbot technology, character ai technology, roleplay chatbot explained",
+        "date": "2026-07-21",
+        "readTime": "10 min read",
+        "category": "Technology",
+        "heroEmoji": "⚙️"
     }
 ]
