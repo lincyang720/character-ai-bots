@@ -94,6 +94,7 @@ const indexHTML = `<!DOCTYPE html>
             <ul class="nav-links">
                 <li><a href="index.html" class="active" title="AI Character Directory Home">Home</a></li>
                 <li><a href="search.html" title="Search Character AI Bots">Search</a></li>
+                <li><a href="ai-roleplay-characters.html" title="Browse AI Roleplay Characters">Roleplay Characters</a></li>
                 <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
                 <li><a href="quiz.html" title="AI Character Quiz">Quiz</a></li>
             </ul>
@@ -103,8 +104,9 @@ const indexHTML = `<!DOCTYPE html>
     <main>
     <section class="hero">
         <div class="hero-content">
-            <h1>AI Character Directory: ${charactersData.length}+ Free AI Chatbots &amp; Roleplay Characters</h1>
+            <h1>AI Character Directory – ${charactersData.length}+ Free AI Chatbots &amp; Roleplay Characters</h1>
             <p class="hero-subtitle">An independent, cross-platform directory of ${charactersData.length}+ AI roleplay characters on Character.AI, JanitorAI, and SpicyChat.</p>
+            <p class="hero-description">This <strong>AI character directory</strong> curates ${charactersData.length}+ free roleplay bots across Character.AI, JanitorAI, and SpicyChat — one of the few independent directories that lets you compare characters by platform, type, difficulty, and rating before you start chatting.</p>
             <p class="last-reviewed">Directory reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
             <div class="hero-search">
                 <input type="text" id="quick-search" placeholder="Search characters, types, or tags...">

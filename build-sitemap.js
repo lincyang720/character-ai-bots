@@ -40,6 +40,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <priority>0.8</priority>
   </url>
   <url>
+    <loc>${baseUrl}/ai-roleplay-characters</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
     <loc>${baseUrl}/quiz</loc>
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
@@ -66,7 +72,7 @@ ${charactersData.map(char => `  <url>
 </urlset>`;
 
 fs.writeFileSync(path.join(__dirname, 'sitemap.xml'), sitemap);
-const totalUrls = 3 + typePages.length + blogPages.length + charactersData.length;
+const totalUrls = 4 + typePages.length + blogPages.length + charactersData.length;
 console.log(`✅ Generated sitemap.xml with ${totalUrls} URLs`);
 console.log(`   - 1 quiz page`);
 console.log(`   - ${typePages.length} type pages`);

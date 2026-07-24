@@ -1,0 +1,92 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
+const characters = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'characters.json'), 'utf8'));
+const esc = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+const cards = [...characters].sort((a, b) => b.popularity - a.popularity).slice(0, 12).map(char => `
+  <a href="characters/${char.id}.html" class="character-card" title="View ${esc(char.name)} - ${esc(char.type)} AI Roleplay Character">
+    <div class="character-icon">${esc(char.image)}</div><h3>${esc(char.name)}</h3>
+    <p>${esc(char.description.substring(0, 100))}...</p>
+    <div class="character-footer"><span class="rating">⭐ ${char.rating}</span><span class="type-badge">${esc(char.type)}</span></div>
+  </a>`).join('');
+
+const faqs = [
+  ['What are AI roleplay characters?', 'AI roleplay characters are chatbot personas with a defined identity, personality, background and scenario. They respond in character so users can build an interactive story through conversation.'],
+  ['Can I browse these characters for free?', 'This independent directory is free to browse. Linked platforms may have their own account requirements, message limits or optional paid features.'],
+  ['Which platform should I choose?', 'Compare character availability and current rules on Character.AI, JanitorAI and SpicyChat. The best choice depends on the character, moderation preferences and conversation features you need.']
+];
+
+const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free AI Roleplay Characters – Browse ${characters.length}+ Chatbots &amp; Personality Types</title>
+  <meta name="description" content="Browse ${characters.length}+ free AI roleplay characters across Character.AI, JanitorAI &amp; SpicyChat. Filter by type, difficulty, and platform. Find your perfect roleplay partner.">
+  <meta name="keywords" content="ai roleplay characters, free ai roleplay characters, roleplay chatbots, ai character personalities">
+  <link rel="canonical" href="${SITE_URL}/ai-roleplay-characters"><link rel="stylesheet" href="style.css">
+  <meta property="og:title" content="Free AI Roleplay Characters – Browse ${characters.length}+ Chatbots">
+  <meta property="og:description" content="Compare free AI roleplay characters by type, difficulty, rating and platform.">
+  <meta property="og:type" content="website"><meta property="og:url" content="${SITE_URL}/ai-roleplay-characters">
+  <script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'CollectionPage',name:'Free AI Roleplay Characters Directory',url:`${SITE_URL}/ai-roleplay-characters`,description:`Browse ${characters.length}+ free AI roleplay characters across multiple platforms.`,dateModified:LAST_REVIEWED,numberOfItems:characters.length})}</script>
+  <script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))})}</script>
+</head>
+<body>
+<header><nav><div class="logo"><a href="index.html" style="color:white;text-decoration:none">🧭 ${SITE_NAME}</a></div><ul class="nav-links">
+  <li><a href="index.html">Home</a></li><li><a href="search.html">Search</a></li>
+  <li><a href="ai-roleplay-characters.html" class="active">Roleplay Characters</a></li><li><a href="blog/">Blog</a></li><li><a href="quiz.html">Quiz</a></li>
+</ul></nav></header>
+<main>
+<section class="hero"><div class="hero-content">
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> &rsaquo; <span>AI Roleplay Characters</span></nav>
+  <h1>Free AI Roleplay Characters Directory</h1>
+  <p class="hero-subtitle">Browse ${characters.length}+ character profiles for anime, fantasy, romance, adventure, mystery and companion roleplay across three leading chat platforms.</p>
+  <p class="last-reviewed">Editorially reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
+  <div class="hero-search"><input type="text" id="quick-search" placeholder="Search roleplay characters, types, or tags..."><button onclick="window.location.href='search.html'">🔍 Advanced Search</button></div>
+</div></section>
+
+<section class="type-intro"><div class="type-intro-content">
+  <h2>What Are AI Roleplay Characters?</h2>
+  <p>AI roleplay characters are conversational personas designed to take part in an interactive story. Each character has a name, personality, background, speaking style and starting scenario. Instead of answering like a general assistant, the chatbot attempts to respond from that identity while reacting to your actions and dialogue. A fantasy knight may invite you into a dangerous quest, a detective may ask you to examine clues, and a companion character may focus on a slower everyday conversation.</p>
+  <p>This page is an independent discovery layer rather than a chat platform. It brings together characters available across Character.AI, JanitorAI and SpicyChat so you can compare them before leaving the directory. Profiles show personality traits, ratings, roleplay difficulty, supported platforms, conversation ideas and related characters. Platform features and rules can change, so always check the destination service before starting a conversation.</p>
+  <h2>How to Choose an AI Roleplay Character</h2>
+  <p>Begin with the kind of experience you want. For expressive dialogue and recognizable archetypes, browse <a href="type/anime.html">anime AI characters</a>. Choose <a href="type/fantasy.html">fantasy characters</a> for quests, magic and world-building, or <a href="type/mystery.html">mystery characters</a> for investigation and suspense. <a href="type/romance.html">Romance</a> and <a href="type/companions.html">companion characters</a> work better for relationship-focused stories, while <a href="type/action-adventure.html">action and adventure</a> profiles are built around missions and conflict.</p>
+  <p>Next, compare difficulty. Easy characters usually have direct goals and can move a scene forward from a short opening message. Medium characters benefit from more context, including your role and the relationship between you. Hard characters may involve political conflict, psychological tension, mysteries or gradual emotional development. Ratings can help you narrow the list, but the character premise and scenario are more important than a small difference in score.</p>
+  <h2>Write a Better Opening Message</h2>
+  <p>A useful first message establishes a location, your role and an immediate action. “Hello” gives the character little material. A stronger opener might be: “The city gates close behind us as I unfold the stolen map. I ask whether you recognize the symbol in the corner.” This tells the chatbot where the scene is happening and creates a decision. Add sensory detail or a clear goal when you want more descriptive replies, but leave enough space for the character to contribute.</p>
+  <p>Evaluate the first several responses rather than judging one line. A good match should maintain a recognizable voice, acknowledge your actions and introduce useful new details without deciding everything for you. If the character repeatedly ignores the scenario, clarify the context or try a related profile. Long conversations may lose older details because platforms have different context and memory systems; naturally restating an important fact can help preserve continuity.</p>
+  <h2>Compare Platforms and Boundaries</h2>
+  <p>The same broad character type can feel different across platforms because models, memory, moderation and account rules vary. Decide whether you care most about a large public library, detailed character controls, conversation history or a particular moderation approach. Never assume that “free” means every feature is unlimited. The directory itself requires no payment, but third-party platforms control their own free tiers and optional subscriptions.</p>
+  <p>Roleplay should also stay within your comfort level. Read the profile and scenario before opening darker horror, obsessive or relationship-driven characters. Use platform safety controls where available, avoid sharing sensitive personal information and remember that generated responses can be inaccurate or unexpected. AI characters are fictional tools for entertainment and creative storytelling, not professional advisers or real people.</p>
+  <h2>Popular AI Roleplay Character Types</h2>
+  <p>Popular choices include heroes, rivals, supernatural figures, original companions and characters inspired by anime or games. Yandere and horror profiles emphasize tension; wholesome profiles focus on friendship and comfort; science-fiction characters explore androids, space travel and identity. There is no universally best category. The right character is the one whose tone, difficulty and scenario fit the story you want to explore now.</p>
+  <h2>Original Characters, Anime Characters and Familiar Archetypes</h2>
+  <p>Original characters give writers the most freedom because their history is not tied to an existing franchise. You can change the setting, relationship and stakes without worrying about established canon. Anime- and game-inspired characters provide a more familiar voice and visual identity, which can make the opening scene easier, but users may expect details that the chatbot cannot consistently reproduce. Archetypes such as a knight, rival, librarian or android sit between those options: the premise is immediately understandable while the story remains flexible.</p>
+  <p>Consider how much prior knowledge you want to bring into the conversation. A recognizable character can be enjoyable when you already understand the world, but an original companion may be better for a long-running story that develops around your choices. The category pages in this directory overlap intentionally because one character can support several experiences. A vampire can belong to supernatural, horror, fantasy or romance depending on the selected scenario.</p>
+  <h2>Why Use a Cross-Platform Character Directory?</h2>
+  <p>Chat platforms naturally prioritize the characters hosted inside their own ecosystem. A cross-platform directory lets you begin with the character type you want and then compare where each profile is available. This is useful when a platform changes its model, moderation rules, queue, free tier or account requirements. Instead of treating one service as the automatic answer, you can review the profile first and make the platform decision separately.</p>
+  <p>The directory also uses a consistent format across listings. Ratings, difficulty labels, personality traits, scenarios and similar recommendations appear in predictable places, making comparison faster. These are editorial discovery signals rather than guarantees about a future conversation. Generated replies remain dependent on the destination platform, its current model and the context you provide. Revisit the profile when you want a new opening idea, and use related-character links when a premise is close but the personality or difficulty is not the right fit.</p>
+</div></section>
+
+<section class="filters"><div class="filter-container">
+  <div class="filter-group"><label>Type:</label><select id="type-filter"><option value="">All Types</option><option value="Yandere">Yandere</option><option value="Tsundere">Tsundere</option><option value="Vampire">Vampire</option><option value="Fantasy">Fantasy</option><option value="Modern">Modern</option><option value="Sci-Fi">Sci-Fi</option></select></div>
+  <div class="filter-group"><label>Difficulty:</label><select id="difficulty-filter"><option value="">All Levels</option><option value="Easy">Easy</option><option value="Medium">Medium</option><option value="Hard">Hard</option></select></div>
+  <div class="filter-group"><label>Platform:</label><select id="platform-filter"><option value="">All Platforms</option><option value="characterai">Character.AI</option><option value="janitorai">JanitorAI</option><option value="spicychat">SpicyChat</option></select></div>
+  <div class="filter-group"><label>Sort:</label><select id="sort-filter"><option value="popularity">Popularity</option><option value="rating">Rating</option><option value="name">Name</option></select></div>
+</div></section>
+<section class="characters-section"><h2>Browse ${characters.length}+ Free AI Roleplay Characters</h2><div id="characters-grid" class="characters-grid">${cards}</div>
+  <p id="characters-count" class="characters-count" aria-live="polite">Showing 12 of ${characters.length} characters</p><button id="load-more-characters" class="load-more-button" type="button">Load 12 more characters</button>
+</section>
+<section class="type-intro"><div class="type-intro-content"><h2>AI Roleplay Characters FAQ</h2>
+  ${faqs.map(([q,a])=>`<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
+  <p>For broader discovery, return to the <a href="index.html">AI character directory</a> or use the <a href="search.html">advanced character search</a>.</p>
+</div></section>
+</main>
+<footer><div class="footer-content"><div class="footer-section"><h4>${SITE_NAME}</h4><p>Independent AI character discovery across multiple roleplay platforms.</p></div><div class="footer-section"><h4>Explore</h4><ul><li><a href="index.html">AI Character Directory</a></li><li><a href="type/anime.html">Anime Characters</a></li><li><a href="type/fantasy.html">Fantasy Characters</a></li><li><a href="blog/">Roleplay Guides</a></li></ul></div></div><div class="footer-bottom"><p>&copy; 2026 ${SITE_NAME}. Independent directory.</p><p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p></div></footer>
+<script src="js/filters.js"></script>
+</body></html>`;
+
+fs.writeFileSync(path.join(__dirname, 'ai-roleplay-characters.html'), html);
+console.log(`✅ Generated ai-roleplay-characters.html (${characters.length} available characters)`);
