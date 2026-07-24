@@ -219,7 +219,7 @@ const indexHTML = `<!DOCTYPE html>
     </section>
 
     <section class="features">
-        <h2>Why Choose Our Character AI Bots?</h2>
+        <h2>Why Choose Our AI Character Directory?</h2>
         <div class="features-grid">
             <div class="feature-card">
                 <div class="feature-icon">🎭</div>
