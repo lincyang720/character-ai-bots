@@ -24,6 +24,31 @@ function escapeHtml(str) {
   return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+function stripHtml(str) {
+  return String(str).replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+}
+
+function truncateWords(str, maxWords) {
+  const words = stripHtml(str).split(' ').filter(Boolean);
+  if (words.length <= maxWords) {
+    return words.join(' ');
+  }
+  return `${words.slice(0, maxWords).join(' ')}...`;
+}
+
+function truncateChars(str, maxChars) {
+  const clean = stripHtml(str);
+  if (clean.length <= maxChars) {
+    return clean;
+  }
+  const clipped = clean.slice(0, maxChars - 1);
+  return `${clipped.slice(0, clipped.lastIndexOf(' '))}...`;
+}
+
+function getAiSearchName(name) {
+  return /\bAI\b/i.test(name) ? name : `${name} AI`;
+}
+
 // 角色详情页模板
 function generateCharacterPage(character) {
   const relatedCharacters = charactersData
@@ -73,6 +98,17 @@ function generateCharacterPage(character) {
   const platformNames = Object.keys(character.platforms).map(p =>
     p === 'characterai' ? 'Character.AI' : p === 'janitorai' ? 'JanitorAI' : 'SpicyChat'
   ).join(', ');
+  const primaryPlatform = platformNames.split(', ')[0];
+  const aiSearchName = getAiSearchName(character.name);
+  const visibleSeoDescription = truncateWords(
+    `Chat with ${aiSearchName} in a free character AI bot experience for ${character.type.toLowerCase()} roleplay fans. ${character.description} This guide helps you compare personality, difficulty, scenarios, and supported platforms before you start chatting on ${platformNames}.`,
+    80
+  );
+  const metaDescription = truncateChars(
+    `Chat with ${aiSearchName}, a free ${character.type.toLowerCase()} character AI bot for roleplay. Compare personality, scenarios and platforms including ${primaryPlatform}.`,
+    155
+  );
+  const pageTitle = `Chat with ${aiSearchName} - Free Character AI Bot | CharacterAIBots`;
 
   const faqItems = [
     { q: `What type of character is ${character.name}?`, a: `${character.name} is a ${character.type.toLowerCase()} character in the ${character.category.toLowerCase()} category. Key personality traits include ${character.personality.slice(0, 3).join(', ')}. This character is rated ${character.difficulty.toLowerCase()} difficulty, making it ${character.difficulty === 'Easy' ? 'great for beginners' : character.difficulty === 'Medium' ? 'suitable for most roleplayers' : 'best for experienced roleplayers'}.` },
@@ -104,13 +140,13 @@ function generateCharacterPage(character) {
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${character.name} - Chat with ${character.displayName} | ${character.type} AI Roleplay Bot</title>
-    <meta name="description" content="Chat with ${character.name} (${character.displayName}) - a ${character.type.toLowerCase()} ${character.category.toLowerCase()} AI roleplay bot. ${character.description} Free on ${platformNames}.">
-    <meta name="keywords" content="${character.tags.join(', ')}, ${character.type.toLowerCase()} ai bot, ${character.name.toLowerCase()}, ${character.displayName.toLowerCase()}, character ai bots, ai roleplay, ${character.category.toLowerCase()} roleplay">
+    <title>${escapeHtml(pageTitle)}</title>
+    <meta name="description" content="${escapeHtml(metaDescription)}">
+    <meta name="keywords" content="${character.tags.join(', ')}, ${character.type.toLowerCase()} ai bot, ${character.name.toLowerCase()} ai chat, chat with ${character.name.toLowerCase()} ai, free character ai bot, ai roleplay, ${character.category.toLowerCase()} roleplay">
 
     <!-- Open Graph -->
-    <meta property="og:title" content="${character.name} - ${character.type} AI Roleplay Guide | ${SITE_NAME}">
-    <meta property="og:description" content="Chat with ${character.displayName} - ${character.description}">
+    <meta property="og:title" content="${escapeHtml(pageTitle)}">
+    <meta property="og:description" content="${escapeHtml(metaDescription)}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="${SITE_URL}/characters/${character.id}">
     <meta property="og:image" content="${SITE_URL}/images/og-image.jpg">
@@ -118,8 +154,8 @@ function generateCharacterPage(character) {
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="${character.name} - ${character.type} AI Roleplay Bot">
-    <meta name="twitter:description" content="Chat with ${character.displayName} - ${character.description}">
+    <meta name="twitter:title" content="${escapeHtml(pageTitle)}">
+    <meta name="twitter:description" content="${escapeHtml(metaDescription)}">
     <meta name="twitter:image" content="${SITE_URL}/images/og-image.jpg">
 
     <link rel="stylesheet" href="../style.css">
@@ -219,7 +255,7 @@ function generateCharacterPage(character) {
         <div class="detail-container">
             <div class="detail-content">
                 <h2 id="about">About ${character.name}</h2>
-                <p class="description">${character.description}</p>
+                <p class="description">${escapeHtml(visibleSeoDescription)}</p>
                 <p>${escapeHtml(editorialOverview)}</p>
 
                 ${backstory ? `
