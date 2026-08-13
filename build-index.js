@@ -57,7 +57,7 @@ const indexHTML = `<!DOCTYPE html>
     {
       "@context": "https://schema.org",
       "@type": "WebSite",
-      "name": "AI Character Guide",
+      "name": "${SITE_NAME}",
       "url": "https://www.characteraibots.com/",
       "description": "A free AI character directory with ${charactersData.length}+ roleplay chatbots across Character.AI, JanitorAI, and SpicyChat",
       "potentialAction": {

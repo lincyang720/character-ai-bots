@@ -45,6 +45,10 @@ function truncateChars(str, maxChars) {
   return `${clipped.slice(0, clipped.lastIndexOf(' '))}...`;
 }
 
+function firstChars(str, maxChars) {
+  return stripHtml(str).slice(0, maxChars);
+}
+
 function getAiSearchName(name) {
   return /\bAI\b/i.test(name) ? name : `${name} AI`;
 }
@@ -53,14 +57,38 @@ function getCharacterAiQuery(name) {
   return /^AI\b/i.test(name) ? `${name} character ai` : `character ai ${name}`;
 }
 
+function getFandomLabel(character) {
+  const tagMap = [
+    ['genshin', 'Genshin Impact'],
+    ['jujutsu', 'Jujutsu Kaisen'],
+    ['demon slayer', 'Demon Slayer'],
+    ['spy x family', 'Spy x Family'],
+    ['chainsaw', 'Chainsaw Man'],
+    ['attack on titan', 'Attack on Titan'],
+    ['persona', 'Persona'],
+    ['honkai', 'Honkai Star Rail'],
+    ['league', 'League of Legends'],
+    ['anime', 'Anime'],
+  ];
+  const haystack = [character.name, character.category, character.type, ...(character.tags || [])].join(' ').toLowerCase();
+  const matched = tagMap.find(([tag]) => haystack.includes(tag));
+  return matched ? matched[1] : character.category || character.type;
+}
+
 // 角色详情页模板
 function generateCharacterPage(character) {
-  const relatedCharacters = charactersData
-    .filter(c => c.id !== character.id && (
-      c.type === character.type ||
-      c.tags.some(tag => character.tags.includes(tag))
-    ))
-    .slice(0, 6);
+  const sameTypeCharacters = charactersData
+    .filter(c => c.id !== character.id && c.type === character.type);
+  const overlappingTagCharacters = charactersData
+    .filter(c => c.id !== character.id && c.type !== character.type && c.tags.some(tag => character.tags.includes(tag)));
+  const fallbackCharacters = charactersData
+    .filter(c => c.id !== character.id && c.type !== character.type && !c.tags.some(tag => character.tags.includes(tag)))
+    .sort((a, b) => (b.rating || 0) - (a.rating || 0));
+  const relatedCharacters = [
+    ...sameTypeCharacters,
+    ...overlappingTagCharacters,
+    ...fallbackCharacters,
+  ].slice(0, 5);
 
   // Conversation examples HTML
   const convExamples = character.conversationExamples || [];
@@ -105,15 +133,13 @@ function generateCharacterPage(character) {
   const primaryPlatform = platformNames.split(', ')[0];
   const aiSearchName = getAiSearchName(character.name);
   const characterAiQuery = getCharacterAiQuery(character.name);
+  const fandomLabel = getFandomLabel(character);
   const visibleSeoDescription = truncateWords(
     `Chat with ${aiSearchName} in a free character AI bot experience for ${character.type.toLowerCase()} roleplay fans. ${character.description} This guide helps you compare personality, difficulty, scenarios, and supported platforms before you start chatting on ${platformNames}.`,
     80
   );
-  const metaDescription = truncateChars(
-    `${characterAiQuery}: chat with a free ${character.type.toLowerCase()} bot for roleplay. Compare personality, scenarios and platforms including ${primaryPlatform}.`,
-    155
-  );
-  const pageTitle = `Character AI: ${character.name} - Free ${character.type} Bot | CharacterAIBots`;
+  const metaDescription = firstChars(character.description, 150);
+  const pageTitle = `Character AI ${character.name} – Free ${fandomLabel} AI Bot Chat & Roleplay | CharacterAIBots`;
 
   const faqItems = [
     { q: `What type of character is ${character.name}?`, a: `${character.name} is a ${character.type.toLowerCase()} character in the ${character.category.toLowerCase()} category. Key personality traits include ${character.personality.slice(0, 3).join(', ')}. This character is rated ${character.difficulty.toLowerCase()} difficulty, making it ${character.difficulty === 'Easy' ? 'great for beginners' : character.difficulty === 'Medium' ? 'suitable for most roleplayers' : 'best for experienced roleplayers'}.` },
@@ -210,7 +236,7 @@ function generateCharacterPage(character) {
 <body>
     <header>
         <nav>
-            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="AI Character Guide Home">🧭 ${SITE_NAME}</a></div>
+            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="${SITE_NAME} Home">🧭 ${SITE_NAME}</a></div>
             <ul class="nav-links">
                 <li><a href="../index.html" title="Character AI Bots Home">Home</a></li>
                 <li><a href="../search.html" title="Search Character AI Bots">Search</a></li>

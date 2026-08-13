@@ -2,7 +2,7 @@ const SITE_URL = (process.env.SITE_URL || 'https://www.characteraibots.com').rep
 
 module.exports = {
   SITE_URL,
-  SITE_NAME: 'AI Character Guide',
+  SITE_NAME: 'CharacterAIBots',
   SITE_TAGLINE: 'Independent AI character directory',
   LAST_REVIEWED: process.env.CONTENT_REVIEW_DATE || new Date().toISOString().slice(0, 10),
   NEWSLETTER_ACTION: process.env.NEWSLETTER_ACTION || '',

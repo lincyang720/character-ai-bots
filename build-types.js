@@ -150,6 +150,14 @@ function escapeHtml(str) {
   return String(str).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
+function getTypeLabel(slug) {
+  const labels = {
+    'action-adventure': 'Action Adventure',
+    'sci-fi': 'Sci-Fi',
+  };
+  return labels[slug] || slug.split('-').map(part => part.charAt(0).toUpperCase() + part.slice(1)).join(' ');
+}
+
 const outputDir = path.join(__dirname, 'type');
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir, { recursive: true });
 
@@ -157,6 +165,8 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
   const chars = charactersData.filter(group.filter);
   if (chars.length === 0) return;
   const popularChars = [...chars].sort((a, b) => (b.popularity || 0) - (a.popularity || 0)).slice(0, 3);
+  const typeLabel = getTypeLabel(slug);
+  const pageTitle = `${typeLabel} Character AI Bots – Free ${typeLabel} AI Chat Characters | CharacterAIBots`;
   const categoryLabel = group.h1.replace(/^Best /, '').replace(/ for .+$/, '');
   const expandedIntro = `${group.intro} These Character AI bot lists are built to capture specific character ai searches by type and roleplay intent. Use the filters and profile details to compare personality, difficulty, rating and supported platform instead of choosing from a thumbnail alone. A strong match should fit the tone you want, provide a clear scenario and offer enough personality detail to sustain a longer conversation. Start with an Easy-rated option if you are new to AI roleplay, or choose a more demanding character when you want conflict, mystery or a slower relationship arc. Every listing links to a detailed profile with conversation ideas and similar recommendations. Because availability and platform behavior can change, review the destination platform's current rules before chatting. This directory is independent and does not host the conversations itself; it helps you compare characters across Character.AI, JanitorAI and SpicyChat.`;
   const faqs = [
@@ -193,11 +203,11 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${group.title}</title>
+    <title>${escapeHtml(pageTitle)}</title>
     <meta name="description" content="${escapeHtml(group.description)}">
     <meta name="keywords" content="${group.keywords}">
 
-    <meta property="og:title" content="${group.title} | Character AI Bots">
+    <meta property="og:title" content="${escapeHtml(pageTitle)}">
     <meta property="og:description" content="${escapeHtml(group.description)}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="${SITE_URL}/type/${slug}">
@@ -210,7 +220,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
     {
       "@context": "https://schema.org",
       "@type": "CollectionPage",
-      "name": "${escapeHtml(group.title)}",
+      "name": "${escapeHtml(pageTitle)}",
       "description": "${escapeHtml(group.description)}",
       "url": "${SITE_URL}/type/${slug}",
       "dateModified": "${LAST_REVIEWED}",
@@ -235,7 +245,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
       "@type": "BreadcrumbList",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.characteraibots.com"},
-        {"@type": "ListItem", "position": 2, "name": "${escapeHtml(group.title)}"}
+        {"@type": "ListItem", "position": 2, "name": "${escapeHtml(pageTitle)}"}
       ]
     }
     </script>
@@ -243,7 +253,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
 <body>
     <header>
         <nav>
-            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="AI Character Guide Home">🧭 ${SITE_NAME}</a></div>
+            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="${SITE_NAME} Home">🧭 ${SITE_NAME}</a></div>
             <ul class="nav-links">
                 <li><a href="../index.html" title="Home">Home</a></li>
                 <li><a href="../search.html" title="Search">Search</a></li>
@@ -257,7 +267,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
     <section class="type-hero">
         <div class="type-hero-content">
             <nav class="breadcrumb" aria-label="Breadcrumb">
-                <a href="../index.html">Home</a> &rsaquo; <span>${group.title}</span>
+                <a href="../index.html">Home</a> &rsaquo; <span>${escapeHtml(pageTitle)}</span>
             </nav>
             <h1>${group.h1}</h1>
             <p class="type-hero-desc">${group.description}</p>
