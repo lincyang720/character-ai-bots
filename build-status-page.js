@@ -1,0 +1,179 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
+
+const page = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Is Character AI Down? Status Check & Outage Links | ${SITE_NAME}</title>
+  <meta name="description" content="Check whether Character AI appears to be down, slow, or having login issues. ${SITE_NAME} links to official and third-party status sources for quick troubleshooting.">
+  <link rel="canonical" href="${SITE_URL}/is-character-ai-down">
+  <link rel="stylesheet" href="style.css">
+  <meta property="og:title" content="Is Character AI Down? Status Check | ${SITE_NAME}">
+  <meta property="og:description" content="A lightweight Character AI status page with quick troubleshooting steps and links to live outage sources.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${SITE_URL}/is-character-ai-down">
+  <meta property="og:site_name" content="${SITE_NAME}">
+  <script type="application/ld+json">
+  ${JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Is Character AI Down?',
+    url: `${SITE_URL}/is-character-ai-down`,
+    dateModified: LAST_REVIEWED,
+    description: 'A lightweight status reference page for Character AI users.'
+  })}
+  </script>
+  <script type="application/ld+json">
+  ${JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: [
+      {
+        '@type': 'Question',
+        name: 'Is Character AI down right now?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'This page does not operate an official live monitor. Use the linked official and third-party outage sources to confirm whether Character AI is down for everyone or only not working for you.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'What should I do if Character AI is not loading?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: 'Refresh the page, check your internet connection, try another browser or device, review official status updates, and wait if multiple outage trackers show elevated reports.'
+        }
+      },
+      {
+        '@type': 'Question',
+        name: 'Is this page affiliated with Character.AI?',
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: `${SITE_NAME} is an independent directory and is not affiliated with Character.AI or its parent company.`
+        }
+      }
+    ]
+  })}
+  </script>
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo"><a href="index.html" style="color:white;text-decoration:none">🧭 ${SITE_NAME}</a></div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="search.html">Search</a></li>
+        <li><a href="ai-roleplay-characters.html">Roleplay Characters</a></li>
+        <li><a href="submit-character.html">Submit Character</a></li>
+        <li><a href="blog/">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Is Character AI Down?</h1>
+        <p class="hero-subtitle">A quick independent status reference for Character AI loading, login, and outage issues.</p>
+        <p class="hero-description">This page is a lightweight brand utility for ${SITE_NAME} users. It is not an official Character.AI status page and does not replace live monitoring services.</p>
+        <p class="last-reviewed">Last reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
+      </div>
+    </section>
+
+    <section class="type-intro">
+      <div class="type-intro-content">
+        <h2>Quick Status Summary</h2>
+        <div class="status-grid">
+          <article class="status-card status-operational">
+            <span class="status-dot" aria-hidden="true"></span>
+            <h3>Operational</h3>
+            <p>Use this when Character AI loads normally and there are no widespread reports.</p>
+          </article>
+          <article class="status-card status-investigating">
+            <span class="status-dot" aria-hidden="true"></span>
+            <h3>Investigating</h3>
+            <p>Use this when users report login errors, slow chats, or partial loading problems.</p>
+          </article>
+          <article class="status-card status-down">
+            <span class="status-dot" aria-hidden="true"></span>
+            <h3>Possible outage</h3>
+            <p>Use this when several live sources show elevated reports or confirmed downtime.</p>
+          </article>
+        </div>
+        <p class="status-note"><strong>Current check:</strong> open one or more live sources below. ${SITE_NAME} does not automatically probe Character.AI servers from this static page.</p>
+      </div>
+    </section>
+
+    <section class="type-browse">
+      <h2>Live Sources to Check</h2>
+      <div class="type-links">
+        <a class="type-link-card" href="https://status.character.ai/" target="_blank" rel="nofollow noopener">Official Character.AI Status</a>
+        <a class="type-link-card" href="https://downdetector.com/status/characterai/" target="_blank" rel="nofollow noopener">Downdetector</a>
+        <a class="type-link-card" href="https://downforeveryoneorjustme.com/character-ai" target="_blank" rel="nofollow noopener">Down For Everyone Or Just Me</a>
+        <a class="type-link-card" href="https://statusgator.com/services/character-ai" target="_blank" rel="nofollow noopener">StatusGator</a>
+      </div>
+    </section>
+
+    <section class="type-intro">
+      <div class="type-intro-content">
+        <h2>What to Try If Character AI Is Not Working</h2>
+        <ol>
+          <li>Refresh Character.AI and try a private browsing window.</li>
+          <li>Check whether the mobile app and web version fail at the same time.</li>
+          <li>Disable VPN, ad blockers, or browser extensions temporarily.</li>
+          <li>Check live outage trackers for a spike in user reports.</li>
+          <li>If Character AI is down broadly, save your prompt and wait before retrying.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="type-intro">
+      <div class="type-intro-content">
+        <h2>Character AI Down FAQ</h2>
+        <div class="faq-item">
+          <h3>Is Character AI down for everyone or just me?</h3>
+          <p>Compare at least two live status sources. If they show elevated reports, it is more likely a wider outage. If not, the problem may be your browser, network, account, or region.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Why does Character AI load slowly?</h3>
+          <p>Slow loading can come from server congestion, browser extensions, network issues, or temporary platform changes. Try another browser and check user reports before assuming a full outage.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Where can I browse alternatives while waiting?</h3>
+          <p>Use the <a href="index.html">CharacterAIBots directory</a> to compare roleplay characters across Character.AI, JanitorAI, and SpicyChat while you wait for service to stabilize.</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-section">
+        <h4>${SITE_NAME}</h4>
+        <p>Independent AI character discovery across multiple roleplay platforms.</p>
+      </div>
+      <div class="footer-section">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="search.html">Search AI Bots</a></li>
+          <li><a href="is-character-ai-down.html">Character AI Status</a></li>
+          <li><a href="blog/">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 ${SITE_NAME}. Independent directory.</p>
+      <p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p>
+    </div>
+  </footer>
+</body>
+</html>`;
+
+fs.writeFileSync(path.join(__dirname, 'is-character-ai-down.html'), page);
+console.log('✅ Generated is-character-ai-down.html');

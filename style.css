@@ -3381,6 +3381,52 @@ html {
     margin: 3rem auto;
 }
 
+.status-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+
+.status-card {
+    border: 1px solid #e7def8;
+    border-radius: 18px;
+    background: #fff;
+    padding: 1.25rem;
+    box-shadow: var(--shadow);
+}
+
+.status-card h3 {
+    margin: 0.5rem 0;
+}
+
+.status-dot {
+    display: inline-block;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 999px;
+}
+
+.status-operational .status-dot {
+    background: #22c55e;
+}
+
+.status-investigating .status-dot {
+    background: #f59e0b;
+}
+
+.status-down .status-dot {
+    background: #ef4444;
+}
+
+.status-note {
+    margin-top: 1rem;
+    padding: 1rem;
+    border-left: 4px solid #6c3fc5;
+    background: #f7f1ff;
+    border-radius: 12px;
+}
+
 @media (max-width: 600px) {
     .choice-guide { padding-inline: 1rem; }
     .choice-guide-grid { grid-template-columns: 1fr; }

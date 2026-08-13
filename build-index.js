@@ -98,6 +98,7 @@ const indexHTML = `<!DOCTYPE html>
                 <li><a href="submit-character.html" title="Submit an AI Character">Submit Character</a></li>
                 <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
                 <li><a href="quiz.html" title="AI Character Quiz">Quiz</a></li>
+                <li><a href="is-character-ai-down.html" title="Check Character AI status">Status</a></li>
             </ul>
         </nav>
     </header>
@@ -361,6 +362,7 @@ const indexHTML = `<!DOCTYPE html>
                     <li><a href="index.html" title="Character AI Bots Home">Home</a></li>
                     <li><a href="search.html" title="Search Character AI Bots">Search AI Bots</a></li>
                     <li><a href="submit-character.html" title="Submit an AI Character">Submit Character</a></li>
+                    <li><a href="is-character-ai-down.html" title="Check Character AI status">Character AI Status</a></li>
                     <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
                     <li><a href="quiz.html" title="AI Character Quiz">Quiz</a></li>
                 </ul>

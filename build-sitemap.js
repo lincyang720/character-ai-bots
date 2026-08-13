@@ -57,6 +57,12 @@ const sitemap = `<?xml version="1.0" encoding="UTF-8"?>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>${baseUrl}/is-character-ai-down</loc>
+    <lastmod>${today}</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
 ${typePages.map(f => `  <url>
     <loc>${baseUrl}/type/${f.replace('.html', '')}</loc>
     <lastmod>${today}</lastmod>
@@ -78,10 +84,11 @@ ${charactersData.map(char => `  <url>
 </urlset>`;
 
 fs.writeFileSync(path.join(__dirname, 'sitemap.xml'), sitemap);
-const totalUrls = 5 + typePages.length + blogPages.length + charactersData.length;
+const totalUrls = 6 + typePages.length + blogPages.length + charactersData.length;
 console.log(`✅ Generated sitemap.xml with ${totalUrls} URLs`);
 console.log(`   - 1 submit-character page`);
 console.log(`   - 1 quiz page`);
+console.log(`   - 1 status page`);
 console.log(`   - ${typePages.length} type pages`);
 console.log(`   - ${blogPages.length} blog pages`);
 console.log(`   - ${charactersData.length} character pages`);
