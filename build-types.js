@@ -17,128 +17,128 @@ function matchesKeywords(character, keywords) {
 // SEO-OPTIMIZED: Titles include target keywords, 2026 update, and unique value propositions
 const typeGroups = {
   'yandere': {
-    title: 'Yandere AI Characters – Best Yandere Chatbots',
-    h1: 'Yandere AI Characters for Intense Roleplay',
+    title: 'Character AI Yandere Bots - Free Yandere Roleplay Characters',
+    h1: 'Character AI Yandere Bots for Intense Roleplay',
     description: 'Chat with free Yandere AI bots - obsessive, possessive & dangerously loyal. Meet Makima, Kafka & 20+ Yandere characters. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'Yandere characters are among the most popular AI roleplay archetypes. These obsessively devoted characters will stop at nothing to keep you close. Whether you love the thrill of a possessive librarian or a jealous classmate, our yandere AI bots deliver intense, emotionally charged conversations that keep you coming back.',
     keywords: 'yandere ai bot, yandere character ai, yandere roleplay, obsessive ai character, possessive ai bot, yandere chat bot, free yandere ai',
     filter: c => c.type === 'Yandere'
   },
   'tsundere': {
-    title: 'Best Tsundere AI Bots 2026 - Free Cold-Hearted Roleplay Characters',
-    h1: 'Best Tsundere AI Bots for Roleplay',
+    title: 'Character AI Tsundere Bots - Free Tsundere Roleplay Characters',
+    h1: 'Character AI Tsundere Bots for Roleplay',
     description: 'Free Tsundere AI bots that start cold but warm up to you. 15+ characters including classic anime tsundere. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'Tsundere characters are the classic hot-and-cold personalities that make AI roleplay exciting. They\'ll scold you one moment and blush the next. The fun is in breaking through their tough exterior to find the warmth underneath. Our tsundere AI bots capture this dynamic perfectly.',
     keywords: 'tsundere ai bot, tsundere character ai, tsundere roleplay, hot cold ai character, tsundere chat, free tsundere ai',
     filter: c => c.type === 'Tsundere' || c.type === 'Kuudere' || c.type === 'Dandere'
   },
   'vampire': {
-    title: 'Best Vampire AI Bots 2026 - Free Supernatural Night Creatures',
-    h1: 'Best Vampire & Supernatural AI Bots',
+    title: 'Character AI Vampire Bots - Free Supernatural Roleplay Characters',
+    h1: 'Character AI Vampire & Supernatural Bots',
     description: 'Satisfy your gothic cravings with free Vampire AI bots. Dark, mysterious & immortal characters. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'From ancient vampires to powerful demons and mysterious werewolves, supernatural AI characters offer some of the most immersive roleplay experiences. These characters bring centuries of lore, dark romance, and otherworldly powers to your conversations. Perfect for fans of Twilight, Vampire Diaries, or dark fantasy.',
     keywords: 'vampire ai bot, supernatural ai character, demon ai roleplay, werewolf ai bot, dark romance ai, vampire chat bot, free vampire ai',
     filter: c => ['Vampire', 'Supernatural', 'Dominant'].includes(c.type) || ['Werewolf', 'Angel', 'Ghost'].includes(c.category)
   },
   'fantasy': {
-    title: 'Fantasy AI Characters – Free Fantasy Roleplay Bots',
-    h1: 'Fantasy AI Characters for Free Roleplay',
+    title: 'Character AI Fantasy Bots - Free Fantasy Roleplay Characters',
+    h1: 'Character AI Fantasy Bots for Free Roleplay',
     description: 'Embark on magical adventures with free Fantasy AI bots. Elves, dragons, wizards & more. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'Step into magical worlds with our fantasy AI roleplay bots. From noble knights and powerful witches to ancient dragons and royal guards, these characters bring epic fantasy storytelling to life. Each character has deep lore, unique abilities, and immersive scenarios that transport you to another world.',
     keywords: 'fantasy ai bot, fantasy roleplay ai, knight ai character, witch ai bot, dragon ai roleplay, fantasy chat bot, medieval ai roleplay, free fantasy ai',
     filter: c => ['Fantasy', 'Mystical', 'Traditional'].includes(c.type) || ['Knight', 'Witch', 'Dragon', 'Shrine', 'Guard', 'Pirate'].includes(c.category)
   },
   'romance': {
-    title: 'Romance AI Characters – AI Roleplay & Dating Chat',
-    h1: 'Romance AI Characters for Roleplay & Dating Chat',
+    title: 'Character AI Romance Bots - Free Romance Roleplay Characters',
+    h1: 'Character AI Romance Bots for Roleplay & Dating Chat',
     description: 'Find your perfect AI companion with free Romance bots. Sweet, caring & lovable characters. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'Looking for sweet, heartwarming AI conversations? Our romance AI bots range from childhood friends who\'ve secretly loved you for years to charming café owners and gentle florists. These characters specialize in building emotional connections, slow-burn romance, and feel-good storylines.',
     keywords: 'romance ai bot, ai boyfriend, ai girlfriend, wholesome ai roleplay, love ai character, romance chat bot, dating ai, free romance ai',
     filter: c => ['Wholesome', 'Passionate', 'Elegant', 'Modern'].includes(c.type) || ['Friend', 'Cafe', 'Florist', 'Clerk', 'Bartender'].includes(c.category)
   },
   'action-adventure': {
-    title: 'Best Action Adventure AI Bots 2026 - Free Hero & Villain Roleplay',
-    h1: 'Best Action & Adventure AI Roleplay Bots',
+    title: 'Character AI Action Adventure Bots - Free Hero Roleplay Characters',
+    h1: 'Character AI Action & Adventure Roleplay Bots',
     description: 'Live dangerously with free Action Adventure AI bots. Heroes, villains & everything in between. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'For those who crave excitement, our action and adventure AI bots deliver thrilling storylines. Team up with a pirate captain on the high seas, solve mysteries with a brilliant detective, or survive dangerous missions with an elite assassin. These characters bring non-stop action to your roleplay sessions.',
     keywords: 'adventure ai bot, action ai roleplay, pirate ai character, detective ai bot, assassin ai roleplay, adventure chat bot, free action ai',
     filter: c => ['Adventure', 'Action', 'Competitive', 'Athletic', 'Adventurous', 'Heroic'].includes(c.type) || ['Assassin', 'Detective', 'Racer', 'Athlete', 'Chaser', 'Archaeologist', 'Lifeguard'].includes(c.category)
   },
   'sci-fi': {
-    title: 'Best Sci-Fi AI Bots 2026 - Free Robots & Space Adventures',
-    h1: 'Best Sci-Fi AI Roleplay Bots',
+    title: 'Character AI Sci-Fi Bots - Free Robot and Space Roleplay',
+    h1: 'Character AI Sci-Fi Roleplay Bots',
     description: 'Explore the future with free Sci-Fi AI bots. Robots, AI assistants & space explorers. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'Explore the future with our sci-fi AI roleplay bots. From sentient androids discovering emotions to space commanders leading galactic missions, these characters bring science fiction to life. Perfect for fans of cyberpunk, space opera, and futuristic storytelling.',
     keywords: 'sci-fi ai bot, android ai character, space ai roleplay, cyberpunk ai bot, futuristic ai chat, robot ai roleplay, free sci-fi ai',
     filter: c => ['Sci-Fi', 'Tech'].includes(c.type) || ['Robot', 'Hacker', 'Developer'].includes(c.category)
   },
   'creative': {
-    title: 'Best Creative AI Bots 2026 - Free Artist & Genius Characters',
-    h1: 'Best Creative & Intellectual AI Bots',
+    title: 'Character AI Creative Bots - Free Artist and Genius Characters',
+    h1: 'Character AI Creative & Intellectual Bots',
     description: 'Get inspired with free Creative AI bots. Artists, geniuses, writers & more. 100% free on Character.AI, JanitorAI & SpicyChat.',
     intro: 'For thoughtful, stimulating conversations, our creative and intellectual AI bots offer a unique roleplay experience. Chat with passionate artists, eccentric scientists, elegant conductors, and wise mentors. These characters inspire creativity and deep discussions.',
     keywords: 'creative ai bot, intellectual ai character, artist ai roleplay, scientist ai bot, mentor ai chat, smart ai character, free creative ai',
     filter: c => ['Creative', 'Intellectual', 'Eccentric', 'Whimsical', 'Charismatic', 'Mature', 'Celebrity', 'Mystery'].includes(c.type) || ['Artist', 'Scientist', 'Conductor', 'Curator', 'Designer', 'Photographer', 'Host', 'Performer', 'Chef', 'Instructor', 'Fortune Teller', 'Tea Master', 'Biologist', 'Hermit'].includes(c.category)
   },
   'anime': {
-    title: 'Anime AI Characters – Best Anime Chatbots Directory',
-    h1: 'Anime AI Characters & Roleplay Chatbots',
+    title: 'Character AI Anime Bots - Best Anime Roleplay Characters',
+    h1: 'Character AI Anime Bots & Roleplay Chatbots',
     description: 'Explore anime-inspired AI characters for roleplay, including heroes, rivals, supernatural personalities and characters inspired by popular series and games.',
     intro: 'Anime AI characters work especially well for expressive, story-driven roleplay. This collection brings together recognizable archetypes, dramatic personalities, supernatural powers, school settings and action-focused scenarios. Compare each character’s difficulty, personality and supported chat platforms before starting a conversation.',
     keywords: 'anime ai characters, anime character ai bots, anime roleplay bots, anime ai chat, best anime ai characters',
     filter: c => matchesKeywords(c, ['anime', 'genshin', 'jujutsu', 'demon slayer', 'spy x family', 'chainsaw', 'attack on titan', 'persona', 'honkai', 'league'])
   },
   'game': {
-    title: 'Best Video Game AI Characters for Roleplay in 2026',
-    h1: 'Best Video Game AI Characters',
+    title: 'Character AI Game Bots - Free Video Game Roleplay Characters',
+    h1: 'Character AI Video Game Bots',
     description: 'Find AI roleplay characters inspired by popular video games, fantasy RPGs and science-fiction adventures.',
     intro: 'Game-inspired AI characters are a strong choice when you want familiar worlds, clear quests and established personality traits. This collection includes characters and archetypes connected with fantasy RPGs, competitive games and story-rich adventures, with scenario ideas for both newcomers and experienced roleplayers.',
     keywords: 'video game ai characters, game character ai bots, rpg ai roleplay, gaming ai chat characters',
     filter: c => matchesKeywords(c, ['genshin', 'persona', 'honkai', 'league', 'game'])
   },
   'horror': {
-    title: 'Best Horror AI Bots for Dark Roleplay in 2026',
-    h1: 'Best Horror AI Bots for Roleplay',
+    title: 'Character AI Horror Bots - Free Dark Roleplay Characters',
+    h1: 'Character AI Horror Bots for Roleplay',
     description: 'Discover horror AI characters for suspenseful roleplay, from obsessive personalities to demons, ghosts, vampires and other dark supernatural characters.',
     intro: 'Horror roleplay depends on atmosphere, tension and clear boundaries. These characters support darker story hooks involving supernatural encounters, psychological suspense and dangerous devotion. Review the difficulty and scenario suggestions on each page, and choose a platform whose safety controls fit your preferences.',
     keywords: 'horror ai bots, scary character ai, dark roleplay ai, supernatural horror chatbots, yandere horror ai',
     filter: c => matchesKeywords(c, ['horror', 'yandere', 'demon', 'ghost', 'vampire', 'werewolf', 'succubus'])
   },
   'supernatural': {
-    title: 'Best Supernatural AI Characters for Roleplay in 2026',
-    h1: 'Best Supernatural AI Characters',
+    title: 'Character AI Supernatural Bots - Free Ghost and Demon Characters',
+    h1: 'Character AI Supernatural Bots',
     description: 'Chat with supernatural AI characters including ghosts, vampires, demons, angels, witches, spirits and werewolves.',
     intro: 'Supernatural characters open the door to folklore, magic, mystery and dark fantasy. This collection covers both gentle and intense personalities, so you can compare tone, roleplay difficulty and platform availability before choosing a character for your next story.',
     keywords: 'supernatural ai characters, ghost ai bot, vampire character ai, demon ai chat, witch ai roleplay',
     filter: c => matchesKeywords(c, ['supernatural', 'ghost', 'vampire', 'demon', 'angel', 'witch', 'spirit', 'werewolf'])
   },
   'wholesome': {
-    title: 'Best Wholesome AI Characters for Comfort Chat in 2026',
-    h1: 'Best Wholesome AI Characters',
+    title: 'Character AI Wholesome Bots - Free Comfort Chat Characters',
+    h1: 'Character AI Wholesome Bots',
     description: 'Find friendly, comforting AI characters for relaxed conversations, gentle roleplay and supportive slice-of-life stories.',
     intro: 'Not every roleplay needs high stakes. Wholesome AI characters focus on friendship, encouragement, everyday settings and slow-paced storytelling. These picks are suited to users who prefer café conversations, creative hobbies, supportive companions and low-pressure scenarios.',
     keywords: 'wholesome ai characters, comfort ai chat, friendly character ai bots, slice of life ai roleplay',
     filter: c => matchesKeywords(c, ['wholesome', 'comfort', 'friend', 'cafe', 'florist'])
   },
   'mystery': {
-    title: 'Best Mystery AI Characters for Detective Roleplay in 2026',
-    h1: 'Best Mystery & Detective AI Characters',
+    title: 'Character AI Mystery Bots - Free Detective Roleplay Characters',
+    h1: 'Character AI Mystery & Detective Bots',
     description: 'Solve cases and uncover secrets with detective, hacker, phantom thief and fortune-teller AI characters.',
     intro: 'Mystery AI roleplay works best when a character has a goal, clues and room for collaborative problem-solving. These characters support investigations, secret identities, supernatural mysteries and technology-driven plots. Start with a clear setting and let each reply advance the case.',
     keywords: 'mystery ai characters, detective ai bot, investigation roleplay ai, mystery character ai chat',
     filter: c => matchesKeywords(c, ['mystery', 'detective', 'hacker', 'phantom', 'fortune'])
   },
   'companions': {
-    title: 'Best AI Companion Characters for Roleplay in 2026',
-    h1: 'Best AI Companion Characters',
+    title: 'Character AI Companion Bots - Free AI Friend Characters',
+    h1: 'Character AI Companion Bots',
     description: 'Compare AI companion characters designed for friendship, romance, supportive conversation and ongoing roleplay.',
     intro: 'AI companion characters emphasize continuity, relationship-building and approachable conversation starters. This collection includes friends, partners, roommates and digital companions across several platforms. Use the character pages to compare personality, scenarios and roleplay difficulty.',
     keywords: 'ai companion characters, ai girlfriend character, ai boyfriend bot, virtual companion roleplay, companion ai chat',
     filter: c => matchesKeywords(c, ['companion', 'girlfriend', 'boyfriend', 'friend', 'roommate'])
   },
   'historical': {
-    title: 'Best Historical AI Characters for Roleplay in 2026',
-    h1: 'Best Historical & Traditional AI Characters',
+    title: 'Character AI Historical Bots - Free Samurai and Medieval Characters',
+    h1: 'Character AI Historical & Traditional Bots',
     description: 'Explore historical and traditional AI roleplay characters, including samurai, tea masters, shrine figures, pirates, knights and scholars.',
     intro: 'Historical and traditional character roleplay benefits from a strong setting and period-appropriate goals. These characters provide starting points for court intrigue, exploration, mentorship, folklore and adventure while remaining flexible enough for alternate-history stories.',
     keywords: 'historical ai characters, samurai ai bot, medieval character ai, traditional roleplay ai, historical chatbots',
@@ -158,7 +158,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
   if (chars.length === 0) return;
   const popularChars = [...chars].sort((a, b) => (b.popularity || 0) - (a.popularity || 0)).slice(0, 3);
   const categoryLabel = group.h1.replace(/^Best /, '').replace(/ for .+$/, '');
-  const expandedIntro = `${group.intro} Use the filters and profile details to compare personality, difficulty, rating and supported platform instead of choosing from a thumbnail alone. A strong match should fit the tone you want, provide a clear scenario and offer enough personality detail to sustain a longer conversation. Start with an Easy-rated option if you are new to AI roleplay, or choose a more demanding character when you want conflict, mystery or a slower relationship arc. Every listing links to a detailed profile with conversation ideas and similar recommendations. Because availability and platform behavior can change, review the destination platform's current rules before chatting. This directory is independent and does not host the conversations itself; it helps you compare characters across Character.AI, JanitorAI and SpicyChat.`;
+  const expandedIntro = `${group.intro} These Character AI bot lists are built to capture specific character ai searches by type and roleplay intent. Use the filters and profile details to compare personality, difficulty, rating and supported platform instead of choosing from a thumbnail alone. A strong match should fit the tone you want, provide a clear scenario and offer enough personality detail to sustain a longer conversation. Start with an Easy-rated option if you are new to AI roleplay, or choose a more demanding character when you want conflict, mystery or a slower relationship arc. Every listing links to a detailed profile with conversation ideas and similar recommendations. Because availability and platform behavior can change, review the destination platform's current rules before chatting. This directory is independent and does not host the conversations itself; it helps you compare characters across Character.AI, JanitorAI and SpicyChat.`;
   const faqs = [
     {
       question: `What are ${categoryLabel.toLowerCase()}?`,

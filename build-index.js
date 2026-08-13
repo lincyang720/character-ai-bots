@@ -30,14 +30,14 @@ const indexHTML = `<!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AI Character Directory – ${charactersData.length}+ Free AI Chatbots &amp; Roleplay Characters</title>
-    <meta name="description" content="Free AI character directory with ${charactersData.length}+ chatbots from Character.AI, JanitorAI &amp; SpicyChat. Filter by platform, type and rating. Find your perfect AI roleplay character.">
-    <meta name="keywords" content="ai character directory, ai roleplay characters, character ai bots, free ai chatbots, anime ai characters, character.ai, janitorai, spicychat">
+    <title>Character AI Bots Directory – ${charactersData.length}+ Free Character AI Roleplay Bots</title>
+    <meta name="description" content="Character AI bots directory with ${charactersData.length}+ free roleplay characters from Character.AI, JanitorAI &amp; SpicyChat. Filter by platform, type and rating.">
+    <meta name="keywords" content="character ai bots, character ai bot directory, character ai characters, ai character directory, ai roleplay characters, free ai chatbots, anime ai characters, character.ai, janitorai, spicychat">
     <meta name="google-site-verification" content="OPQH_dX0XnvAd0ODbk5cDms96DTDRcgDkwoFUZw_eHw" />
 
     <!-- Open Graph -->
-    <meta property="og:title" content="AI Character Directory – ${charactersData.length}+ Free AI Chatbots">
-    <meta property="og:description" content="Explore ${charactersData.length}+ AI roleplay characters across Character.AI, JanitorAI and SpicyChat. Filter by platform, type and rating.">
+    <meta property="og:title" content="Character AI Bots Directory – ${charactersData.length}+ Free Roleplay Bots">
+    <meta property="og:description" content="Explore ${charactersData.length}+ Character AI roleplay bots across Character.AI, JanitorAI and SpicyChat. Filter by platform, type and rating.">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.characteraibots.com/">
     <meta property="og:image" content="https://www.characteraibots.com/images/og-image.jpg">
@@ -45,8 +45,8 @@ const indexHTML = `<!DOCTYPE html>
 
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="AI Character Directory – ${charactersData.length}+ Free AI Chatbots">
-    <meta name="twitter:description" content="Explore ${charactersData.length}+ AI roleplay characters across Character.AI, JanitorAI and SpicyChat.">
+    <meta name="twitter:title" content="Character AI Bots Directory – ${charactersData.length}+ Free Roleplay Bots">
+    <meta name="twitter:description" content="Explore ${charactersData.length}+ Character AI roleplay bots across Character.AI, JanitorAI and SpicyChat.">
     <meta name="twitter:image" content="https://www.characteraibots.com/images/og-image.jpg">
 
     <link rel="stylesheet" href="style.css">
@@ -71,8 +71,8 @@ const indexHTML = `<!DOCTYPE html>
     {
       "@context": "https://schema.org",
       "@type": "ItemList",
-      "name": "AI Character Directory",
-      "description": "A curated list of ${charactersData.length}+ AI roleplay character bots",
+      "name": "Character AI Bots Directory",
+      "description": "A curated list of ${charactersData.length}+ Character AI roleplay bots",
       "numberOfItems": ${charactersData.length},
       "itemListElement": ${JSON.stringify(charactersData.slice(0, 10).map((char, index) => ({
         "@type": "ListItem",
@@ -105,7 +105,7 @@ const indexHTML = `<!DOCTYPE html>
     <main>
     <section class="hero">
         <div class="hero-content">
-            <h1>AI Character Directory – ${charactersData.length}+ Free AI Chatbots &amp; Roleplay Characters</h1>
+            <h1>Character AI Bots Directory – ${charactersData.length}+ Free Character AI Roleplay Bots</h1>
             <p class="hero-subtitle">An independent, cross-platform directory of ${charactersData.length}+ AI roleplay characters on Character.AI, JanitorAI, and SpicyChat.</p>
             <p class="hero-description">This <strong>AI character directory</strong> curates ${charactersData.length}+ free roleplay bots across Character.AI, JanitorAI, and SpicyChat — one of the few independent directories that lets you compare characters by platform, type, difficulty, and rating before you start chatting.</p>
             <p class="last-reviewed">Directory reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>

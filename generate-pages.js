@@ -49,6 +49,10 @@ function getAiSearchName(name) {
   return /\bAI\b/i.test(name) ? name : `${name} AI`;
 }
 
+function getCharacterAiQuery(name) {
+  return /^AI\b/i.test(name) ? `${name} character ai` : `character ai ${name}`;
+}
+
 // 角色详情页模板
 function generateCharacterPage(character) {
   const relatedCharacters = charactersData
@@ -100,15 +104,16 @@ function generateCharacterPage(character) {
   ).join(', ');
   const primaryPlatform = platformNames.split(', ')[0];
   const aiSearchName = getAiSearchName(character.name);
+  const characterAiQuery = getCharacterAiQuery(character.name);
   const visibleSeoDescription = truncateWords(
     `Chat with ${aiSearchName} in a free character AI bot experience for ${character.type.toLowerCase()} roleplay fans. ${character.description} This guide helps you compare personality, difficulty, scenarios, and supported platforms before you start chatting on ${platformNames}.`,
     80
   );
   const metaDescription = truncateChars(
-    `Chat with ${aiSearchName}, a free ${character.type.toLowerCase()} character AI bot for roleplay. Compare personality, scenarios and platforms including ${primaryPlatform}.`,
+    `${characterAiQuery}: chat with a free ${character.type.toLowerCase()} bot for roleplay. Compare personality, scenarios and platforms including ${primaryPlatform}.`,
     155
   );
-  const pageTitle = `Chat with ${aiSearchName} - Free Character AI Bot | CharacterAIBots`;
+  const pageTitle = `Character AI: ${character.name} - Free ${character.type} Bot | CharacterAIBots`;
 
   const faqItems = [
     { q: `What type of character is ${character.name}?`, a: `${character.name} is a ${character.type.toLowerCase()} character in the ${character.category.toLowerCase()} category. Key personality traits include ${character.personality.slice(0, 3).join(', ')}. This character is rated ${character.difficulty.toLowerCase()} difficulty, making it ${character.difficulty === 'Easy' ? 'great for beginners' : character.difficulty === 'Medium' ? 'suitable for most roleplayers' : 'best for experienced roleplayers'}.` },
@@ -142,7 +147,7 @@ function generateCharacterPage(character) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>${escapeHtml(pageTitle)}</title>
     <meta name="description" content="${escapeHtml(metaDescription)}">
-    <meta name="keywords" content="${character.tags.join(', ')}, ${character.type.toLowerCase()} ai bot, ${character.name.toLowerCase()} ai chat, chat with ${character.name.toLowerCase()} ai, free character ai bot, ai roleplay, ${character.category.toLowerCase()} roleplay">
+    <meta name="keywords" content="${character.tags.join(', ')}, ${characterAiQuery.toLowerCase()}, ${character.name.toLowerCase()} character ai, ${character.type.toLowerCase()} character ai bot, ${character.name.toLowerCase()} ai chat, chat with ${character.name.toLowerCase()} ai, free character ai bot, ai roleplay, ${character.category.toLowerCase()} roleplay">
 
     <!-- Open Graph -->
     <meta property="og:title" content="${escapeHtml(pageTitle)}">
