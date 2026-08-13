@@ -95,6 +95,7 @@ const indexHTML = `<!DOCTYPE html>
                 <li><a href="index.html" class="active" title="AI Character Directory Home">Home</a></li>
                 <li><a href="search.html" title="Search Character AI Bots">Search</a></li>
                 <li><a href="ai-roleplay-characters.html" title="Browse AI Roleplay Characters">Roleplay Characters</a></li>
+                <li><a href="submit-character.html" title="Submit an AI Character">Submit Character</a></li>
                 <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
                 <li><a href="quiz.html" title="AI Character Quiz">Quiz</a></li>
             </ul>
@@ -206,6 +207,7 @@ const indexHTML = `<!DOCTYPE html>
                 </article>
             </div>
             <p class="choice-guide-tip"><strong>First-time roleplayer?</strong> Choose an Easy character and begin with one of the suggested scenarios. Add a location, a goal and a short action in your opening message; this gives the bot enough context to respond consistently.</p>
+            <p class="choice-guide-tip"><strong>Creator with a public bot?</strong> <a href="submit-character.html">Submit your AI character</a> for free editorial review and get a stable directory page you can share from your creator profile.</p>
         </div>
     </section>
 
@@ -358,6 +360,7 @@ const indexHTML = `<!DOCTYPE html>
                 <ul>
                     <li><a href="index.html" title="Character AI Bots Home">Home</a></li>
                     <li><a href="search.html" title="Search Character AI Bots">Search AI Bots</a></li>
+                    <li><a href="submit-character.html" title="Submit an AI Character">Submit Character</a></li>
                     <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
                     <li><a href="quiz.html" title="AI Character Quiz">Quiz</a></li>
                 </ul>

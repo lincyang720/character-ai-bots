@@ -1,0 +1,176 @@
+#!/usr/bin/env node
+
+const fs = require('fs');
+const path = require('path');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
+
+const submissionEmail = 'lincyang85@gmail.com';
+const subject = encodeURIComponent('Character submission for CharacterAIBots.com');
+const body = encodeURIComponent(`Hi CharacterAIBots team,
+
+I'd like to submit an AI character for review.
+
+Character name:
+Character URL:
+Platform: Character.AI / JanitorAI / SpicyChat / Other
+Creator name:
+Creator profile URL:
+Character type:
+Short description:
+Why should it be listed:
+
+Thanks!`);
+
+const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Submit an AI Character - Get Listed in Our Character Directory</title>
+  <meta name="description" content="Submit your AI character, roleplay bot, or creator profile to CharacterAIBots.com. Free editorial review for Character.AI, JanitorAI, SpicyChat and other AI character platforms.">
+  <meta name="keywords" content="submit ai character, submit character ai bot, ai character directory submission, roleplay bot submission, ai chatbot creator profile">
+  <link rel="canonical" href="${SITE_URL}/submit-character">
+  <link rel="stylesheet" href="style.css">
+  <meta property="og:title" content="Submit an AI Character - CharacterAIBots.com">
+  <meta property="og:description" content="Submit your AI character or creator profile for free editorial review in an independent AI character directory.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="${SITE_URL}/submit-character">
+  <script type="application/ld+json">${JSON.stringify({
+    '@context': 'https://schema.org',
+    '@type': 'WebPage',
+    name: 'Submit an AI Character',
+    url: `${SITE_URL}/submit-character`,
+    description: 'Submit an AI character or creator profile for review in an independent AI character directory.',
+    dateModified: LAST_REVIEWED,
+  })}</script>
+</head>
+<body>
+<header>
+  <nav>
+    <div class="logo"><a href="index.html" style="color:white;text-decoration:none">🧭 ${SITE_NAME}</a></div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="search.html">Search</a></li>
+      <li><a href="ai-roleplay-characters.html">Roleplay Characters</a></li>
+      <li><a href="submit-character.html" class="active">Submit Character</a></li>
+      <li><a href="blog/">Blog</a></li>
+      <li><a href="quiz.html">Quiz</a></li>
+    </ul>
+  </nav>
+</header>
+<main>
+  <section class="hero submit-hero">
+    <div class="hero-content">
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> &rsaquo; <span>Submit Character</span></nav>
+      <h1>Submit Your AI Character or Creator Profile</h1>
+      <p class="hero-subtitle">Help roleplay fans discover your best AI characters across Character.AI, JanitorAI, SpicyChat, and other chat platforms.</p>
+      <p class="hero-description">CharacterAIBots.com is an independent AI character directory. We review submissions for originality, clear roleplay value, useful descriptions, and safe discovery details before adding them to the directory.</p>
+      <a class="cta-button" href="mailto:${submissionEmail}?subject=${subject}&body=${body}">Submit by Email</a>
+      <p class="last-reviewed">Submission guide reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
+    </div>
+  </section>
+
+  <section class="choice-guide submit-guide" aria-labelledby="submit-guide-title">
+    <div class="choice-guide-content">
+      <p class="eyebrow">Free editorial review</p>
+      <h2 id="submit-guide-title">What We Accept</h2>
+      <p>We are looking for AI characters that help users start better roleplay conversations. A good submission has a working character link, a clear premise, a short description, and enough context for users to understand the character before they leave this directory.</p>
+      <div class="choice-guide-grid">
+        <article>
+          <h3>Individual characters</h3>
+          <p>Submit one public roleplay bot with a direct link, platform name, character type, personality notes, and a short reason it should be listed.</p>
+        </article>
+        <article>
+          <h3>Creator profiles</h3>
+          <p>Send a creator profile if you maintain several bots. We may feature your profile or build a collection page when the characters fit the directory.</p>
+        </article>
+        <article>
+          <h3>Cross-platform listings</h3>
+          <p>If the same character exists on Character.AI, JanitorAI, or SpicyChat, include every official link so users can choose their preferred platform.</p>
+        </article>
+        <article>
+          <h3>Useful discovery details</h3>
+          <p>Ratings, difficulty, tags, sample scenarios, and similar characters make a listing easier to compare and more likely to be approved.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="submit-template" aria-labelledby="submit-template-title">
+    <div class="submit-template-card">
+      <p class="eyebrow">Copy this format</p>
+      <h2 id="submit-template-title">Character Submission Template</h2>
+      <pre><code>Character name:
+Character URL:
+Platform: Character.AI / JanitorAI / SpicyChat / Other
+Creator name:
+Creator profile URL:
+Character type:
+Short description:
+Personality traits:
+Suggested opening scenario:
+Why should it be listed?</code></pre>
+      <a class="template-mail-button" href="mailto:${submissionEmail}?subject=${subject}&body=${body}">Open email template</a>
+    </div>
+  </section>
+
+  <section class="use-cases" aria-labelledby="creator-links-title">
+    <div class="use-cases-content">
+      <p class="eyebrow">Creator growth loop</p>
+      <h2 id="creator-links-title">How Creators Can Use Their Directory Link</h2>
+      <p>After a character or creator page is approved, share the directory link anywhere users already look for your bots. This helps people find your roleplay characters even when platform search is crowded or a single bot link changes.</p>
+      <div class="use-cases-grid">
+        <article>
+          <h3>Character.AI profile</h3>
+          <p>Add your directory link to your creator bio so followers can find your full bot list from one place.</p>
+        </article>
+        <article>
+          <h3>Discord communities</h3>
+          <p>Share a collection link in allowed promo channels when users ask for anime, romance, fantasy, or niche roleplay bots.</p>
+        </article>
+        <article>
+          <h3>Link-in-bio pages</h3>
+          <p>Use your listing beside Ko-fi, Carrd, Linktree, request forms, or platform profiles as a stable discovery page.</p>
+        </article>
+        <article>
+          <h3>Reddit and forums</h3>
+          <p>Only share where self-promotion is allowed. Lead with the character premise and disclose that it is your bot.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="faq-section submit-faq">
+    <h2>AI Character Submission FAQ</h2>
+    <div class="faq-container">
+      <div class="faq-item">
+        <h3>Is submission free?</h3>
+        <p>Yes. Editorial review is free. We do not guarantee that every submitted character will be listed.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Do you accept adult or unsafe content?</h3>
+        <p>We review submissions conservatively and may reject characters that are illegal, unsafe, misleading, or too vague for public discovery.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I submit someone else&apos;s character?</h3>
+        <p>You can suggest public characters, but creator-submitted listings are preferred because creator details are easier to verify and keep updated.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How long does review take?</h3>
+        <p>Review timing depends on submission volume. Clear descriptions and working platform links are the fastest path to approval.</p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="footer-content">
+    <div class="footer-section"><h4>${SITE_NAME}</h4><p>Independent AI character discovery across multiple roleplay platforms.</p></div>
+    <div class="footer-section"><h4>Explore</h4><ul><li><a href="index.html">AI Character Directory</a></li><li><a href="ai-roleplay-characters.html">Roleplay Characters</a></li><li><a href="submit-character.html">Submit Character</a></li><li><a href="blog/">Roleplay Guides</a></li></ul></div>
+  </div>
+  <div class="footer-bottom"><p>&copy; 2026 ${SITE_NAME}. Independent directory.</p><p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p></div>
+</footer>
+</body>
+</html>`;
+
+fs.writeFileSync(path.join(__dirname, 'submit-character.html'), html);
+console.log('✅ Generated submit-character.html');
