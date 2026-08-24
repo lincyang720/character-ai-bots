@@ -115,7 +115,7 @@ function displayCharacters() {
 
     const visibleCharacters = filteredCharacters.slice(0, visibleLimit);
     grid.innerHTML = visibleCharacters.map(char => `
-        <a href="characters/${encodeURIComponent(char.id)}.html" class="character-card" title="View ${escapeHtml(char.name)} - ${escapeHtml(char.type)} AI Roleplay Bot">
+        <a href="/characters/${encodeURIComponent(char.id)}" class="character-card" title="View ${escapeHtml(char.name)} - ${escapeHtml(char.type)} AI Roleplay Bot">
             <div class="character-icon">${escapeHtml(char.image)}</div>
             <h3>${escapeHtml(char.name)}</h3>
             <p>${escapeHtml(char.description.substring(0, 100))}...</p>

@@ -64,12 +64,12 @@ const page = `<!DOCTYPE html>
 <body>
   <header>
     <nav>
-      <div class="logo"><a href="index.html" style="color:white;text-decoration:none">🧭 ${SITE_NAME}</a></div>
+      <div class="logo"><a href="/" style="color:white;text-decoration:none">🧭 ${SITE_NAME}</a></div>
       <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="search.html">Search</a></li>
-        <li><a href="ai-roleplay-characters.html">Roleplay Characters</a></li>
-        <li><a href="submit-character.html">Submit Character</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/search">Search</a></li>
+        <li><a href="/ai-roleplay-characters">Roleplay Characters</a></li>
+        <li><a href="/submit-character">Submit Character</a></li>
         <li><a href="blog/">Blog</a></li>
       </ul>
     </nav>
@@ -145,7 +145,7 @@ const page = `<!DOCTYPE html>
         </div>
         <div class="faq-item">
           <h3>Where can I browse alternatives while waiting?</h3>
-          <p>Use the <a href="index.html">CharacterAIBots directory</a> to compare roleplay characters across Character.AI, JanitorAI, and SpicyChat while you wait for service to stabilize.</p>
+          <p>Use the <a href="/">CharacterAIBots directory</a> to compare roleplay characters across Character.AI, JanitorAI, and SpicyChat while you wait for service to stabilize.</p>
         </div>
       </div>
     </section>
@@ -160,9 +160,9 @@ const page = `<!DOCTYPE html>
       <div class="footer-section">
         <h4>Quick Links</h4>
         <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="search.html">Search AI Bots</a></li>
-          <li><a href="is-character-ai-down.html">Character AI Status</a></li>
+          <li><a href="/">Home</a></li>
+          <li><a href="/search">Search AI Bots</a></li>
+          <li><a href="/is-character-ai-down">Character AI Status</a></li>
           <li><a href="blog/">Blog</a></li>
         </ul>
       </div>

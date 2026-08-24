@@ -16,7 +16,7 @@ async function loadCharacters() {
 // Create character card HTML
 function createCharacterCard(character) {
     return `
-        <a href="characters/${character.id}.html" class="character-card">
+        <a href="/characters/${character.id}" class="character-card">
             <div class="character-icon">${character.image}</div>
             <h3>${character.name}</h3>
             <p>${character.description.substring(0, 100)}...</p>

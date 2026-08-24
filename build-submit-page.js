@@ -47,21 +47,21 @@ const html = `<!DOCTYPE html>
 <body>
 <header>
   <nav>
-    <div class="logo"><a href="index.html" style="color:white;text-decoration:none">🧭 ${SITE_NAME}</a></div>
+    <div class="logo"><a href="/" style="color:white;text-decoration:none">🧭 ${SITE_NAME}</a></div>
     <ul class="nav-links">
-      <li><a href="index.html">Home</a></li>
-      <li><a href="search.html">Search</a></li>
-      <li><a href="ai-roleplay-characters.html">Roleplay Characters</a></li>
-      <li><a href="submit-character.html" class="active">Submit Character</a></li>
+      <li><a href="/">Home</a></li>
+      <li><a href="/search">Search</a></li>
+      <li><a href="/ai-roleplay-characters">Roleplay Characters</a></li>
+      <li><a href="/submit-character" class="active">Submit Character</a></li>
       <li><a href="blog/">Blog</a></li>
-      <li><a href="quiz.html">Quiz</a></li>
+      <li><a href="/quiz">Quiz</a></li>
     </ul>
   </nav>
 </header>
 <main>
   <section class="hero submit-hero">
     <div class="hero-content">
-      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> &rsaquo; <span>Submit Character</span></nav>
+      <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <span>Submit Character</span></nav>
       <h1>Submit Your AI Character or Creator Profile</h1>
       <p class="hero-subtitle">Help roleplay fans discover your best AI characters across Character.AI, JanitorAI, SpicyChat, and other chat platforms.</p>
       <p class="hero-description">CharacterAIBots.com is an independent AI character directory. We review submissions for originality, clear roleplay value, useful descriptions, and safe discovery details before adding them to the directory.</p>
@@ -165,7 +165,7 @@ Why should it be listed?</code></pre>
 <footer>
   <div class="footer-content">
     <div class="footer-section"><h4>${SITE_NAME}</h4><p>Independent AI character discovery across multiple roleplay platforms.</p></div>
-    <div class="footer-section"><h4>Explore</h4><ul><li><a href="index.html">AI Character Directory</a></li><li><a href="ai-roleplay-characters.html">Roleplay Characters</a></li><li><a href="submit-character.html">Submit Character</a></li><li><a href="blog/">Roleplay Guides</a></li></ul></div>
+    <div class="footer-section"><h4>Explore</h4><ul><li><a href="/">AI Character Directory</a></li><li><a href="/ai-roleplay-characters">Roleplay Characters</a></li><li><a href="/submit-character">Submit Character</a></li><li><a href="blog/">Roleplay Guides</a></li></ul></div>
   </div>
   <div class="footer-bottom"><p>&copy; 2026 ${SITE_NAME}. Independent directory.</p><p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p></div>
 </footer>

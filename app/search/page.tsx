@@ -5,14 +5,14 @@ import SearchClient from './SearchClient';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Search Character AI Bots - Find Perfect Roleplay Bot',
+  title: 'Search CharacterAIBots - Find Perfect Roleplay Bot',
   description: 'Search 50+ character AI bots by type, personality, and tags. Find yandere, tsundere, vampire bots and more for Character.AI, JanitorAI & SpicyChat.',
   keywords: 'search character ai, find ai bots, character ai search, roleplay bot finder, ai character directory',
   alternates: {
     canonical: 'https://www.characteraibots.com/search',
   },
   openGraph: {
-    title: 'Search Character AI Bots | Character AI Bots',
+    title: 'Search CharacterAIBots | CharacterAIBots',
     description: 'Search 50+ character AI bots by type, personality, and tags.',
     type: 'website',
     url: 'https://www.characteraibots.com/search',
@@ -27,7 +27,7 @@ export default async function SearchPage() {
   const searchJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebPage',
-    name: 'Search Character AI Bots',
+    name: 'Search CharacterAIBots',
     description: 'Search 50+ character AI bots by type, personality, and tags.',
     url: 'https://www.characteraibots.com/search',
     potentialAction: {
@@ -43,7 +43,7 @@ export default async function SearchPage() {
 
       <header>
         <nav>
-          <div className="logo">🤖 Character AI Bots</div>
+          <div className="logo">🤖 CharacterAIBots</div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/search" className="active">Search</Link></li>
@@ -55,7 +55,7 @@ export default async function SearchPage() {
 
       <main>
         <section className="search-hero">
-          <h1>Search Character AI Bots</h1>
+          <h1>Search CharacterAIBots</h1>
           <p>Find your perfect AI roleplay character from our collection of 50+ bots</p>
         </section>
 
@@ -66,7 +66,7 @@ export default async function SearchPage() {
         <div className="footer-content">
           <div className="footer-section">
             <h3>About</h3>
-            <p>Character AI Bots Directory - Your source for discovering the best AI roleplay characters.</p>
+            <p>CharacterAIBots Directory - Your source for discovering the best AI roleplay characters.</p>
           </div>
           <div className="footer-section">
             <h3>Quick Links</h3>
@@ -79,7 +79,7 @@ export default async function SearchPage() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 Character AI Bots. All rights reserved.</p>
+          <p>&copy; 2026 CharacterAIBots. All rights reserved.</p>
         </div>
       </footer>
     </>

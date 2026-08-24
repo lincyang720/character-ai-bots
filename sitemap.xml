@@ -2,919 +2,937 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.characteraibots.com/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://www.characteraibots.com/search.html</loc>
-    <lastmod>2026-08-13</lastmod>
+    <loc>https://www.characteraibots.com/search</loc>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/ai-roleplay-characters</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/submit-character</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/quiz</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/is-character-ai-down</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://www.characteraibots.com/privacy</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/contact</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://www.characteraibots.com/disclaimer</loc>
+    <lastmod>2026-08-24</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://www.characteraibots.com/type/action-adventure</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/anime</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/companions</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/creative</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/fantasy</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/game</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/historical</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/horror</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/mystery</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/romance</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/sci-fi</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/supernatural</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/tsundere</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/vampire</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/wholesome</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/type/yandere</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/ai-roleplay-tips-better-conversations</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/ai-romance-roleplay-bots</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/anime-ai-chatbots-complete-guide-2026</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/best-ai-chatbot-for-roleplay</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/best-anime-ai-chatbots-2026</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/best-tsundere-ai-bots-2026</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/best-yandere-ai-bots-2026</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/character-ai-alternative-2026</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/character-ai-vs-janitorai-vs-spicychat</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/complete-beginners-guide-character-ai-2026</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/genshin-impact-ai-bots</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/how-ai-characters-work</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/how-to-create-character-ai-bot</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/how-to-find-best-ai-characters-roleplay</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/how-to-have-more-engaging-ai-conversations</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/how-to-roleplay-with-ai-characters</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/most-popular-ai-chatbot-characters-2026</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/nsfw-ai-chat-bots-guide</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/top-anime-ai-chatbots-2026</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/top-fantasy-ai-roleplay-bots</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/blog/what-makes-a-good-ai-character</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/yandere-librarian</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/vampire-teacher</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/tsundere-nurse</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/yandere-classmate</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/kuudere-maid</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/dandere-artist</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/mafia-boss</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/demon-lord</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/android-companion</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/childhood-friend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/knight-captain</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/witch-mentor</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/pirate-captain</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/idol-star</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/detective-partner</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/cafe-owner</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/dragon-guardian</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/ghost-roommate</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/rival-athlete</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/bookstore-clerk</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/space-commander</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/assassin-partner</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/royal-guard</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/mad-scientist</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/shrine-maiden</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/werewolf-alpha</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/time-traveler</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/fallen-angel</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/game-developer</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/museum-curator</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/street-racer</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/florist-owner</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/bartender-confidant</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/photographer-artist</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/chef-mentor</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/yoga-instructor</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/hacker-genius</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/fortune-teller</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/lifeguard-hero</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/orchestra-conductor</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/archaeologist-explorer</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/fashion-designer</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/mountain-hermit</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/circus-performer</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/marine-biologist</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/radio-host</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/parkour-expert</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/tea-master</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/storm-chaser</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/raiden-shogun</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/hu-tao</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/zhongli</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/ganyu</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/furina</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/gojo-satoru</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/sukuna</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/makima</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/power</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/levi-ackerman</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/nezuko-kamado</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/yor-forger</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/kafka</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/ahri</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/jinx</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/nahida</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/megumi-fushiguro</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/nobara-kugisaki</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/tanjiro-kamado</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/shinobu-kocho</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/anya-forger</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/loid-forger</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/denji</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/eren-yeager</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/mikasa-ackerman</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/silver-wolf</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/seele</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/lux</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/joker-persona5</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/makoto-niijima</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/ai-girlfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/ai-boyfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/yandere-girlfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/catgirl-maid</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/elf-princess</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/ann-takamaki</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/tsundere-boyfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/vampire-girlfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/demon-girlfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/wolf-boy</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/ghost-girlfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/succubus-girlfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/android-girlfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/knight-boyfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/mafia-boyfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/mermaid-princess</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/dragon-girl</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/witch-apprentice</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/samurai-warrior</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/alien-scientist</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/anime-teacher</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/pirate-queen</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/cyberpunk-hacker</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/fox-spirit</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/battle-maid</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/angel-girlfriend</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/space-explorer</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/phantom-thief</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/merfolk-prince</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
     <loc>https://www.characteraibots.com/characters/warlock-mentor</loc>
-    <lastmod>2026-08-13</lastmod>
+    <lastmod>2026-08-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>

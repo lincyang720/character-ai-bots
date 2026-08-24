@@ -157,6 +157,29 @@ function generateCharacterPage(character) {
                         <p>${escapeHtml(f.a)}</p>
                     </div>`).join('\n');
 
+  const schemaDescription = stripHtml(character.description);
+  const characterSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ProfilePage',
+    name: pageTitle,
+    description: metaDescription,
+    url: `${SITE_URL}/characters/${character.id}`,
+    dateModified: LAST_REVIEWED,
+    mainEntity: {
+      '@type': 'Character',
+      name: character.name,
+      alternateName: character.displayName,
+      description: schemaDescription,
+      genre: [character.type, character.category, fandomLabel].filter(Boolean),
+      keywords: character.tags.join(', '),
+      isPartOf: {
+        '@type': 'CreativeWorkSeries',
+        name: fandomLabel
+      },
+      sameAs: Object.values(character.platforms).filter(Boolean)
+    }
+  };
+
   return `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -194,23 +217,28 @@ function generateCharacterPage(character) {
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "${character.name}",
-      "alternateName": "${character.displayName}",
-      "description": "${escapeHtml(character.description)}",
-      "genre": "${character.type}",
-      "url": "${SITE_URL}/characters/${character.id}",
-      "dateModified": "${LAST_REVIEWED}",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "${character.rating}",
-        "reviewCount": "${character.reviews}",
-        "bestRating": "5",
-        "worstRating": "1"
+    ${JSON.stringify(characterSchema)}
+    </script>
+    <script type="application/ld+json">
+    ${JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'CreativeWork',
+      name: character.name,
+      alternateName: character.displayName,
+      description: schemaDescription,
+      genre: [character.type, character.category, fandomLabel].filter(Boolean),
+      url: `${SITE_URL}/characters/${character.id}`,
+      dateModified: LAST_REVIEWED,
+      about: characterSchema.mainEntity,
+      isPartOf: characterSchema.mainEntity.isPartOf,
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: character.rating,
+        reviewCount: character.reviews,
+        bestRating: '5',
+        worstRating: '1'
       }
-    }
+    })}
     </script>
     <script type="application/ld+json">
     {
@@ -236,12 +264,12 @@ function generateCharacterPage(character) {
 <body>
     <header>
         <nav>
-            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="${SITE_NAME} Home">🧭 ${SITE_NAME}</a></div>
+            <div class="logo"><a href="/" style="color: white; text-decoration: none;" title="${SITE_NAME} Home">🧭 ${SITE_NAME}</a></div>
             <ul class="nav-links">
-                <li><a href="../index.html" title="Character AI Bots Home">Home</a></li>
-                <li><a href="../search.html" title="Search Character AI Bots">Search</a></li>
+                <li><a href="/" title="Character AI Bots Home">Home</a></li>
+                <li><a href="/search" title="Search Character AI Bots">Search</a></li>
                 <li><a href="../blog/" title="AI Roleplay Blog">Blog</a></li>
-                <li><a href="../quiz.html" title="AI Character Quiz">Quiz</a></li>
+                <li><a href="/quiz" title="AI Character Quiz">Quiz</a></li>
             </ul>
         </nav>
     </header>
@@ -406,7 +434,7 @@ function generateCharacterPage(character) {
         <p class="section-intro related-intro">Enjoyed ${character.name}? These characters share similar vibes — try them next!</p>
         <div class="characters-grid">
             ${relatedCharacters.map(char => `
-                <a href="${char.id}.html" class="character-card" title="View ${char.name} - ${char.type} AI Roleplay Bot">
+                <a href="/characters/${char.id}" class="character-card" title="View ${char.name} - ${char.type} AI Roleplay Bot">
                     <div class="character-icon">${char.image}</div>
                     <h3>${char.name}</h3>
                     <p>${char.description.substring(0, 100)}...</p>
@@ -431,10 +459,10 @@ function generateCharacterPage(character) {
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="../index.html" title="Character AI Bots Home">Home</a></li>
-                    <li><a href="../search.html" title="Search Character AI Bots">Search AI Bots</a></li>
+                    <li><a href="/" title="Character AI Bots Home">Home</a></li>
+                    <li><a href="/search" title="Search Character AI Bots">Search AI Bots</a></li>
                     <li><a href="../blog/" title="AI Roleplay Blog">Blog</a></li>
-                    <li><a href="../quiz.html" title="AI Character Quiz">Quiz</a></li>
+                    <li><a href="/quiz" title="AI Character Quiz">Quiz</a></li>
                 </ul>
             </div>
         </div>

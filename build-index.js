@@ -12,7 +12,7 @@ const charactersData = JSON.parse(
 // 生成角色卡片 HTML
 function generateCharacterCards(characters) {
   return characters.map(char => `
-    <a href="characters/${char.id}.html" class="character-card" title="View ${char.name} - ${char.type} AI Roleplay Bot">
+    <a href="/characters/${char.id}" class="character-card" title="View ${char.name} - ${char.type} AI Roleplay Bot">
         <div class="character-icon">${char.image}</div>
         <h3>${char.name}</h3>
         <p>${char.description.substring(0, 100)}...</p>
@@ -92,13 +92,13 @@ const indexHTML = `<!DOCTYPE html>
         <nav>
             <div class="logo">🧭 ${SITE_NAME}</div>
             <ul class="nav-links">
-                <li><a href="index.html" class="active" title="AI Character Directory Home">Home</a></li>
-                <li><a href="search.html" title="Search Character AI Bots">Search</a></li>
-                <li><a href="ai-roleplay-characters.html" title="Browse AI Roleplay Characters">Roleplay Characters</a></li>
-                <li><a href="submit-character.html" title="Submit an AI Character">Submit Character</a></li>
+                <li><a href="/" class="active" title="AI Character Directory Home">Home</a></li>
+                <li><a href="/search" title="Search Character AI Bots">Search</a></li>
+                <li><a href="/ai-roleplay-characters" title="Browse AI Roleplay Characters">Roleplay Characters</a></li>
+                <li><a href="/submit-character" title="Submit an AI Character">Submit Character</a></li>
                 <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
-                <li><a href="quiz.html" title="AI Character Quiz">Quiz</a></li>
-                <li><a href="is-character-ai-down.html" title="Check Character AI status">Status</a></li>
+                <li><a href="/quiz" title="AI Character Quiz">Quiz</a></li>
+                <li><a href="/is-character-ai-down" title="Check Character AI status">Status</a></li>
             </ul>
         </nav>
     </header>
@@ -112,7 +112,7 @@ const indexHTML = `<!DOCTYPE html>
             <p class="last-reviewed">Directory reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
             <div class="hero-search">
                 <input type="text" id="quick-search" placeholder="Search characters, types, or tags...">
-                <button onclick="window.location.href='search.html'">🔍 Advanced Search</button>
+                <button onclick="window.location.href='/search'">🔍 Advanced Search</button>
             </div>
         </div>
     </section>
@@ -192,23 +192,23 @@ const indexHTML = `<!DOCTYPE html>
             <div class="choice-guide-grid">
                 <article>
                     <h3>For anime-style roleplay</h3>
-                    <p>Browse <a href="type/anime.html">Anime Characters</a> for expressive personalities, dramatic story hooks and characters inspired by popular series and games.</p>
+                    <p>Browse <a href="/type/anime">Anime Characters</a> for expressive personalities, dramatic story hooks and characters inspired by popular series and games.</p>
                 </article>
                 <article>
                     <h3>For quests and world-building</h3>
-                    <p>Try <a href="type/fantasy.html">Fantasy</a>, <a href="type/game.html">Game Characters</a> or <a href="type/action-adventure.html">Action &amp; Adventure</a> for magic, missions and collaborative storytelling.</p>
+                    <p>Try <a href="/type/fantasy">Fantasy</a>, <a href="/type/game">Game Characters</a> or <a href="/type/action-adventure">Action &amp; Adventure</a> for magic, missions and collaborative storytelling.</p>
                 </article>
                 <article>
                     <h3>For suspense and darker stories</h3>
-                    <p>Explore <a href="type/horror.html">Horror</a>, <a href="type/supernatural.html">Supernatural</a> or <a href="type/mystery.html">Mystery</a>. Check each character’s difficulty and choose a platform with controls that fit your preferences.</p>
+                    <p>Explore <a href="/type/horror">Horror</a>, <a href="/type/supernatural">Supernatural</a> or <a href="/type/mystery">Mystery</a>. Check each character’s difficulty and choose a platform with controls that fit your preferences.</p>
                 </article>
                 <article>
                     <h3>For relaxed conversation</h3>
-                    <p>Start with <a href="type/wholesome.html">Wholesome Characters</a>, <a href="type/companions.html">AI Companions</a> or <a href="type/romance.html">Romance</a> for friendship, comfort and slower relationship-focused scenarios.</p>
+                    <p>Start with <a href="/type/wholesome">Wholesome Characters</a>, <a href="/type/companions">AI Companions</a> or <a href="/type/romance">Romance</a> for friendship, comfort and slower relationship-focused scenarios.</p>
                 </article>
             </div>
             <p class="choice-guide-tip"><strong>First-time roleplayer?</strong> Choose an Easy character and begin with one of the suggested scenarios. Add a location, a goal and a short action in your opening message; this gives the bot enough context to respond consistently.</p>
-            <p class="choice-guide-tip"><strong>Creator with a public bot?</strong> <a href="submit-character.html">Submit your AI character</a> for free editorial review and get a stable directory page you can share from your creator profile.</p>
+            <p class="choice-guide-tip"><strong>Creator with a public bot?</strong> <a href="/submit-character">Submit your AI character</a> for free editorial review and get a stable directory page you can share from your creator profile.</p>
         </div>
     </section>
 
@@ -329,22 +329,22 @@ const indexHTML = `<!DOCTYPE html>
     <section class="type-browse" style="max-width: 1200px; margin: 3rem auto; padding: 0 2rem;">
         <h2>Browse by Character Type</h2>
         <div class="type-links">
-            <a href="type/yandere.html" class="type-link-card" title="Yandere AI Bots">🔪 Yandere Bots</a>
-            <a href="type/tsundere.html" class="type-link-card" title="Tsundere AI Bots">😤 Tsundere Bots</a>
-            <a href="type/vampire.html" class="type-link-card" title="Vampire & Supernatural AI Bots">🧛 Vampire &amp; Supernatural</a>
-            <a href="type/fantasy.html" class="type-link-card" title="Fantasy AI Bots">⚔️ Fantasy Bots</a>
-            <a href="type/romance.html" class="type-link-card" title="Romance AI Bots">💕 Romance Bots</a>
-            <a href="type/sci-fi.html" class="type-link-card" title="Sci-Fi AI Bots">🚀 Sci-Fi Bots</a>
-            <a href="type/action-adventure.html" class="type-link-card" title="Action & Adventure AI Bots">🏴‍☠️ Action &amp; Adventure</a>
-            <a href="type/creative.html" class="type-link-card" title="Creative & Intellectual AI Bots">🎨 Creative &amp; Intellectual</a>
-            <a href="type/anime.html" class="type-link-card" title="Anime AI Characters">🌸 Anime Characters</a>
-            <a href="type/game.html" class="type-link-card" title="Video Game AI Characters">🎮 Game Characters</a>
-            <a href="type/horror.html" class="type-link-card" title="Horror AI Bots">🕯️ Horror Bots</a>
-            <a href="type/supernatural.html" class="type-link-card" title="Supernatural AI Characters">👻 Supernatural</a>
-            <a href="type/wholesome.html" class="type-link-card" title="Wholesome AI Characters">🌿 Wholesome</a>
-            <a href="type/mystery.html" class="type-link-card" title="Mystery AI Characters">🔎 Mystery</a>
-            <a href="type/companions.html" class="type-link-card" title="AI Companion Characters">💬 Companions</a>
-            <a href="type/historical.html" class="type-link-card" title="Historical AI Characters">📜 Historical</a>
+            <a href="/type/yandere" class="type-link-card" title="Yandere AI Bots">🔪 Yandere Bots</a>
+            <a href="/type/tsundere" class="type-link-card" title="Tsundere AI Bots">😤 Tsundere Bots</a>
+            <a href="/type/vampire" class="type-link-card" title="Vampire & Supernatural AI Bots">🧛 Vampire &amp; Supernatural</a>
+            <a href="/type/fantasy" class="type-link-card" title="Fantasy AI Bots">⚔️ Fantasy Bots</a>
+            <a href="/type/romance" class="type-link-card" title="Romance AI Bots">💕 Romance Bots</a>
+            <a href="/type/sci-fi" class="type-link-card" title="Sci-Fi AI Bots">🚀 Sci-Fi Bots</a>
+            <a href="/type/action-adventure" class="type-link-card" title="Action & Adventure AI Bots">🏴‍☠️ Action &amp; Adventure</a>
+            <a href="/type/creative" class="type-link-card" title="Creative & Intellectual AI Bots">🎨 Creative &amp; Intellectual</a>
+            <a href="/type/anime" class="type-link-card" title="Anime AI Characters">🌸 Anime Characters</a>
+            <a href="/type/game" class="type-link-card" title="Video Game AI Characters">🎮 Game Characters</a>
+            <a href="/type/horror" class="type-link-card" title="Horror AI Bots">🕯️ Horror Bots</a>
+            <a href="/type/supernatural" class="type-link-card" title="Supernatural AI Characters">👻 Supernatural</a>
+            <a href="/type/wholesome" class="type-link-card" title="Wholesome AI Characters">🌿 Wholesome</a>
+            <a href="/type/mystery" class="type-link-card" title="Mystery AI Characters">🔎 Mystery</a>
+            <a href="/type/companions" class="type-link-card" title="AI Companion Characters">💬 Companions</a>
+            <a href="/type/historical" class="type-link-card" title="Historical AI Characters">📜 Historical</a>
         </div>
     </section>
 
@@ -359,22 +359,23 @@ const indexHTML = `<!DOCTYPE html>
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="index.html" title="Character AI Bots Home">Home</a></li>
-                    <li><a href="search.html" title="Search Character AI Bots">Search AI Bots</a></li>
-                    <li><a href="submit-character.html" title="Submit an AI Character">Submit Character</a></li>
-                    <li><a href="is-character-ai-down.html" title="Check Character AI status">Character AI Status</a></li>
+                    <li><a href="/" title="Character AI Bots Home">Home</a></li>
+                    <li><a href="/search" title="Search Character AI Bots">Search AI Bots</a></li>
+                    <li><a href="/submit-character" title="Submit an AI Character">Submit Character</a></li>
+                    <li><a href="/is-character-ai-down" title="Check Character AI status">Character AI Status</a></li>
+                    <li><a href="/contact" title="Contact CharacterAIBots">Contact</a></li>
                     <li><a href="blog/" title="AI Roleplay Blog">Blog</a></li>
-                    <li><a href="quiz.html" title="AI Character Quiz">Quiz</a></li>
+                    <li><a href="/quiz" title="AI Character Quiz">Quiz</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Character Types</h4>
                 <ul>
-                    <li><a href="type/yandere.html">Yandere Bots</a></li>
-                    <li><a href="type/fantasy.html">Fantasy Bots</a></li>
-                    <li><a href="type/romance.html">Romance Bots</a></li>
-                    <li><a href="type/vampire.html">Vampire Bots</a></li>
-                    <li><a href="type/sci-fi.html">Sci-Fi Bots</a></li>
+                    <li><a href="/type/yandere">Yandere Bots</a></li>
+                    <li><a href="/type/fantasy">Fantasy Bots</a></li>
+                    <li><a href="/type/romance">Romance Bots</a></li>
+                    <li><a href="/type/vampire">Vampire Bots</a></li>
+                    <li><a href="/type/sci-fi">Sci-Fi Bots</a></li>
                 </ul>
             </div>
             <div class="footer-section">
@@ -389,6 +390,7 @@ const indexHTML = `<!DOCTYPE html>
         <div class="footer-bottom">
             <p>&copy; 2026 ${SITE_NAME}. Independent directory; not affiliated with any listed platform.</p>
             <p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p>
+            <p><a href="/privacy">Privacy Policy</a> · <a href="/terms">Terms of Use</a> · <a href="/disclaimer">Disclaimer</a> · <a href="/contact">Contact</a></p>
         </div>
     </footer>
 

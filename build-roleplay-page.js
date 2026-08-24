@@ -7,7 +7,7 @@ const characters = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'char
 const esc = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 const cards = [...characters].sort((a, b) => b.popularity - a.popularity).slice(0, 12).map(char => `
-  <a href="characters/${char.id}.html" class="character-card" title="View ${esc(char.name)} - ${esc(char.type)} AI Roleplay Character">
+  <a href="/characters/${char.id}" class="character-card" title="View ${esc(char.name)} - ${esc(char.type)} AI Roleplay Character">
     <div class="character-icon">${esc(char.image)}</div><h3>${esc(char.name)}</h3>
     <p>${esc(char.description.substring(0, 100))}...</p>
     <div class="character-footer"><span class="rating">⭐ ${char.rating}</span><span class="type-badge">${esc(char.type)}</span></div>
@@ -34,17 +34,17 @@ const html = `<!DOCTYPE html>
   <script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))})}</script>
 </head>
 <body>
-<header><nav><div class="logo"><a href="index.html" style="color:white;text-decoration:none">🧭 ${SITE_NAME}</a></div><ul class="nav-links">
-  <li><a href="index.html">Home</a></li><li><a href="search.html">Search</a></li>
-  <li><a href="ai-roleplay-characters.html" class="active">Roleplay Characters</a></li><li><a href="submit-character.html">Submit Character</a></li><li><a href="blog/">Blog</a></li><li><a href="quiz.html">Quiz</a></li>
+<header><nav><div class="logo"><a href="/" style="color:white;text-decoration:none">🧭 ${SITE_NAME}</a></div><ul class="nav-links">
+  <li><a href="/">Home</a></li><li><a href="/search">Search</a></li>
+  <li><a href="/ai-roleplay-characters" class="active">Roleplay Characters</a></li><li><a href="/submit-character">Submit Character</a></li><li><a href="blog/">Blog</a></li><li><a href="/quiz">Quiz</a></li>
 </ul></nav></header>
 <main>
 <section class="hero"><div class="hero-content">
-  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="index.html">Home</a> &rsaquo; <span>AI Roleplay Characters</span></nav>
+  <nav class="breadcrumb" aria-label="Breadcrumb"><a href="/">Home</a> &rsaquo; <span>AI Roleplay Characters</span></nav>
   <h1>Free AI Roleplay Characters Directory</h1>
   <p class="hero-subtitle">Browse ${characters.length}+ character profiles for anime, fantasy, romance, adventure, mystery and companion roleplay across three leading chat platforms.</p>
   <p class="last-reviewed">Editorially reviewed <time datetime="${LAST_REVIEWED}">${LAST_REVIEWED}</time></p>
-  <div class="hero-search"><input type="text" id="quick-search" placeholder="Search roleplay characters, types, or tags..."><button onclick="window.location.href='search.html'">🔍 Advanced Search</button></div>
+  <div class="hero-search"><input type="text" id="quick-search" placeholder="Search roleplay characters, types, or tags..."><button onclick="window.location.href='/search'">🔍 Advanced Search</button></div>
 </div></section>
 
 <section class="type-intro"><div class="type-intro-content">
@@ -52,7 +52,7 @@ const html = `<!DOCTYPE html>
   <p>AI roleplay characters are conversational personas designed to take part in an interactive story. Each character has a name, personality, background, speaking style and starting scenario. Instead of answering like a general assistant, the chatbot attempts to respond from that identity while reacting to your actions and dialogue. A fantasy knight may invite you into a dangerous quest, a detective may ask you to examine clues, and a companion character may focus on a slower everyday conversation.</p>
   <p>This page is an independent discovery layer rather than a chat platform. It brings together characters available across Character.AI, JanitorAI and SpicyChat so you can compare them before leaving the directory. Profiles show personality traits, ratings, roleplay difficulty, supported platforms, conversation ideas and related characters. Platform features and rules can change, so always check the destination service before starting a conversation.</p>
   <h2>How to Choose an AI Roleplay Character</h2>
-  <p>Begin with the kind of experience you want. For expressive dialogue and recognizable archetypes, browse <a href="type/anime.html">anime AI characters</a>. Choose <a href="type/fantasy.html">fantasy characters</a> for quests, magic and world-building, or <a href="type/mystery.html">mystery characters</a> for investigation and suspense. <a href="type/romance.html">Romance</a> and <a href="type/companions.html">companion characters</a> work better for relationship-focused stories, while <a href="type/action-adventure.html">action and adventure</a> profiles are built around missions and conflict.</p>
+  <p>Begin with the kind of experience you want. For expressive dialogue and recognizable archetypes, browse <a href="/type/anime">anime AI characters</a>. Choose <a href="/type/fantasy">fantasy characters</a> for quests, magic and world-building, or <a href="/type/mystery">mystery characters</a> for investigation and suspense. <a href="/type/romance">Romance</a> and <a href="/type/companions">companion characters</a> work better for relationship-focused stories, while <a href="/type/action-adventure">action and adventure</a> profiles are built around missions and conflict.</p>
   <p>Next, compare difficulty. Easy characters usually have direct goals and can move a scene forward from a short opening message. Medium characters benefit from more context, including your role and the relationship between you. Hard characters may involve political conflict, psychological tension, mysteries or gradual emotional development. Ratings can help you narrow the list, but the character premise and scenario are more important than a small difference in score.</p>
   <h2>Write a Better Opening Message</h2>
   <p>A useful first message establishes a location, your role and an immediate action. “Hello” gives the character little material. A stronger opener might be: “The city gates close behind us as I unfold the stolen map. I ask whether you recognize the symbol in the corner.” This tells the chatbot where the scene is happening and creates a decision. Add sensory detail or a clear goal when you want more descriptive replies, but leave enough space for the character to contribute.</p>
@@ -81,10 +81,10 @@ const html = `<!DOCTYPE html>
 </section>
 <section class="type-intro"><div class="type-intro-content"><h2>AI Roleplay Characters FAQ</h2>
   ${faqs.map(([q,a])=>`<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
-  <p>For broader discovery, return to the <a href="index.html">AI character directory</a>, use the <a href="search.html">advanced character search</a>, or <a href="submit-character.html">submit an AI character</a> for review.</p>
+  <p>For broader discovery, return to the <a href="/">AI character directory</a>, use the <a href="/search">advanced character search</a>, or <a href="/submit-character">submit an AI character</a> for review.</p>
 </div></section>
 </main>
-<footer><div class="footer-content"><div class="footer-section"><h4>${SITE_NAME}</h4><p>Independent AI character discovery across multiple roleplay platforms.</p></div><div class="footer-section"><h4>Explore</h4><ul><li><a href="index.html">AI Character Directory</a></li><li><a href="type/anime.html">Anime Characters</a></li><li><a href="type/fantasy.html">Fantasy Characters</a></li><li><a href="submit-character.html">Submit Character</a></li><li><a href="blog/">Roleplay Guides</a></li></ul></div></div><div class="footer-bottom"><p>&copy; 2026 ${SITE_NAME}. Independent directory.</p><p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p></div></footer>
+<footer><div class="footer-content"><div class="footer-section"><h4>${SITE_NAME}</h4><p>Independent AI character discovery across multiple roleplay platforms.</p></div><div class="footer-section"><h4>Explore</h4><ul><li><a href="/">AI Character Directory</a></li><li><a href="/type/anime">Anime Characters</a></li><li><a href="/type/fantasy">Fantasy Characters</a></li><li><a href="/submit-character">Submit Character</a></li><li><a href="blog/">Roleplay Guides</a></li></ul></div></div><div class="footer-bottom"><p>&copy; 2026 ${SITE_NAME}. Independent directory.</p><p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p></div></footer>
 <script src="js/filters.js"></script>
 </body></html>`;
 

@@ -37,7 +37,7 @@ function generateTrendingSection(characters) {
                         <span class="stat">📈 ${growthSign}${growth}% this week</span>
                     </div>
                     <p>${char.description.substring(0, 100)}...</p>
-                    <a href="characters/${char.id}.html" class="trending-cta">Chat Now →</a>
+                    <a href="/characters/${char.id}" class="trending-cta">Chat Now →</a>
                 </div>`;
     }).join('\n');
 

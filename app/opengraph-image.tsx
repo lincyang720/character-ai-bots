@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og'
 
 export const runtime = 'edge'
 
-export const alt = 'Character AI Bots - 50+ Free Roleplay Characters'
+export const alt = 'CharacterAIBots - 50+ Free Roleplay Characters'
 export const size = {
   width: 1200,
   height: 630,
@@ -29,7 +29,7 @@ export default async function Image() {
         }}
       >
         <div style={{ fontSize: 80, fontWeight: 'bold', marginBottom: 20 }}>
-          🤖 Character AI Bots
+          🤖 CharacterAIBots
         </div>
         <div style={{ fontSize: 40, textAlign: 'center', opacity: 0.9 }}>
           50+ Free Roleplay Characters

@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.characteraibots.com/guide',
   },
   openGraph: {
-    title: 'Complete Guide to AI Character Roleplay | Character AI Bots',
+    title: 'Complete Guide to AI Character Roleplay | CharacterAIBots',
     description: 'Learn how to use Character.AI, JanitorAI, and SpicyChat for AI roleplay.',
     type: 'article',
     url: 'https://www.characteraibots.com/guide',
@@ -25,7 +25,7 @@ export default function GuidePage() {
     url: 'https://www.characteraibots.com/guide',
     publisher: {
       '@type': 'Organization',
-      name: 'Character AI Bots',
+      name: 'CharacterAIBots',
       url: 'https://www.characteraibots.com',
     },
   }
@@ -69,7 +69,7 @@ export default function GuidePage() {
 
       <header>
         <nav>
-          <div className="logo">🤖 Character AI Bots</div>
+          <div className="logo">🤖 CharacterAIBots</div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/search">Search</Link></li>
@@ -308,7 +308,7 @@ export default function GuidePage() {
         <div className="footer-content">
           <div className="footer-section">
             <h3>About</h3>
-            <p>Character AI Bots Directory - Your source for discovering the best AI roleplay characters.</p>
+            <p>CharacterAIBots Directory - Your source for discovering the best AI roleplay characters.</p>
           </div>
           <div className="footer-section">
             <h3>Quick Links</h3>
@@ -329,7 +329,7 @@ export default function GuidePage() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 Character AI Bots. All rights reserved.</p>
+          <p>&copy; 2026 CharacterAIBots. All rights reserved.</p>
         </div>
       </footer>
     </>

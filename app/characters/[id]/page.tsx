@@ -131,7 +131,7 @@ export default function CharacterPage({ params }: { params: { id: string } }) {
 
       <header>
         <nav>
-          <div className="logo">🤖 Character AI Bots</div>
+          <div className="logo">🤖 CharacterAIBots</div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/search">Search</Link></li>
@@ -299,7 +299,7 @@ export default function CharacterPage({ params }: { params: { id: string } }) {
         <div className="footer-content">
           <div className="footer-section">
             <h3>About</h3>
-            <p>Character AI Bots Directory - Your source for discovering the best AI roleplay characters.</p>
+            <p>CharacterAIBots Directory - Your source for discovering the best AI roleplay characters.</p>
           </div>
           <div className="footer-section">
             <h3>Quick Links</h3>
@@ -321,7 +321,7 @@ export default function CharacterPage({ params }: { params: { id: string } }) {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 Character AI Bots. All rights reserved.</p>
+          <p>&copy; 2026 CharacterAIBots. All rights reserved.</p>
           <p className="trademark-disclaimer"><strong>Disclaimer:</strong> CharacterAIBots.com is an independent directory and is not affiliated with, endorsed by, or sponsored by Character.AI or its parent company. All product names, logos, and brands are property of their respective owners.</p>
         </div>
       </footer>

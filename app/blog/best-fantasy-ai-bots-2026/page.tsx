@@ -401,7 +401,7 @@ export default function BestFantasyAIBots2026() {
       {/* Footer */}
       <footer className="border-t border-gray-800 py-8 px-4">
         <div className="max-w-4xl mx-auto text-center text-gray-500 text-sm">
-          <p>&copy; 2026 Character AI Bots. All rights reserved.</p>
+          <p>&copy; 2026 CharacterAIBots. All rights reserved.</p>
           <p className="mt-1">Not affiliated with Character.AI, JanitorAI, or SpicyChat.</p>
         </div>
       </footer>

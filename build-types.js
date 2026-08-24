@@ -253,12 +253,12 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
 <body>
     <header>
         <nav>
-            <div class="logo"><a href="../index.html" style="color: white; text-decoration: none;" title="${SITE_NAME} Home">🧭 ${SITE_NAME}</a></div>
+            <div class="logo"><a href="/" style="color: white; text-decoration: none;" title="${SITE_NAME} Home">🧭 ${SITE_NAME}</a></div>
             <ul class="nav-links">
-                <li><a href="../index.html" title="Home">Home</a></li>
-                <li><a href="../search.html" title="Search">Search</a></li>
+                <li><a href="/" title="Home">Home</a></li>
+                <li><a href="/search" title="Search">Search</a></li>
                 <li><a href="../blog/" title="Blog">Blog</a></li>
-                <li><a href="../quiz.html" title="Quiz">Quiz</a></li>
+                <li><a href="/quiz" title="Quiz">Quiz</a></li>
             </ul>
         </nav>
     </header>
@@ -267,7 +267,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
     <section class="type-hero">
         <div class="type-hero-content">
             <nav class="breadcrumb" aria-label="Breadcrumb">
-                <a href="../index.html">Home</a> &rsaquo; <span>${escapeHtml(pageTitle)}</span>
+                <a href="/">Home</a> &rsaquo; <span>${escapeHtml(pageTitle)}</span>
             </nav>
             <h1>${group.h1}</h1>
             <p class="type-hero-desc">${group.description}</p>
@@ -285,7 +285,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
     <section class="type-browse" aria-labelledby="popular-${slug}">
         <h2 id="popular-${slug}">Popular ${categoryLabel}</h2>
         <div class="type-links">
-            ${popularChars.map(char => `<a href="../characters/${char.id}.html" class="type-link-card"><strong>${escapeHtml(char.name)}</strong><span>⭐ ${char.rating} · ${escapeHtml(char.type)}</span></a>`).join('\n            ')}
+            ${popularChars.map(char => `<a href="/characters/${char.id}" class="type-link-card"><strong>${escapeHtml(char.name)}</strong><span>⭐ ${char.rating} · ${escapeHtml(char.type)}</span></a>`).join('\n            ')}
         </div>
     </section>
 
@@ -293,7 +293,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
         <h2>Browse ${group.h1} (${chars.length})</h2>
         <div class="characters-grid">
             ${chars.map(char => `
-            <a href="../characters/${char.id}.html" class="character-card" title="Chat with ${escapeHtml(char.name)} - ${char.type} AI Bot">
+            <a href="/characters/${char.id}" class="character-card" title="Chat with ${escapeHtml(char.name)} - ${char.type} AI Bot">
                 <div class="character-icon">${char.image}</div>
                 <h3>${escapeHtml(char.name)}</h3>
                 <p>${escapeHtml(char.description.substring(0, 120))}...</p>
@@ -308,7 +308,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
     <section class="type-browse">
         <h2>Browse More Character Types</h2>
         <div class="type-links">
-            ${otherTypes.map(t => `<a href="${t.slug}.html" class="type-link-card" title="${escapeHtml(t.title)}">${escapeHtml(t.title)} <span>(${t.count})</span></a>`).join('\n            ')}
+            ${otherTypes.map(t => `<a href="/type/${t.slug}" class="type-link-card" title="${escapeHtml(t.title)}">${escapeHtml(t.title)} <span>(${t.count})</span></a>`).join('\n            ')}
         </div>
     </section>
 
@@ -323,7 +323,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
         <div class="cta-content">
             <h2>Explore ${group.h1}</h2>
             <p>All characters are free on Character.AI, JanitorAI, and SpicyChat. Pick a character above and start your adventure!</p>
-            <a href="../index.html" class="cta-button">Browse All Characters</a>
+            <a href="/" class="cta-button">Browse All Characters</a>
         </div>
     </section>
     </main>
@@ -337,16 +337,16 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
             <div class="footer-section">
                 <h4>Quick Links</h4>
                 <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../search.html">Search</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/search">Search</a></li>
                     <li><a href="../blog/">Blog</a></li>
-                    <li><a href="../quiz.html">Quiz</a></li>
+                    <li><a href="/quiz">Quiz</a></li>
                 </ul>
             </div>
             <div class="footer-section">
                 <h4>Character Types</h4>
                 <ul>
-                    ${otherTypes.slice(0, 5).map(t => `<li><a href="${t.slug}.html">${escapeHtml(t.title)}</a></li>`).join('\n                    ')}
+                    ${otherTypes.slice(0, 5).map(t => `<li><a href="/type/${t.slug}">${escapeHtml(t.title)}</a></li>`).join('\n                    ')}
                 </ul>
             </div>
         </div>

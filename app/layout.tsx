@@ -5,21 +5,21 @@ import Script from 'next/script'
 export const metadata: Metadata = {
   metadataBase: new URL('https://www.characteraibots.com'),
   title: {
-    default: 'Character AI Bots - 50+ Free Roleplay Characters',
-    template: '%s | Character AI Bots',
+    default: 'CharacterAIBots - 50+ Free Roleplay Characters',
+    template: '%s | CharacterAIBots',
   },
   description: 'Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more on Character.AI, JanitorAI & SpicyChat.',
   keywords: 'character ai bots, ai roleplay characters, free ai chat bots, character.ai, janitorai, spicychat, yandere ai, tsundere bot',
   openGraph: {
-    title: 'Character AI Bots - 50+ Free Roleplay Characters',
+    title: 'CharacterAIBots - 50+ Free Roleplay Characters',
     description: 'Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!',
     type: 'website',
     url: 'https://www.characteraibots.com/',
-    siteName: 'Character AI Bots',
+    siteName: 'CharacterAIBots',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Character AI Bots - 50+ Free Roleplay Characters',
+    title: 'CharacterAIBots - 50+ Free Roleplay Characters',
     description: 'Discover 50+ character AI bots for free roleplay chat.',
   },
   robots: {

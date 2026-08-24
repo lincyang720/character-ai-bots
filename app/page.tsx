@@ -5,7 +5,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Character AI Bots - 50+ Free Roleplay Characters',
+    absolute: 'CharacterAIBots - 50+ Free Roleplay Characters',
   },
   description: 'Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more on Character.AI, JanitorAI & SpicyChat.',
   keywords: 'character ai bots, ai roleplay characters, free ai chat bots, character.ai, janitorai, spicychat, yandere ai, tsundere bot',
@@ -13,7 +13,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.characteraibots.com/',
   },
   openGraph: {
-    title: 'Character AI Bots - 50+ Free Roleplay Characters',
+    title: 'CharacterAIBots - 50+ Free Roleplay Characters',
     description: 'Discover 50+ character AI bots for free roleplay chat. Yandere, tsundere, vampire characters and more!',
     type: 'website',
     url: 'https://www.characteraibots.com/',
@@ -32,7 +32,7 @@ export default function Home() {
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    name: 'Character AI Bots',
+    name: 'CharacterAIBots',
     url: 'https://www.characteraibots.com/',
     description: 'Discover 50+ character AI bots for free roleplay chat.',
     potentialAction: {
@@ -68,7 +68,7 @@ export default function Home() {
 
       <header>
         <nav>
-          <div className="logo">🤖 Character AI Bots</div>
+          <div className="logo">🤖 CharacterAIBots</div>
           <ul className="nav-links">
             <li><Link href="/" className="active">Home</Link></li>
             <li><Link href="/search">Search</Link></li>
@@ -166,7 +166,7 @@ export default function Home() {
         <div className="footer-content">
           <div className="footer-section">
             <h3>About</h3>
-            <p>Character AI Bots Directory - Your source for discovering the best AI roleplay characters.</p>
+            <p>CharacterAIBots Directory - Your source for discovering the best AI roleplay characters.</p>
           </div>
           <div className="footer-section">
             <h3>Quick Links</h3>
@@ -189,7 +189,7 @@ export default function Home() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 Character AI Bots. All rights reserved.</p>
+          <p>&copy; 2026 CharacterAIBots. All rights reserved.</p>
           <p className="trademark-disclaimer"><strong>Disclaimer:</strong> CharacterAIBots.com is an independent directory and is not affiliated with, endorsed by, or sponsored by Character.AI or its parent company. All product names, logos, and brands are property of their respective owners.</p>
         </div>
       </footer>

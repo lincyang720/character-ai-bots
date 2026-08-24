@@ -786,7 +786,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
       canonical: `https://www.characteraibots.com/blog/${post.slug}`,
     },
     openGraph: {
-      title: `${post.title} | Character AI Bots`,
+      title: `${post.title} | CharacterAIBots`,
       description: post.excerpt,
       type: 'article',
       url: `https://www.characteraibots.com/blog/${post.slug}`,
@@ -811,7 +811,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
     url: `https://www.characteraibots.com/blog/${post.slug}`,
     publisher: {
       '@type': 'Organization',
-      name: 'Character AI Bots',
+      name: 'CharacterAIBots',
       url: 'https://www.characteraibots.com',
     },
     mainEntityOfPage: {
@@ -826,7 +826,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
 
       <header>
         <nav>
-          <div className="logo">🤖 Character AI Bots</div>
+          <div className="logo">🤖 CharacterAIBots</div>
           <ul className="nav-links">
             <li><Link href="/">Home</Link></li>
             <li><Link href="/search">Search</Link></li>
@@ -862,7 +862,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
         <div className="footer-content">
           <div className="footer-section">
             <h3>About</h3>
-            <p>Character AI Bots Directory - Your source for discovering the best AI roleplay characters.</p>
+            <p>CharacterAIBots Directory - Your source for discovering the best AI roleplay characters.</p>
           </div>
           <div className="footer-section">
             <h3>Quick Links</h3>
@@ -883,7 +883,7 @@ export default function BlogPostPage({ params }: { params: { slug: string } }) {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>&copy; 2026 Character AI Bots. All rights reserved.</p>
+          <p>&copy; 2026 CharacterAIBots. All rights reserved.</p>
         </div>
       </footer>
     </>

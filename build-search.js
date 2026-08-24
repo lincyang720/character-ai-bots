@@ -15,7 +15,7 @@ function generateInitialCharacterCards(characters) {
     .slice(0, 12);
 
   return topCharacters.map(char => `
-                <a href="characters/${char.id}.html" class="character-card" title="View ${char.name} - ${char.type} AI Roleplay Bot">
+                <a href="/characters/${char.id}" class="character-card" title="View ${char.name} - ${char.type} AI Roleplay Bot">
                     <div class="character-icon">${char.image}</div>
                     <h3>${char.name}</h3>
                     <p>${char.description.substring(0, 100)}...</p>

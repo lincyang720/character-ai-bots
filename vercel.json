@@ -23,6 +23,66 @@
       "source": "/characters/:id.html",
       "destination": "/characters/:id",
       "permanent": true
+    },
+    {
+      "source": "/type/:slug.html",
+      "destination": "/type/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug.html",
+      "destination": "/blog/:slug",
+      "permanent": true
+    },
+    {
+      "source": "/search.html",
+      "destination": "/search",
+      "permanent": true
+    },
+    {
+      "source": "/quiz.html",
+      "destination": "/quiz",
+      "permanent": true
+    },
+    {
+      "source": "/ai-roleplay-characters.html",
+      "destination": "/ai-roleplay-characters",
+      "permanent": true
+    },
+    {
+      "source": "/submit-character.html",
+      "destination": "/submit-character",
+      "permanent": true
+    },
+    {
+      "source": "/is-character-ai-down.html",
+      "destination": "/is-character-ai-down",
+      "permanent": true
+    },
+    {
+      "source": "/about.html",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/contact.html",
+      "destination": "/contact",
+      "permanent": true
+    },
+    {
+      "source": "/privacy.html",
+      "destination": "/privacy",
+      "permanent": true
+    },
+    {
+      "source": "/terms.html",
+      "destination": "/terms",
+      "permanent": true
+    },
+    {
+      "source": "/disclaimer.html",
+      "destination": "/disclaimer",
+      "permanent": true
     }
   ],
   "headers": [

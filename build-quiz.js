@@ -158,7 +158,7 @@ const html = `<!DOCTYPE html>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${escapeHtml(quiz.title)} | Character AI Bots</title>
+    <title>${escapeHtml(quiz.title)} | CharacterAIBots</title>
     <meta name="description" content="${escapeHtml(quiz.description)}">
     <meta name="keywords" content="${quiz.keywords}">
 
@@ -166,6 +166,7 @@ const html = `<!DOCTYPE html>
     <meta property="og:description" content="${escapeHtml(quiz.description)}">
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://www.characteraibots.com/quiz">
+    <meta property="og:site_name" content="CharacterAIBots">
 
     <link rel="stylesheet" href="/style.css">
     <link rel="canonical" href="https://www.characteraibots.com/quiz">
@@ -179,7 +180,7 @@ const html = `<!DOCTYPE html>
       "url": "https://www.characteraibots.com/quiz",
       "provider": {
         "@type": "Organization",
-        "name": "Character AI Bots",
+        "name": "CharacterAIBots",
         "url": "https://www.characteraibots.com"
       }
     }
@@ -188,10 +189,13 @@ const html = `<!DOCTYPE html>
 <body>
     <header>
         <nav class="main-nav">
-            <a href="/" class="logo">🤖 Character AI Bots</a>
+            <a href="/" class="logo">🤖 CharacterAIBots</a>
             <div class="nav-links">
                 <a href="/">Home</a>
-                <a href="/search.html">Search</a>
+                <a href="/search">Search</a>
+                <a href="/privacy">Privacy</a>
+                <a href="/contact">Contact</a>
+                <a href="/disclaimer">Disclaimer</a>
                 <a href="/blog">Blog</a>
                 <a href="/quiz" class="active">Quiz</a>
             </div>
@@ -228,7 +232,7 @@ ${buildResultsHtml()}
     <footer>
         <div class="footer-content">
             <div class="footer-section">
-                <h3>Character AI Bots</h3>
+                <h3>CharacterAIBots</h3>
                 <p>Discover the best AI roleplay characters across all platforms.</p>
             </div>
             <div class="footer-section">
@@ -244,11 +248,11 @@ ${buildResultsHtml()}
                 <h3>Resources</h3>
                 <a href="/blog">Blog</a>
                 <a href="/quiz">Character Quiz</a>
-                <a href="/search.html">Search</a>
+                <a href="/search">Search</a>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2026 characteraibots.com - All rights reserved</p>
+            <p>&copy; 2026 CharacterAIBots. All rights reserved.</p>
         </div>
     </footer>
 

@@ -5,7 +5,7 @@ const path = require('path');
 const { SITE_URL } = require('./site-config');
 
 const LEGACY_ORIGIN = 'https://www.characteraibots.com';
-const roots = ['index.html', 'ai-roleplay-characters.html', 'is-character-ai-down.html', 'search.html', 'quiz.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html', '404.html', 'sitemap.xml', 'robots.txt', 'characters', 'type', 'blog'];
+const roots = ['index.html', 'ai-roleplay-characters.html', 'is-character-ai-down.html', 'search.html', 'quiz.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html', 'disclaimer.html', '404.html', 'sitemap.xml', 'robots.txt', 'ads.txt', 'characters', 'type', 'blog'];
 
 function update(target) {
   if (!fs.existsSync(target)) return;
