@@ -158,26 +158,18 @@ function generateCharacterPage(character) {
                     </div>`).join('\n');
 
   const schemaDescription = stripHtml(character.description);
-  const characterSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'ProfilePage',
-    name: pageTitle,
-    description: metaDescription,
-    url: `${SITE_URL}/characters/${character.id}`,
-    dateModified: LAST_REVIEWED,
-    mainEntity: {
-      '@type': 'Character',
-      name: character.name,
-      alternateName: character.displayName,
-      description: schemaDescription,
-      genre: [character.type, character.category, fandomLabel].filter(Boolean),
-      keywords: character.tags.join(', '),
-      isPartOf: {
-        '@type': 'CreativeWorkSeries',
-        name: fandomLabel
-      },
-      sameAs: Object.values(character.platforms).filter(Boolean)
-    }
+  const characterEntity = {
+    '@type': 'Character',
+    name: character.name,
+    alternateName: character.displayName,
+    description: schemaDescription,
+    genre: [character.type, character.category, fandomLabel].filter(Boolean),
+    keywords: character.tags.join(', '),
+    isPartOf: {
+      '@type': 'CreativeWorkSeries',
+      name: fandomLabel
+    },
+    sameAs: Object.values(character.platforms).filter(Boolean)
   };
 
   return `<!DOCTYPE html>
@@ -217,9 +209,6 @@ function generateCharacterPage(character) {
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
-    ${JSON.stringify(characterSchema)}
-    </script>
-    <script type="application/ld+json">
     ${JSON.stringify({
       '@context': 'https://schema.org',
       '@type': 'CreativeWork',
@@ -229,8 +218,8 @@ function generateCharacterPage(character) {
       genre: [character.type, character.category, fandomLabel].filter(Boolean),
       url: `${SITE_URL}/characters/${character.id}`,
       dateModified: LAST_REVIEWED,
-      about: characterSchema.mainEntity,
-      isPartOf: characterSchema.mainEntity.isPartOf,
+      about: characterEntity,
+      isPartOf: characterEntity.isPartOf,
       aggregateRating: {
         '@type': 'AggregateRating',
         ratingValue: character.rating,
