@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, LAST_REVIEWED_DATETIME, DISCLAIMER } = require('./site-config');
 
 const charactersData = JSON.parse(
   fs.readFileSync(path.join(__dirname, 'data', 'characters.json'), 'utf8')
@@ -223,7 +223,7 @@ Object.entries(typeGroups).forEach(([slug, group]) => {
       "name": "${escapeHtml(pageTitle)}",
       "description": "${escapeHtml(group.description)}",
       "url": "${SITE_URL}/type/${slug}",
-      "dateModified": "${LAST_REVIEWED}",
+      "dateModified": "${LAST_REVIEWED_DATETIME}",
       "numberOfItems": ${chars.length},
       "hasPart": [${chars.map(c => `{"@type":"CreativeWork","name":"${escapeHtml(c.name)}","url":"https://www.characteraibots.com/characters/${c.id}"}`).join(',')}]
     }

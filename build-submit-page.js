@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, LAST_REVIEWED_DATETIME, DISCLAIMER } = require('./site-config');
 
 const submissionEmail = 'lincyang85@gmail.com';
 const subject = encodeURIComponent('Character submission for CharacterAIBots.com');
@@ -41,7 +41,7 @@ const html = `<!DOCTYPE html>
     name: 'Submit an AI Character',
     url: `${SITE_URL}/submit-character`,
     description: 'Submit an AI character or creator profile for review in an independent AI character directory.',
-    dateModified: LAST_REVIEWED,
+    dateModified: LAST_REVIEWED_DATETIME,
   })}</script>
 </head>
 <body>

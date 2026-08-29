@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, LAST_REVIEWED_DATETIME, DISCLAIMER } = require('./site-config');
 const characters = JSON.parse(fs.readFileSync(path.join(__dirname, 'data', 'characters.json'), 'utf8'));
 const esc = value => String(value).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
@@ -30,7 +30,7 @@ const html = `<!DOCTYPE html>
   <meta property="og:title" content="Free AI Roleplay Characters – Browse ${characters.length}+ Chatbots">
   <meta property="og:description" content="Compare free AI roleplay characters by type, difficulty, rating and platform.">
   <meta property="og:type" content="website"><meta property="og:url" content="${SITE_URL}/ai-roleplay-characters">
-  <script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'CollectionPage',name:'Free AI Roleplay Characters Directory',url:`${SITE_URL}/ai-roleplay-characters`,description:`Browse ${characters.length}+ free AI roleplay characters across multiple platforms.`,dateModified:LAST_REVIEWED,numberOfItems:characters.length})}</script>
+  <script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'CollectionPage',name:'Free AI Roleplay Characters Directory',url:`${SITE_URL}/ai-roleplay-characters`,description:`Browse ${characters.length}+ free AI roleplay characters across multiple platforms.`,dateModified:LAST_REVIEWED_DATETIME,numberOfItems:characters.length})}</script>
   <script type="application/ld+json">${JSON.stringify({'@context':'https://schema.org','@type':'FAQPage',mainEntity:faqs.map(([q,a])=>({'@type':'Question',name:q,acceptedAnswer:{'@type':'Answer',text:a}}))})}</script>
 </head>
 <body>

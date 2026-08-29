@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, LAST_REVIEWED_DATETIME, DISCLAIMER } = require('./site-config');
 
 const page = `<!DOCTYPE html>
 <html lang="en">
@@ -24,7 +24,7 @@ const page = `<!DOCTYPE html>
     '@type': 'WebPage',
     name: 'Is Character AI Down?',
     url: `${SITE_URL}/is-character-ai-down`,
-    dateModified: LAST_REVIEWED,
+    dateModified: LAST_REVIEWED_DATETIME,
     description: 'A lightweight status reference page for Character AI users.'
   })}
   </script>

@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { SITE_NAME, DISCLAIMER } = require('./site-config');
+const { SITE_NAME, DISCLAIMER, toSchemaDateTime } = require('./site-config');
 
 const blogDir = path.join(__dirname, 'blog');
 if (!fs.existsSync(blogDir)) fs.mkdirSync(blogDir, { recursive: true });
@@ -62,7 +62,7 @@ posts.forEach(post => {
     <meta property="og:type" content="article">
     <meta property="og:url" content="https://www.characteraibots.com/blog/${post.slug}">
     <meta property="og:site_name" content="${SITE_NAME}">
-    <meta property="article:published_time" content="${post.date}T00:00:00Z">
+    <meta property="article:published_time" content="${toSchemaDateTime(post.date)}">
 
     <link rel="stylesheet" href="/style.css">
     <link rel="canonical" href="https://www.characteraibots.com/blog/${post.slug}">
@@ -73,8 +73,8 @@ posts.forEach(post => {
       "@type": "BlogPosting",
       "headline": "${escapeHtml(post.title)}",
       "description": "${escapeHtml(post.description)}",
-      "datePublished": "${post.date}",
-      "dateModified": "${post.date}",
+      "datePublished": "${toSchemaDateTime(post.date)}",
+      "dateModified": "${toSchemaDateTime(post.date)}",
       "author": {"@type": "Organization", "name": "CharacterAIBots"},
       "publisher": {"@type": "Organization", "name": "CharacterAIBots"},
       "url": "https://www.characteraibots.com/blog/${post.slug}",
@@ -216,7 +216,7 @@ const indexHtml = `<!DOCTYPE html>
       "name": "CharacterAIBots Blog",
       "description": "AI roleplay tips, guides, and character reviews",
       "url": "https://www.characteraibots.com/blog/",
-      "blogPost": [${posts.map(p => `{"@type":"BlogPosting","headline":"${escapeHtml(p.title)}","datePublished":"${p.date}","url":"https://www.characteraibots.com/blog/${p.slug}"}`).join(',')}]
+      "blogPost": [${posts.map(p => `{"@type":"BlogPosting","headline":"${escapeHtml(p.title)}","datePublished":"${toSchemaDateTime(p.date)}","url":"https://www.characteraibots.com/blog/${p.slug}"}`).join(',')}]
     }
     </script>
 </head>

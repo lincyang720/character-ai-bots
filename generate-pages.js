@@ -2,7 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
-const { SITE_URL, SITE_NAME, LAST_REVIEWED, DISCLAIMER } = require('./site-config');
+const { SITE_URL, SITE_NAME, LAST_REVIEWED, LAST_REVIEWED_DATETIME, DISCLAIMER } = require('./site-config');
 
 // characters.json is the canonical, complete data set. The legacy enriched
 // file contains fewer records and must not silently remove live pages.
@@ -217,7 +217,7 @@ function generateCharacterPage(character) {
       description: schemaDescription,
       genre: [character.type, character.category, fandomLabel].filter(Boolean),
       url: `${SITE_URL}/characters/${character.id}`,
-      dateModified: LAST_REVIEWED,
+      dateModified: LAST_REVIEWED_DATETIME,
       about: characterEntity,
       isPartOf: characterEntity.isPartOf,
       aggregateRating: {
