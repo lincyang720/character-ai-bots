@@ -469,8 +469,11 @@ function generateCharacterPage(character) {
 // 生成所有角色页面
 console.log('Generating character pages...');
 charactersData.forEach(character => {
-  const html = generateCharacterPage(character);
   const filename = path.join(outputDir, `${character.id}.html`);
+  // Gojo is maintained as a checked-in editorial page with cited platform facts.
+  const html = character.id === 'gojo-satoru'
+    ? fs.readFileSync(filename, 'utf8')
+    : generateCharacterPage(character);
   fs.writeFileSync(filename, html);
   console.log(`✓ Generated: ${character.id}.html`);
 });
