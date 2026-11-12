@@ -9,6 +9,12 @@ const styleVersion = createHash('sha256').update(fs.readFileSync(path.join(__dir
 const LEGACY_ORIGIN = 'https://www.characteraibots.com';
 const roots = ['index.html', 'ai-roleplay-characters.html', 'is-character-ai-down.html', 'search.html', 'quiz.html', 'submit-character.html', 'about.html', 'contact.html', 'privacy.html', 'terms.html', 'disclaimer.html', '404.html', 'sitemap.xml', 'robots.txt', 'ads.txt', 'characters', 'type', 'blog'];
 
+const footerLinks = [
+  ['/contact', 'Contact'],
+  ['/privacy', 'Privacy Policy'],
+  ['/disclaimer', 'Disclaimer']
+];
+
 function update(target) {
   if (!fs.existsSync(target)) return;
   const stat = fs.statSync(target);
@@ -21,6 +27,14 @@ function update(target) {
   let configured = original.replaceAll(LEGACY_ORIGIN, SITE_URL);
   if (target.endsWith('.html') && configured.includes('class="breadcrumb"')) {
     configured = configured.replace(/(href="(?:\/|\.\.\/)?style\.css)(?:\?v=[a-f0-9]+)?"/g, `$1?v=${styleVersion}"`);
+  }
+  if (target.endsWith('.html')) {
+    configured = configured.replace(/<footer\b[^>]*>[\s\S]*?^([ \t]*)<\/footer>/gim, (footer, indent) => {
+      const missing = footerLinks.filter(([url]) => !footer.includes(`href="${url}"`) && !footer.includes(`href='${url}'`));
+      if (missing.length === 0) return footer;
+      const links = missing.map(([url, label]) => `<a href="${url}">${label}</a>`).join(' · ');
+      return footer.replace(/^([ \t]*)<\/footer>/im, `${indent}    <p>${links}</p>\n${indent}</footer>`);
+    });
   }
   if (configured !== original) fs.writeFileSync(target, configured);
 }

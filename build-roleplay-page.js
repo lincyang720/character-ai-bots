@@ -84,7 +84,9 @@ const html = `<!DOCTYPE html>
   <p>For broader discovery, return to the <a href="/">AI character directory</a>, use the <a href="/search">advanced character search</a>, or <a href="/submit-character">submit an AI character</a> for review.</p>
 </div></section>
 </main>
-<footer><div class="footer-content"><div class="footer-section"><h4>${SITE_NAME}</h4><p>Independent AI character discovery across multiple roleplay platforms.</p></div><div class="footer-section"><h4>Explore</h4><ul><li><a href="/">AI Character Directory</a></li><li><a href="/type/anime">Anime Characters</a></li><li><a href="/type/fantasy">Fantasy Characters</a></li><li><a href="/submit-character">Submit Character</a></li><li><a href="blog/">Roleplay Guides</a></li></ul></div></div><div class="footer-bottom"><p>&copy; 2026 ${SITE_NAME}. Independent directory.</p><p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p></div></footer>
+<footer><div class="footer-content"><div class="footer-section"><h4>${SITE_NAME}</h4><p>Independent AI character discovery across multiple roleplay platforms.</p></div><div class="footer-section"><h4>Explore</h4><ul><li><a href="/">AI Character Directory</a></li><li><a href="/type/anime">Anime Characters</a></li><li><a href="/type/fantasy">Fantasy Characters</a></li><li><a href="/submit-character">Submit Character</a></li><li><a href="blog/">Roleplay Guides</a></li></ul></div></div><div class="footer-bottom"><p>&copy; 2026 ${SITE_NAME}. Independent directory.</p><p class="trademark-disclaimer"><strong>Disclaimer:</strong> ${DISCLAIMER}</p></div>
+<p><a href="/contact">Contact</a> · <a href="/privacy">Privacy Policy</a> · <a href="/disclaimer">Disclaimer</a></p>
+</footer>
 <script src="js/filters.js"></script>
 </body></html>`;
 

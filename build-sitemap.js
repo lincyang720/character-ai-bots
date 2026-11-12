@@ -88,7 +88,7 @@ ${typePages.map(f => `  <url>
     <priority>0.8</priority>
   </url>`).join('\n')}
 ${blogPages.map(f => `  <url>
-    <loc>${baseUrl}/blog/${f === 'index.html' ? '' : f.replace('.html', '')}</loc>
+    <loc>${baseUrl}/blog${f === 'index.html' ? '' : '/' + f.replace('.html', '')}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>weekly</changefreq>
     <priority>${f === 'index.html' ? '0.8' : '0.7'}</priority>
