@@ -468,10 +468,11 @@ function generateCharacterPage(character) {
 
 // 生成所有角色页面
 console.log('Generating character pages...');
+const editorialCharacterIds = ['gojo-satoru', 'levi-ackerman', 'nezuko-kamado'];
 charactersData.forEach(character => {
   const filename = path.join(outputDir, `${character.id}.html`);
   // Gojo is maintained as a checked-in editorial page with cited platform facts.
-  const html = ['gojo-satoru', 'levi-ackerman'].includes(character.id)
+  const html = editorialCharacterIds.includes(character.id)
     ? fs.readFileSync(filename, 'utf8')
     : generateCharacterPage(character);
   fs.writeFileSync(filename, html);
