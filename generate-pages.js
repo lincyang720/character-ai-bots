@@ -471,7 +471,7 @@ console.log('Generating character pages...');
 charactersData.forEach(character => {
   const filename = path.join(outputDir, `${character.id}.html`);
   // Gojo is maintained as a checked-in editorial page with cited platform facts.
-  const html = character.id === 'gojo-satoru'
+  const html = ['gojo-satoru', 'levi-ackerman'].includes(character.id)
     ? fs.readFileSync(filename, 'utf8')
     : generateCharacterPage(character);
   fs.writeFileSync(filename, html);
