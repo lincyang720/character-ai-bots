@@ -43,6 +43,12 @@ nav {
     padding: 0 2rem;
 }
 
+nav.breadcrumb {
+    display: block;
+    padding-inline: 0;
+    overflow-wrap: anywhere;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
