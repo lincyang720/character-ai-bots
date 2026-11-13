@@ -1,0 +1,14 @@
+# CharacterAIBots
+
+> An independent directory for discovering AI roleplay characters across Character.AI, JanitorAI, and SpicyChat. Character pages help readers explore scenarios and choose a platform for chatting.
+
+## Directory
+
+- [CharacterAIBots Home](https://www.characteraibots.com/): Start exploring AI roleplay characters and browse by category.
+- [AI Roleplay Characters](https://www.characteraibots.com/ai-roleplay-characters): Explore the roleplay character directory.
+- [Anime Characters](https://www.characteraibots.com/type/anime): Browse anime-style characters for roleplay.
+
+## Getting Started
+
+- [AI Roleplay Character Quiz](https://www.characteraibots.com/quiz): Get character suggestions based on your preferred roleplay style.
+- [How to Roleplay with AI Characters](https://www.characteraibots.com/blog/how-to-roleplay-with-ai-characters): Learn how to set up a scene and start an AI roleplay conversation.
